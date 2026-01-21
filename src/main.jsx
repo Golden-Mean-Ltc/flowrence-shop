@@ -5,8 +5,8 @@ import { Provider } from "react-redux";
 import { store } from "./store/index";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles/index.css"; 
-import App2 from "./App2";
-// import Apps from "./Apps.jsx"; 
+// import App2 from "./App2";
+import Apps from "./Apps.jsx"; 
 // import { ApiProvider } from "@reduxjs/toolkit/query/react";
 
 // console.log(import.meta.env.MODE)
@@ -17,8 +17,7 @@ import App2 from "./App2";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}> 
-    {/* <Apps />  */}
-    <App2 />   
+    <Apps />  
     </Provider>
   </React.StrictMode>
 );

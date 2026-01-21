@@ -1,4 +1,4 @@
-# React BEMART Store v2 (vite)
+# React BEMART Store v2 (Vite)
 
 1:14 PM 5/22/2024
 Finally fukin run this app with vite. The app works but so many deprecated packages need update.
@@ -8,7 +8,7 @@ npx json-server  json-server/db.json
 
 10:56 AM 5/26/2024
 # Notes 
-No need fo DB right now. Just show to employer case
+No need for DB right now. Just show to employer case
 No need for real auth. 
 
 # TODOS 
@@ -21,6 +21,7 @@ No need for real auth.
 [x] Fix search input box in Navbar
 [x] Fix shipping screen 
 [x] Fix submit order steps navs (5-29)
+# TODOS | 2026
 
 
 - Fix Submit order steps 

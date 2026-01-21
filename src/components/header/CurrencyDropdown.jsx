@@ -33,8 +33,7 @@ const CurrencyDropdown = () => {
     // <div className='navbar-tool dropdown mx-2'>
     <div className='nav-item dropdown flex-fill'>
       <a
-        className='nav-link dropdown-toggle'
-        href='http://example.com'
+        className='nav-link dropdown-toggle' 
         id='dropdown01'
         data-toggle='dropdown'
         aria-haspopup='true'

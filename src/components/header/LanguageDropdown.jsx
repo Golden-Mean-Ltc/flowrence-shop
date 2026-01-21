@@ -17,8 +17,7 @@ const LanguageDropdown = () => {
   return (
     <div className='dropdown mx-3'>
       <a
-        className='dropdown-toggle'
-        href='http://example.com'
+        className='dropdown-toggle' 
         id='dropdown01'
         data-toggle='dropdown'
         aria-haspopup='true'
@@ -31,7 +30,7 @@ const LanguageDropdown = () => {
         <div className={ `dropdown-item` } onClick={ () => handleClick( 'eng' ) }>
           <img
             alt='flag'
-            src={ import.meta.env.VITE_PUBLIC_URL + '/assets/img/uk-flag.png' }
+            src={   '/assets/img/uk-flag.png' }
             style={ { height: '18px' } }
             className='mr-2'
           />
@@ -41,7 +40,7 @@ const LanguageDropdown = () => {
         <div className={ `dropdown-item` } onClick={ () => handleClick( 'arb' ) }>
           <img
             alt='flag'
-            src={ import.meta.env.VITE_PUBLIC_URL + '/assets/img/uae-flag.png' }
+            src={   '/assets/img/uae-flag.png' }
             style={ { height: '18px' } }
             className='mr-2'
           />{ ' ' }
