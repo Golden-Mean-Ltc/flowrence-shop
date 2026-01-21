@@ -9,14 +9,14 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 // } from './features/order/CreateOrder';
 // import Order, { loader as orderLoader } from './features/order/Order';
 // import { action as updateOrderAction } from './features/order/UpdateOrder';
-import HomeScreen from './pages/HomeScreen';
-import ProductScreen from './pages/ProductScreen';
+import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
 import AppLayout from './AppLayout'; 
-import CartScreen from './pages/CartScreen';
-import ShippingScreen from './pages/ShippingScreen';
-import PaymentScreen from './pages/PaymentScreen';
-import ProductsScreen from './pages/ProductsScreen';
-import PlaceOrderScreen from './pages/PlaceOrderScreen';  
+import CartScreen from './screens/CartScreen';
+import ShippingScreen from './screens/ShippingScreen';
+import PaymentScreen from './screens/PaymentScreen';
+import ProductsScreen from './screens/ProductsScreen';
+import PlaceOrderScreen from './screens/PlaceOrderScreen';  
 
 
 const router = createBrowserRouter([

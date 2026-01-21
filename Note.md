@@ -20,8 +20,7 @@ No need for real auth.
 [x] Fix pagination for search products
 [x] Fix search input box in Navbar
 [x] Fix shipping screen 
-[x] Fix submit order steps navs (5-29)
-# TODOS | 2026
+[x] Fix submit order steps navs (5-29) 
 
 
 - Fix Submit order steps 

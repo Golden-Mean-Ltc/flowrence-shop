@@ -1,0 +1,23 @@
+6:27 PM 1/21/2026 
+React, Redux, Bootstrap, Supabase
+
+You models
+Amazon.com
+Whatsapp business catalogue
+https://store.alnabaa.com/ 
+
+First start without backend. Just mock data to get things done. 
+Good. Supabase doesn't require node js server. 
+Remeber the main idea is selling books like Amazon
+No need for payment and extra bs. Just make it simple n practical. User-friendly. Something that users will recommend to others. 
+Users can make purchase without login. Just submit phone number n address. 
+Make it responsive to create PWA phone app. 
+Now just start, later you can make it better. Now just focus on making your first sale. 
+If it works, you can get a developer job beside online sales.
+You can have fixed payment n people n experiences n feel progress. 
+Imagine having a developer job in Italy. Wow..
+Amazon Moto: Spend less, smile more. Hehh.. 
+First step is product search with suggestion
+
+
+

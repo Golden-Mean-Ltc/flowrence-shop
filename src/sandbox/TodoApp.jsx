@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import   { useEffect } from "react";
 import fakeApi from "../_api/fakeApi";
 
 // # Dave Gray RTK Query Example
