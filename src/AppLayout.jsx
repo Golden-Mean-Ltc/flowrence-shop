@@ -3,6 +3,7 @@ import { Outlet , useNavigation } from 'react-router-dom'
 import Header from './components/header/Header'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import OffcanvasExample from './components/OffcanvasExample';
 
 const AppLayout = () => {
     const navigation = useNavigation();
@@ -14,7 +15,10 @@ const AppLayout = () => {
     >
     {/* {isLoading && <Loader />} */}
     <ToastContainer />
-    <Header />
+    {/* <Header /> */}
+    <header>
+      <OffcanvasExample />
+      </header>
  
       <main className="mx-auto max-w-3xl">
         <Outlet />

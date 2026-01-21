@@ -2,7 +2,7 @@
 React, Redux, Bootstrap, Supabase
 
 You models
-Amazon.com
+Amazon.com | Adidas store
 Whatsapp business catalogue
 https://store.alnabaa.com/ 
 

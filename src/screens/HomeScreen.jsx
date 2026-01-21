@@ -25,11 +25,11 @@ const HomeScreen = () => {
   return (
     <div className="container home-page">
 
-      <div className="row mb-5">
+      {/* <div className="row mb-5">
         <div className="col p-0">
           <BillboardCarousel />
         </div>
-      </div>
+      </div> */}
 
       {/* <h2>{!keyword ? 'Latest Products' : 'Search Result'}</h2> */}
       {loading && <Loader />}

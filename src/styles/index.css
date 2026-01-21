@@ -411,3 +411,7 @@ footer i {
 .hr-light {
 	color: rgba(255, 255, 255, 0.12);
 }
+
+.offcanvas {
+	--bs-offcanvas-width: 340px;
+}
