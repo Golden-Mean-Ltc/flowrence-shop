@@ -34,8 +34,11 @@ const SearchInput = () => {
   return   <Form
       onSubmit={ submitHandler }
       // className='w-100'
-      className='ml-5'
-      style={ { width: '500px' } }
+     className='mx-auto'
+      style={ { 
+        width: '440px',
+        minWidth: '360px'
+       } }
 
     >
       { ' ' }

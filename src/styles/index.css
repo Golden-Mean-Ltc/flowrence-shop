@@ -57,7 +57,7 @@
 	--bs-body-line-height: 1.5;
 	--bs-body-color: #4b566b;
 	--bs-body-bg: #fff;
-}
+} 
 
 a {
 	color: #7637ec;
@@ -68,11 +68,12 @@ body {
 		'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
 		'Segoe UI Symbol';
 	/* background-color: #f1f3f5; */
-	background-color: #fff;
+	background-color: #fff; 
+	min-width: 380px;
 }
 
 main {
-	/* min-height: 90vh;  */
+	/* min-height: 90vh;  */ 
 }
 
 .rating span {

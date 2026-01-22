@@ -10,7 +10,7 @@ function OffcanvasExample() {
   var expand = 'md' // false, 'sm', 'md', 'lg', 'xl', 'x
   return (
     <Navbar key={expand} expand={expand} className='bg-body-tertiary mb-3'>
-      <Container fluid>
+      <Container >
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
         <Navbar.Brand href='#' className="fw-bold">Flowrence IQ</Navbar.Brand>
       
