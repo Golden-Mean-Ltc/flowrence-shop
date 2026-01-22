@@ -1,0 +1,32 @@
+.scroll-container {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+    /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+  white-space: nowrap; /* Keeps all items in a single line */
+  padding: 8px;
+  background-color: #f0f0f0;
+}
+
+.scroll-container > .list-item {
+  /* Ensure items have a defined width and margin to take up space */
+  flex: 0 0 auto; /* Prevent items from stretching/shrinking to fit container width */
+  width: 120px; /* Example fixed width for each item */
+  margin-right: 10px; /* Spacing between items */
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 32px;
+}
+
+/* Optional: Customize the scrollbar appearance for webkit browsers */
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}

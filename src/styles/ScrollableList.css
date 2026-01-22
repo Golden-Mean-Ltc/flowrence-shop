@@ -1,0 +1,17 @@
+/* Vertical scroll container */
+.v-scroll-container {
+  height: 200px; /* Set a fixed height for the scrollable area */
+  overflow-y: scroll; /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Optional: adds a border for visibility */
+  padding: 10px;
+}
+/* Optional: basic styling for list items */
+.v-scroll-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.v-scroll-container li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
