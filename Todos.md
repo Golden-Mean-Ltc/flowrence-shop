@@ -4,7 +4,7 @@
 [] First fix the HomeScreen
 [ ] Fix responsive layout n sidebar
 [] Fix router n Navigation 
-[] Bootstrap side menu 
+[x] Bootstrap side menu                 1/22/2026
 [ ] Product search with suggestion
 [ ] Add new product - select category n tags, English name n Arabic, used A+, A, B
 [ ] Show tips n explanation when user hover on something 

@@ -9,10 +9,10 @@ import Offcanvas from 'react-bootstrap/Offcanvas'
 function OffcanvasExample() {
   var expand = 'md' // false, 'sm', 'md', 'lg', 'xl', 'x
   return (
-    <Navbar key={expand} expand={expand} className='bg-body-tertiary mb-3'>
+    <Navbar key={expand} expand={expand}  style={{background: '#1a2a73'}} >
       <Container >
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-        <Navbar.Brand href='#' className="fw-bold">Flowrence IQ</Navbar.Brand>
+        <Navbar.Brand href='/' className="fw-bold text-white">Flowrence IQ</Navbar.Brand>
       
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}

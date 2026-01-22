@@ -3,7 +3,7 @@ import SearchInput from './SearchInput'
 
 const SearchBar = () => {
   return (
-    <div className='  row bg-danger p-1 text-center' >
+    <div className='row p-2 text-center mb-2' style={{background: '#e1e2e7'}}>
         <SearchInput /> 
     </div>
   )

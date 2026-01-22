@@ -76,6 +76,11 @@ main {
 	/* min-height: 90vh;  */ 
 }
 
+.navbar-toggler {
+    color: rgb(222, 222, 222)!important;
+    border-color: rgba(0, 0, 0, 0)!important;
+}
+
 .rating span {
 	margin: 0.1rem;
 }
