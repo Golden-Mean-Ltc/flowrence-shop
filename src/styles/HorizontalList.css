@@ -12,7 +12,7 @@
 .scroll-container > .list-item {
   /* Ensure items have a defined width and margin to take up space */
   flex: 0 0 auto; /* Prevent items from stretching/shrinking to fit container width */
-  width: 120px; /* Example fixed width for each item */
+  min-width: 120px; /* Example fixed width for each item */
   margin-right: 10px; /* Spacing between items */
   padding: 8px;
   background-color: #333;

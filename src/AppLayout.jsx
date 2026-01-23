@@ -9,6 +9,7 @@ import HorizontalList from './components/HorizontalList'
 const AppLayout = () => {
   const navigation = useNavigation()
   // const isLoading = navigation.state === 'loading';
+  const categoris = ['Books', 'Art supplies', 'Stationary', 'Electronis' , 'Sports & Fitness', 'Toys & Games' , 'Personal Care' , 'Home & Kitchen'] 
 
   return (
     <>
@@ -18,7 +19,7 @@ const AppLayout = () => {
       <header>
         <OffcanvasExample />
         <SearchBar />
-        <HorizontalList items={['one', 'two', 'three', 'four']} />
+        <HorizontalList items={categoris} />
       </header>
 
       <main className='mx-auto  '>

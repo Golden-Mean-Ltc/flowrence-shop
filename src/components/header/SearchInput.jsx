@@ -35,12 +35,13 @@ const SearchInput = () => {
       className='mx-auto'
       style={{
         width: '440px',
-        minWidth: '360px',
+        minWidth: '360px', 
       }}
     >
       {' '}
       <InputGroup
-      // size='lg'
+      size='lg'
+      style={{}}
       >
         <Form.Control
           placeholder={r.search_products}
