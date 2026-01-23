@@ -421,3 +421,7 @@ footer i {
 .offcanvas {
 	--bs-offcanvas-width: 340px;
 }
+
+.modal-content {
+	background-color: #eeeeee;
+}
