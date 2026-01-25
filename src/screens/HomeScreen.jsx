@@ -64,9 +64,9 @@ const HomeScreen = () => {
                 md={6}
                 lg={4}
                 xl={3}
-                className="mb-4"
+                // className="mb-2"
               >
-                <ProductItem product={product} grid clickable />
+                <ProductItem product={product} grid={false} clickable />
               </Col>
             ))}
           </Row>

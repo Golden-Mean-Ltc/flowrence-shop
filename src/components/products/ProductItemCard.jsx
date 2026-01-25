@@ -1,24 +1,26 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Card } from 'react-bootstrap'
 import Rating from '../Rating'
 import { getProduct } from '../../utils'
-import { useSelector } from 'react-redux'
+import { useSelector , useDispatch} from 'react-redux'
 import AddToCartBtn from './AddToCartBtn'
+import { addToCart } from '../../store/cart/cartSlice'
 
 
 
 const ProductItemCard = ( {
   product: product_,
   grid,
-  showRating,
+  // showRating,
   clickable,
 } ) => {
+    const dispatch = useDispatch()
   const product = getProduct( product_ )
   const { currency } = useSelector( state => state.settings )
 
   // handle show cart plus icon btn
-  const [ showCartPlus, setShowCartPlus ] = useState( false )
+  const [ showCartPlus, setShowCartPlus ] = useState( true )
 
   const getProductPrice = ( priceInDollar, selectedCurrency ) => {
     switch ( selectedCurrency ) {
@@ -48,15 +50,13 @@ const ProductItemCard = ( {
 
   return (
     <Card
-      className='product-item-card'
-      onMouseEnter={ () => setShowCartPlus( true ) }
-      onMouseLeave={ () => setShowCartPlus( false ) }>
+      className='product-item-card' >
       {/* <Card.Img src={product.image} variant='top' /> */ }
       {/* <span>{grid ? 'Grid' : 'List'}</span> */ }
       {/* <span className='badge badge-danger'>New</span> */ }
 
       <div className='row'>
-        <div className={ grid ? 'col-12' : 'col-5' }>
+        <div className={ grid ? 'col-12' : 'col-6' }>
           <div className='card-img'>
             { clickable ? (
               <Link to={ `/product/${ product._id }` }>
@@ -93,8 +93,18 @@ const ProductItemCard = ( {
                   { getCurrencySign( currency ) }
                   { getProductPrice( product.price, currency ) }
                 </span>
-                { showCartPlus && <AddToCartBtn productId={ product.asin } /> }
+             
               </div>
+                 <div className="x">
+                  {/* { showCartPlus && <AddToCartBtn productId={ product.asin } /> } */}
+             
+                  <button type="button" 
+                  className="btn btn-warning rounded-pill px-4 m-1" 
+                  style={{background : '#ffd814'}}
+                  onClick={  dispatch( addToCart( product.asin ) )}>
+                    {/* <i className='fas fa-cart-plus cart-plus-icon mr-2'   /> */}
+      Add to cart </button>
+                 </div>
             </div>
           </div>
         </div>

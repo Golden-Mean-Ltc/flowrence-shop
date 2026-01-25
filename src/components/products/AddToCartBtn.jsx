@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import   { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { addToCart } from '../../store/cart/cartSlice'
 
@@ -25,13 +25,14 @@ const AddToCartBtn = ( { productId } ) => {
     dispatch( addToCart( productId ) )
   }
   return (
-    <div className='float-right'>
+    <div className='x'>
       { showSpinner && <Spinner /> }
       { showCheck && <span style={ { color: '#138813', fontSize: '1.2rem' } } > <i className="fas fa-check-circle" /></span> }
-      { !showSpinner && !showCheck && <i
+      { !showSpinner && !showCheck && 
+      <span> Add to cart  <i
         className='fas fa-cart-plus cart-plus-icon'
         onClick={ handleClick }
-      /> }
+      /></span> }
     </div>
   )
 }
