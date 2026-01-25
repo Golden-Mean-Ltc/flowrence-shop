@@ -11,7 +11,7 @@ const HorizontalList = ({ items }) => {
 
   return (
     <>
-      <div className='scroll-container mb-2'>
+      <div className='scroll-container'>
         <div
         onClick={handleShow}
           className='list-item'
@@ -32,7 +32,7 @@ const HorizontalList = ({ items }) => {
       <Modal
         show={showModal}
         onHide={handleClose}
-        size='lg'
+        // size='lg'
         // aria-labelledby='contained-modal-title-vcenter'
         // centered
         className="mt-5"

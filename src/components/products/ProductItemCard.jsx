@@ -48,7 +48,7 @@ const ProductItemCard = ( {
 
   return (
     <Card
-      className='product-item-card m-1'
+      className='product-item-card'
       onMouseEnter={ () => setShowCartPlus( true ) }
       onMouseLeave={ () => setShowCartPlus( false ) }>
       {/* <Card.Img src={product.image} variant='top' /> */ }
@@ -56,7 +56,7 @@ const ProductItemCard = ( {
       {/* <span className='badge badge-danger'>New</span> */ }
 
       <div className='row'>
-        <div className={ grid ? 'col-12' : 'col-4' }>
+        <div className={ grid ? 'col-12' : 'col-5' }>
           <div className='card-img'>
             { clickable ? (
               <Link to={ `/product/${ product._id }` }>

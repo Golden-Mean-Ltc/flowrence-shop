@@ -6,7 +6,8 @@
 [] Fix router n Navigation 
 [x] Bootstrap side menu                 1/22/2026
 [x] Add Categories slider in the Header 1/23/2026
-[ ] All categories popup modal 
+[x] All categories popup modal 
+[] Add product to cart 
 [ ] Product search with suggestion
 [ ] Add new product - select category n tags, English name n Arabic, used A+, A, B
 [ ] Show tips n explanation when user hover on something 

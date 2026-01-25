@@ -34,8 +34,8 @@ const SearchInput = () => {
       // className='w-100'
       className='mx-auto'
       style={{
-        width: '440px',
-        minWidth: '360px', 
+        maxWidth: '440px',
+        minWidth: '300px', 
       }}
     >
       {' '}

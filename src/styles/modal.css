@@ -1,0 +1,17 @@
+
+
+
+.modal {
+ margin : 0 ;
+}
+
+.modal-content {
+	background-color: #eeeeee;
+	max-width: 94%; 
+	  margin: 0 auto;
+}
+ 
+
+.modal.show {
+	padding : 0!important;
+}

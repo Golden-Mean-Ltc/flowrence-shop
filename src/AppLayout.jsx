@@ -16,10 +16,10 @@ const AppLayout = () => {
       {/* {isLoading && <Loader />} */}
       {/* <ToastContainer /> */}
       {/* <Header /> */}
-      <header>
-        <OffcanvasExample />
+      <header> 
+    <OffcanvasExample />
         <SearchBar />
-        <HorizontalList items={categoris} />
+        <HorizontalList items={categoris} /> 
       </header>
 
       <main className='mx-auto  '>

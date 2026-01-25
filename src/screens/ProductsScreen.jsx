@@ -95,10 +95,10 @@ const ProductsScreen = () => {
         </div>
       </Row>
 
-      <div className="row mb-3 mx-n2">
+      <div className="row mb-2 mx-n2">
         {/* Products Grid */}
         {!loading && (
-          <div className={showSidebar ? "col-md-3" : "col-2"}>
+          <div className={showSidebar ? "col-md-3" : ""}>
             {showSidebar && <FiltersSidebar category={category} />}
           </div>
         )}
@@ -115,7 +115,7 @@ const ProductsScreen = () => {
                       sm={12}
                       md={6}
                       lg={viewMode === "grid" ? 4 : 12}
-                      className={viewMode === "grid" ? "mb-4" : "mb-2"}
+                      // className={viewMode === "grid" ? "mb-4" : "mb-2"    }
                     >
                       <ProductItem
                         product={product}

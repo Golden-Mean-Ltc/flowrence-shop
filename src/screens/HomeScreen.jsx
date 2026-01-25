@@ -35,16 +35,16 @@ const HomeScreen = () => {
       {loading && <Loader />}
       {error && <Message variant="danger">{error}</Message>}
       <>
-        <div className="mb-3">
+        {/* <div className="mb-3">
           <ProductsSlider
             title={r.featured_products}
             url="/products/bestsellers"
           />
-        </div>
+        </div> */}
 
-        <div className="mb-4">
+        {/* <div className="mb-4">
           <ProductsSlider title={r.best_sellers} url="/products/bestsellers" />
-        </div>
+        </div> */}
 
         <div className="d-flex flex-wrap justify-content-between align-items-center border-bottom mb-3 px-3">
           <h4> {r.latest_products} </h4>
