@@ -101,7 +101,7 @@ const ProductItemCard = ( {
                   <button type="button" 
                   className="btn btn-warning rounded-pill px-4 m-1" 
                   style={{background : '#ffd814'}}
-                  onClick={  dispatch( addToCart( product.asin ) )}>
+                  onClick={()=>  dispatch( addToCart( product.asin ) )}>
                     {/* <i className='fas fa-cart-plus cart-plus-icon mr-2'   /> */}
       Add to cart </button>
                  </div>

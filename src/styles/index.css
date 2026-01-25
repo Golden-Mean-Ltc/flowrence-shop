@@ -415,3 +415,15 @@ footer i {
 .offcanvas {
 	--bs-offcanvas-width: 340px;
 }
+
+.fixed-element {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Optional: ensures the element spans the full width */
+    /* Add other styling as needed, e.g., background-color, height, etc. */
+    background-color: #eee;
+    color: #333333;
+    padding: 10px 0;
+    text-align: center;
+	border-top: 2px solid #d8d8d8;
+}
