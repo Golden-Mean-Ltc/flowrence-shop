@@ -1,5 +1,5 @@
-import React from 'react'
-import { Button, Col, Form, Image, ListGroup, Row } from 'react-bootstrap'
+ 
+import {   Col, Form, Image, ListGroup, Row } from 'react-bootstrap'
 import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { addToCart, removeFromCart } from '../../store/cart/cartSlice'
@@ -10,9 +10,9 @@ const CartListItem = ({ item }) => {
 	const itemName = item.name ? item.name : item.title
 
 	return (
-		<ListGroup.Item key={item.product}>
+		<ListGroup.Item key={item.product} style={{ border: '1px solid #eee' }} className='py-3'>
 			<Row>
-				<Col md={2} className='text-center'>
+				<Col sm={4} xs={3} className='text-center'>
 					<Image
 						src={item.mainImage.imageUrl}
 						alt={item.name}
@@ -21,7 +21,7 @@ const CartListItem = ({ item }) => {
 					/>
 				</Col>
 				<div className='col'>
-					<div className='row'>
+					<div className='d-flex justify-content-between'>
 						<Link
 							to={`/product/${item.product}`}
 							data-toggle='tooltip-cart-item-name'
@@ -29,6 +29,7 @@ const CartListItem = ({ item }) => {
 							title={itemName}>
 							{itemName.slice(0, 75)}
 						</Link>
+						<button className="btn-close mx-1" onClick={() => dispatch(removeFromCart(item.asin))} />
 					</div>
 					<div className='row'>
 						<Col md={2}>${item.price}</Col>
@@ -45,15 +46,7 @@ const CartListItem = ({ item }) => {
 									</option>
 								))}
 							</Form.Control>
-						</Col>
-						<Col md={2}>
-							<Button
-								type='button'
-								variant='light'
-								onClick={() => dispatch(removeFromCart(item.asin))}>
-								<i className='fas fa-trash'></i>
-							</Button>
-						</Col>
+						</Col> 
 					</div>
 				</div>
 			</Row>

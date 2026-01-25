@@ -32,7 +32,7 @@ const CartScreen = () => {
   return (
     <div className="page">
       <div className="container">
-        <div className="mb-3">
+        <div className="my-3">
           <h3>Shopping Cart</h3>
         </div>
         <Row>

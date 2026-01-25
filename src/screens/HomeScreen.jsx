@@ -8,6 +8,7 @@ import Loader from '../components/Loader'
 import { listProducts } from '../store/actions/productActions'
 import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
 import ProductsSlider from '../components/products/ProductSlider.jsx'
+import ResponsiveColumnsExample from '../components/ResponsiveColumnsExample.jsx'
 
 // const HomeScreen = ({ match }) => {
 const HomeScreen = () => {
@@ -26,6 +27,8 @@ const HomeScreen = () => {
   return (
     <>
       <div className='container home-page'>
+
+        <ResponsiveColumnsExample />
         {/* <div className="row mb-5">
         <div className="col p-0">
           <BillboardCarousel />
