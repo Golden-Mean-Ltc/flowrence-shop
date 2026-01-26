@@ -14,7 +14,7 @@ const CartListItem = ({ item }) => {
 	return (
 		<ListGroup.Item key={item.product} style={{ border: '1px solid #eee' }} className='py-3'>
 			<Row>
-				<Col sm={4} xs={3} className='text-center'>
+				<Col sm={4} xs={3} className='d-flex align-items-center'>
 					<Image
 						src={item.mainImage.imageUrl}
 						alt={item.name}
@@ -30,18 +30,18 @@ const CartListItem = ({ item }) => {
 							data-placement={itemName}
 							title={itemName}>
 							{itemName.slice(0, 75)}
-						</Link>
-						<button className="btn-close mx-1" onClick={() => dispatch(removeItem(item.asin))} />
+						</Link> 
 					</div>
-					<div className='row'>
+					<div className=' d-flex justify-content-between'>
 						<Col >${item.price}</Col>
 						<Col  >
-							<div className="d-flex justify-items-around">
+							<div className="d-flex justify-items-evenly">
 								<span className="badge btn-warning " onClick={() => dispatch(decreaseItemQuantity(item.asin))}  > - </span>
 								<span className="mx-2"> {item.quantity}</span>
 								<span className="badge btn-warning" onClick={() => dispatch(increaseItemQuantity(item.asin))}  > + </span>
 							</div>
 						</Col>
+							<button className="btn-close mx-1" onClick={() => dispatch(removeItem(item.asin))} />
 					</div>
 				</div>
 			</Row>

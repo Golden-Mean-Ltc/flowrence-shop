@@ -427,3 +427,8 @@ footer i {
     text-align: center;
 	border-top: 2px solid #d8d8d8;
 }
+
+/* COLORS */
+.white {
+	color : #fff
+}

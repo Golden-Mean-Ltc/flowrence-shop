@@ -11,6 +11,7 @@
 [x] Fix Cart screen responsive design       1/25/2026 
 [] Fix add to cart button functionality
 [] Cart items modal     
+[] Shipping page. Enter city n address 
 [ ] Product search with suggestion
 [ ] Add new product - select category n tags, English name n Arabic, used A+, A, B
 [ ] Show tips n explanation when user hover on something 
