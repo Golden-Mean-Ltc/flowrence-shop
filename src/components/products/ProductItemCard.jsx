@@ -1,42 +1,42 @@
-import  { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Card } from 'react-bootstrap'
 import Rating from '../Rating'
 import { getProduct } from '../../utils'
-import { useSelector , useDispatch} from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import AddToCartBtn from './AddToCartBtn'
 import { addToCart } from '../../store/cart/cartSlice'
 
 
 
-const ProductItemCard = ( {
+const ProductItemCard = ({
   product: product_,
   grid,
   // showRating,
   clickable,
-} ) => {
-    const dispatch = useDispatch()
-  const product = getProduct( product_ )
-  const { currency } = useSelector( state => state.settings )
+}) => {
+  const dispatch = useDispatch()
+  const product = getProduct(product_)
+  const { currency } = useSelector(state => state.settings)
 
   // handle show cart plus icon btn
-  const [ showCartPlus, setShowCartPlus ] = useState( true )
+  const [showCartPlus, setShowCartPlus] = useState(true)
 
-  const getProductPrice = ( priceInDollar, selectedCurrency ) => {
-    switch ( selectedCurrency ) {
+  const getProductPrice = (priceInDollar, selectedCurrency) => {
+    switch (selectedCurrency) {
       case 'usd':
         return priceInDollar
       case 'gbp':
-        return ( priceInDollar * 0.83 ).toFixed( 2 )
+        return (priceInDollar * 0.83).toFixed(2)
       case 'eur':
-        return ( priceInDollar * 0.95 ).toFixed( 2 )
+        return (priceInDollar * 0.95).toFixed(2)
       default:
         return ''
     }
   }
 
   const getCurrencySign = cur => {
-    switch ( cur ) {
+    switch (cur) {
       case 'usd':
         return <span>$ </span>
       case 'gbp':
@@ -51,60 +51,60 @@ const ProductItemCard = ( {
   return (
     <Card
       className='product-item-card' >
-      {/* <Card.Img src={product.image} variant='top' /> */ }
-      {/* <span>{grid ? 'Grid' : 'List'}</span> */ }
-      {/* <span className='badge badge-danger'>New</span> */ }
+      {/* <Card.Img src={product.image} variant='top' /> */}
+      {/* <span>{grid ? 'Grid' : 'List'}</span> */}
+      {/* <span className='badge badge-danger'>New</span> */}
 
       <div className='row'>
-        <div className={ grid ? 'col-12' : 'col-6' }>
+        <div className={grid ? 'col-12' : 'col-6'}>
           <div className='card-img'>
-            { clickable ? (
-              <Link to={ `/product/${ product._id }` }>
+            {clickable ? (
+              <Link to={`/product/${product._id}`}>
                 <img
-                  src={ product.mainImage.imageUrl || product.images[ 0 ] }
+                  src={product.mainImage.imageUrl || product.images[0]}
                   alt=''
                 />
               </Link>
             ) : (
               <img
-                src={ product.mainImage.imageUrl || product.images[ 0 ] }
+                src={product.mainImage.imageUrl || product.images[0]}
                 alt=''
               />
-            ) }
+            )}
           </div>
         </div>
         <div className='col'>
-          <div className={ `card-body ${ grid ? '' : 'pt-3' }` }>
-            <Link to={ `/product/${ product._id }` } className='product-title'>
-              <div className='card-title' style={ { minHeight: '48px' } }>
-                <strong>{ product.name }</strong>
+          <div className={`card-body ${grid ? '' : 'pt-3'}`}>
+            <Link to={`/product/${product._id}`} className='product-title'>
+              <div className='card-title' style={{ minHeight: '48px' }}>
+                <strong>{product.name}</strong>
               </div>
             </Link>
 
             <div className='card-text'>
               <Rating
-                rating={ product.rating } //  4.7
+                rating={product.rating} //  4.7
                 // number of reviews
-                text={ `${ product.numReviews }` }
+                text={`${product.numReviews}`}
               />
 
-              <div style={ { color: '#3a3457' } }>
+              <div style={{ color: '#3a3457' }}>
                 <span className="x">
-                  { getCurrencySign( currency ) }
-                  { getProductPrice( product.price, currency ) }
+                  {getCurrencySign(currency)}
+                  {getProductPrice(product.price, currency)}
                 </span>
-             
+
               </div>
-                 <div className="x">
-                  {/* { showCartPlus && <AddToCartBtn productId={ product.asin } /> } */}
-             
-                  <button type="button" 
-                  className="btn btn-warning rounded-pill px-4 m-1" 
-                  style={{background : '#ffd814'}}
-                  onClick={()=>  dispatch( addToCart( product.asin ) )}>
-                    {/* <i className='fas fa-cart-plus cart-plus-icon mr-2'   /> */}
-      Add to cart </button>
-                 </div>
+              <div className="x">
+                {/* { showCartPlus && <AddToCartBtn productId={ product.asin } /> } */}
+
+                <button type="button"
+                  className="btn btn-warning rounded-pill px-4 m-1"
+                  style={{ background: '#ffd814' }}
+                  onClick={() => dispatch(addToCart(product.asin))}>
+                  {/* <i className='fas fa-cart-plus cart-plus-icon mr-2'   /> */}
+                  Add to cart </button>
+              </div>
             </div>
           </div>
         </div>

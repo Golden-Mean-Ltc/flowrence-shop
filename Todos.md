@@ -19,3 +19,4 @@
 
 Cart review
 Save cart to db
+order.note

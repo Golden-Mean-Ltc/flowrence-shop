@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import fakeApi from "../../_api/fakeApi"; 
+import fakeApi from "../../_api/fakeApi";
 
 const initialState = {
   // Get cart items from local storage
@@ -22,12 +22,11 @@ const cartSlice = createSlice({
         const existItem = state.cartItems.find(
           (item) => item.asin === action.payload.asin
         );
-
         // if not existed, add item
         if (!existItem) {
           state.cartItems.push(action.payload);
         } else {
-          // If item already exist, replace to update qty
+          // If item already exist, replace to update quantity
           const index = state.cartItems.findIndex(
             (item) => item.asin === action.payload.asin
           );
@@ -35,14 +34,28 @@ const cartSlice = createSlice({
         }
       },
     },
-    itemRemoved: {
-      reducer(state, action) {
-        state.cartItems = state.cartItems.filter(
-          (item) => item.asin !== action.payload
-        );
-      },
+    removeItem(state, action) {
+      state.cartItems = state.cartItems.filter(
+        (item) => item.asin !== action.payload
+      );
     },
-    // * remove all items
+    increaseItemQuantity(state, action) {
+      // payload = pizzaId
+      const item = state.cartItems.find((item) => item.asin === action.payload);
+
+      item.quantity++;
+      item.totalPrice = item.quantity * item.unitPrice;
+    },
+    decreaseItemQuantity(state, action) {
+      // payload = pizzaId
+      const item = state.cartItems.find((item) => item.asin === action.payload);
+
+      item.quantity--;
+      item.totalPrice = item.quantity * item.unitPrice;
+
+      if (item.quantity === 0) cartSlice.caseReducers.removeItem(state, action);
+    },
+    // * remove all items in cart
     reset: {
       // eslint-disable-next-line no-unused-vars
       reducer(state, action) {
@@ -66,12 +79,13 @@ const cartSlice = createSlice({
     // NOTE: here we need to reset state for when a user logs out so the next
     // user doesn't inherit the previous users cart and shipping
     resetCart: (state) => (state = initialState),
-  },
-});
+  }
+},
+);
 
 // * ACTIONS
 //-------------------------------
-export const addToCart = (id, qty) => async (dispatch, getState) => {
+export const addToCart = (id, quantity) => async (dispatch, getState) => {
   // const { data } = await axios.get(`/api/products/${id}`)
   const { data } = await fakeApi(`/products/id`, id);
   console.log(data);
@@ -83,7 +97,7 @@ export const addToCart = (id, qty) => async (dispatch, getState) => {
       ...data,
       product: data.asin,
       // countInStock: data.countInStock,
-      qty: qty ? qty : 1,
+      quantity: quantity ? quantity : 1,
     },
   });
 
@@ -129,17 +143,23 @@ export const resetCart = (dispatch) => {
 
 
 // # Selector for cart detials
-export const selectCartTotalItems =(cart)=>{
-return   cart.cartItems.reduce((acc, item) => acc + item.qty, 0)
-}
- 
-
-export const selectCartTotalPrice =(cart)=> {
-return cart.cartItems
-.reduce((acc, item) => acc + item.qty * item.price, 0)
-.toFixed(2)
+export const selectCartTotalItems = (cart) => {
+  return cart.cartItems.reduce((acc, item) => acc + item.quantity, 0)
 }
 
-export const { itemAdded, clearCartItems  } = cartSlice.actions;
+
+export const selectCartTotalPrice = (cart) => {
+  return cart.cartItems
+    .reduce((acc, item) => acc + item.quantity * item.price, 0)
+    .toFixed(2)
+}
+
+export const {
+  itemAdded,
+  removeItem,
+  clearCartItems,
+  increaseItemQuantity,
+  decreaseItemQuantity
+} = cartSlice.actions;
 
 export default cartSlice.reducer;

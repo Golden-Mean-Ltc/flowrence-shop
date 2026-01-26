@@ -26,7 +26,7 @@ const ProductScreen = () => {
 	const [loading, setLoading] = useState(false) 
 	const [error, setError] = useState( '') 
   // Handle Select for quantity to add in cart
-  const [qty, setQty] = useState(1);
+  const [quantity, setquantity] = useState(1);
   const [rating, setRating] = useState(0);
   const [comment, setComment] = useState("");
 
@@ -79,7 +79,7 @@ const ProductScreen = () => {
   const addToCartHandler = () => {
     console.log("addToCartHandler.."); 
     // dispatch({ type: 'cart/itemAdded', payload: product.asin }) 
-    dispatch(addToCart(product.asin, qty));
+    dispatch(addToCart(product.asin, quantity));
   };
 
   const submitHandler = (e) => {
@@ -160,12 +160,12 @@ const ProductScreen = () => {
                       {product.countInStock > 0 && (
                         <ListGroup.Item>
                           <Row>
-                            <Col>Qty</Col>
+                            <Col>quantity</Col>
                             <Col>
                               <Form.Control
                                 as="select"
-                                value={qty}
-                                onChange={(e) => setQty(e.target.value)}
+                                value={quantity}
+                                onChange={(e) => setquantity(e.target.value)}
                               >
                                 {[...Array(product.countInStock).keys()].map(
                                   (x) => (

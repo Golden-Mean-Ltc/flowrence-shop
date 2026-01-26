@@ -19,5 +19,7 @@ Imagine having a developer job in Italy. Wow..
 Amazon Moto: Spend less, smile more. Hehh.. 
 First step is product search with suggestion
 
+اكمل المعلومات لتثبيت الطلب
+تثبيت الطلب
 
 

@@ -1,8 +1,10 @@
- 
-import {   Col, Form, Image, ListGroup, Row } from 'react-bootstrap'
+
+import { Col,  Image, ListGroup, Row } from 'react-bootstrap'
 import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { addToCart, removeFromCart } from '../../store/cart/cartSlice'
+import {
+	// addToCart, 
+	removeItem, decreaseItemQuantity, increaseItemQuantity } from '../../store/cart/cartSlice'
 
 const CartListItem = ({ item }) => {
 	const dispatch = useDispatch()
@@ -21,7 +23,7 @@ const CartListItem = ({ item }) => {
 					/>
 				</Col>
 				<div className='col'>
-					<div className='d-flex justify-content-between'>
+					<div className='d-flex justify-content-between mb-2'>
 						<Link
 							to={`/product/${item.product}`}
 							data-toggle='tooltip-cart-item-name'
@@ -29,14 +31,30 @@ const CartListItem = ({ item }) => {
 							title={itemName}>
 							{itemName.slice(0, 75)}
 						</Link>
-						<button className="btn-close mx-1" onClick={() => dispatch(removeFromCart(item.asin))} />
+						<button className="btn-close mx-1" onClick={() => dispatch(removeItem(item.asin))} />
 					</div>
 					<div className='row'>
-						<Col md={2}>${item.price}</Col>
-						<Col md={2}>
-							<Form.Control
+						<Col >${item.price}</Col>
+						<Col  >
+							<div className="d-flex justify-items-around">
+								<span className="badge btn-warning " onClick={() => dispatch(decreaseItemQuantity(item.asin))}  > - </span>
+								<span className="mx-2"> {item.quantity}</span>
+								<span className="badge btn-warning" onClick={() => dispatch(increaseItemQuantity(item.asin))}  > + </span>
+							</div>
+						</Col>
+					</div>
+				</div>
+			</Row>
+		</ListGroup.Item>
+	)
+}
+
+export default CartListItem
+
+/*
+	<Form.Control
 								as='select'
-								value={item.qty}
+								value={item.quantity}
 								onChange={e =>
 									dispatch(addToCart(item.product, Number(e.target.value)))
 								}>
@@ -46,12 +64,4 @@ const CartListItem = ({ item }) => {
 									</option>
 								))}
 							</Form.Control>
-						</Col> 
-					</div>
-				</div>
-			</Row>
-		</ListGroup.Item>
-	)
-}
-
-export default CartListItem
+							*/

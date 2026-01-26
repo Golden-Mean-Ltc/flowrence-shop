@@ -7,9 +7,9 @@ const CartDropdown = () => {
 
 	// const cartItemsCount = cartItems.length
 
-	// calculation total of qty of items
+	// calculation total of quantity of items
 	const cartItemsCount = cartItems.reduce(
-		(acc, item) => acc + Number(item.qty),
+		(acc, item) => acc + Number(item.quantity),
 		0
 	)
 
