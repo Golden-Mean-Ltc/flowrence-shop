@@ -12,6 +12,7 @@
 [] Fix add to cart button functionality
 [] Cart items modal     
 [] Shipping page. Enter city n address 
+[x] Iraq cities open select in address      1/26/2026
 [ ] Product search with suggestion
 [ ] Add new product - select category n tags, English name n Arabic, used A+, A, B
 [ ] Show tips n explanation when user hover on something 
