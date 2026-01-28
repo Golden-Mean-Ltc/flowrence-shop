@@ -16,6 +16,7 @@ const HomeScreen = () => {
 
   const productList = useSelector((state) => state.productList)
   const cartItems = useSelector((state) => state.cart.cartItems)
+   const language = useSelector((state) => state.settings.language);
   const { loading, error, products } = productList
   const { r } = useSelector((state) => state.strings)
 
@@ -26,9 +27,9 @@ const HomeScreen = () => {
 
   return (
     <>
-      <div className='container home-page'>
+      <div className='container home-page' dir={language == "arb" ? 'rtl' : 'ltr'}>
 
-        <ResponsiveColumnsExample />
+        {/* <ResponsiveColumnsExample /> */}
         {/* <div className="row mb-5">
         <div className="col p-0">
           <BillboardCarousel />

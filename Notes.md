@@ -5,6 +5,7 @@ You models
 Amazon.com | Apple, Adidas store   
 Whatsapp business catalogue
 https://store.alnabaa.com/ 
+alamani.iq
 
 First start without backend. Just mock data to get things done. 
 Good. Supabase doesn't require node js server. 
@@ -21,5 +22,18 @@ First step is product search with suggestion
 
 اكمل المعلومات لتثبيت الطلب
 تثبيت الطلب
+احدث المنتجات في قسم الكتب 
 
+# What to sell
+Premium products
+painting & drawing supplies 
+beauty & personal care products 
+Arts, Crafts & Sewing›Painting, Drawing & Art Supplies›Drawing›Drawing Media›Pencils
+Office Products›Office & School Supplies›Writing & Correction Supplies›Pencils 
+Office Products›Office & School Supplies›Writing & Correction Supplies›Pencils›Wooden Colored Pencils
+Arts, Crafts & Sewing›Painting, Drawing & Art Supplies›Art Paper›Sketchbooks & Notebooks
+Arts, Crafts & Sewing›Painting, Drawing & Art Supplies›Drawing›Drawing Media›Pencils
+Office Products›Office & School Supplies›Writing & Correction Supplies›Pencil Sharpeners
+Office Products›Office & School Supplies›Writing & Correction Supplies›Markers & Highlighters›Highlighters
+Books & Magazines 
 

@@ -4,7 +4,8 @@ import { strings_arb, strings_eng } from '../constants/strings'
 const stringsSlice = createSlice({
 	name: 'strings',
 	initialState: {
-		r: strings_eng,
+		// default app langauge 
+		r: strings_arb,
 	},
 	reducers: {
 		setNewLanguage(state, action) {

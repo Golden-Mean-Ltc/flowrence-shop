@@ -4,7 +4,7 @@ const settingsSlice = createSlice({
 	name: 'settings',
 	initialState: {
 		currency: 'usd', // [usd , gbp, eur, iqd , tl]
-		language: 'eng', // eng, arb
+		language: 'arb', // eng, arb
 	},
 	reducers: {
 		currencyChanged(state, action) {

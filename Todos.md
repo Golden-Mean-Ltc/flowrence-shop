@@ -9,12 +9,13 @@
 [x] All categories popup modal 
 [x] Fix add product to cart button style    1/25/2026 
 [x] Fix Cart screen responsive design       1/25/2026 
-[] Fix add to cart button functionality
+[x] Fix add to cart button functionality
 [] Cart items modal     
-[] Shipping page. Enter city n address 
+[x] Fix shipping Screen inputs in arabic     1/28/2026 
 [x] Iraq cities open select in address      1/26/2026
+[] Make Arabic default language
 [ ] Product search with suggestion
-[ ] Add new product - select category n tags, English name n Arabic, used A+, A, B
+[ ] Admin: Add new product - select category n tags, English name n Arabic, used A+, A, B
 [ ] Show tips n explanation when user hover on something 
 [ ] Add products to cart like what's app business. 
  
@@ -22,3 +23,4 @@
 Cart review
 Save cart to db
 order.note
+How to order guide 
