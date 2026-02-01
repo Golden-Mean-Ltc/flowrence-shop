@@ -13,6 +13,7 @@
 [x] Cart items modal                        2/1/2026     
 [x] Fix shipping Screen inputs in arabic    1/28/2026 
 [x] Iraq cities open select in address      1/26/2026
+[x] Remove sidebar example                  1/26/2026
 [] Cool messages 
 [] Make Arabic default language
 [ ] Product search with suggestion
