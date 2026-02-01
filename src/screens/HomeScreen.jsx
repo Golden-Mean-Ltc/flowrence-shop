@@ -51,14 +51,14 @@ const HomeScreen = () => {
           <ProductsSlider title={r.best_sellers} url="/products/bestsellers" />
         </div> */}
 
-          <div className='d-flex flex-wrap justify-content-between align-items-center border-bottom mb-3 px-3'>
+          <div className='d-flex flex-wrap justify-content-between align-items-center border-bottom p-3'>
             <h4> {r.latest_products} </h4>
 
-            <div className='p-2'>
-              <Link className='text-secondary' to='/products'>
+            {/* <div className='p-2'>
+              <Link className='text-primary' to='/products'>
                 {r.show_more} <i className='fas fa-angle-right' />{' '}
               </Link>
-            </div>
+            </div> */}
           </div>
           {!loading && (
             <Row className='bg-white'>
@@ -85,7 +85,8 @@ const HomeScreen = () => {
             <div className='col px-4'>
               <a href='/cart' className='btn btn-success rounded-pill btn-lg w-100'>
                 {' '}
-                Submit order →
+                {/* Submit order → */}
+               تثبيت الطلب
               </a>{' '}
             </div>
           </div>

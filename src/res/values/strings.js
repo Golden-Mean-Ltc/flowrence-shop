@@ -1,14 +1,14 @@
 export const strings_eng = {
     books : 'Books' ,
     painting_supplies : 'Painting supplies', 
-    personal_care,
+    // personal_care,
     // cds,
     // electronics // ipads 
     // headphones  // wider, wireless, gaming, headset 
     // speakers // desktop, bluetooth, portable, 
     // cellphone_accesories
     // bags [laptop bags, backpacks ]
-    collectibles   
+    // collectibles   
     // Office Products›Office & School Supplies›Writing & Correction Supplies›Pens & Refills›Rollerball Pens›Gel Ink Rollerball Pens
     // binder n notebooks 
 
@@ -74,8 +74,9 @@ export const iraq_cities = [
 	},
 	{
 		id: 2, name: 'نينوى',
-		districtsList: ["موصل", "تلعفر", "سنجار", "الحمدانية", "تلكيف", "الحضر"], name_eng: 'Nineveh'
-	},
+		districtsList: ["موصل", "تلعفر", "سنجار", "الحمدانية", "تلكيف", "الحضر"], 
+        name_eng: 'Nineveh' 
+    },
 	{
 		id: 3, name: 'بصرة',
 		districtsList: ["بصرة", "الزبير", "ابي الخصيب", "القرنة", "الفاو", "شط العرب", "المدينة"],
@@ -94,13 +95,11 @@ export const iraq_cities = [
 	{
 		id: 6, name: 'بابل',
 		districtsList: ["الحلة", "المسيب", "المحاويل", "الهاشمية", "الكفل", "الحمزة الغربي"],
-
 		name_eng: 'Babil'
 	},
 	{
 		id: 7, name: 'واسط',
 		districtsList: ["الكوت", "الصويرة", "العزيزية", "الحي", "النعمانية", "بدرة"],
-
 		name_eng: 'Wasit'
 	},
 	{
