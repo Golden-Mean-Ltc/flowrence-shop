@@ -18,7 +18,7 @@ const AuthForm = () => {
 
 	return (
 		<Form onSubmit={submitHandler}>
-			<Form.Group controlId='email'>
+			<Form.Group controlId='email' className='mb-3'>
 				<Form.Control
 					type='email'
 					placeholder='Enter email'

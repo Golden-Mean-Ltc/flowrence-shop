@@ -5,6 +5,8 @@ const settingsSlice = createSlice({
 	initialState: {
 		currency: 'usd', // [usd , gbp, eur, iqd , tl]
 		language: 'arb', // eng, arb
+		showCartModal : false ,
+		showAuthModal : false ,
 	},
 	reducers: {
 		currencyChanged(state, action) {
@@ -13,12 +15,20 @@ const settingsSlice = createSlice({
 		languageChanged(state, action) {
 			state.language = action.payload
 		},
+		setShowCartModal(state, action) {
+			state.showCartModal = action.payload
+		},
+		setShowAuthModal(state, action) {
+			state.showAuthModal = action.payload
+		},
 	},
 })
 
 export const {
 	currencyChanged,
 	languageChanged,
+	setShowCartModal,
+	setShowAuthModal,
 	// completedTodosCleared,
 	// todoAdded,
 	// todoColorSelected,

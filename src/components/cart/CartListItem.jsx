@@ -20,7 +20,7 @@ const CartListItem = ({ item }) => {
 						src={item.mainImage.imageUrl}
 						alt={item.name}
 						fluid
-						style={{ maxHeight: '90px' }}
+						style={{ maxHeight: '80px' }}
 					/>
 				</Col>
 				<div className='col'>

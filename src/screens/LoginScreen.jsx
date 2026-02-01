@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import   { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Form, Button, Row, Col } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
@@ -9,7 +9,8 @@ import SocialBtns from '../components/auth/SocialBtns'
 import { login } from '../store/auth/authSlice'
 import AuthForm from '../components/auth/AuthForm'
 
-const LoginScreen = ({ location, history }) => {
+const LoginScreen = ( ) => {
+// const LoginScreen = ({ location, history }) => {
 	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
 
@@ -18,13 +19,13 @@ const LoginScreen = ({ location, history }) => {
 
 	const { loading, error, user } = useSelector(state => state.auth)
 	// const loading = true
-	const redirect = location.search ? location.search.split('=')[1] : '/'
+	// const redirect = location.search ? location.search.split('=')[1] : '/'
 
-	useEffect(() => {
-		if (user) {
-			history.push(redirect)
-		}
-	}, [history, user, redirect])
+	// useEffect(() => {
+	// 	if (user) {
+	// 		history.push(redirect)
+	// 	}
+	// }, [history, user, redirect])
 
 	const submitHandler = e => {
 		e.preventDefault()
@@ -55,14 +56,15 @@ const LoginScreen = ({ location, history }) => {
 					<Col>
 						New Customer?{' '}
 						<Link
-							to={redirect ? `/register?redirect=${redirect}` : '/register'}>
+							//to={redirect ? `/register?redirect=${redirect}` : '/register'}
+							>
 							Register
 						</Link>
 					</Col>
 				</Row>
 				<div className='p-3'>
 					<p className='font-weight-light'>
-						Use 'john@mail.com' and '123' as password
+						Use "john@mail.com" and "123" as password
 					</p>
 				</div>
 			</div>

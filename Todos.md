@@ -14,7 +14,9 @@
 [x] Fix shipping Screen inputs in arabic    1/28/2026 
 [x] Iraq cities open select in address      1/26/2026
 [x] Remove sidebar example                  1/26/2026
-[] Cool messages 
+[x] Add showCartModal in global store       2/2/2026
+[x] Login modal  in global store 
+[] Cool messages alrert
 [] Make Arabic default language
 [ ] Product search with suggestion
 [ ] Admin: Add new product - select category n tags, English name n Arabic, used A+, A, B

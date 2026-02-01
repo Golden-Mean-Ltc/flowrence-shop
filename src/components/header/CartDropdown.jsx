@@ -1,23 +1,25 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
+
+import { useSelector, useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { setShowCartModal } from '../../store/settingsSlice'
 
 const CartDropdown = () => {
+	const dispatch = useDispatch()
 	const { cartItems } = useSelector(state => state.cart)
+	const { showCartModal } = useSelector((state) => state.settings);
 
-	// const cartItemsCount = cartItems.length
 
 	// calculation total of quantity of items
 	const cartItemsCount = cartItems.reduce(
-		(acc, item) => acc + Number(item.quantity),
-		0
-	)
+		(acc, item) => acc + Number(item.quantity), 	0 )
 
 	return (
-		<div className='navbar-tool dropdown mx-2'>
+		<div className='navbar-tool  '>
 			<Link
 				className='navbar-tool-icon-box bg-secosndary dropdown-toggle'
-				to='/cart'>
+				//	to='/cart'
+				onClick={() => dispatch(setShowCartModal(!showCartModal))}
+			>
 				<i className='navbar-tool-icon fas fa-shopping-cart' />
 				{cartItems.length > 0 && (
 					<div className='yt-spec-icon-badge-shape__badge '>
@@ -25,25 +27,6 @@ const CartDropdown = () => {
 					</div>
 				)}
 			</Link>
-
-			<div className='dropdown-menu' aria-labelledby='navbarDropdown'>
-				{cartItems.length > 0 ? (
-					<>
-						{cartItems.map((item, index) => (
-							<span className='dropdown-item' key={index}>
-								{(item.title  ).slice(0, 32)}..
-							</span>
-						))}
-						<div className='dropdown-item text-center'>
-							<Link className='text-success  ' to='/cart'>
-								View Cart
-							</Link>
-						</div>
-					</>
-				) : (
-					<span className='dropdown-item'>Cart is empty</span>
-				)}
-			</div>
 		</div>
 	)
 }

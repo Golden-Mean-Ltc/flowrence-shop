@@ -16,7 +16,7 @@ const AppLayout = () => {
       {/* <ToastContainer /> */}
       <Header />  
       <header>  
-        <SearchBar />
+        {/* <SearchBar /> */}
         <HorizontalList items={categoris} /> 
       </header>
 

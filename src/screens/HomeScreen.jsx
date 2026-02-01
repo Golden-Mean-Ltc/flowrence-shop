@@ -10,30 +10,35 @@ import { listProducts } from '../store/actions/productActions'
 // import ProductsSlider from '../components/products/ProductSlider.jsx'
 // import ResponsiveColumnsExample from '../components/ResponsiveColumnsExample.jsx'
 import CartModal from '../components/cart/CartModal.jsx'
+import { setShowCartModal } from '../store/settingsSlice.js'
 
 // const HomeScreen = ({ match }) => {
 const HomeScreen = () => {
   const dispatch = useDispatch()
 
-    const [showCartModal, setShowCartModal] = useState(false); 
+  // const [showCartModal, setShowCartModal] = useState(false); 
 
   const productList = useSelector((state) => state.productList)
   const cartItems = useSelector((state) => state.cart.cartItems)
-   const language = useSelector((state) => state.settings.language);
+  const { language, showCartModal } = useSelector((state) => state.settings);
   const { loading, error, products } = productList
   const { r } = useSelector((state) => state.strings)
+
+  const handleShowCartModal = () => {
+    dispatch(setShowCartModal(!showCartModal))
+  }
 
   useEffect(() => {
     dispatch(listProducts())
     // console.log(pageNumber)
   }, [dispatch])
 
-  return ( 
-    <> 
+  return (
+    <>
 
-       <CartModal show={showCartModal} setShow={ setShowCartModal } />
+      <CartModal show={showCartModal} setShow={handleShowCartModal} />
       <div className='container home-page' dir={language == "arb" ? 'rtl' : 'ltr'}>
-          {/* <ResponsiveColumnsExample /> */}
+        {/* <ResponsiveColumnsExample /> */}
         {/* <div className="row mb-5">
         <div className="col p-0">
           <BillboardCarousel />
@@ -86,14 +91,14 @@ const HomeScreen = () => {
         <div className='fixed-element'>
           <div className='row'>
             <div className='col-sm-2 col-md-3 pt-2' >
-              <h6 className="x" onClick={()=>setShowCartModal(true)}>
-           <i className="fas fa-shopping-cart" /> items in cart :  {cartItems.length} </h6>
-              </div>
+              <h6 className="x" onClick={() => handleShowCartModal()}>
+                <i className="fas fa-shopping-cart" /> items in cart :  {cartItems.length} </h6>
+            </div>
             <div className='col px-4'>
               <Link href='/cart' className='btn btn-success rounded-pill btn-lg w-100'>
                 {' '}
                 {/* Submit order → */}
-               تثبيت الطلب
+                تثبيت الطلب
               </Link>{' '}
             </div>
             <div className="col-sm-2 col-md-3"> </div>
