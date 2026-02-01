@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar'
 // import NavDropdown from 'react-bootstrap/NavDropdown'
 import Offcanvas from 'react-bootstrap/Offcanvas'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 function OffcanvasExample() {
   const cartItems = useSelector((state) => state.cart.cartItems)
@@ -13,9 +14,7 @@ function OffcanvasExample() {
     <Navbar key={expand} expand={expand} style={{ background: '#1a2a73' }} >
       <Container >
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-        {cartItems.length && <Nav.Link href='/cart' className='white'> 
-          <i className="fas fa-shopping-cart " /> <span className="mx-2">{cartItems.length} </span>
-        </Nav.Link>}
+ 
         <Navbar.Brand href='/' className="fw-bold text-white">Flowrence IQ</Navbar.Brand>
 
         <Navbar.Offcanvas
@@ -30,7 +29,9 @@ function OffcanvasExample() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className='justify-content-end flex-grow-1 pe-3  '>
-              <Nav.Link href='#action1'> <i className="fas fa-shopping-cart white"></i> </Nav.Link>
+            <Link className='nav-link white' href='/cart'  > 
+          <i className="fas fa-shopping-cart " /> <span className="mx-2">{cartItems.length} </span>
+        </Link> 
 
               {/* <NavDropdown
                 title='Dropdown'

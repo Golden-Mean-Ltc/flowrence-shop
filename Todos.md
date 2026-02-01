@@ -20,6 +20,7 @@
 [ ] Show tips n explanation when user hover on something 
 [ ] Add products to cart like what's app business. 
 [] Product images modal 
+[] Horizontal screen hover 
  
 
 Cart review

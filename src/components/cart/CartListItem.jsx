@@ -1,10 +1,11 @@
 
 import { Col,  Image, ListGroup, Row } from 'react-bootstrap'
-import { useDispatch } from 'react-redux'
+import { useDispatch  } from 'react-redux'
 import { Link } from 'react-router-dom'
 import {
 	// addToCart, 
-	removeItem, decreaseItemQuantity, increaseItemQuantity } from '../../store/cart/cartSlice'
+	removeItem, decreaseItemQuantity, increaseItemQuantity, 
+	removeFromCart} from '../../store/cart/cartSlice'
 
 const CartListItem = ({ item }) => {
 	const dispatch = useDispatch()
@@ -41,7 +42,9 @@ const CartListItem = ({ item }) => {
 								<span className="badge btn-warning" onClick={() => dispatch(increaseItemQuantity(item.asin))}  > + </span>
 							</div>
 						</Col>
-							<button className="btn-close mx-1" onClick={() => dispatch(removeItem(item.asin))} />
+							<button className="btn-close mx-1" 
+							// onClick={() => dispatch(removeItem(item.asin))} 
+							onClick={() => dispatch(removeFromCart(item.asin))}   />
 					</div>
 				</div>
 			</Row>

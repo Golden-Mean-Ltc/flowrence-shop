@@ -37,7 +37,7 @@ const cartSlice = createSlice({
     removeItem(state, action) {
       state.cartItems = state.cartItems.filter(
         (item) => item.asin !== action.payload
-      );
+      ); 
     },
     increaseItemQuantity(state, action) {
       // payload = pizzaId
@@ -106,7 +106,7 @@ export const addToCart = (id, quantity) => async (dispatch, getState) => {
 
 export const removeFromCart = (id) => (dispatch, getState) => {
   dispatch({
-    type: "cart/itemRemoved",
+    type: "cart/removeItem",
     payload: id,
   });
 
