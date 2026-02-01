@@ -15,7 +15,8 @@
 [x] Iraq cities open select in address      1/26/2026
 [x] Remove sidebar example                  1/26/2026
 [x] Add showCartModal in global store       2/2/2026
-[x] Login modal  in global store 
+[] Login modal  in global store 
+[] Saved logged in user to local storage
 [] Cool messages alrert
 [] Make Arabic default language
 [ ] Product search with suggestion

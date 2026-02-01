@@ -10,7 +10,8 @@ import { listProducts } from '../store/actions/productActions'
 // import ProductsSlider from '../components/products/ProductSlider.jsx'
 // import ResponsiveColumnsExample from '../components/ResponsiveColumnsExample.jsx'
 import CartModal from '../components/cart/CartModal.jsx'
-import { setShowCartModal } from '../store/settingsSlice.js'
+import { setShowAuthModal, setShowCartModal } from '../store/settingsSlice.js'
+import AuthModal from '../components/auth/AuthModal.jsx'
 
 // const HomeScreen = ({ match }) => {
 const HomeScreen = () => {
@@ -20,13 +21,13 @@ const HomeScreen = () => {
 
   const productList = useSelector((state) => state.productList)
   const cartItems = useSelector((state) => state.cart.cartItems)
-  const { language, showCartModal } = useSelector((state) => state.settings);
+  const { language, showCartModal, showAuthModal } = useSelector((state) => state.settings);
   const { loading, error, products } = productList
   const { r } = useSelector((state) => state.strings)
 
-  const handleShowCartModal = () => {
-    dispatch(setShowCartModal(!showCartModal))
-  }
+  const handleShowCartModal = () =>   dispatch(setShowCartModal(!showCartModal))
+  const handleShowAuthModal = () =>   dispatch(setShowAuthModal(!showAuthModal))
+ 
 
   useEffect(() => {
     dispatch(listProducts())
@@ -34,9 +35,11 @@ const HomeScreen = () => {
   }, [dispatch])
 
   return (
-    <>
-
+    <> 
       <CartModal show={showCartModal} setShow={handleShowCartModal} />
+      <AuthModal show={showAuthModal} setShow={handleShowAuthModal} />
+
+
       <div className='container home-page' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
         {/* <div className="row mb-5">

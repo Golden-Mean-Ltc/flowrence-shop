@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import   { useState } from 'react'
 import { Form } from 'react-bootstrap'
 import { useDispatch } from 'react-redux'
 import { login } from '../../store/auth/authSlice'
@@ -26,7 +26,7 @@ const AuthForm = () => {
 					onChange={e => setEmail(e.target.value)}></Form.Control>
 			</Form.Group>
 
-			<Form.Group controlId='password'>
+			<Form.Group controlId='password' className='mb-3'>
 				<Form.Control
 					type='password'
 					placeholder='Password'

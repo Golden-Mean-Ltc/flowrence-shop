@@ -1,7 +1,7 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
+ 
+import { useSelector, useDispatch } from 'react-redux'
 // import { Link } from 'react-router-bootstrap'
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav,   NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import UserDropdown from './UserDropdown'
 import CartDropdown from './CartDropdown'
@@ -9,12 +9,17 @@ import DepartmentsDropdown from './DepartmentsDropdown'
 import CurrencyDropdown from './CurrencyDropdown'
 import LanguageDropdown from './LanguageDropdown'
 import SearchInput from './SearchInput';
+import { setShowAuthModal } from '../../store/settingsSlice'
 
 const Header = () => {
-  // console.log('Header..')
+ const dispatch = useDispatch()
 
   const { user } = useSelector(state => state.auth)
   const { r } = useSelector(state => state.strings)
+    const { showAuthModal } = useSelector((state) => state.settings);
+
+  const handleShowAuthModal = () =>   dispatch(setShowAuthModal(!showAuthModal))
+
   // console.log(user)
 
   return (
@@ -43,10 +48,10 @@ const Header = () => {
               {user ? (
                 <UserDropdown user={user} />
               ) : (
-                <Link to='/login'>
-                  <Nav.Link>
-                    <i className='fas fa-user'></i> {r.sign_in}
-                  </Nav.Link>
+                <Link className='nav-link'
+               // to='/login' 
+                onClick={handleShowAuthModal}> 
+                    <i className='fas fa-user'></i> {r.sign_in} 
                 </Link>
               )}
             </div>
