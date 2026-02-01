@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col } from 'react-bootstrap'
@@ -6,13 +6,16 @@ import ProductItem from '../components/products/ProductItemCard.jsx'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
 import { listProducts } from '../store/actions/productActions'
-import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
-import ProductsSlider from '../components/products/ProductSlider.jsx'
-import ResponsiveColumnsExample from '../components/ResponsiveColumnsExample.jsx'
+// import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
+// import ProductsSlider from '../components/products/ProductSlider.jsx'
+// import ResponsiveColumnsExample from '../components/ResponsiveColumnsExample.jsx'
+import CartModal from '../components/cart/CartModal.jsx'
 
 // const HomeScreen = ({ match }) => {
 const HomeScreen = () => {
   const dispatch = useDispatch()
+
+    const [showCartModal, setShowCartModal] = useState(false); 
 
   const productList = useSelector((state) => state.productList)
   const cartItems = useSelector((state) => state.cart.cartItems)
@@ -25,11 +28,12 @@ const HomeScreen = () => {
     // console.log(pageNumber)
   }, [dispatch])
 
-  return (
-    <>
-      <div className='container home-page' dir={language == "arb" ? 'rtl' : 'ltr'}>
+  return ( 
+    <> 
 
-        {/* <ResponsiveColumnsExample /> */}
+       <CartModal show={showCartModal} setShow={ setShowCartModal } />
+      <div className='container home-page' dir={language == "arb" ? 'rtl' : 'ltr'}>
+          {/* <ResponsiveColumnsExample /> */}
         {/* <div className="row mb-5">
         <div className="col p-0">
           <BillboardCarousel />
@@ -81,14 +85,18 @@ const HomeScreen = () => {
       {cartItems.length > 0 && (
         <div className='fixed-element'>
           <div className='row'>
-            <div className='col'>{cartItems.length} items in cart</div>
+            <div className='col-sm-2 col-md-3 pt-2' >
+              <h6 className="x" onClick={()=>setShowCartModal(true)}>
+           <i className="fas fa-shopping-cart" /> items in cart :  {cartItems.length} </h6>
+              </div>
             <div className='col px-4'>
-              <a href='/cart' className='btn btn-success rounded-pill btn-lg w-100'>
+              <Link href='/cart' className='btn btn-success rounded-pill btn-lg w-100'>
                 {' '}
                 {/* Submit order → */}
                تثبيت الطلب
-              </a>{' '}
+              </Link>{' '}
             </div>
+            <div className="col-sm-2 col-md-3"> </div>
           </div>
         </div>
       )}

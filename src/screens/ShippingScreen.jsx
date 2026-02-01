@@ -120,7 +120,7 @@ const ShippingScreen = () => {
               <Form.Label>العنوان</Form.Label>
               <Form.Control
                 type='text'
-                placeholder='اسم المنطقة او الحي / اقرب نقطة دالة'
+                placeholder='اسم المنطقة او الحي - اقرب نقطة دالة'
                 value={address}
                 required
                 onChange={(e) => setAddress(e.target.value)}

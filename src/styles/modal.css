@@ -10,7 +10,9 @@
 	max-width: 94%; 
 	  margin: 0 auto;
 }
- 
+.modal-body {
+	padding : 0;
+}
 
 .modal.show {
 	padding : 0!important;
