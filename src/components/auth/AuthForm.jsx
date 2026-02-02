@@ -1,17 +1,19 @@
-import   { useState } from 'react'
-import { Form } from 'react-bootstrap'
-import { useDispatch } from 'react-redux'
+import { useState } from 'react'
+import { Form, Spinner } from 'react-bootstrap'
+import { useDispatch, useSelector } from 'react-redux'
 import { login } from '../../store/auth/authSlice'
 
 // This form is used both for login and logout (sign in - sign up)
 const AuthForm = () => {
+	const loginLoading = useSelector((state) => state.auth.loading)
+
 	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
 
 	const dispatch = useDispatch()
 	// const navigate = useNavigate()   // router v6
 
-	const submitHandler = e => {
+	const submitHandler = (e) => {
 		e.preventDefault()
 		dispatch(login({ email, password }))
 	}
@@ -23,7 +25,8 @@ const AuthForm = () => {
 					type='email'
 					placeholder='Enter email'
 					value={email}
-					onChange={e => setEmail(e.target.value)}></Form.Control>
+					onChange={(e) => setEmail(e.target.value)}
+				></Form.Control>
 			</Form.Group>
 
 			<Form.Group controlId='password' className='mb-3'>
@@ -31,7 +34,8 @@ const AuthForm = () => {
 					type='password'
 					placeholder='Password'
 					value={password}
-					onChange={e => setPassword(e.target.value)}></Form.Control>
+					onChange={(e) => setPassword(e.target.value)}
+				></Form.Control>
 			</Form.Group>
 
 			<div className='row flex-between-center mb-3'>
@@ -51,7 +55,8 @@ const AuthForm = () => {
 				<div className='col-auto'>
 					<a
 						className='fs--1'
-						href='../../../pages/authentication/card/forgot-password.html'>
+						href='../../../pages/authentication/card/forgot-password.html'
+					>
 						Forgot Password?
 					</a>
 				</div>
@@ -60,6 +65,9 @@ const AuthForm = () => {
 			<button className='btn btn-primary btn-block' type='submit'>
 				Sign in
 			</button>
+			<div className='text-center pt-3'>
+				{loginLoading && <Spinner animation='border' variant='success' />}
+			</div>
 		</Form>
 	)
 }

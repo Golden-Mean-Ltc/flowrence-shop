@@ -16,7 +16,8 @@ const register = async userData => {
 // Login user
 const login = async userData => {
 	console.log(userData)
-	// const response = await axios.post(API_URL + 'login', userData)
+ 
+		// const response = await axios.post(API_URL + 'login', userData)
 	const { data } = await fakeApi('/login', userData)
 	console.log(data)
 
@@ -26,7 +27,7 @@ const login = async userData => {
 		localStorage.setItem('user', JSON.stringify(data))
 	}
 	// return response.data
-	return data
+	return data 
 }
 
 // Logout user

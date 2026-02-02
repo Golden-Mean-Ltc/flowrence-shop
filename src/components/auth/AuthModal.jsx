@@ -1,15 +1,15 @@
 
 import { Link } from 'react-router-dom'
 import { Row, Col, Modal } from 'react-bootstrap'
-// import {   useSelector } from 'react-redux'
+import {   useSelector } from 'react-redux'
 // import Message from '../components/Message'
 // import Loader from '../components/Loader' 
 import SocialBtns from './SocialBtns'
 // import { login } from '../../store'
-import AuthForm from './AuthForm'
+import AuthForm from './AuthForm' 
 
-const AuthModal = ({ show, setShow }) => {
-
+const AuthModal = ({ show, setShow }) => { 
+    const loginSuccess = useSelector((state) => state.auth.user !== null)
     // const navigate = useNavigate()   // router v6
 
     const handleClose = () => setShow(false)
@@ -31,7 +31,7 @@ const AuthModal = ({ show, setShow }) => {
     return (
         <div className='auth-page page' style={{ background: '#f6f6f6' }}>
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={loginSuccess? false : show} onHide={handleClose}>
                 <Modal.Header closeButton >
                     <Modal.Title className='w-100 text-center'>Log in user</Modal.Title>
                 </Modal.Header>
@@ -47,10 +47,7 @@ const AuthModal = ({ show, setShow }) => {
                                 or Log in with
                             </div>
                              <SocialBtns />
-                        </div>
-
-                       
-
+                        </div> 
                         <div className='py-2'>
                             <p className='text-center'>
                                 New Customer?{' '}

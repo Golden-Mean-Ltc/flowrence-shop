@@ -15,7 +15,7 @@ const makePromise = (data_) => {
       } else {
         reject(new Error("No data to return!"));
       }
-    }, 600);
+    }, 900);
   });
   return promise_;
 };

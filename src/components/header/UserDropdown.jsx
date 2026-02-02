@@ -1,8 +1,8 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { NavDropdown } from 'react-bootstrap' 
 import { useDispatch } from 'react-redux'
 import { logout } from '../../store/auth/authSlice'
+import { setShowAuthModal } from '../../store/settingsSlice'
 // import { logout } from '../../store/actions/userActions'
 
 const UserDropdown = ( { user } ) => {
@@ -10,7 +10,8 @@ const UserDropdown = ( { user } ) => {
 
   // console.log(user)
   const logoutHandler = () => {
-    dispatch( logout() )
+    dispatch(setShowAuthModal(false))
+    dispatch( logout() ) 
   }
 
   return (

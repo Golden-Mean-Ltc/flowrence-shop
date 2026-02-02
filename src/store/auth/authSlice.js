@@ -33,6 +33,7 @@ export const register = createAsyncThunk(
 
 // Login user
 export const login = createAsyncThunk('auth/login', async (user, thunkAPI) => {
+
 	try {
 		const x = await authService.login(user)
 		// console.log(x)  // {...user}
@@ -95,7 +96,7 @@ export const authSlice = createSlice({
 				state.user = null
 			})
 			.addCase(logout.fulfilled, state => {
-				state.user = null
+				state.user = null 
 			})
 	},
 })
