@@ -395,10 +395,14 @@ div.yt-spec-icon-badge-shape__badge {
 
 .auth-form-container {
 	background-color: white;
-	max-width: 400px;
-	padding: 1.8rem;
-	margin: 1.2rem auto;
-	border-radius: 0.6rem;
+	/* max-width: 400px; */
+	/* padding: 1.8rem; */
+	/* margin: 1.2rem auto; */
+	/* border-radius: 0.6rem; */
+	/* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; */
+}
+.box-shadow-light {
+		border-radius: 0.6rem;
 	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
