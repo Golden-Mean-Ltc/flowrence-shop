@@ -17,6 +17,7 @@
 [x] Add showCartModal in global store       2/2/2026
 [x] Login modal in global store             2/2/2026
 [x] Auth modal form style n function        2/2/2026
+[x] Hide billboard on small screen          2/3/2026
 [] Saved logged in user to local storage
 [] Cool messages alrert
 [] Make Arabic default language

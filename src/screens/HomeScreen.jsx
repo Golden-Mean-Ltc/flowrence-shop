@@ -6,7 +6,7 @@ import ProductItem from '../components/products/ProductItemCard.jsx'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
 import { listProducts } from '../store/actions/productActions'
-// import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
+import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
 // import ProductsSlider from '../components/products/ProductSlider.jsx'
 // import ResponsiveColumnsExample from '../components/ResponsiveColumnsExample.jsx'
 import CartModal from '../components/cart/CartModal.jsx'
@@ -42,11 +42,11 @@ const HomeScreen = () => {
 
       <div className='container home-page' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
-        {/* <div className="row mb-5">
+         <div className="row mb-5 hide-on-small-screen">
         <div className="col p-0">
           <BillboardCarousel />
         </div>
-      </div> */}
+      </div>  
 
         {/* <h2>{!keyword ? 'Latest Products' : 'Search Result'}</h2> */}
         {loading && <Loader />}
