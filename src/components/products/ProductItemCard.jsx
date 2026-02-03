@@ -11,7 +11,7 @@ import { addToCart } from '../../store/cart/cartSlice'
 
 const ProductItemCard = ({
   product: product_,
-  grid,
+  grid = true,
   // showRating,
   clickable,
 }) => {

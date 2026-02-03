@@ -17,7 +17,7 @@ export const strings_arb = {
 	search_products: 'ابحث عن منتج',
 	sign_in: 'دخول',
 	sign_up: 'تسجيل',
-	departments: 'الاقسام',
+	departments: 'كل الاقسام',
 	hot_deals: 'عروض مميزة',
 	laptops: 'حاسبات',
 	cell_phones: 'هواتف ذكية',

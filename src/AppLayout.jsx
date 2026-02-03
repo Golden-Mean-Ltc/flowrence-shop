@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import 'react-toastify/dist/ReactToastify.css' 
 import SearchBar from './components/header/SearchBar'
 import HorizontalList from './components/HorizontalList'
+import Footer from './components/footer/Footer'
 
 const AppLayout = () => {
   // const navigation = useNavigation()
@@ -24,6 +25,7 @@ const AppLayout = () => {
         <Outlet />
       </main>
 
+<Footer />
       {/* <CartOverview /> */}
     </>
   )

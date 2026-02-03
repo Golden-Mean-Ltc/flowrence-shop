@@ -29,6 +29,7 @@ const Header = () => {
         variant='dark'
       //expand='lg'
       //	collapseOnSelect
+      className='p-3'
       >
         <div className='container'>
           <Link to='/'>
@@ -44,7 +45,7 @@ const Header = () => {
 
             <LanguageDropdown />
 
-            <div className='px-2 '>
+            <div className='p-1'>
               {user ? (
                 <UserDropdown user={user} />
               ) : (
@@ -72,26 +73,31 @@ const Header = () => {
           </Nav>
         </div>
       </Navbar>
-      <div className='navbar-footer d-flex container'>
-        <DepartmentsDropdown title={r.departments} />
-        <div className='p-2 flex-fill clickable'>
+      <div className='navbar-footer container'>
+        <div className='d-flex justify-content-evenly align-items-center'>
+       <div className="p-2">
+         <DepartmentsDropdown title={r.departments} />
+       </div>
+        <div className='p-2 clickable'>
           <Link to='/products'> All Products </Link>
         </div>
-        <div className='p-2 flex-fill clickable'>
+        <div className='p-2 clickable'>
           <Link to='/products'>{r.best_sellers}</Link>
         </div>
-        <div className='p-2 flex-fill clickable'>
+        <div className='p-2 clickable'>
           <Link to='/hot-deals'>{r.hot_deals}</Link>
         </div>
-        <div className='p-2 flex-fill clickable'>
+        {/* <div className='p-2 flex-fill clickable'>
           <Link to='/products/Laptops'>{r.laptops}</Link>
-        </div>
-        <div className='p-2 flex-fill clickable'>
+        </div> */}
+        {/* <div className='p-2 flex-fill clickable'>
           <Link to='/products/Cell-Phones'>{r.cell_phones}</Link>
+        </div> */}
+        <div className="p-2">
+           <CurrencyDropdown />
         </div>
-
-        <CurrencyDropdown />
-      </div>
+        </div>
+      </div> 
     </header>
   )
 }

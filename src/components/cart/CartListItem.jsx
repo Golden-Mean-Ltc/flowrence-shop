@@ -2,9 +2,7 @@
 import { Col,  Image, ListGroup, Row } from 'react-bootstrap'
 import { useDispatch  } from 'react-redux'
 import { Link } from 'react-router-dom'
-import {
-	// addToCart, 
-	removeItem, decreaseItemQuantity, increaseItemQuantity, 
+import {   decreaseItemQuantity, increaseItemQuantity, 
 	removeFromCart} from '../../store/cart/cartSlice'
 
 const CartListItem = ({ item }) => {
@@ -15,7 +13,7 @@ const CartListItem = ({ item }) => {
 	return (
 		<ListGroup.Item key={item.product} style={{ border: '1px solid #eee' }} className='py-3'>
 			<Row>
-				<Col sm={4} xs={3} className='d-flex align-items-center'>
+				<Col sm={4} xs={3} className='d-flex justify-content-center align-items-center'>
 					<Image
 						src={item.mainImage.imageUrl}
 						alt={item.name}

@@ -64,24 +64,26 @@ const HomeScreen = () => {
           <div className='d-flex flex-wrap justify-content-between align-items-center border-bottom p-3'>
             <h4> {r.latest_products} </h4>
 
-            {/* <div className='p-2'>
-              <Link className='text-primary' to='/products'>
+             <div className='p-2'>
+              <Link className='text-info' to='/products'>
                 {r.show_more} <i className='fas fa-angle-right' />{' '}
               </Link>
-            </div> */}
+            </div> 
           </div>
           {!loading && (
-            <Row className='bg-white'>
+            <Row className='bg-white mb-3'>
               {products.slice(0, 8).map((product) => (
                 <Col
                   key={product.asin}
-                  sm={12}
-                  md={6}
-                  lg={4}
-                  xl={3}
-                // className="mb-2"
+                  xm={12}
+                  sm={6}
+                  md={4}
+                  lg={3} 
+                className="p-0"
                 >
-                  <ProductItem product={product} grid={false} clickable />
+                  <ProductItem product={product} 
+                //  grid={false} 
+                  clickable />
                 </Col>
               ))}
             </Row>
