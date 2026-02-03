@@ -7,7 +7,7 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import { listProducts } from '../store/actions/productActions'
 import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
-// import ProductsSlider from '../components/products/ProductSlider.jsx'
+import ProductsSlider from '../components/products/ProductSlider.jsx'
 // import ResponsiveColumnsExample from '../components/ResponsiveColumnsExample.jsx'
 import CartModal from '../components/cart/CartModal.jsx'
 import { setShowAuthModal, setShowCartModal } from '../store/settingsSlice.js'
@@ -25,9 +25,9 @@ const HomeScreen = () => {
   const { loading, error, products } = productList
   const { r } = useSelector((state) => state.strings)
 
-  const handleShowCartModal = () =>   dispatch(setShowCartModal(!showCartModal))
-  const handleShowAuthModal = () =>   dispatch(setShowAuthModal(!showAuthModal))
- 
+  const handleShowCartModal = () => dispatch(setShowCartModal(!showCartModal))
+  const handleShowAuthModal = () => dispatch(setShowAuthModal(!showAuthModal))
+
 
   useEffect(() => {
     dispatch(listProducts())
@@ -35,33 +35,31 @@ const HomeScreen = () => {
   }, [dispatch])
 
   return (
-    <> 
+    <>
       <CartModal show={showCartModal} setShow={handleShowCartModal} />
       <AuthModal show={showAuthModal} setShow={handleShowAuthModal} />
 
 
       <div className='container home-page' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
-         <div className="row mb-5 hide-on-small-screen">
-        <div className="col p-0">
-          <BillboardCarousel />
+        <div className="row mb-5 hide-on-small-screen">
+          <div className="col p-0">
+            <BillboardCarousel />
+          </div>
         </div>
-      </div>  
-
-        {/* <h2>{!keyword ? 'Latest Products' : 'Search Result'}</h2> */}
         {loading && <Loader />}
         {error && <Message variant='danger'>{error}</Message>}
         <>
-          {/* <div className="mb-3">
-          <ProductsSlider
-            title={r.featured_products}
-            url="/products/bestsellers"
-          />
-        </div> */}
+          <div className="mb-3">
+            <ProductsSlider
+              title={r.featured_products}
+              url="/products/bestsellers"
+            />
+          </div>
 
-          {/* <div className="mb-4">
-          <ProductsSlider title={r.best_sellers} url="/products/bestsellers" />
-        </div> */}
+          <div className="mb-4">
+            <ProductsSlider title={r.best_sellers} url="/products/bestsellers" />
+          </div>
 
           <div className='d-flex flex-wrap justify-content-between align-items-center border-bottom p-3'>
             <h4> {r.latest_products} </h4>

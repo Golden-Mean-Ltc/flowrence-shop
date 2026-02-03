@@ -189,7 +189,9 @@ a.product-title {
 .product-item-card {
 	/* min-height: 344px; */
 	/* border: none; */
-	margin : 0.5rem 0;
+	margin : 0.5rem  ;
+	padding : 1rem;
+	transition: box-shadow 0.3s ease-in-out;
 }
 .product-item-card:hover {
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,

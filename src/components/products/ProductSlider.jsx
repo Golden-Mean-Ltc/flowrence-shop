@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import  { useState, useEffect } from 'react'
 import Slider from 'react-slick'
 // Import css files
 import 'slick-carousel/slick/slick.css'
@@ -36,6 +36,33 @@ const ProductSlider = ({ title, url }) => {
 		autoplay: true,
 		autoplaySpeed: 2000,
 		cssEase: 'linear',
+		initialSlide: 0,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					initialSlide: 2
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
 	}
 
 	// shuffledArray = array.sort((a, b) => 0.5 - Math.random());
@@ -43,12 +70,12 @@ const ProductSlider = ({ title, url }) => {
 
 	return (
 		<>
-			<div className='d-flex flex-wrap justify-content-between align-items-center border-bottom mb-3 px-3'>
+			<div className='d-flex flex-wrap justify-content-between align-items-center border-bottom px-3 pt-3'>
 				<h4>{title}</h4>
 			</div>
 			<div className='row'>
 				<div className='col'>
-					<div className='products-slider px-3'>
+					<div className='products-slider  '>
 						{loading && <Loader />}
 						{products && (
 							<Slider {...settings}>
