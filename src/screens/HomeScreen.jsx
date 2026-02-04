@@ -35,12 +35,11 @@ const HomeScreen = () => {
   }, [dispatch])
 
   return (
-    <>
+    <div className='container-fluid'>
       <CartModal show={showCartModal} setShow={handleShowCartModal} />
       <AuthModal show={showAuthModal} setShow={handleShowAuthModal} />
 
-
-      <div className='container home-page' dir={language == "arb" ? 'rtl' : 'ltr'}>
+      <div className='container ' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
         <div className="row mb-5 hide-on-small-screen">
           <div className="col p-0">
@@ -108,7 +107,7 @@ const HomeScreen = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   )
 }
 

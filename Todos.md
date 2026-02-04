@@ -19,7 +19,8 @@
 [x] Auth modal form style n function            2/2/2026
 [x] Hide billboard on small screen              2/3/2026
 [x] Fix Home Screen Sliders                     2/3/2026
-[x] Horizontal list hover  
+[x] Horizontal list hover                       2/3/2026   
+[x] Clear cart button fixed                     2/3/2026
 [] Saved logged in user to local storage
 [] Cool messages alrert
 [] Make Arabic default language
@@ -28,6 +29,7 @@
 [ ] Show tips n explanation when user hover on something 
 [ ] Add products to cart like what's app business. 
 [] Product images modal 
+[] PWA
 
  
 

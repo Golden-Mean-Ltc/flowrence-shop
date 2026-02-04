@@ -5,12 +5,12 @@ import { Button, Row, Col, ListGroup, Image  } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import Message from "../components/Message";
 import CheckoutSteps from "../components/CheckoutSteps";
-import { clearCartItems } from "../store/cart/cartSlice";
+import { resetCart } from "../store/cart/cartSlice";
 import SpinnerSuccessFail from "../components/SpinnerSuccessFail";
 import OrderSummary from "../components/order/OrderSummary";
 // import Loader from '../components/Loader';
 // import { useCreateOrderMutation } from '../slices/ordersApiSlice';
-// import { clearCartItems } from '../slices/cartSlice';
+// import { resetCart } from '../slices/cartSlice';
 
 const PlaceOrderScreen = () => {
   const navigate = useNavigate();
@@ -45,7 +45,7 @@ const PlaceOrderScreen = () => {
 
       //   navigate(`/order/${res._id}`);
       setTimeout(() => setplaceOrderStatus("success"), 600);
-      setTimeout(() => dispatch(clearCartItems()),  900);
+      setTimeout(() => dispatch(resetCart()),  900);
       
       // setTimeout(() =>  navigate(`/`), 1200);
     } catch (err) {

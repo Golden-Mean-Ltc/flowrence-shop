@@ -1,8 +1,9 @@
 import { Link, useNavigate } from 'react-router-dom'
 import Modal from 'react-bootstrap/Modal'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { ListGroup, Button } from 'react-bootstrap'
 import {
+    resetCart,
     selectCartTotalItems,
     selectCartTotalPrice,
 } from '../../store/cart/cartSlice'
@@ -10,7 +11,7 @@ import Message from '../Message'
 import CartListItem from './CartListItem'
 
 const CartModal = ({ show, setShow }) => {
-    // const dispatch = useDispatch();
+    const dispatch = useDispatch();
     const navigate = useNavigate()
 
     const handleClose = () => setShow(false)
@@ -54,6 +55,13 @@ const CartModal = ({ show, setShow }) => {
                                 <div>Total items: {selectCartTotalItems(cart)}</div>
                                 <div>Total price: {selectCartTotalPrice(cart)}</div>
                                 <h5>المجموع</h5>
+                            </div>
+                            <div className="text-center clickable underline-on-hover" style={{ color: 'red', fontSize: '0.9em' }} >
+                                <span className="badge text-bg-primary" 
+                                onClick={() => {
+                                    // Reset cart logic would go here
+                                        dispatch(resetCart())
+                                }}> Reset cart  </span>
                             </div>
                         </ListGroup.Item>
                     </ListGroup>

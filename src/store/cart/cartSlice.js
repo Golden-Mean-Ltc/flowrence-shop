@@ -72,15 +72,16 @@ const cartSlice = createSlice({
         state.paymentMethod = action.payload;
       },
     },
-    clearCartItems: (state, action) => {
+    // eslint-disable-next-line no-unused-vars
+    resetCart: (state, action) => {
       state.cartItems = [];
-      localStorage.setItem("cart", JSON.stringify(state));
+      localStorage.setItem('cart', JSON.stringify(state));
+       localStorage.removeItem("cartItems");
     },
     // NOTE: here we need to reset state for when a user logs out so the next
     // user doesn't inherit the previous users cart and shipping
-    resetCart: (state) => (state = initialState),
-  }
-},
+    // resetCart: (state) => (state = initialState),
+}}
 );
 
 // * ACTIONS
@@ -132,15 +133,6 @@ export const savePaymentMethod = (data) => (dispatch) => {
   localStorage.setItem("paymentMethod", JSON.stringify(data));
 };
 
-// remove all cart items
-export const resetCart = (dispatch) => {
-  dispatch({
-    type: "cart/reset",
-  });
-
-  localStorage.removeItem("cartItems");
-};
-
 
 // # Selector for cart detials
 export const selectCartTotalItems = (cart) => {
@@ -157,7 +149,7 @@ export const selectCartTotalPrice = (cart) => {
 export const {
   itemAdded,
   removeItem,
-  clearCartItems,
+  resetCart, 
   increaseItemQuantity,
   decreaseItemQuantity
 } = cartSlice.actions;
