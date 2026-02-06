@@ -30,6 +30,11 @@ const BillboardCarousel = () => {
 			link: ' ',
 			image: import.meta.env.VITE_PUBLIC_URL + '/assets/billboard/banner-5.png',
 		},
+		{
+			id: '6',
+			link: ' ',
+			image: import.meta.env.VITE_PUBLIC_URL + '/assets/billboard/banner-6.png',
+		},
 	]
 
 	// <img src='images/billboard/banner-1.jpeg' alt='banner' />
@@ -39,7 +44,7 @@ const BillboardCarousel = () => {
 		return billboardItems.map(item => (
 			<Carousel.Item key={item.id}>
 				<img
-					className='d-block w-100'
+					className='d-block  '
 					src={item.image}
 					alt={`slide-${item.id}`}
 				/>

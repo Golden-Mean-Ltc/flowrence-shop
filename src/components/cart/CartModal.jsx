@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Modal from 'react-bootstrap/Modal'
 import { useDispatch, useSelector } from 'react-redux'
 import { ListGroup, Button } from 'react-bootstrap'
@@ -38,8 +38,8 @@ const CartModal = ({ show, setShow }) => {
                 </Modal.Header>
                 <Modal.Body>
                     {cartItems.length === 0 ? (
-                        <Message>
-                            Your cart is empty <Link to='/'>Go Back</Link>
+                        <Message className='text-center'>
+                            Your cart is empty  
                         </Message>
                     ) : (
                         <ListGroup variant='flush'>

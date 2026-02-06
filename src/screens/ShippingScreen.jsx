@@ -72,12 +72,12 @@ const ShippingScreen = () => {
   */
 
   return (
-    <div className='page' dir={language == 'arb' ? 'rtl' : 'ltr'}>
+    <div className='mb-3' dir={language == 'arb' ? 'rtl' : 'ltr'}>
       <FormContainer>
         <CheckoutSteps step2 />
         <div className='px-3'>
           <div className='pb-3'>
-            <h2>عنوان التوصيل</h2>
+            <h3>عنوان التوصيل</h3>
           </div>
           <Form onSubmit={submitHandler}>
             <div className='row mb-3'>

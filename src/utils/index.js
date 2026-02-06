@@ -1,7 +1,7 @@
 export const getProduct = (item) => {
   return {
     ...item,
-    name: item.title,
+    name: item.productTitle,
     image: item.mainImage.imageUrl,
     // price: item.price,
     rating: item.rating ? parseFloat(item.rating.split(" ")[0]) : 3.5,

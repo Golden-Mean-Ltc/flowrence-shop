@@ -18,9 +18,17 @@ const ProductItemCard = ({
   const dispatch = useDispatch()
   const product = getProduct(product_)
   const { currency } = useSelector(state => state.settings)
+  const r = useSelector(state => state.strings.r) 
 
   // handle show cart plus icon btn
   const [showCartPlus, setShowCartPlus] = useState(true)
+  const [showCheck, setShowCheck] = useState(false)
+
+  const handleAddToCartClick = () => { 
+    setShowCheck(true)
+    dispatch(addToCart(product.asin)) 
+    setTimeout(() =>  setShowCheck(false)  , 900);
+  }
 
   const getProductPrice = (priceInDollar, selectedCurrency) => {
     switch (selectedCurrency) {
@@ -95,15 +103,17 @@ const ProductItemCard = ({
                 </span>
 
               </div>
-              <div className="x">
+              <div className="d-flex justify-content-center align-items-center mt-2">
                 {/* { showCartPlus && <AddToCartBtn productId={ product.asin } /> } */}
 
                 <button type="button"
-                  className="btn btn-warning rounded-pill px-4 m-1"
+                  className="btn btn-warning rounded-pill px-3 m-1"
                   style={{ background: '#ffd814' }}
-                  onClick={() => dispatch(addToCart(product.asin))}>
-                  {/* <i className='fas fa-cart-plus cart-plus-icon mr-2'   /> */}
-                  Add to cart </button>
+                  onClick={handleAddToCartClick}>
+                  {/* <i className='fas fa-cart-plus cart-plus-icon mr-2'   /> */} 
+                  {showCheck && <span><i className="fas fa-check-circle ml-2 text-success" />{' '}تم</span>}
+                  {!showCheck && <span>{r.add_to_cart}</span>}
+                  </button>
               </div>
             </div>
           </div>

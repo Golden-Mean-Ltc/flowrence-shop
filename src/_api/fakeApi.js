@@ -59,7 +59,7 @@ export default function fakeApi(endpoint, payload = {}) {
           console.log(keyword);
           products_ = productsJson.filter((item) => {
             return (
-              item.title.toLowerCase().indexOf(keyword.toLowerCase()) !== -1
+              item.productTitle.toLowerCase().indexOf(keyword.toLowerCase()) !== -1
             );
           });
           console.log(products_);

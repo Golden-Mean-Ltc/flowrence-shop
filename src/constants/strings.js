@@ -11,6 +11,7 @@ export const strings_eng = {
 	latest_products: 'Latest Products',
 	featured_products: 'Featured Products',
 	show_more: 'Show more',
+	add_to_cart : 'Add to cart',
 }
 
 export const strings_arb = {
@@ -26,6 +27,7 @@ export const strings_arb = {
 	latest_products: 'احدث منتجات',
 	featured_products: 'المنتجات المميزة',
 	show_more: 'شاهد المزيد',
+	add_to_cart : 'اضف الى السلة',
 }
 
 export const iraq_governorates_eng = {
