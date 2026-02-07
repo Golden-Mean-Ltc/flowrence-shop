@@ -15,7 +15,7 @@ const CartDropdown = () => {
 
 	return (
 		<div className='navbar-tool  '>
-			<Link
+			<span
 				className='navbar-tool-icon-box bg-secosndary dropdown-toggle'
 				//	to='/cart'
 				onClick={() => dispatch(setShowCartModal(!showCartModal))}
@@ -26,7 +26,7 @@ const CartDropdown = () => {
 						{cartItemsCount}
 					</div>
 				)}
-			</Link>
+			</span>
 		</div>
 	)
 }

@@ -7,11 +7,8 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import { listProducts } from '../store/actions/productActions'
 import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
-import ProductsSlider from '../components/products/ProductSlider.jsx'
-// import ResponsiveColumnsExample from '../components/ResponsiveColumnsExample.jsx'
-import CartModal from '../components/cart/CartModal.jsx'
-import { setShowAuthModal, setShowCartModal } from '../store/settingsSlice.js'
-import AuthModal from '../components/auth/AuthModal.jsx'
+import ProductsSlider from '../components/products/ProductSlider.jsx' 
+import { setShowCartModal } from '../store/settingsSlice.js' 
 
 // const HomeScreen = ({ match }) => {
 const HomeScreen = () => {
@@ -21,12 +18,12 @@ const HomeScreen = () => {
 
   const productList = useSelector((state) => state.productList)
   const cartItems = useSelector((state) => state.cart.cartItems)
-  const { language, showCartModal, showAuthModal } = useSelector((state) => state.settings);
+  const { language, showCartModal } = useSelector((state) => state.settings);
   const { loading, error, products } = productList
   const { r } = useSelector((state) => state.strings)
 
   const handleShowCartModal = () => dispatch(setShowCartModal(!showCartModal))
-  const handleShowAuthModal = () => dispatch(setShowAuthModal(!showAuthModal))
+  // const handleShowAuthModal = () => dispatch(setShowAuthModal(!showAuthModal))
 
 
   useEffect(() => {
@@ -35,10 +32,7 @@ const HomeScreen = () => {
   }, [dispatch])
 
   return (
-    <div className='container-fluid'>
-      <CartModal show={showCartModal} setShow={handleShowCartModal} />
-      <AuthModal show={showAuthModal} setShow={handleShowAuthModal} />
-
+    <div className='container-fluid'> 
       <div className='container ' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
         <div className="row mb-5 hide-on-small-screen">

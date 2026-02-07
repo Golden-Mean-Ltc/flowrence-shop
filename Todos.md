@@ -23,6 +23,7 @@
 [x] Clear cart button fixed                     2/3/2026
 [x] Add more products                           2/6/2026
 [x] Fix responsive navbar 
+[] Fix products filters 
 [] Saved logged in user to local storage
 [] Cool messages alrert
 [] Make Arabic default language

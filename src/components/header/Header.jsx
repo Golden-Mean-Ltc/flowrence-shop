@@ -1,7 +1,7 @@
 
 import { useSelector, useDispatch } from 'react-redux'
 // import { Link } from 'react-router-bootstrap'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar,  NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import UserDropdown from './UserDropdown'
 import CartDropdown from './CartDropdown'
@@ -46,11 +46,11 @@ const Header = () => {
           {user ? (
             <UserDropdown user={user} />
           ) : (
-            <Link className='nav-link'
+            <span className='nav-link'
               // to='/login' 
               onClick={handleShowAuthModal}>
               <i className='fas fa-user'></i> {r.sign_in}
-            </Link>
+            </span>
           )}
         </div>
         {user && user.isAdmin && (
