@@ -1,7 +1,7 @@
 [
   {
     "productTitle": "Apple iMac (24-inch, Apple M1 chip, 8GB RAM, 256GB) - Silver",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 208,
     "answeredQuestions": 0,
     "rating": "4.6 out of 5 stars",
@@ -48,7 +48,7 @@
         "value": "27.6 pounds"
       },
       {
-        "name": "Manufacturer",
+        "name": "brand",
         "value": "Apple Computer"
       },
       {
@@ -86,7 +86,7 @@
   },
   {
     "productTitle": "Apple MacBook Air with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 5189,
     "answeredQuestions": 350,
     "rating": "4.8 out of 5 stars",
@@ -132,7 +132,7 @@
         "value": "2.8 pounds"
       },
       {
-        "name": "Manufacturer",
+        "name": "brand",
         "value": "Apple Computer"
       },
       {
@@ -201,7 +201,7 @@
   },
   {
     "productTitle": "Acer Nitro 5 Gaming Laptop, 9th Gen Intel Core i5-9300H, NVIDIA GeForce GTX 1650, 15.6\" Full HD IPS Display, 8GB DDR4, 256GB NVMe SSD, Wi-Fi 6, Backlit Keyboard, Alexa Built-in, AN515-54-5812",
-    "manufacturer": "Visit the Acer Store",
+    "brand": "Acer", 
     "countReview": 3016,
     "answeredQuestions": 443,
     "rating": "4.7 out of 5 stars",
@@ -443,7 +443,7 @@
   },
   {
     "productTitle": "Lenovo Flex 5 Laptop, 14.0\" FHD Touch Display, AMD Ryzen 5 5500U, 16GB RAM, 256GB Storage, AMD Radeon Graphics, Windows 11 Home",
-    "manufacturer": "Visit the Lenovo Store",
+    "brand": "Lenovo",
     "countReview": 771,
     "answeredQuestions": 159,
     "rating": "4.5 out of 5 stars",
@@ -688,7 +688,7 @@
   },
   {
     "productTitle": "Asus L510MA-DS04 15.6\" Celeron N4020 4 GB RAM 128 GB eMMC",
-    "manufacturer": "Visit the ASUS Store",
+    "brand": "ASUS",
     "countReview": 2221,
     "answeredQuestions": 320,
     "rating": "4.3 out of 5 stars",
@@ -926,7 +926,7 @@
   },
   {
     "productTitle": "Apple 20W USB-C Power Adapter",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 46742,
     "answeredQuestions": 171,
     "rating": "4.8 out of 5 stars",
@@ -967,7 +967,7 @@
         "value": "2.82 ounces"
       },
       {
-        "name": "Manufacturer",
+        "name": "brand",
         "value": "Apple Computer"
       },
       {
@@ -1046,7 +1046,7 @@
   },
   {
     "productTitle": "Anker Portable Charger, PowerCore Slim 10000 Power Bank, 10000mAh Battery Pack",
-    "manufacturer": "Visit the Anker Store",
+    "brand": "Anker",
     "countReview": 17046,
     "answeredQuestions": 334,
     "rating": "4.7 out of 5 stars",
@@ -1124,7 +1124,7 @@
         "value": "1"
       },
       {
-        "name": "Manufacturer",
+        "name": "brand",
         "value": "Anker"
       },
       {
@@ -1191,7 +1191,7 @@
   },
   {
     "productTitle": "Logitech HD Pro Webcam C920, Widescreen Video Calling and Recording, 1080p Camera, Desktop or Laptop Webcam",
-    "manufacturer": "Visit the Logitech Store",
+    "brand": "Logitech",
     "countReview": 22498,
     "answeredQuestions": 113,
     "rating": "4.6 out of 5 stars",
@@ -1280,7 +1280,7 @@
         "value": "1 Lithium Polymer batteries required."
       },
       {
-        "name": "Manufacturer",
+        "name": "brand",
         "value": "Logitech"
       },
       {
@@ -1368,7 +1368,7 @@
   },
   {
     "productTitle": "Apple MacBook Pro (16-inch, Apple M1 Pro chip with 10‑core CPU and 16‑core GPU, 16GB RAM, 512GB SSD) - Silver",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 501,
     "answeredQuestions": 115,
     "rating": "4.7 out of 5 stars",
@@ -1514,7 +1514,7 @@
   },
   {
     "productTitle": "MSI Stealth 15M Gaming Laptop: 15.6\" 144Hz FHD 1080p Display, Intel Core i7-11375H, NVIDIA GeForce RTX 3060, 16GB, 512GB SSD, Thunderbolt 4, WiFi 6, Win10, Carbon Gray (A11UEK-009)",
-    "manufacturer": "Visit the MSI Store",
+    "brand": "MSI",
     "countReview": 502,
     "answeredQuestions": 193,
     "rating": "4.3 out of 5 stars",
@@ -1767,7 +1767,7 @@
   },
   {
     "productTitle": "Sony WH-1000XM4 Wireless Premium Noise Canceling Overhead Headphones with Mic for Phone-Call and Alexa Voice Control, Black",
-    "manufacturer": "Brand: Sony",
+    "brand": "Sony",
     "countReview": 33198,
     "answeredQuestions": 1000,
     "rating": "4.7 out of 5 stars",
@@ -1849,7 +1849,7 @@
         "value": "Womens"
       },
       {
-        "name": "Manufacturer",
+        "name": "brand",
         "value": "Sony"
       },
       {
@@ -1893,7 +1893,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Google Pixel 10 Pro - Unlocked Android Smartphone - Gemini AI Assistant, Triple Rear Camera System, Fast-Charging 24+ Hour Battery, and 6.3\" Super Actua Display - Moonstone - 256 GB (2025 Model)",
-    "manufacturer": "Visit the Google Store",
+    "brand": "Google",
     "countReview": 599,
     "answeredQuestions": 0,
     "productRating": "4.4 out of 5 stars",
@@ -1987,7 +1987,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple iPhone 16 Pro Max, US Version, 256GB, Desert Titanium - Unlocked (Renewed)",
-    "manufacturer": "Visit the Amazon Renewed Store",
+    "brand": "Apple",
     "countReview": 1369,
     "answeredQuestions": 0,
     "productRating": "4.3 out of 5 stars",
@@ -2103,7 +2103,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple iPhone 17 Pro, US Version, 256GB, eSIM, Cosmic Orange- Unlocked (Renewed Premium)",
-    "manufacturer": "Visit the Amazon Renewed Store",
+    "brand": "Apple",
     "countReview": 3,
     "answeredQuestions": 0,
     "productRating": "5.0 out of 5 stars",
@@ -2194,7 +2194,7 @@
             "value": "USB Cable"
         },
         {
-            "name": "Manufacturer",
+            "name": "brand",
             "value": "Apple"
         },
         {
@@ -2320,7 +2320,7 @@
 },
   {
     "productTitle": "SAMSUNG Galaxy S22 Ultra Smartphone, Factory Unlocked Android Cell Phone, 256GB, 8K Camera & Video, Brightest Display, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Green",
-    "manufacturer": "Visit the SAMSUNG Store",
+    "brand": "Samsung",
     "countReview": 46,
     "answeredQuestions": 19,
     "rating": "4.4 out of 5 stars",
@@ -2397,7 +2397,7 @@
         "value": "February 9, 2022"
       },
       {
-        "name": "Manufacturer",
+        "name": "brand",
         "value": "Samsung Electronincs"
       },
       {
@@ -2450,7 +2450,7 @@
   },
   {
     "productTitle": "Apple iPhone 13, 128GB, Blue - Unlocked",
-    "manufacturer": "Visit the Amazon Renewed Store",
+    "brand": "Apple",
     "countReview": 155,
     "answeredQuestions": 35,
     "rating": "4.5 out of 5 stars",
@@ -2531,7 +2531,7 @@
         "value": "Lightning to USB Cable, Adapter, IPhone"
       },
       {
-        "name": "Manufacturer",
+        "name": "brand",
         "value": "Apple Computer"
       },
       {
@@ -2594,7 +2594,7 @@
   },
   {
     "productTitle": "Microsoft Surface Go 3 - 10.5\" Touchscreen - Intel® Pentium® Gold - 8GB Memory - 128GB SSD - Device Only - Platinum (Latest Model)",
-    "manufacturer": "Brand: Microsoft",
+    "brand": "Microsoft",
     "countReview": 389,
     "answeredQuestions": 74,
     "rating": "4.4 out of 5 stars",
@@ -2811,7 +2811,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple 2025 MacBook Air 13-inch Laptop with M4 chip: Built for Apple Intelligence, 13.6\" Liquid Retina Display, 16GB Unified Memory, 256GB SSD Storage, 12MP Center Stage Camera, Touch ID, Midnight",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 5705,
     "answeredQuestions": 0,
     "productRating": "4.8 out of 5 stars",
@@ -2856,7 +2856,7 @@
             "value": "‎2.73 pounds"
         },
         {
-            "name": "Manufacturer",
+            "name": "brand",
             "value": "‎Apple"
         },
         {
@@ -3067,7 +3067,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple Watch Series 9 [GPS 45mm] Smartwatch with Midnight Aluminum Case with Midnight Sport Band M/L. Fitness Tracker, ECG Apps, Always-On Retina Display, Water Resistant",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 1250,
     "answeredQuestions": 0,
     "productRating": "4.6 out of 5 stars",
@@ -3323,7 +3323,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple AirPods Max Wireless Over-Ear Headphones, Active Noise Cancelling, Transparency Mode, Personalized Spatial Audio, Dolby Atmos, Bluetooth Headphones for iPhone – Green",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 15376,
     "answeredQuestions": 0,
     "productRating": "4.6 out of 5 stars",
@@ -3579,7 +3579,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple AirPods Pro (2nd Generation) Wireless Ear Buds with USB-C Charging, Up to 2X More Active Noise Cancelling Bluetooth Headphones, Transparency Mode, Adaptive Audio, Personalized Spatial Audio",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 106,
     "answeredQuestions": 0,
     "productRating": "4.5 out of 5 stars",
@@ -3784,7 +3784,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple iPad (9th Generation): with A13 Bionic chip, 10.2-inch Retina Display, 64GB, Wi-Fi, 12MP front/8MP Back Camera, Touch ID, All-Day Battery Life – Space Gray",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 63996,
     "answeredQuestions": 0,
     "productRating": "4.8 out of 5 stars",
@@ -4225,7 +4225,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple iPad (10th Generation): with A14 Bionic chip, 10.9-inch Liquid Retina Display, 256GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Blue",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 13071,
     "answeredQuestions": 0,
     "productRating": "4.8 out of 5 stars",
@@ -4382,7 +4382,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Beats Solo 4 - Wireless Bluetooth On-Ear Headphones, Up to 50 Hours of Battery Life - Slate Blue",
-    "manufacturer": "Visit the Beats Store",
+    "brand": "Beats",
     "countReview": 54,
     "answeredQuestions": 0,
     "productRating": "4.1 out of 5 stars",
@@ -4732,7 +4732,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Beats Flex Wireless Earbuds, Magnetic Earphones, Class 1 Bluetooth, 12 Hours of Listening Time, Built-in Microphone - Yuzu Yellow",
-    "manufacturer": "Visit the Beats Store",
+    "brand": "Beats",
     "countReview": 52262,
     "answeredQuestions": 0,
     "productRating": "4.3 out of 5 stars",
@@ -5033,7 +5033,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Beats Fit Pro - True Wireless Noise Cancelling Earbuds, Class 1 Bluetooth, Built-in Microphone, 6 Hours of Listening Time - Stone Purple",
-    "manufacturer": "Visit the Beats Store",
+    "brand": "Beats",
     "countReview": 37384,
     "answeredQuestions": 0,
     "productRating": "4.5 out of 5 stars",
@@ -5405,7 +5405,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Samsung Galaxy Tab S9 FE Wi-Fi 10.9” 128GB Android Tablet, IP68 Water- and Dust-Resistant, Long Battery Life, Powerful Processor, S Pen, 8MP Camera, Lightweight Design, US Version, 2023, Silver",
-    "manufacturer": "Visit the SAMSUNG Store",
+    "brand": "Samsung",
     "countReview": 949,
     "answeredQuestions": 0,
     "productRating": "4.6 out of 5 stars",
@@ -5990,7 +5990,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "SAMSUNG Galaxy Tab S6 Lite (2024) 10.4\" 128GB WiFi Android Tablet w/ S Pen Included, Gaming Ready, Long Battery Life, Slim Metal Design, DeX, AKG Dual Speakers, US Version,Oxford Gray,Amazon Exclusive",
-    "manufacturer": "Visit the SAMSUNG Store",
+    "brand": "Samsung",
     "countReview": 59,
     "answeredQuestions": 0,
     "productRating": "4.4 out of 5 stars",
@@ -6328,7 +6328,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple iPad Pro 11-Inch (M4): Ultra Retina XDR Display, 256GB, Landscape 12MP Front Camera/12MP Back Camera, LiDAR Scanner, Wi-Fi 6E, Face ID, All-Day Battery Life — Space Black",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 4,
     "answeredQuestions": 0,
     "productRating": "4.8 out of 5 stars",
@@ -6457,7 +6457,7 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "Apple iPad Air (5th Generation): with M1 chip, 10.9-inch Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Purple",
-    "manufacturer": "Visit the Apple Store",
+    "brand": "Apple",
     "countReview": 13085,
     "answeredQuestions": 0,
     "productRating": "4.8 out of 5 stars",

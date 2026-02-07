@@ -1,6 +1,6 @@
 
 import { useSelector, useDispatch } from 'react-redux'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { setShowCartModal } from '../../store/settingsSlice'
 
 const CartDropdown = () => {

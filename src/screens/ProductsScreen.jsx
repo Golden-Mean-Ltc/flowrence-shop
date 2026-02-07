@@ -32,7 +32,7 @@ const ProductsScreen = () => {
 
   const [pageDetails, setPageDetails] = useState({});
   const [viewMode, setViewMode] = useState("grid"); // grid by default
-  const [showSidebar, setShowSidebar] = useState(false); // show fitlers sidebar
+  const [showSidebar, setShowSidebar] = useState(true); // show fitlers sidebar
   // handle sort by dropdown
 
   // console.log(useParams())
@@ -75,9 +75,6 @@ const ProductsScreen = () => {
     // dispatch(listProducts("", pageNumber, category, sortBy));
     dispatch(listProducts(keyword, paramsPage));
 
-    if (category === "Laptops" || category === "Cell-Phones") {
-      setShowSidebar(true);
-    } else setShowSidebar(false);
 
     // dispatch(listProducts(1, 1, { category }))
   }, [dispatch, paramsPage, keyword, category]);
@@ -85,8 +82,8 @@ const ProductsScreen = () => {
   if (error) return <Message variant="danger">{error}</Message>;
 
   return (
-    <div className="page container">
-      <Row>
+    <div className="container bg-dark">
+      <Row style={{ backgroundColor: "#bb3434" }} className="p-3">
         <div className="col-md-3 pl-5">
           <h3>{pageDetails.title}</h3>
         </div>
@@ -95,13 +92,11 @@ const ProductsScreen = () => {
         </div>
       </Row>
 
-      <div className="row mb-2 mx-n2">
-        {/* Products Grid */}
-        {!loading && (
-          <div className={showSidebar ? "col-md-3" : ""}>
+      <div className="row mb-2 ">
+        {/* Products Grid */} 
+          <div className= "col-md-3" >
             {showSidebar && <FiltersSidebar category={category} />}
-          </div>
-        )}
+          </div> 
 
         <div className="col">
           <div className="row bg-white">

@@ -56,6 +56,23 @@ export const cellphone_filters = [
 		group: 'prices',
 	},
 ]
+export const general_filters = [
+	{
+		name: 'Brand',
+		options: ['Apple', 'Samsung', 'Beats', 'Sony'],
+		group: 'brands',
+	},
+	{
+		name: 'Type',
+		options: ['Computers & Laptops', 'Tablets', 'Cell-Phone', 'Headphones', 'Cameras & Photo', 'Accessories'],
+		group: 'type',
+	},
+	{
+		name: 'Price',
+		options: ['Under $500', '$500 ~ $999', '$1000 & Above'],
+		group: 'prices',
+	},
+]
 
 // # Shared filters
 // customers reviews

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import   { useState, useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import { cellphone_filters, laptop_filters } from '../../constants/laptop_filters'
+import { general_filters,cellphone_filters, laptop_filters } from '../../constants/laptop_filters'
 import { filterChanged } from '../../store/filters/filtersSlice'
 import FilterItem from './FilterItem'
 
@@ -16,11 +16,12 @@ const FiltersSidebar = ({ category }) => {
 		} else if (category === 'Cell-Phones') {
 			setFilters(cellphone_filters)
 		} else {
-			setFilters([])
+			setFilters(general_filters)
 		}
 	}, [category])
 
 	const renderFilters = () => {
+		console.log(filters)
 		return filters.map((filter, index) => (
 			<div key={index} className='mb-2 pb-3 border-bottom'>
 				<h6 className='widget-title'>{filter.name}</h6>
