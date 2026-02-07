@@ -21,6 +21,8 @@
 [x] Fix Home Screen Sliders                     2/3/2026
 [x] Horizontal list hover                       2/3/2026   
 [x] Clear cart button fixed                     2/3/2026
+[x] Add more products                           2/6/2026
+[x] Fix responsive navbar 
 [] Saved logged in user to local storage
 [] Cool messages alrert
 [] Make Arabic default language

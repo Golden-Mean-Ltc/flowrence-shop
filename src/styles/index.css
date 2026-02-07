@@ -235,6 +235,9 @@ header > .navbar {
 
 .navbar-footer a {
 	color: rgb(52, 52, 52);
+	font-size: 1.2rem;
+	font-weight: 500;
+	font-style: normal;
 }
 
 .gold {

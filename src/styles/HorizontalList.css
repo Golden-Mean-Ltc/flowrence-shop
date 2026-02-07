@@ -23,6 +23,7 @@
 }
 .scroll-container > .list-item:hover{
   background-color: #53bd61;
+  cursor: pointer;
 }
 
 /* Optional: Customize the scrollbar appearance for webkit browsers */
