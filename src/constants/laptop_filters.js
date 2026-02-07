@@ -58,17 +58,17 @@ export const cellphone_filters = [
 ]
 export const general_filters = [
 	{
-		name: 'Brand',
+		name: 'category',
+		options: ['Computers & Laptops', 'Tablets', 'Cell-Phone', 'Headphones', 'Cameras & Photo', 'Accessories'],
+		group: 'category',
+	},
+	{
+		name: 'brands',
 		options: ['Apple', 'Samsung', 'Beats', 'Sony'],
 		group: 'brands',
-	},
+	}, 
 	{
-		name: 'Type',
-		options: ['Computers & Laptops', 'Tablets', 'Cell-Phone', 'Headphones', 'Cameras & Photo', 'Accessories'],
-		group: 'type',
-	},
-	{
-		name: 'Price',
+		name: 'price',
 		options: ['Under $500', '$500 ~ $999', '$1000 & Above'],
 		group: 'prices',
 	},

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import   { useState } from 'react'
 import { Form } from 'react-bootstrap'
 
 const FilterItem = ({ name, label, onChange }) => {
@@ -12,7 +12,7 @@ const FilterItem = ({ name, label, onChange }) => {
 	const handleChange = () => {
 		setIsChecked(!isChecked)
 		const changeType = isChecked ? 'removed' : 'added'
-		onChange(name, changeType)
+		onChange(name,  changeType)
 	}
 
 	return (

@@ -31,8 +31,8 @@ export const productListReducer = (
 		products: [],
 		loading: false,
 		sortBy: { key: 'featured', order: 'asc' },
-		pages : 1 , 
-		pageNumber : 1
+		pages: 1,
+		pageNumber: 1
 	},
 	action
 ) => {
@@ -145,32 +145,41 @@ export const productTopRatedReducer = (state = { products: [] }, action) => {
 }
 
 // createSelector used for filtering products
+// const selectProducts = (state) => state.products;
+// const selectFilters = (state) => state.filters 
+const selectProducts = (state) => state.productList.products;
+const selectFilters = (state) => state.filters 
+
+
 export const selectFilteredProducts = createSelector(
-	state => state.productList.products,
-	state => state.filters,
+	[selectProducts,selectFilters ]  , 
 	// Output selector: receives both values
 	(products, filters) => {
-		const { brands, opSystems, processors } = filters
+		const {searchTerm, brands, category, opSystems, processors } = filters
 		// return all
 		// if (filters.brands.length === 0) return products
 
 		return products.filter(item => {
 			// return filters.brands.includes(item.specs.brand.toLowerCase())
-			const brandMatches =
-				brands.length === 0 ||
-				brands.includes(item.specs.brand || item.specs.brand.toLowerCase())
+			// const brandMatches =
+			// 	brand.length === 0 ||
+			// 	brand.includes(item.brand || item.brand.toLowerCase())
 
-			const osMatches =
-				opSystems.length === 0 ||
-				opSystems.includes(item.specs.os || item.specs.os.toLowerCase())
+			// const osMatches =
+			// 	opSystems.length === 0 ||
+			// 	opSystems.includes(item.specs.os || item.specs.os.toLowerCase())
 
-			const processorMatches =
-				processors.length === 0 ||
-				processors.includes(
-					item.specs.processor || item.specs.processor.toLowerCase()
-				)
+			// const processorMatches =
+			// 	processors.length === 0 ||
+			// 	processors.includes(
+			// 		item.specs.processor || item.specs.processor.toLowerCase()
+			// 	)
 
-			return brandMatches && osMatches && processorMatches
+			// const matchesSearch = item.name.toLowerCase().includes(searchTerm.toLowerCase());
+			// const matchesCategory = category === 'all' || item.category === category;
+			const matchesBrand = brands.length === 0 || brands.includes(item.brand.toLowerCase());
+			// return   matchesCategory && matchesBrand &&  osMatches && processorMatches
+			return   matchesBrand  
 		})
 		// products => producst   // return all
 	}

@@ -9,6 +9,7 @@ import ProductItem from "../components/products/ProductItemCard";
 import Toolbar from "../components/Toolbar";
 import { listProducts } from "../store/actions/productActions";
 import Paginate from "../components/Paginate";
+import { selectFilteredProducts } from "../store/reducers/productReducers";
 // import { selectFilteredProducts } from "../store/reducers/productReducers";
 
 // * Show products by Category/Department
@@ -58,9 +59,12 @@ const ProductsScreen = () => {
     (state) => state.productList
   );
 
+
+
   // const filteredProducts = selectFilteredProducts(products, brands)
   // const filteredProducts = selectFilteredProducts(store.getState())
   //   const filteredProducts = useSelector(selectFilteredProducts);
+    const filteredProducts = useSelector(selectFilteredProducts)
 
   // console.log(filteredProducts)
 
@@ -103,8 +107,8 @@ const ProductsScreen = () => {
             {loading && <Loader />}
             {!loading && (
               <>
-                {products.length > 0 &&
-                  products.map((product) => (
+                {filteredProducts.length > 0 &&
+                  filteredProducts.map((product) => (
                     <Col
                       key={product.asin}
                       sm={12}
