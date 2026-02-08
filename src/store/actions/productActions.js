@@ -27,41 +27,61 @@ import { logout } from './userActions'
 import { getProduct } from '../../utils'
 import fakeApi from '../../_api/fakeApi'
 
+// * List products with pagination and search keyword
 export const listProducts =
-	(keyword = '', pageNumber = '', category = '', sortBy='') =>
-	// keyword used for search
-	async dispatch => {
-		try {
-			dispatch({ type: PRODUCT_LIST_REQUEST })
+	(keyword = '', pageNumber = '', category = '', sortBy = '') =>
+		// keyword used for search
+		async dispatch => {
+			try {
+				dispatch({ type: PRODUCT_LIST_REQUEST })
 
-			// const { data } = await axios.get(
-			//   `/api/products?keyword=${keyword}&pageNumber=${pageNumber}`
-			// )
+				// const { data } = await axios.get(
+				//   `/api/products?keyword=${keyword}&pageNumber=${pageNumber}`
+				// )
 
-			// * Fetch products from fake api
-			const response = await fakeApi('/products', {
-				keyword,
-				pageNumber: !pageNumber ? 1 : pageNumber,
-				category, // 'Laptops',
-				sortBy, // featured,'date',
-			})
+				// * Fetch products from fake api
+				const response = await fakeApi('/products', {
+					keyword,
+					pageNumber: !pageNumber ? 1 : pageNumber,
+					category, // 'Laptops',
+					sortBy, // featured,'date',
+				})
 
-			console.log(response)
+				console.log(response)
 
-			dispatch({
-				type: PRODUCT_LIST_SUCCESS,
-				payload: response.data,
-			})
-		} catch (error) {
-			dispatch({
-				type: PRODUCT_LIST_FAIL,
-				payload:
-					error.response && error.response.data.message
-						? error.response.data.message
-						: error.message,
-			})
+				dispatch({
+					type: PRODUCT_LIST_SUCCESS,
+					payload: response.data,
+				})
+			} catch (error) {
+				dispatch({
+					type: PRODUCT_LIST_FAIL,
+					payload:
+						error.response && error.response.data.message
+							? error.response.data.message
+							: error.message,
+				})
+			}
 		}
+
+export const getAllProducts = () => async dispatch => {
+	try {
+		const response = await fakeApi('/products/all')
+		console.log(response)
+
+		dispatch({
+			type: 'PRODUCT_LIST_SET_PRODUCTS_ALL',
+			payload: response.data.products,
+		})
+	} catch (error) {
+		dispatch({
+			type: PRODUCT_LIST_FAIL,
+			payload: error.response && error.response.data.message
+				? error.response.data.message
+				: error.message,
+		})
 	}
+}
 
 export const listProductDetails = id => async dispatch => {
 	// const products = []
@@ -96,7 +116,7 @@ export const listProductDetails = id => async dispatch => {
 	}
 }
 
-export const setSortBy = () => {}
+export const setSortBy = () => { }
 
 export const deleteProduct = id => async (dispatch, getState) => {
 	try {

@@ -29,6 +29,7 @@ import {
 export const productListReducer = (
 	state = {
 		products: [],
+		productsAll: [], // for filtering
 		loading: false,
 		sortBy: { key: 'featured', order: 'asc' },
 		pages: 1,
@@ -51,6 +52,8 @@ export const productListReducer = (
 			return { ...state, loading: false, error: action.payload }
 		case 'PRODUCT_LIST_SORT_BY':
 			return { ...state, sortBy: action.payload }
+		case 'PRODUCT_LIST_SET_PRODUCTS_ALL':
+			return { ...state, productsAll: action.payload }
 		default:
 			return state
 	}
@@ -148,14 +151,14 @@ export const productTopRatedReducer = (state = { products: [] }, action) => {
 // const selectProducts = (state) => state.products;
 // const selectFilters = (state) => state.filters 
 const selectProducts = (state) => state.productList.products;
-const selectFilters = (state) => state.filters 
+const selectFilters = (state) => state.filters
 
 
 export const selectFilteredProducts = createSelector(
-	[selectProducts,selectFilters ]  , 
+	[selectProducts, selectFilters],
 	// Output selector: receives both values
 	(products, filters) => {
-		const {searchTerm, brands, category, opSystems, processors } = filters
+		const { searchTerm, brands, category, opSystems, processors } = filters
 		// return all
 		// if (filters.brands.length === 0) return products
 
@@ -179,7 +182,7 @@ export const selectFilteredProducts = createSelector(
 			// const matchesCategory = category === 'all' || item.category === category;
 			const matchesBrand = brands.length === 0 || brands.includes(item.brand.toLowerCase());
 			// return   matchesCategory && matchesBrand &&  osMatches && processorMatches
-			return   matchesBrand  
+			return matchesBrand
 		})
 		// products => producst   // return all
 	}

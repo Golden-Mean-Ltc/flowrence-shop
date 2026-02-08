@@ -47,7 +47,7 @@ export default function fakeApi(endpoint, payload = {}) {
   // const results = await userSchema.find({}).sort('email')
   // const results = await userSchema.find({}).sort({ username : -1})  // descending
 
-  switch (endpoint) {
+  switch (endpoint) { 
     case "/products":
       // * Search products by keyword
       if (!payload.keyword && !payload.category) {
@@ -93,24 +93,11 @@ export default function fakeApi(endpoint, payload = {}) {
           //   resultsArray.sort(compareValues(key, order));
           // }
         }
-      }
-
-      /*
-      else {
-				// * payload = filters
-				// case '/products?search':
-				// console.log(payload)  // {brand: 'Apple'}
-				// console.log(Object.keys(payload)) // ["brand"]
-				const key = Object.keys(payload)[0]
-
-				const filteredProducts = products.filter(
-					item => item[key] === payload[key]
-				)
-
-				// console.log(filteredProducts)
-				data = makeProductsResponse(filteredProducts, payload.pageNumber)
-			}
-      */
+      } 
+      break;
+      // Get all products without pagination (for admin) - to filter in frontend
+    case "/products/all":
+      data = productsJson;
       break;
     // * Pick random products to show in best sellers product slide show
     case "/products/bestsellers":

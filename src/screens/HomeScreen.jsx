@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap'
 import ProductItem from '../components/products/ProductItemCard.jsx'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
-import { listProducts } from '../store/actions/productActions'
+import { getAllProducts, listProducts } from '../store/actions/productActions'
 import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
 import ProductsSlider from '../components/products/ProductSlider.jsx' 
 import { setShowCartModal } from '../store/settingsSlice.js' 
@@ -28,6 +28,7 @@ const HomeScreen = () => {
 
   useEffect(() => {
     dispatch(listProducts())
+    dispatch(getAllProducts())
     // console.log(pageNumber)
   }, [dispatch])
 
