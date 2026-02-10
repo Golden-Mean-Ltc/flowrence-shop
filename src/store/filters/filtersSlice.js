@@ -15,6 +15,7 @@ export const StatusFilters = {
 const initialState = {
 	status: StatusFilters.All,
 	searchTerm: '',
+	pageNumber : 1 , 
 	// category: 'all', 
 	category: [], 
 	brands: [], // apple, samsung, beats, sony
@@ -107,6 +108,9 @@ export const filtersSlice = createSlice({
     setBrand: (state, action) => {
       state.brand = action.payload;
     },
+	setPageNumber: (state, action) => {
+		state.pageNumber = action.payload;
+	},
 	setFilter: (state, action) => {
 		console.log(  action.payload)
 		const { filterName, filterValue, changeType } = action.payload;
@@ -130,7 +134,7 @@ export const filtersSlice = createSlice({
   },
 });
 
-export const { setSearchTerm, setCategory, setBrand, setFilter } = filtersSlice.actions;
+export const { setSearchTerm, setCategory, setBrand,setPageNumber, setFilter } = filtersSlice.actions;
 // export const { brandFilterChanged, filterChanged } = filtersSlice.actions
 
 export default filtersSlice.reducer

@@ -24,6 +24,8 @@
 [x] Add more products                           2/6/2026
 [x] Fix responsive navbar 
 [] Fix products filters 
+[x] Fix pagination in frontend                  2/10/2026
+[] Fix sort by in frontend 
 [] Saved logged in user to local storage
 [] Cool messages alrert
 [] Make Arabic default language

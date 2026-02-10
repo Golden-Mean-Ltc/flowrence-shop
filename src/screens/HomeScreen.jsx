@@ -27,8 +27,7 @@ const HomeScreen = () => {
 
 
   useEffect(() => {
-    dispatch(listProducts())
-    dispatch(getAllProducts())
+    dispatch(listProducts()) 
     // console.log(pageNumber)
   }, [dispatch])
 

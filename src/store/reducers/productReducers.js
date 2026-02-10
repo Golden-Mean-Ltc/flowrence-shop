@@ -150,7 +150,7 @@ export const productTopRatedReducer = (state = { products: [] }, action) => {
 // createSelector used for filtering products
 // const selectProducts = (state) => state.products;
 // const selectFilters = (state) => state.filters 
-const selectProducts = (state) => state.productList.products;
+const selectProducts = (state) => state.productList.productsAll;
 const selectFilters = (state) => state.filters
 
 
@@ -158,7 +158,7 @@ export const selectFilteredProducts = createSelector(
 	[selectProducts, selectFilters],
 	// Output selector: receives both values
 	(products, filters) => {
-		const { searchTerm, brands, category, opSystems, processors } = filters
+		const { searchTerm, brands, category, opSystems, processors, pageNumber } = filters
 		// return all
 		// if (filters.brands.length === 0) return products
 
@@ -183,7 +183,10 @@ export const selectFilteredProducts = createSelector(
 			const matchesBrand = brands.length === 0 || brands.includes(item.brand.toLowerCase());
 			// return   matchesCategory && matchesBrand &&  osMatches && processorMatches
 			return matchesBrand
-		})
+			// console.log('matchesBrand', matchesBrand)  // true,false
+	})
 		// products => producst   // return all
-	}
+	} 
 )
+
+ 

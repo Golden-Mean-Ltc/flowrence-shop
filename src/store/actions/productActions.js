@@ -71,7 +71,7 @@ export const getAllProducts = () => async dispatch => {
 
 		dispatch({
 			type: 'PRODUCT_LIST_SET_PRODUCTS_ALL',
-			payload: response.data.products,
+			payload: response.data,
 		})
 	} catch (error) {
 		dispatch({

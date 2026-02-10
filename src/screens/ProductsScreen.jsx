@@ -7,9 +7,11 @@ import Loader from "../components/Loader";
 import Message from "../components/Message";
 import ProductItem from "../components/products/ProductItemCard";
 import Toolbar from "../components/Toolbar";
-import { listProducts } from "../store/actions/productActions";
+import { getAllProducts, listProducts } from "../store/actions/productActions";
 import Paginate from "../components/Paginate";
 import { selectFilteredProducts } from "../store/reducers/productReducers";
+import Pagination from "../components/Pagination2";
+import Pagination2 from "../components/Pagination2";
 // import { selectFilteredProducts } from "../store/reducers/productReducers";
 
 // * Show products by Category/Department
@@ -33,7 +35,7 @@ const ProductsScreen = () => {
 
   const [pageDetails, setPageDetails] = useState({});
   const [viewMode, setViewMode] = useState("grid"); // grid by default
-  const [showSidebar, setShowSidebar] = useState(true); // show fitlers sidebar
+  const [showSidebar, setShowSidebar] = useState(true); // show fitlers sidebar 
   // handle sort by dropdown
 
   // console.log(useParams())
@@ -55,39 +57,39 @@ const ProductsScreen = () => {
     }
   }
 
-  const { loading, error, pages,pageNumber, sortBy, products } = useSelector(
+  const { loading, error, pages, sortBy, productsAll } = useSelector(
     (state) => state.productList
   );
+ const pageNumber = useSelector(state => state.filters.pageNumber)
 
-
+// # Products to display on current page after filtering in frontend
+function paginateProducts(filteredProducts, pageNumber) {
+	const productsPerPage = 12;
+	const indexOfLastProduct = pageNumber * productsPerPage;
+	const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+	return filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct)
+}
 
   // const filteredProducts = selectFilteredProducts(products, brands)
   // const filteredProducts = selectFilteredProducts(store.getState())
   //   const filteredProducts = useSelector(selectFilteredProducts);
-    const filteredProducts = useSelector(selectFilteredProducts)
+    // const filteredProducts = useSelector(selectFilteredProducts) 
+    const filteredProducts =  paginateProducts(useSelector(selectFilteredProducts), pageNumber)
+  // console.log('Filtered products:', filteredProducts)
 
   // console.log(filteredProducts)
+  // console.log(paginateProducts(filteredProducts, pageNumber))
 
-  useEffect(() => { 
-    // if (category) {
-    //   let x = getDetails(category);
-    //   setPageDetails(x);
-    // }
-
-    // if (!category) dispatch(listProducts('', pageNumber || 1))
-    // else dispatch(listProductsByCategory(x.category, pageNumber))
-    // dispatch(listProducts("", pageNumber, category, sortBy));
-    dispatch(listProducts(keyword, paramsPage));
-
-
-    // dispatch(listProducts(1, 1, { category }))
+  useEffect(() => {  
+    // const details = getDetails(category)
+  dispatch(getAllProducts()) 
   }, [dispatch, paramsPage, keyword, category]);
 
   if (error) return <Message variant="danger">{error}</Message>;
 
   return (
-    <div className="container bg-dark">
-      <Row style={{ backgroundColor: "#bb3434" }} className="p-3">
+    <div className="container " style={{ backgroundColor: "#d4dcf1" }}>
+      <Row style={{ backgroundColor: "#c6c9d3" }} className="p-3">
         <div className="col-md-3 pl-5">
           <h3>{pageDetails.title}</h3>
         </div>
@@ -127,7 +129,8 @@ const ProductsScreen = () => {
           </div>
         </div>
       </div>
-      <Row>
+      {/* Pagination below works with backend pagination, not frontend filtering. */}
+      {/* <Row>
         {!loading && pages > 1 && (
           <Paginate
             pages={pages}
@@ -135,7 +138,11 @@ const ProductsScreen = () => {
             keyword={keyword ? keyword : ""}
           />
         )}
-      </Row>
+      </Row> */} 
+      <div className="p-3">
+        {/* Pagination below works with frontend filtering, not backend pagination. */}
+        <Pagination2 productsCount={productsAll.length} productsPerPage={12} />
+      </div>
     </div>
   );
 };
