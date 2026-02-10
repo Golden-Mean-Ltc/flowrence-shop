@@ -1,8 +1,7 @@
 # TODOS | 1/22/2026
 -----------------
 [x] Update to use Vite 
-[] First fix the HomeScreen
-[ ] Fix responsive layout n sidebar
+[] First fix the HomeScreen 
 [] Fix router n Navigation 
 [x] Bootstrap side menu                         1/22/2026
 [x] Add Categories slider in the Header         1/23/2026
@@ -25,7 +24,7 @@
 [x] Fix responsive navbar 
 [] Fix products filters 
 [x] Fix pagination in frontend                  2/10/2026
-[] Fix sort by in frontend 
+[] Fix sort by price in frontend 
 [] Saved logged in user to local storage
 [] Cool messages alrert
 [] Make Arabic default language

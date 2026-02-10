@@ -1,7 +1,6 @@
 import users from "./users.json";
 // import productss from "./products.json";
-import productsJson from "./products.json";
-import { compareProductDates_desc, compareValues } from "../utils";
+import productsJson from "./products.json"; 
 
 // Filter products by category
 // '/products?category=laptops'

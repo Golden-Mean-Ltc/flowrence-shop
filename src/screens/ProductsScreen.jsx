@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Col,   Row } from "react-bootstrap";
-import { useDispatch, useSelector } from "react-redux"; 
+import { Col, Row } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
 import { useParams, useSearchParams } from "react-router-dom";
 import FiltersSidebar from "../components/filters-sidebar/FiltersSidebar";
 import Loader from "../components/Loader";
@@ -17,19 +17,19 @@ import Pagination2 from "../components/Pagination2";
 // * Show products by Category/Department
 // should contain filters, title, page number change...
 const ProductsScreen = () => {
-  const params = useParams(); 
+  const params = useParams();
   console.log(params);
   const paramsPage = params.page
   const keyword = params.keyword
   // const { pageNumber, keyword } = params; 
   // console.log(pageNumber)
-  
+
 
   const [searchParams, setSearchParams] = useSearchParams()
   const category = searchParams.get('category')
   // const brand = searchParams.get('brand')
   // const keyword = searchParams.get('keyword')
-  console.log(keyword) 
+  console.log(keyword)
 
   const dispatch = useDispatch();
 
@@ -60,32 +60,42 @@ const ProductsScreen = () => {
   const { loading, error, pages, sortBy, productsAll } = useSelector(
     (state) => state.productList
   );
- const pageNumber = useSelector(state => state.filters.pageNumber)
+  const pageNumber = useSelector(state => state.filters.pageNumber)
 
-// # Products to display on current page after filtering in frontend
-function paginateProducts(filteredProducts, pageNumber) {
-	const productsPerPage = 12;
-	const indexOfLastProduct = pageNumber * productsPerPage;
-	const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-	return filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct)
-}
+  // # Products to display on current page after filtering in frontend
+  function paginateProducts(filteredProducts, pageNumber) {
+    const productsPerPage = 12;
+    const indexOfLastProduct = pageNumber * productsPerPage;
+    const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+    return filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct)
+  }
 
-  // const filteredProducts = selectFilteredProducts(products, brands)
-  // const filteredProducts = selectFilteredProducts(store.getState())
-  //   const filteredProducts = useSelector(selectFilteredProducts);
-    // const filteredProducts = useSelector(selectFilteredProducts) 
-    const filteredProducts =  useSelector(selectFilteredProducts) 
-    console.log('Filtered products in component:', filteredProducts)
-    const filterProductsByPage = paginateProducts(filteredProducts, pageNumber)
-    console.log('Products by page:', filterProductsByPage)
+  //   const filteredProducts = useSelector(selectFilteredProducts) 
+  const filteredProducts = useSelector(selectFilteredProducts).sort((a, b) => {
+    if (sortBy.key === 'price') {
+      return sortBy.order === 'asc' ? a.price - b.price : b.price - a.price;
+    } else if (sortBy.key === 'newest') {
+      // return sortBy.order === 'asc' ? new Date(a.createdAt) - new Date(b.createdAt) : new Date(b.createdAt) - new Date(a.createdAt);
+      return sortBy.order === 'asc' ? new Date(a.dateFirstAvailable) - new Date(b.dateFirstAvailable) : new Date(b.dateFirstAvailable) - new Date(a.dateFirstAvailable);
+    } else if (sortBy.key === 'featured') {
+      return 0; // No sorting for featured, as it's the default order
+    } else {
+      return 0; // Default case, no sorting
+    }
+  })
+
+  console.log('Filtered products in component:', filteredProducts)
+
+  const filterProductsByPage = paginateProducts(filteredProducts, pageNumber)
+  console.log('Products by page:', filterProductsByPage)
   // console.log('Filtered products:', filteredProducts)
 
   // console.log(filteredProducts)
   // console.log(paginateProducts(filteredProducts, pageNumber))
 
-  useEffect(() => {  
+  useEffect(() => {
     // const details = getDetails(category)
-  dispatch(getAllProducts()) 
+    dispatch(getAllProducts())
   }, [dispatch, paramsPage, keyword, category]);
 
   if (error) return <Message variant="danger">{error}</Message>;
@@ -102,10 +112,10 @@ function paginateProducts(filteredProducts, pageNumber) {
       </Row>
 
       <div className="row mb-2 ">
-        {/* Products Grid */} 
-          <div className= "col-md-3" >
-            {showSidebar && <FiltersSidebar category={category} />}
-          </div> 
+        {/* Products Grid */}
+        <div className="col-md-3" >
+          {showSidebar && <FiltersSidebar category={category} />}
+        </div>
 
         <div className="col">
           <div className="row bg-white">
@@ -119,7 +129,7 @@ function paginateProducts(filteredProducts, pageNumber) {
                       sm={12}
                       md={6}
                       lg={viewMode === "grid" ? 4 : 12}
-                      // className={viewMode === "grid" ? "mb-4" : "mb-2"    }
+                    // className={viewMode === "grid" ? "mb-4" : "mb-2"    }
                     >
                       <ProductItem
                         product={product}
@@ -141,7 +151,7 @@ function paginateProducts(filteredProducts, pageNumber) {
             keyword={keyword ? keyword : ""}
           />
         )}
-      </Row> */} 
+      </Row> */}
       <div className="p-3">
         {/* Pagination below works with frontend filtering, not backend pagination. */}
         <Pagination2 productsCount={filteredProducts.length} productsPerPage={12} />

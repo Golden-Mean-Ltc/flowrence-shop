@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import { useDispatch } from 'react-redux'
 
 const SortByDropdown = () => {
@@ -14,13 +14,17 @@ const SortByDropdown = () => {
 		},
 		{
 			value: 'price_desc',
-			text: 'Price: Hight to low',
+			text: 'Price: High to low',
 			key: 'key',
-		},
-		{ value: 'rating_desc', text: 'Average Review', key: 'key', order: 'asc' },
+		}, 
 		{
 			value: 'newest_asc',
-			text: 'Newest Arival',
+			text: 'Newest Arrival',
+			key: 'key',
+		},
+		{
+			value: 'newest_desc',
+			text: 'Oldest Arrival',
 			key: 'key',
 		},
 	]

@@ -1,14 +1,16 @@
 
-import { Col,  Image, ListGroup, Row } from 'react-bootstrap'
-import { useDispatch  } from 'react-redux'
+import { Col, Image, ListGroup, Row } from 'react-bootstrap'
+import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
-import {   decreaseItemQuantity, increaseItemQuantity, 
-	removeFromCart} from '../../store/cart/cartSlice'
+import {
+	decreaseItemQuantity, increaseItemQuantity,
+	removeFromCart
+} from '../../store/cart/cartSlice'
 
 const CartListItem = ({ item }) => {
 	const dispatch = useDispatch()
 
-	const itemName = item.name ? item.name : item.title
+	const itemName = item.name ? item.name : item.productTitle
 
 	return (
 		<ListGroup.Item key={item.product} style={{ border: '1px solid #eee' }} className='py-3'>
@@ -29,7 +31,7 @@ const CartListItem = ({ item }) => {
 							data-placement={itemName}
 							title={itemName}>
 							{itemName.slice(0, 75)}
-						</Link> 
+						</Link>
 					</div>
 					<div className=' d-flex justify-content-between'>
 						<Col >${item.price}</Col>
@@ -40,9 +42,9 @@ const CartListItem = ({ item }) => {
 								<span className="badge btn-warning" onClick={() => dispatch(increaseItemQuantity(item.asin))}  > + </span>
 							</div>
 						</Col>
-							<button className="btn-close mx-1" 
+						<button className="btn-close mx-1"
 							// onClick={() => dispatch(removeItem(item.asin))} 
-							onClick={() => dispatch(removeFromCart(item.asin))}   />
+							onClick={() => dispatch(removeFromCart(item.asin))} />
 					</div>
 				</div>
 			</Row>
