@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap'
 import Rating from '../Rating'
 import { getProduct } from '../../utils'
 import { useSelector, useDispatch } from 'react-redux'
-import AddToCartBtn from './AddToCartBtn'
+// import AddToCartBtn from './AddToCartBtn'
 import { addToCart } from '../../store/cart/cartSlice'
 
 
@@ -21,7 +21,7 @@ const ProductItemCard = ({
   const r = useSelector(state => state.strings.r) 
 
   // handle show cart plus icon btn
-  const [showCartPlus, setShowCartPlus] = useState(true)
+  // const [showCartPlus, setShowCartPlus] = useState(true)
   const [showCheck, setShowCheck] = useState(false)
 
   const handleAddToCartClick = () => { 
