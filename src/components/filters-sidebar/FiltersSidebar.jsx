@@ -3,7 +3,9 @@ import { useDispatch } from 'react-redux'
 import { general_filters,cellphone_filters, laptop_filters } from '../../constants/laptop_filters'
 // import { filterChanged } from '../../store/filters/filtersSlice'
 import FilterItem from './FilterItem'
-import { setBrand, setCategory, setFilter } from '../../store/filters/filtersSlice'
+import { 
+	// setBrand, setCategory, 
+	setFilter } from '../../store/filters/filtersSlice'
 
 const FiltersSidebar = ({ category }) => {
 	const dispatch = useDispatch()
@@ -19,7 +21,7 @@ const FiltersSidebar = ({ category }) => {
 		} else {
 			setFilters(general_filters)
 		}
-	}, [category])
+	}, [category]) 
 
 	const renderFilters = () => {
 		console.log(filters)

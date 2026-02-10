@@ -74,7 +74,10 @@ function paginateProducts(filteredProducts, pageNumber) {
   // const filteredProducts = selectFilteredProducts(store.getState())
   //   const filteredProducts = useSelector(selectFilteredProducts);
     // const filteredProducts = useSelector(selectFilteredProducts) 
-    const filteredProducts =  paginateProducts(useSelector(selectFilteredProducts), pageNumber)
+    const filteredProducts =  useSelector(selectFilteredProducts) 
+    console.log('Filtered products in component:', filteredProducts)
+    const filterProductsByPage = paginateProducts(filteredProducts, pageNumber)
+    console.log('Products by page:', filterProductsByPage)
   // console.log('Filtered products:', filteredProducts)
 
   // console.log(filteredProducts)
@@ -109,8 +112,8 @@ function paginateProducts(filteredProducts, pageNumber) {
             {loading && <Loader />}
             {!loading && (
               <>
-                {filteredProducts.length > 0 &&
-                  filteredProducts.map((product) => (
+                {filterProductsByPage.length > 0 &&
+                  filterProductsByPage.map((product) => (
                     <Col
                       key={product.asin}
                       sm={12}
@@ -141,7 +144,7 @@ function paginateProducts(filteredProducts, pageNumber) {
       </Row> */} 
       <div className="p-3">
         {/* Pagination below works with frontend filtering, not backend pagination. */}
-        <Pagination2 productsCount={productsAll.length} productsPerPage={12} />
+        <Pagination2 productsCount={filteredProducts.length} productsPerPage={12} />
       </div>
     </div>
   );
