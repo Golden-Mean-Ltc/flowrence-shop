@@ -158,7 +158,9 @@ export const selectFilteredProducts = createSelector(
 	[selectProducts, selectFilters],
 	// Output selector: receives both values
 	(products, filters) => {
-		const { searchTerm, brands, category, opSystems, processors, pageNumber } = filters
+		const {  brands, category,
+			// searchTerm, opSystems, processors   
+			} = filters
 		// return all
 		// if (filters.brands.length === 0) return products
 
@@ -180,13 +182,13 @@ export const selectFilteredProducts = createSelector(
 
 			// const anyCategoryMatches = category.some(cat => item.categories.includes(cat.toLowerCase())) 
 			const anyCategoryMatches = category.length === 0 || item.categories.some(cat => category.includes(cat.toLowerCase()))
-			console.log('anyCategoryMatches', anyCategoryMatches) // true,false 
+			// console.log('anyCategoryMatches', anyCategoryMatches) // true,false 
 
 			// const matchesSearch = item.name.toLowerCase().includes(searchTerm.toLowerCase());
 			// const matchesCategory = category === 'all' || item.category === category;
 			const matchesBrand = brands.length === 0 || brands.includes(item.brand.toLowerCase());
 			// const matchCategory = category.length === 0 || category.includes(item.categories[0].toLowerCase());
-		 
+
 			return matchesBrand && anyCategoryMatches
 			// console.log('matchesBrand', matchesBrand)  // true,false
 	})
