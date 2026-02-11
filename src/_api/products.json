@@ -1574,6 +1574,19 @@
     "price": 1319.0,
     "priceRange": null,
     "shippingPrice": 0.0,
+       "mainImage": {
+        "imageUrl": "https://m.media-amazon.com/images/I/615y53Ws-NL._AC_SX679_.jpg",
+        "imageResolution": "679 x 679"
+    },
+     "imageUrlList": [
+        "https://m.media-amazon.com/images/I/615y53Ws-NL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71obRIWW0CL._AC_SL1200_.jpg",
+        "https://m.media-amazon.com/images/I/61-YXi8U1KL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61KLLeCJcXL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81RptZyEZZL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61AvLgnYlQL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61qqsZJl8YL._AC_SL1500_.jpg"
+    ],
     "categories": [
       "Electronics",
       "Computers"
@@ -1674,8 +1687,7 @@
       "https://m.media-amazon.com/images/I/615SrR9lg6L._AC_SL1000_.jpg",
       "https://m.media-amazon.com/images/I/61NsoeiRyIS._AC_SL1000_.jpg",
       "https://m.media-amazon.com/images/I/61jusJpgUvL._AC_SL1000_.jpg"
-    ],
-    "videoeUrlList": [],
+    ], 
     "description": "MSI Stealth 15M: 15.6\" FHD 144Hz Thin Bezel Gaming Laptop Intel Core i7-11375H RTX3060 16GB 512GB NVMe SSD Win10.",
     "details": [
       {

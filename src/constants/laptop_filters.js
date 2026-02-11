@@ -64,7 +64,7 @@ export const general_filters = [
 	},
 	{
 		name: 'brands',
-		options: ['Apple', 'Samsung', 'Beats', 'Sony'],
+		options: ['Apple', 'Samsung', 'Microsoft', 'ASUS', 'MSI', 'Beats', 'Sony', 'Anker'],
 		group: 'brands',
 	}, 
 	{

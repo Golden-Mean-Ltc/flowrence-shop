@@ -12,8 +12,7 @@ import { addToCart } from '../../store/cart/cartSlice'
 const ProductItemCard = ({
   product: product_,
   grid = true,
-  // showRating,
-  clickable,
+  // showRating, 
 }) => {
   const dispatch = useDispatch()
   const product = getProduct(product_)
@@ -65,20 +64,13 @@ const ProductItemCard = ({
 
       <div className='row'>
         <div className={grid ? 'col-12' : 'col-6'}>
-          <div className='card-img'>
-            {clickable ? (
+          <div className='card-img'> 
               <Link to={`/product/${product._id}`}>
                 <img
-                  src={product.mainImage.imageUrl || product.images[0]}
+                  src={product.mainImage !== undefined ? product.mainImage.imageUrl  : "product.imageUrlList[0]"}
                   alt=''
                 />
-              </Link>
-            ) : (
-              <img
-                src={product.mainImage.imageUrl || product.images[0]}
-                alt=''
-              />
-            )}
+              </Link> 
           </div>
         </div>
         <div className='col'>

@@ -5,7 +5,8 @@ import { general_filters,cellphone_filters, laptop_filters } from '../../constan
 import FilterItem from './FilterItem'
 import { 
 	// setBrand, setCategory, 
-	setFilter } from '../../store/filters/filtersSlice'
+	setFilter, 
+	setPageNumber} from '../../store/filters/filtersSlice'
 
 const FiltersSidebar = ({ category }) => {
 	const dispatch = useDispatch()
@@ -37,6 +38,7 @@ const FiltersSidebar = ({ category }) => {
 							console.log('Filter changed:', filter.name, filterValue, changeType) 
 							// dispatch(filterChanged(filterValue, changeType, filter.group))
 							dispatch(setFilter({  filterName: filter.name, filterValue: filterValue.toLowerCase(), changeType }))
+							dispatch(setPageNumber(1))
 						}}
 					/>
 				))}
