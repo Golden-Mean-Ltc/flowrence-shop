@@ -178,11 +178,16 @@ export const selectFilteredProducts = createSelector(
 			// 		item.specs.processor || item.specs.processor.toLowerCase()
 			// 	)
 
+			// const anyCategoryMatches = category.some(cat => item.categories.includes(cat.toLowerCase())) 
+			const anyCategoryMatches = category.length === 0 || item.categories.some(cat => category.includes(cat.toLowerCase()))
+			console.log('anyCategoryMatches', anyCategoryMatches) // true,false 
+
 			// const matchesSearch = item.name.toLowerCase().includes(searchTerm.toLowerCase());
 			// const matchesCategory = category === 'all' || item.category === category;
 			const matchesBrand = brands.length === 0 || brands.includes(item.brand.toLowerCase());
-			// return   matchesCategory && matchesBrand &&  osMatches && processorMatches
-			return matchesBrand
+			// const matchCategory = category.length === 0 || category.includes(item.categories[0].toLowerCase());
+		 
+			return matchesBrand && anyCategoryMatches
 			// console.log('matchesBrand', matchesBrand)  // true,false
 	})
 		// products => producst   // return all

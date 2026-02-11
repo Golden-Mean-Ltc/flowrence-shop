@@ -59,7 +59,7 @@ export const cellphone_filters = [
 export const general_filters = [
 	{
 		name: 'category',
-		options: ['Computers & Laptops', 'Tablets', 'Cell-Phone', 'Headphones', 'Cameras & Photo', 'Accessories'],
+		options: ['Computers', 'Laptops', 'Tablets', 'Cell Phones', 'Headphones & Earbuds', "Smart Watches", 'Accessories'],
 		group: 'category',
 	},
 	{
