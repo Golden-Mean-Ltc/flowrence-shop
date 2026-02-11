@@ -1,4 +1,4 @@
- 
+
 import { useDispatch } from 'react-redux'
 
 const SortByDropdown = () => {
@@ -6,33 +6,41 @@ const SortByDropdown = () => {
 
 	// * Select options
 	const options = [
-		{ value: 'featured_asc', text: 'Featured', key: 'key' },
+		{
+			value: 'featured_asc',
+			text: 'Featured',
+			key: 'featured'
+		},
 		{
 			value: 'price_asc',
+			order: 'asc',
 			text: 'Price: Low to high',
-			key: 'key',
+			key: 'price',
 		},
 		{
 			value: 'price_desc',
+			order: 'desc',
 			text: 'Price: High to low',
-			key: 'key',
-		}, 
-		{
-			value: 'newest_asc',
-			text: 'Newest Arrival',
-			key: 'key',
+			key: 'price',
 		},
 		{
 			value: 'newest_desc',
+			order: 'desc',
+			text: 'Newest Arrival',
+			key: 'newest',
+		},
+		{
+			value: 'newest_asc',
+			order: 'asc',
 			text: 'Oldest Arrival',
-			key: 'key',
+			key: 'newest',
 		},
 	]
 
 	const handleChange = e => {
 		// console.log(e.target) // <select />
-		// console.log(e.target.value) //
-		console.log(e.target.order) //
+		// console.log(e.target.value) // price_asc, price_desc, newest_asc, newest_desc
+		console.log('Selected sort option:', e.target.value)
 
 		const sortByArr = e.target.value.split('_')
 		const key = sortByArr[0]
