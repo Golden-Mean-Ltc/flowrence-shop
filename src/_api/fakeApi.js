@@ -94,16 +94,17 @@ export default function fakeApi(endpoint, payload = {}) {
         }
       } 
       break;
-      // Get all products without pagination (for admin) - to filter in frontend
+      // # Get all products without pagination (for admin) - to filter in frontend
+      // # Sort them by date to show newest products first
     case "/products/all":
-      data = productsJson;
+      data = productsJson.sort(  (a, b) => new Date(b.dateFirstAvailable) - new Date(a.dateFirstAvailable) );
       break;
     // * Pick random products to show in best sellers product slide show
     case "/products/bestsellers":
       {
         // shuffledArray = array.sort((a, b) => 0.5 - Math.random());
         const productsShuffled = productsJson.sort(
-          (a, b) => 0.5 - Math.random()
+          () => 0.5 - Math.random()
         );
         console.log(productsShuffled);
         data = makeProductsResponse(productsShuffled.slice(1, 8), 1);

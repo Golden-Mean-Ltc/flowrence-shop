@@ -101,8 +101,8 @@ const ProductsScreen = () => {
   if (error) return <Message variant="danger">{error}</Message>;
 
   return (
-    <div className="container " style={{ backgroundColor: "#e1e3e7" }}>
-      <Row style={{ backgroundColor: "#bbc4e6" }} className="p-3">
+    <div className="container " style={{ backgroundColor: "#eceef3" }}>
+      <Row style={{ backgroundColor: "#c0cbf0" }} className="p-3">
         <div className="col-md-3 pl-5">
           <h3>{pageDetails.title}</h3>
         </div>
