@@ -82,7 +82,7 @@ const ProductScreen = () => {
     dispatch(addToCart(product.asin, quantity));
   };
 
-  const submitHandler = (e) => {
+  // const submitHandler = (e) => {
     // e.preventDefault();
     // dispatch(
     //   createProductReview(match.params.id, {
@@ -90,7 +90,7 @@ const ProductScreen = () => {
     //     comment,
     //   })
     // );
-  };
+  // };
 
   return (
     <div className="page">
@@ -111,19 +111,19 @@ const ProductScreen = () => {
               <Col>
                 <ListGroup variant="flush">
                   <ListGroup.Item>
-                    <h4>{product.title}</h4>
+                    <h4>{product.productTitle}</h4>
                   </ListGroup.Item>
                   <ListGroup.Item>
                     <Rating
-                      rating={product.rating}
-                      text={`${product.numReviews} reviews`}
+                      rating={product.productRating ? parseFloat(product.productRating.substring(0, 2)) : 4.5}
+                      text={`${product.countReview} reviews`}
                     />
                   </ListGroup.Item>
 
                   <div
                     // className='collapse'
                     id="collapseExample"
-                    style={{ maxHeight: "236px", overflow: "hidden" }}
+                    style={{ maxHeight: "230px", overflow: "hidden" }}
                   >
                     {product.description && (
                       <ListGroup.Item>
@@ -215,92 +215,27 @@ const ProductScreen = () => {
               </div>
             </Row>
             <Row>
-              {/* <Col md={6}>
+               <Col sm={12} md={8}>
 							<h2>Reviews</h2>
-							{product.reviews.length === 0 && (
+							{product.reviews && product.reviews.length === 0 && (
 								<Message>No Reviews</Message>
 							)}
+              {product.reviews && product.reviews.length> 0 && (
 							<ListGroup variant='flush'>
 								{product.reviews.map((review) => (
 									<ListGroup.Item key={review._id}>
-										<strong>{review.name}</strong>
-										<Rating value={review.rating} />
+										<strong>{review.text}</strong>
+										<Rating rating={parseFloat(review.rating.substring(0, 2)) } />
 										<p>
-											{review.createdAt.substring(0, 10)}
+											{review.date}
 										</p>
+                    <p>By : {review.userName}</p>
 										<p>{review.comment}</p>
 									</ListGroup.Item>
-								))}
-								<ListGroup.Item>
-									<h2>Write a Customer Review</h2>
-									{successProductReview && (
-										<Message variant='success'>
-											Review submitted successfully
-										</Message>
-									)}
-									{loadingProductReview && <Loader />}
-									{errorProductReview && (
-										<Message variant='danger'>
-											{errorProductReview}
-										</Message>
-									)}
-									{user ? (
-										<Form onSubmit={submitHandler}>
-											<Form.Group controlId='rating'>
-												<Form.Label>Rating</Form.Label>
-												<Form.Control
-													as='select'
-													value={rating}
-													onChange={(e) =>
-														setRating(e.target.value)
-													}>
-													<option value=''>
-														Select...
-													</option>
-													<option value='1'>
-														1 - Poor
-													</option>
-													<option value='2'>
-														2 - Fair
-													</option>
-													<option value='3'>
-														3 - Good
-													</option>
-													<option value='4'>
-														4 - Very Good
-													</option>
-													<option value='5'>
-														5 - Excellent
-													</option>
-												</Form.Control>
-											</Form.Group>
-											<Form.Group controlId='comment'>
-												<Form.Label>Comment</Form.Label>
-												<Form.Control
-													as='textarea'
-													row='3'
-													value={comment}
-													onChange={(e) =>
-														setComment(e.target.value)
-													}></Form.Control>
-											</Form.Group>
-											<Button
-												disabled={loadingProductReview}
-												type='submit'
-												variant='primary'>
-												Submit
-											</Button>
-										</Form>
-									) : (
-										<Message>
-											Please{' '}
-											<Link to='/login'>sign in</Link> to
-											write a review{' '}
-										</Message>
-									)}
-								</ListGroup.Item>
+								))} 
 							</ListGroup>
-						</Col> */}
+              )}
+						</Col>  
             </Row>
           
           </>
