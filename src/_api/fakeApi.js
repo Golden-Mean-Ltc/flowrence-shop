@@ -1,6 +1,6 @@
 import users from "./users.json";
 // import productss from "./products.json";
-import productsJson from "./products.json"; 
+import productsJson from "./products.json";
 
 // Filter products by category
 // '/products?category=laptops'
@@ -20,9 +20,9 @@ const makePromise = (data_) => {
 };
 
 // build response object for products with pagination
-const makeProductsResponse = (filteredProducts 
+const makeProductsResponse = (filteredProducts
   // , pageNumber
-  ) => {
+) => {
   // # Pagination is done in frontend, so we return all filtered products and paginate them in frontend
   // let itemsPerPage = 9; // 12
   // let sliceStart = pageNumber * itemsPerPage - itemsPerPage;
@@ -43,18 +43,21 @@ export default function fakeApi(endpoint, payload = {}) {
 
   let data = {};
   let products_ = [];
-    let pageNumber = payload.pageNumber ? payload.pageNumber : 1;
+  let product = {};
+  let pageNumber = payload.pageNumber ? payload.pageNumber : 1;
+  let user = {};
+  let user_ = {};
   // let sliceStart = payload.pageNumber * 12 - 12
   // const laptops = [ "Macbook Air", "Macbook Pro", "Macbook 16" ];
   // const results = await userSchema.find({}).sort('email')
   // const results = await userSchema.find({}).sort({ username : -1})  // descending
 
-  switch (endpoint) { 
+  switch (endpoint) {
     case "/products":
       // * Search products by keyword
       if (!payload.keyword && !payload.category) {
         // data = makeProductsResponse(productsJson, pageNumber);
-        data = makeProductsResponse(productsJson );
+        data = makeProductsResponse(productsJson);
         console.log(data)
       } else {
         if (payload.keyword) {
@@ -75,7 +78,7 @@ export default function fakeApi(endpoint, payload = {}) {
           // 	item.categories.includes(payload.category)
           // )
           // * Cell-Phones => Cell Phones
-          const category_ = payload.category.replace(/-/g, " ");
+          // const category_ = payload.category.replace(/-/g, " ");
           // resultsArray = products.filter((item) =>
           //   item.categories.includes(category_)
           // );
@@ -96,12 +99,12 @@ export default function fakeApi(endpoint, payload = {}) {
           //   resultsArray.sort(compareValues(key, order));
           // }
         }
-      } 
+      }
       break;
-      // # Get all products without pagination (for admin) - to filter in frontend
-      // # Sort them by date to show newest products first
+    // # Get all products without pagination (for admin) - to filter in frontend
+    // # Sort them by date to show newest products first
     case "/products/all":
-      data = productsJson.sort(  (a, b) => new Date(b.dateFirstAvailable) - new Date(a.dateFirstAvailable) );
+      data = productsJson.sort((a, b) => new Date(b.dateFirstAvailable) - new Date(a.dateFirstAvailable));
       break;
     // * Pick random products to show in best sellers product slide show
     case "/products/bestsellers":
@@ -116,18 +119,18 @@ export default function fakeApi(endpoint, payload = {}) {
       }
       break;
     case "/products/id":
-      let product = productsJson.filter((item) => item.asin === payload);
+      product = productsJson.filter((item) => item.asin === payload);
       // console.log( product )   // array
       data = product[0];
       break;
 
     case "/login":
-      let user = users.filter((item) => item.email === payload.email);
+      user = users.filter((item) => item.email === payload.email);
       console.log(user);
       data = user[0];
       break;
     case "/users": // * Get logged in user details
-      let user_ = users.filter((item) => item._id === payload);
+      user_ = users.filter((item) => item._id === payload);
       data = user_[0];
       // console.log( data )
       break;

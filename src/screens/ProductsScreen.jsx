@@ -19,17 +19,15 @@ import fakeApi from "../_api/fakeApi";
 const ProductsScreen = () => {
   const params = useParams();
   console.log(params);
-  const paramsPage = params.page
-  const keyword = params.keyword
-  // const { pageNumber, keyword } = params; 
-  // console.log(pageNumber)
+  // const paramsPage = params.page
+  // const keyword = params.keyword 
 
 
-  const [searchParams, setSearchParams] = useSearchParams()
+  const [searchParams ] = useSearchParams() 
   const query = searchParams.get('q') || ''
-  const category = searchParams.get('category')
+  // const category = searchParams.get('category')
   // const brand = searchParams.get('brand')
-  // const keyword = searchParams.get('keyword')
+  // const keyword = searchParams.get('keyword') 
   console.log(query)
 
   const dispatch = useDispatch();
@@ -58,7 +56,7 @@ const ProductsScreen = () => {
     }
   }
 
-  const { loading, error, pages, sortBy  } = useSelector(
+  const { loading, error,   sortBy  } = useSelector(
     (state) => state.productList
   );
   const pageNumber = useSelector(state => state.filters.pageNumber)
@@ -95,13 +93,15 @@ const ProductsScreen = () => {
   useEffect(() => {
     // const details = getDetails(category) 
     const getAllProducts = async () => {
+      // # Set laoding
+       dispatch({  type: 'PRODUCT_LIST_REQUEST'   })
       try {
-        const res = await fakeApi('/products/all')
-        console.log(res)
+        const res = await fakeApi('/products' , { keyword: query } )
+        console.log(res) // { data: { products: [], page: 1, pages: 5 } }
         dispatch({
-          type: 'PRODUCT_LIST_SET_PRODUCTS_ALL',
+          type: 'PRODUCT_LIST_SUCCESS',
           payload: res.data,
-        })
+        }) 
       } catch (error) {
         console.error('Error fetching products:', error)
       }
@@ -110,7 +110,7 @@ const ProductsScreen = () => {
     // setPageDetails(getPageDetails(category))
 
   // }, [dispatch, paramsPage, keyword, category]);
-  }, [dispatch ]);
+  }, [dispatch , query]);
 
   if (error) return <Message variant="danger">{error}</Message>;
 
@@ -128,10 +128,12 @@ const ProductsScreen = () => {
       <div className="row mb-2 ">
         {/* Products Grid */}
         <div className="col-md-3" >
-          {showSidebar && <FiltersSidebar category={category} />}
+          {showSidebar && <FiltersSidebar
+         //  category={category} 
+           />}
         </div>
 
-        <div className="col">
+        <div className="col mr-2">
           <div className="row bg-white">
             {loading && <Loader />}
             {!loading && (
@@ -151,6 +153,11 @@ const ProductsScreen = () => {
                       />
                     </Col>
                   ))}
+                  {filteredProducts.length === 0 && (
+                    <div className="p-5 text-center">
+                      <h4>No products found matching your criteria.</h4>
+                    </div>
+                  )}
               </>
             )}
           </div>

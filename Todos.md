@@ -26,9 +26,8 @@
 [x] Fix pagination in frontend                  2/10/2026
 [x] Fix sort by price in frontend               2/10/2026
 [x] Sidebar category filters 
-[] Fix product search 
-[] Filter products by price range
-[] Search products in frontend 
+[x] Fix product search in fake api by query     2/13/2026
+[] Fix filter products by price range 
 [] Saved logged in user to local storage
 [] Cool messages alrert 
 [] Make Arabic default language
