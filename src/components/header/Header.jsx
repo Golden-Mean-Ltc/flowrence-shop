@@ -1,7 +1,7 @@
 
 import { useSelector, useDispatch } from 'react-redux'
 // import { Link } from 'react-router-bootstrap'
-import { Navbar,  NavDropdown } from 'react-bootstrap'
+import { Navbar, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import UserDropdown from './UserDropdown'
 import CartDropdown from './CartDropdown'
@@ -34,63 +34,65 @@ const Header = () => {
           <i className='fas fa-gem gold'></i> BEMART
         </Link>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
+
         <div className="flex-fill">
           <SearchInput />
         </div>
-     <div className="flex-fill d-flex justify-content-center align-items-center">
-         <CartDropdown />
+        
+        <div className="flex-fill d-flex justify-content-center align-items-center">
+          <CartDropdown />
 
-        <LanguageDropdown />
+          <LanguageDropdown />
 
-        <div className='p-1'>
-          {user ? (
-            <UserDropdown user={user} />
-          ) : (
-            <span className='nav-link'
-              // to='/login' 
-              onClick={handleShowAuthModal}>
-              <i className='fas fa-user'></i> {r.sign_in}
-            </span>
+          <div className='p-1'>
+            {user ? (
+              <UserDropdown user={user} />
+            ) : (
+              <span className='nav-link'
+                // to='/login' 
+                onClick={handleShowAuthModal}>
+                <i className='fas fa-user'></i> {r.sign_in}
+              </span>
+            )}
+          </div>
+          {user && user.isAdmin && (
+            <NavDropdown title='Admin' id='adminmenu'>
+              <Link to='/admin/userlist'>
+                <NavDropdown.Item>Users</NavDropdown.Item>
+              </Link>
+              <Link to='/admin/productlist'>
+                <NavDropdown.Item>Products</NavDropdown.Item>
+              </Link>
+              <Link to='/admin/orderlist'>
+                <NavDropdown.Item>Orders</NavDropdown.Item>
+              </Link>
+            </NavDropdown>
           )}
+          <UserDropdown />
         </div>
-        {user && user.isAdmin && (
-          <NavDropdown title='Admin' id='adminmenu'>
-            <Link to='/admin/userlist'>
-              <NavDropdown.Item>Users</NavDropdown.Item>
-            </Link>
-            <Link to='/admin/productlist'>
-              <NavDropdown.Item>Products</NavDropdown.Item>
-            </Link>
-            <Link to='/admin/orderlist'>
-              <NavDropdown.Item>Orders</NavDropdown.Item>
-            </Link>
-          </NavDropdown>
-        )}
-        <UserDropdown />
-     </div>
-      </Navbar> 
-        <div className='navbar-footer d-flex justify-content-evenly align-items-center'>
-          <div className="p-2">
-            <DepartmentsDropdown title={r.departments} />
-          </div>
-          <div className='p-2 clickable'>
-            <Link to='/products'> All Products </Link>
-          </div>
-          <div className='p-2 clickable'>
-            <Link to='/products'>{r.best_sellers}</Link>
-          </div>
-          <div className='p-2 clickable'>
-            <Link to='/hot-deals'>{r.hot_deals}</Link>
-          </div>
-          {/* <div className='p-2 flex-fill clickable'>
+      </Navbar>
+      <div className='navbar-footer d-flex justify-content-evenly align-items-center'>
+        <div className="p-2">
+          <DepartmentsDropdown title={r.departments} />
+        </div>
+        <div className='p-2 clickable'>
+          <Link to='/products'> All Products </Link>
+        </div>
+        <div className='p-2 clickable'>
+          <Link to='/products'>{r.best_sellers}</Link>
+        </div>
+        <div className='p-2 clickable'>
+          <Link to='/hot-deals'>{r.hot_deals}</Link>
+        </div>
+        {/* <div className='p-2 flex-fill clickable'>
           <Link to='/products/Laptops'>{r.laptops}</Link>
         </div> */}
-          {/* <div className='p-2 flex-fill clickable'>
+        {/* <div className='p-2 flex-fill clickable'>
           <Link to='/products/Cell-Phones'>{r.cell_phones}</Link>
         </div> */}
-          <div className="p-2">
-            <CurrencyDropdown />
-          </div> 
+        <div className="p-2">
+          <CurrencyDropdown />
+        </div>
       </div>
     </header>
   )

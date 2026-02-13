@@ -224,20 +224,17 @@ const ProductScreen = () => {
 							<ListGroup variant='flush'>
 								{product.reviews.map((review) => (
 									<ListGroup.Item key={review._id}>
-										<strong>{review.text}</strong>
-										<Rating rating={parseFloat(review.rating.substring(0, 2)) } />
+                    <Rating rating={parseFloat(review.rating.substring(0, 2)) } />
+										<strong>{review.text}</strong> 
 										<p>
-											{review.date}
-										</p>
-                    <p>By : {review.userName}</p>
-										<p>{review.comment}</p>
+											{review.date} <br></br> By : {review.userName}
+										</p> 
 									</ListGroup.Item>
 								))} 
 							</ListGroup>
               )}
 						</Col>  
-            </Row>
-          
+            </Row> 
           </>
         )}
       </div>

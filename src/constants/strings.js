@@ -1,5 +1,5 @@
 export const strings_eng = {
-	search_products: 'Search products',
+	search_products: 'Search products...',
 	sign_in: 'Sign in',
 	sign_up: 'Sing up',
 	departments: 'Departmentsss',
@@ -15,7 +15,7 @@ export const strings_eng = {
 }
 
 export const strings_arb = {
-	search_products: 'ابحث عن منتج',
+	search_products: 'ابحث عن منتج...',
 	sign_in: 'دخول',
 	sign_up: 'تسجيل',
 	departments: 'كل الاقسام',

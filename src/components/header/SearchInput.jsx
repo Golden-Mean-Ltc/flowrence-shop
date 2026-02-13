@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Button, Form, InputGroup } from 'react-bootstrap'
 import { useSelector } from 'react-redux'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
 // import { useHistory } from 'react-router-dom'
 
 const SearchInput = () => {
@@ -11,20 +11,31 @@ const SearchInput = () => {
   // const [ keyword, setKeyword ] = useState( '' )
 
   const navigate = useNavigate()
-  const { keyword: urlKeyword } = useParams()
+  // const { keyword  } = useParams()
+    const [searchParams, setSearchParams] = useSearchParams()
+  const query = searchParams.get('q') || ''
+    // const keyword = searchParams.get('keyword') || ''    
 
   // FIX: uncontrolled input - urlKeyword may be undefined
-  const [keyword, setKeyword] = useState(urlKeyword || '')
+  // const [keyword, setKeyword] = useState(urlKeyword || '')
+  const [keyword, setKeyword] = useState(query || "")
+ 
+
 
   const submitHandler = (e) => {
     e.preventDefault()
     if (keyword) {
       // history.push( `/search/${ keyword }` )
-      navigate(`/search/${keyword.trim()}`)
-      setKeyword('')
+      // navigate(`/search/${keyword.trim()}`)
+      // setKeyword('')
+      setSearchParams( (prev)=>({...prev, q: keyword.trim()}) )
+      navigate(`/search?q=${keyword.trim()}`)
+      console.log(keyword)
     } else {
       // history.push( '/' )
-      navigate('/')
+      // navigate('/')
+        // If the input is empty, remove the 'filter' param from the URL
+      setSearchParams({}); 
     }
   }
 
@@ -45,12 +56,11 @@ const SearchInput = () => {
       style={{}}
       >
         <Form.Control
-          placeholder={r.search_products}
-          //  aria-label="Recipient's username"
+          placeholder={r.search_products} 
           type='text'
           name='q'
-          onChange={(e) => setKeyword(e.target.value)}
-          value={keyword}
+           value={keyword}
+          onChange={(e) => setKeyword(e.target.value)} 
           dir={language === 'arb' ? 'rtl' : 'ltr'}
         />
         <Button variant='warning' type='submit'>

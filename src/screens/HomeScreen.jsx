@@ -4,8 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col } from 'react-bootstrap'
 import ProductItem from '../components/products/ProductItemCard.jsx'
 import Message from '../components/Message'
-import Loader from '../components/Loader'
-import { getAllProducts, listProducts } from '../store/actions/productActions'
+import Loader from '../components/Loader' 
 import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
 import ProductsSlider from '../components/products/ProductSlider.jsx' 
 import { setShowCartModal } from '../store/settingsSlice.js' 
@@ -27,7 +26,7 @@ const HomeScreen = () => {
 
 
   useEffect(() => {
-    dispatch(listProducts()) 
+    // dispatch(listProducts()) 
     // console.log(pageNumber)
   }, [dispatch])
 

@@ -28,8 +28,7 @@ import {
 
 export const productListReducer = (
 	state = {
-		products: [],
-		productsAll: [], // for filtering
+		products: [], 
 		loading: false,
 		sortBy: { key: 'featured', order: 'asc' }, // price, date, featured
 		pages: 1,
@@ -53,7 +52,7 @@ export const productListReducer = (
 		case 'PRODUCT_LIST_SORT_BY':
 			return { ...state, sortBy: action.payload }
 		case 'PRODUCT_LIST_SET_PRODUCTS_ALL':
-			return { ...state, productsAll: action.payload }
+			return { ...state, products: action.payload }
 		default:
 			return state
 	}
@@ -150,7 +149,7 @@ export const productTopRatedReducer = (state = { products: [] }, action) => {
 // createSelector used for filtering products
 // const selectProducts = (state) => state.products;
 // const selectFilters = (state) => state.filters 
-const selectProducts = (state) => state.productList.productsAll; 
+const selectProducts = (state) => state.productList.products; 
 const selectFilters = (state) => state.filters
 
 

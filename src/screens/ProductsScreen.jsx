@@ -6,12 +6,12 @@ import FiltersSidebar from "../components/filters-sidebar/FiltersSidebar";
 import Loader from "../components/Loader";
 import Message from "../components/Message";
 import ProductItem from "../components/products/ProductItemCard";
-import Toolbar from "../components/Toolbar";
-import { getAllProducts, listProducts } from "../store/actions/productActions";
-import Paginate from "../components/Paginate";
+import Toolbar from "../components/Toolbar"; 
+// import Paginate from "../components/Paginate";
 import { selectFilteredProducts } from "../store/reducers/productReducers";
-import Pagination from "../components/Pagination2";
+// import Pagination from "../components/Pagination2";
 import Pagination2 from "../components/Pagination2";
+import fakeApi from "../_api/fakeApi";
 // import { selectFilteredProducts } from "../store/reducers/productReducers";
 
 // * Show products by Category/Department
@@ -26,10 +26,11 @@ const ProductsScreen = () => {
 
 
   const [searchParams, setSearchParams] = useSearchParams()
+  const query = searchParams.get('q') || ''
   const category = searchParams.get('category')
   // const brand = searchParams.get('brand')
   // const keyword = searchParams.get('keyword')
-  console.log(keyword)
+  console.log(query)
 
   const dispatch = useDispatch();
 
@@ -42,7 +43,7 @@ const ProductsScreen = () => {
   // {keyword: 'laptops', pageNumber: '2'}
 
   // * Get page details
-  function getDetails(category) {
+  function getPageDetails(category) {
     switch (category) {
       case "laptops":
         return { title: "Laptops", category: "Laptops" };
@@ -57,7 +58,7 @@ const ProductsScreen = () => {
     }
   }
 
-  const { loading, error, pages, sortBy, productsAll } = useSelector(
+  const { loading, error, pages, sortBy  } = useSelector(
     (state) => state.productList
   );
   const pageNumber = useSelector(state => state.filters.pageNumber)
@@ -89,14 +90,27 @@ const ProductsScreen = () => {
   const filterProductsByPage = paginateProducts(filteredProducts, pageNumber)
   console.log('Products by page:', filterProductsByPage)
   // console.log('Filtered products:', filteredProducts)
-
-  // console.log(filteredProducts)
-  // console.log(paginateProducts(filteredProducts, pageNumber))
+ 
 
   useEffect(() => {
-    // const details = getDetails(category)
-    dispatch(getAllProducts())
-  }, [dispatch, paramsPage, keyword, category]);
+    // const details = getDetails(category) 
+    const getAllProducts = async () => {
+      try {
+        const res = await fakeApi('/products/all')
+        console.log(res)
+        dispatch({
+          type: 'PRODUCT_LIST_SET_PRODUCTS_ALL',
+          payload: res.data,
+        })
+      } catch (error) {
+        console.error('Error fetching products:', error)
+      }
+     }
+    getAllProducts()
+    // setPageDetails(getPageDetails(category))
+
+  // }, [dispatch, paramsPage, keyword, category]);
+  }, [dispatch ]);
 
   if (error) return <Message variant="danger">{error}</Message>;
 

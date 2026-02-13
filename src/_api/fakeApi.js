@@ -20,16 +20,17 @@ const makePromise = (data_) => {
 };
 
 // build response object for products with pagination
-const makeProductsResponse = (filteredProducts, pageNumber  ) => {
-  let itemsPerPage = 9; // 12
-  let sliceStart = pageNumber * itemsPerPage - itemsPerPage;
+const makeProductsResponse = (filteredProducts 
+  // , pageNumber
+  ) => {
+  // # Pagination is done in frontend, so we return all filtered products and paginate them in frontend
+  // let itemsPerPage = 9; // 12
+  // let sliceStart = pageNumber * itemsPerPage - itemsPerPage;
   return {
-    // products,
-    products: filteredProducts.slice(sliceStart, sliceStart + itemsPerPage),
-    pages: filteredProducts
-      ? Math.ceil(filteredProducts.length / itemsPerPage)
-      : 2,
-    pageNumber,
+    products: filteredProducts,
+    // products: filteredProducts.slice(sliceStart, sliceStart + itemsPerPage),
+    // page: pageNumber,
+    // pages: Math.ceil(filteredProducts.length / itemsPerPage),
   };
 };
 
@@ -38,9 +39,11 @@ export default function fakeApi(endpoint, payload = {}) {
   console.log("endpoint: " + endpoint);
   // console.log('payload: ')
   console.log(payload);
-  let pageNumber = payload.pageNumber ? payload.pageNumber : 1;
+
+
   let data = {};
   let products_ = [];
+    let pageNumber = payload.pageNumber ? payload.pageNumber : 1;
   // let sliceStart = payload.pageNumber * 12 - 12
   // const laptops = [ "Macbook Air", "Macbook Pro", "Macbook 16" ];
   // const results = await userSchema.find({}).sort('email')
@@ -50,7 +53,8 @@ export default function fakeApi(endpoint, payload = {}) {
     case "/products":
       // * Search products by keyword
       if (!payload.keyword && !payload.category) {
-        data = makeProductsResponse(productsJson, pageNumber);
+        // data = makeProductsResponse(productsJson, pageNumber);
+        data = makeProductsResponse(productsJson );
         console.log(data)
       } else {
         if (payload.keyword) {

@@ -41,13 +41,13 @@ const router = createBrowserRouter([
     //   {
     //     path: '/products/:category',
     //     element: <ProductsScreen />
-    //   },
+    // //   },
       {
-        path: '/search/:keyword',
+        path: '/search',
         element: <ProductsScreen />
       },  
-      {
-        path: '/search/:keyword/page/:page',
+      { 
+        // path: '/search/:keyword/page/:page',
         element: <ProductsScreen />
       },  
       {
@@ -78,8 +78,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-function Apps() {
+export default function AppRouter() {
   return <RouterProvider router={router} />;
 }
-
-export default Apps 

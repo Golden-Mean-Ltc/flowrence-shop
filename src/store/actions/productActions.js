@@ -64,24 +64,6 @@ export const listProducts =
 			}
 		}
 
-export const getAllProducts = () => async dispatch => {
-	try {
-		const response = await fakeApi('/products/all')
-		console.log(response)
-
-		dispatch({
-			type: 'PRODUCT_LIST_SET_PRODUCTS_ALL',
-			payload: response.data,
-		})
-	} catch (error) {
-		dispatch({
-			type: PRODUCT_LIST_FAIL,
-			payload: error.response && error.response.data.message
-				? error.response.data.message
-				: error.message,
-		})
-	}
-}
 
 export const listProductDetails = id => async dispatch => {
 	// const products = []

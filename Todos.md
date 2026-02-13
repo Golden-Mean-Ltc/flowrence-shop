@@ -26,9 +26,11 @@
 [x] Fix pagination in frontend                  2/10/2026
 [x] Fix sort by price in frontend               2/10/2026
 [x] Sidebar category filters 
+[] Fix product search 
+[] Filter products by price range
 [] Search products in frontend 
 [] Saved logged in user to local storage
-[] Cool messages alrert
+[] Cool messages alrert 
 [] Make Arabic default language
 [ ] Product search with suggestion
 [ ] Admin: Add new product - select category n tags, English name n Arabic, used A+, A, B

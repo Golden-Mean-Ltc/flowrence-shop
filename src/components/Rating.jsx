@@ -1,6 +1,6 @@
- 
+ import PropTypes from 'prop-types';
 
-const Rating = ( { rating, text, color } ) => {
+const Rating = ( { rating, text, color='#ffd139' } ) => {
   // console.log(rating)
 
   return (
@@ -65,8 +65,10 @@ const Rating = ( { rating, text, color } ) => {
   )
 }
 
-Rating.defaultProps = {
-  color: '#fbdf23',
+Rating.propTypes = {
+  rating: PropTypes.number.isRequired,
+  text: PropTypes.string,
+  color: PropTypes.string,
 }
 
 export default Rating

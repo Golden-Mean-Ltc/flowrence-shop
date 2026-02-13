@@ -22,7 +22,7 @@ const UserDropdown = ( { user } ) => {
             <div
               className='nav-link '
               style={ { fontSize: '1.2rem' } }
-              to='#'
+              // to='#'
               role='button'
               data-toggle='dropdown'>
               { user.name } <i className='fas fa-user ' />
