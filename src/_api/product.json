@@ -1,63 +1,176 @@
 {
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
-    "productTitle": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, All-Day Battery Life — Blue",
-    "manufacturer": "Visit the Apple Store",
-    "brand": "Apple",
-    "Date First Available" : "March 4, 2025",
-    "countReview": 18770,
+    "productTitle": "Beats Pill - Portable Bluetooth Speaker - Up to 24H Battery Life, Water Resistant, Bluetooth, Apple & Android Compatible, Seriously Loud Sound for Home, Outdoor and Travel – Statement Red",
+    "manufacturer": "Visit the Beats Store",
+    "brand": "Beats",
+    "category": "Electronics",
+    "dateFirstAvailable": "June 25, 2024",
+    "averageRating": 4.7,
+    "countReview": 2964,
     "answeredQuestions": 0,
     "productRating": "4.7 out of 5 stars",
-    "asin": "B0DZ75TN5F",
+    "asin": "B0D4STD5ZC",
     "sizeSelection": [],
     "soldBy": "Amazon.com",
     "fulfilledBy": "Amazon.com",
     "sellerId": null,
     "warehouseAvailability": "In Stock",
-    "retailPrice": 349.0,
-    "price": 299.99,
+    "retailPrice": 0.0,
+    "price": 99.95,
     "priceRange": null,
     "shippingPrice": 0.0,
-    "priceShippingInformation": "FREE delivery Sunday, February 15 Or Prime members get FREE delivery Tomorrow, February 11. Order within 7 hrs 17 mins. Join Prime",
-    "priceSaving": "-14%",
+    "priceShippingInformation": "FREE delivery Thursday, February 19 Or Prime members get FREE delivery Tomorrow, February 15. Join Prime",
+    "priceSaving": "-13%",
     "features": [
-        "WHY IPAD — The 11-inch iPad is now more capable than ever with the superfast A16 chip, a stunning Liquid Retina display, advanced cameras, fast Wi-Fi, USB-C connector, and four gorgeous colors.* iPad delivers a powerful way to create, stay connected, and get things done.",
-        "PERFORMANCE AND STORAGE — The superfast A16 chip delivers a boost in performance for your favorite activities. And with all-day battery life, iPad is perfect for playing immersive games and editing photos and videos.* Storage starts at 128GB and goes up to 512GB.*",
-        "11-INCH LIQUID RETINA DISPLAY — The gorgeous Liquid Retina display is an amazing way to watch movies or draw your next masterpiece.* True Tone adjusts the display to the color temperature of the room to make viewing comfortable in any light.",
-        "IPADOS + APPS — iPadOS makes iPad more productive, intuitive, and versatile. With iPadOS, run multiple apps at once, use Apple Pencil to write in any text field with Scribble, and edit and share photos.* iPad comes with essential apps like Safari, Messages, and Keynote, with over a million more apps designed specifically for iPad available on the App Store.",
-        "FAST WI-FI CONNECTIVITY — Wi-Fi 6 gives you fast access to your files, uploads, and downloads, and lets you seamlessly stream your favorite shows.",
-        "APPLE PENCIL AND MAGIC KEYBOARD FOLIO — With Apple Pencil (USB-C), iPad transforms into an immersive drawing canvas and the world’s best note‑taking device.* The Magic Keyboard Folio features a versatile two-piece design with a detachable keyboard and a protective back panel that both attach magnetically to iPad.* Apple Pencil (1st generation) is also compatible with iPad.*",
-        "UNLOCK AND PAY WITH TOUCH ID — Touch ID is built into the top button, so you can use your fingerprint to unlock your iPad, sign in to apps, and make payments securely with Apple Pay."
+        "The Beats Pill delivers powerful, room-filling sound. The bigger, bespoke racetrack woofer displaces 90% more air volume, packing more of a punch with deeper, fuller bass.",
+        "The Beats Pill has up to 24 hours of battery life for all-day playback and can be used to charge your phone or other devices via USB-C cable.",
+        "The portable speaker is IP67-rated for dust and water resistance3 for outstanding durability and includes a removable lanyard and soft-grip silicone backing to make it easy to take with you.",
+        "The redesigned tweeter provides extra stability for crisp highs and rich mid-range tones while the woofer’s material and structure helps minimize low-end distortion even at high volumes.",
+        "Enjoy high-resolution lossless audio from your Beats Pill by connecting it to your laptop or other compatible devices via the USB-C cable.",
+        "Easily pair two Beats Pill speakers for twice the output experience in Amplify mode or Stereo mode.",
+        "Apple and Android compatibility – including instant one-touch pairing and automatic pairing across your other devices, plus Find My or Find My Device.",
+        "Take calls and activate your voice assistant directly from a paired Beats Pill."
     ],
     "imageUrlList": [
-        "https://m.media-amazon.com/images/I/61aPY8odPSL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/81yW4V07UbL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/71HKaQiRUyL._AC_SL1200_.jpg",
-        "https://m.media-amazon.com/images/I/812Nj+IkCIL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/71jaNelJpYL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/61-GzW8bMBL._AC_SL1500_.jpg"
+        "https://m.media-amazon.com/images/I/717-Jf0WXAL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71jLfSLufCL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81ifAARsKBL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61NsxQJ-FzL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61E9lyzNLZL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71D1LYpy4bL._AC_SL1500_.jpg"
+    ],
+    "videoeUrlList": [
+        "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/04feab3b-cde7-470a-9907-8e89148e0bf6/default.jobtemplate.hls.m3u8",
+        "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/17cb0b1e-ac5a-45a0-ba06-df8277eb18d6/default.jobtemplate.hls.m3u8",
+        "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f08a6632-03f8-44d0-9b4e-c7052312027b/default.jobtemplate.hls.m3u8",
+        "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/71b7cc92-3a2a-4dd4-9269-067502448554/default.jobtemplate.hls.m3u8"
     ],
     "productDescription": null,
     "productDetails": [
         {
+            "name": "Mounting Type",
+            "value": "‎No Mount"
+        },
+        {
+            "name": "Model Name",
+            "value": "‎Beats Product"
+        },
+        {
+            "name": "Speaker Type",
+            "value": "‎Portable"
+        },
+        {
+            "name": "Special Feature",
+            "value": "‎Portable"
+        },
+        {
+            "name": "Recommended Uses For Product",
+            "value": "‎For Smartphones or Tablets"
+        },
+        {
+            "name": "Compatible Devices",
+            "value": "‎Laptop, Tablet, Smartphone, Gaming Console"
+        },
+        {
+            "name": "Subwoofer Diameter",
+            "value": "‎3.9 Inches"
+        },
+        {
+            "name": "Unit Count",
+            "value": "‎1.0 Count"
+        },
+        {
+            "name": "Color",
+            "value": "‎Statement Red"
+        },
+        {
             "name": "Product Dimensions",
-            "value": "‎9.79 x 7.07 x 0.28 inches"
+            "value": "‎2.8\"D x 8.6\"W x 2.8\"H"
         },
         {
             "name": "Item Weight",
-            "value": "‎1.05 pounds"
+            "value": "‎2.1 Pounds"
+        },
+        {
+            "name": "Is Waterproof",
+            "value": "‎TRUE"
+        },
+        {
+            "name": "Warranty Type",
+            "value": "‎Limited"
+        },
+        {
+            "name": "Number of Items",
+            "value": "‎1"
+        },
+        {
+            "name": "Control Method",
+            "value": "‎Touch, Voice"
+        },
+        {
+            "name": "Wireless Communication Technology",
+            "value": "‎Bluetooth"
+        },
+        {
+            "name": "Speaker Size",
+            "value": "‎7 Centimeters"
+        },
+        {
+            "name": "Power Source",
+            "value": "‎Corded Electric"
+        },
+        {
+            "name": "Water Resistance Level",
+            "value": "‎Water Resistant"
+        },
+        {
+            "name": "Number of Batteries",
+            "value": "‎1 Lithium Ion batteries required. (included)"
+        },
+        {
+            "name": "Audio Driver Type",
+            "value": "‎Dynamic Driver"
+        },
+        {
+            "name": "Audio Driver Size",
+            "value": "‎5.9 Inches"
+        },
+        {
+            "name": "Subwoofer Connectivity Technology",
+            "value": "‎Wireless"
+        },
+        {
+            "name": "Specific Uses For Product",
+            "value": "‎Travel, Party"
+        },
+        {
+            "name": "UPC",
+            "value": "‎195949462504"
+        },
+        {
+            "name": "Style",
+            "value": "‎Pill"
         },
         {
             "name": "Manufacturer",
-            "value": "‎Apple"
+            "value": "‎Beats"
+        },
+        {
+            "name": "Set Name",
+            "value": "‎Without AppleCare+"
+        },
+        {
+            "name": "Item Weight",
+            "value": "‎2.1 pounds"
         },
         {
             "name": "ASIN",
-            "value": "‎B0DZ75TN5F"
+            "value": "‎B0D4STD5ZC"
         },
         {
             "name": "Item model number",
-            "value": "‎MD4A4LL/A"
+            "value": "‎MWQW3LL/A"
         },
         {
             "name": "Batteries",
@@ -65,187 +178,216 @@
         },
         {
             "name": "Date First Available",
-            "value": "‎March 4, 2025"
+            "value": "‎June 25, 2024"
         }
     ],
     "minimalQuantity": "1",
     "dealPrice": 0.0,
     "salePrice": 0.0,
     "reviews": [
+        {
+            "text": "This is my third Beats pill, first of this new generation. It's a bit smaller, lighter and easier to carry around, especially with the new wrist strap. It sounds amazing, right along with what you come to expect from Beats and Apple, it doesn't disappoint. The biggest difference I've noticed is how quickly it pairs with devices compared to previous models. It's also incredibly easy to switch between devices after the initial pairing of each; I just start playing whatever media on iphone, ipad, or macbook and then select the pill for the output and it connects in a second. It also now shows up on Find My along with your other devices, and from my understanding, works the same as an AirTag which is pretty cool. The only downside is the power button. It took a while to get used to and sometimes I still wind up trying two or three times to power it up or down because I didn't hold it down long enough. I've also had an issue where the audio cuts out for a couple seconds here and there but haven't pinned down the cause of the interference. Overall it's a solid speaker, great sound, very loud for its size, longer battery life and better connectivity. They're even cheaper than the previous model and go on sale often so you can't go wrong.",
+            "date": "Reviewed in the United States on October 16, 2025",
+            "rating": "5.0 out of 5 stars",
+            "title": "A nice improvement from the previous model",
+            "userName": "Amazon Customer",
+            "url": "/gp/customer-reviews/RMR5XSHNHTJER/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Color: Champagne Gold",
+                "Pattern: Standalone"
+            ],
+            "reviewId": "RMR5XSHNHTJER",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AG7OHWXBKNQIL2NDE3D5GV4KIPSA"
+        },
+        {
+            "text": "This is the best speaker I have ever had! The color is vibrant and bright. Personally, the red is my favorite but they all are so vibrant and saturated, and don’t get me started on the sound quality. The sound quality this is by far better than any speaker I have ever owned or heard! It is super easy to use and automatically pairs to iPhone. For the price, the sound quality is truly just astonishing. It is super easy to bring along, and the strap on it is super strong and can be jostled around without breaking. The battery life is also amazing. I usually use it in lower volume, but it lasts 40 hours easily when fully charged and I have seen it go to 50! It works better than described and really feels like the artist is singing right in front of me with the highly advanced sound quality. This is truly the best speaker to have ever existed and it would be a mistake not to buy it.",
+            "date": "Reviewed in the United States on August 26, 2025",
+            "rating": "5.0 out of 5 stars",
+            "title": "Vibrant Colors, Vibrant Sound, Truly the Best Speaker to Have Ever Existed!!",
+            "userName": "Muzzy Muzzy",
+            "url": "/gp/customer-reviews/R129BW65I808Z8/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [
+                ""
+            ],
+            "variationList": [
+                "Color: Statement Red",
+                "Pattern: Standalone"
+            ],
+            "reviewId": "R129BW65I808Z8",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AHJJGRIAFNOPEZBTXOMADOI5DJ7Q"
+        },
+        {
+            "text": "I’m honestly impressed with the Beats Pill. The sound quality is way better than I expected for its size—clear vocals, punchy bass, and no distortion even at high volume. It fills the room easily, and the Bluetooth connection is super quick and stable. The battery life lasts for hours, which makes it perfect for the beach, workouts, or just having it around the house. The design is sleek and lightweight, so it’s easy to carry around, and it feels solid and well-made. Overall, this speaker delivers powerful sound in a compact package. Definitely worth it!",
+            "date": "Reviewed in the United States on December 3, 2025",
+            "rating": "5.0 out of 5 stars",
+            "title": "Highly recommended",
+            "userName": "Neilys",
+            "url": "/gp/customer-reviews/R2UVM8JAU55FRW/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Color: Champagne Gold",
+                "Pattern: Standalone"
+            ],
+            "reviewId": "R2UVM8JAU55FRW",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AGNEM2563UIXRHWLH6FDLB4JJDIQ"
+        },
+        {
+            "text": "Great sound for the price. We have an outdoor speaker that gets really loud, but there's not much definition and the highs have degraded over time. This speaker sounds really really good to my ears. Works well despite use in not-so-great environments. Outdoors and in the kitchen. Small kitchen, its never more than 2-3 feet from the stove/sink/dishwasher. Has held up well and still sounds great. Have purchased several for family members. Connects without having to download an app etc, good for less tech-savvy family members. One thing to note: we were buying the red ones bc they look so good. The red really announces itself. Became a theft target. We've replaced with a black unit.",
+            "date": "Reviewed in the United States on January 28, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Great sound",
+            "userName": "Pirate Radio",
+            "url": "/gp/customer-reviews/R33FN0FSWWTWY/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Color: Matte Black",
+                "Pattern: Standalone"
+            ],
+            "reviewId": "R33FN0FSWWTWY",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AGNFOTQN327Z542RPXITYZWYZAZA"
+        },
+        {
+            "text": "Amazing and powerful speaker. Great sound quality and enjoy the integration with Apple, to see battery level and other options. Battery seems ok right now, but I'm only using for home use so fine with it. Highly recommended.",
+            "date": "Reviewed in the United States on January 18, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Amazing Speaker!",
+            "userName": "RL9RS9",
+            "url": "/gp/customer-reviews/R3A6FNBBFMSRBV/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Color: Champagne Gold",
+                "Pattern: Standalone"
+            ],
+            "reviewId": "R3A6FNBBFMSRBV",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AE7SD3HJFBSU3YSQYSSLC3GQSEUQ"
+        },
+        {
+            "text": "I found this on a good sale for $100, and it’s definitely worth it at that price. It has good, clear sound with good bass, holds its charge for an eight hour shift when I bring it to work, charges out to my iPhone, connects with a USB-C cable and integrates well with my Mac. The design also just feels good in my hand. At the full price of $150, however, I feel like there are better options out there. The sound is good, but other speakers at a similar price would probably carry farther. Volume really impacts the battery, as I usually keep it down a bit to get through an eight-hour shift (which likely influences what I wrote above). Also, the instructions make an embarrassing omission about how to turn it off. (You have to hold the left button for about a second, something I had to learn through a web search.) Still, it’s a good little speaker that’s worth what I paid for it. If you’re in the Apple ecosystem or you find it at a good price, then this is a great option. Otherwise, you’ll want to consider all of your options. Personally, I’m quite happy with mine.",
+            "date": "Reviewed in the United States on May 28, 2025",
+            "rating": "4.0 out of 5 stars",
+            "title": "Great for the right price",
+            "userName": "Christopher Payne",
+            "url": "/gp/customer-reviews/R2JHTEBELI8933/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Color: Matte Black",
+                "Pattern: Standalone"
+            ],
+            "reviewId": "R2JHTEBELI8933",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AEJDKSQF5UEZ6IPYEMKB3KOIVCAQ"
+        },
+        {
+            "text": "I bought these for my sons for Christmas, and they rock out every day now! The Beats Pill, for its small footprint, has a HUGE sound! The bass is great, the vocals are crisp, and you can carry this around with you everywhere. I am going to buy two more Beats Pills so my sons can pair them and revel in their music some more! These are an excellent speaker purchase, with which my sons and I are incredibly pleased. Having a microphone for use with Siri and phone calls takes it up another notch. The only negative: there is no adapter/charging block included, but that is not a game changer. It’s just good to know up front. Thanks Dre!!! I don’t know how you made these from Em’s basement!",
+            "date": "Reviewed in the United States on January 10, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Small, cute speaker; large, AMAZING sound!",
+            "userName": "Ride",
+            "url": "/gp/customer-reviews/RQAK0Q83UXYLM/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Color: Statement Red",
+                "Pattern: Standalone"
+            ],
+            "reviewId": "RQAK0Q83UXYLM",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AF7XE43TEYVALJS36LHA35XTF42A"
+        },
+        {
+            "text": "I love Beatspill. I have bought these a total 5 times, for myself and gift for friends. A great product with awesome sound! Portable, water resistant, and can track it, if misplaced, with FindMy. I’m sure I will purchase again. ! And can connect 2 beats pills for parties or different rooms in the house. Love Music, Love Beatspill!",
+            "date": "Reviewed in the United States on January 2, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "❤️❤️Beatspill❤️❤️",
+            "userName": "Dianne Mumma",
+            "url": "/gp/customer-reviews/R5MAIXEUV9F3G/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Color: Champagne Gold",
+                "Pattern: Standalone"
+            ],
+            "reviewId": "R5MAIXEUV9F3G",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AHE6CXFFDAS6VSD26IXXKSVQC3LQ"
+        }
     ],
     "productSpecification": [],
     "mainImage": {
-        "imageUrl": "https://m.media-amazon.com/images/I/61aPY8odPSL._AC_SX679_.jpg",
+        "imageUrl": "https://m.media-amazon.com/images/I/717-Jf0WXAL._AC_SX679_.jpg",
         "imageResolution": "679 x 679"
     },
     "variations": [
         {
-            "variationName": "style_name",
-            "values": [
-                {
-                    "value": "Wi-Fi",
-                    "dpUrl": "",
-                    "selected": true,
-                    "available": true,
-                    "price": 0.0,
-                    "imageUrl": null,
-                    "asin": "B0DZ75TN5F"
-                },
-                {
-                    "value": "Wi-Fi + Cellular",
-                    "dpUrl": "",
-                    "selected": false,
-                    "available": true,
-                    "price": 0.0,
-                    "imageUrl": null,
-                    "asin": "B0DZ77HGYQ"
-                }
-            ]
-        },
-        {
-            "variationName": "size_name",
-            "values": [
-                {
-                    "value": "128GB",
-                    "dpUrl": "",
-                    "selected": true,
-                    "available": true,
-                    "price": 0.0,
-                    "imageUrl": null,
-                    "asin": "B0DZ75TN5F"
-                },
-                {
-                    "value": "256GB",
-                    "dpUrl": "",
-                    "selected": false,
-                    "available": true,
-                    "price": 0.0,
-                    "imageUrl": null,
-                    "asin": "B0DZ76LW4J"
-                },
-                {
-                    "value": "512GB",
-                    "dpUrl": "",
-                    "selected": false,
-                    "available": true,
-                    "price": 0.0,
-                    "imageUrl": null,
-                    "asin": "B0DZ77RHLL"
-                }
-            ]
-        },
-        {
             "variationName": "color_name",
             "values": [
                 {
-                    "value": "Blue",
+                    "value": "Statement Red",
                     "dpUrl": "",
                     "selected": true,
                     "available": true,
                     "price": 0.0,
-                    "imageUrl": "https://m.media-amazon.com/images/I/11wjUFJlxtL._SS64_.jpg",
-                    "asin": "B0DZ75TN5F"
+                    "imageUrl": "https://m.media-amazon.com/images/I/21l72BSoGhL._SS64_.jpg",
+                    "asin": "B0D4STD5ZC"
                 },
                 {
-                    "value": "Pink",
+                    "value": "Champagne Gold",
                     "dpUrl": "",
                     "selected": false,
                     "available": true,
                     "price": 0.0,
-                    "imageUrl": "https://m.media-amazon.com/images/I/11Cwt7qsGEL._SS64_.jpg",
-                    "asin": "B0DZ7871B8"
+                    "imageUrl": "https://m.media-amazon.com/images/I/215Lo4T0TeL._SS64_.jpg",
+                    "asin": "B0D4STT6C2"
                 },
                 {
-                    "value": "Silver",
+                    "value": "Matte Black",
                     "dpUrl": "",
                     "selected": false,
                     "available": true,
                     "price": 0.0,
-                    "imageUrl": "https://m.media-amazon.com/images/I/01zdD2C93WL._SS64_.jpg",
-                    "asin": "B0DZ77D5HL"
-                },
-                {
-                    "value": "Yellow",
-                    "dpUrl": "",
-                    "selected": false,
-                    "available": true,
-                    "price": 0.0,
-                    "imageUrl": "https://m.media-amazon.com/images/I/11hbf-raCeL._SS64_.jpg",
-                    "asin": "B0DZ751XN6"
+                    "imageUrl": "https://m.media-amazon.com/images/I/21tlJdvlbcL._SS64_.jpg",
+                    "asin": "B0D4SX9RC6"
                 }
             ]
         },
         {
-            "variationName": "configuration",
+            "variationName": "pattern_name",
             "values": [
                 {
-                    "value": "Without AppleCare+",
+                    "value": "Standalone",
                     "dpUrl": "",
                     "selected": true,
                     "available": true,
                     "price": 0.0,
                     "imageUrl": null,
-                    "asin": "B0DZ75TN5F"
+                    "asin": "B0D4STD5ZC"
                 },
                 {
-                    "value": "With AppleCare+ (2 Years)",
+                    "value": "With USB-C Cable (20 cm)",
                     "dpUrl": "",
                     "selected": false,
                     "available": true,
                     "price": 0.0,
                     "imageUrl": null,
-                    "asin": "B0DZ9M4VT5"
+                    "asin": "B0G27GQN8L"
+                },
+                {
+                    "value": "With AppleCare+",
+                    "dpUrl": "",
+                    "selected": false,
+                    "available": true,
+                    "price": 0.0,
+                    "imageUrl": null,
+                    "asin": "B0D7QVKKH2"
                 }
             ]
         }
-    ],
-    "bookVariations": [],
-    "categories": [],
-    "categoriesExtended": [],
-    "currency": null,
-    "acKeywordLink": null,
-    "deliveryMessage": null,
-    "rentPrice": 0.0,
-    "usedPrice": 0.0,
-    "retailPriceRent": 0.0,
-    "coupon": null,
-    "series": null,
-    "importantInformation": [],
-    "buyBoxUsed": {
-        "condition": "Save with Used - Very Good",
-        "packageCondition": "Screen is like new with no visible scratches. Item may not come in original packaging.",
-        "soldBy": "Amazon Resale",
-        "fulfilledBy": "Fulfilled by Amazon",
-        "sellerId": null,
-        "warehouseAvailability": "Only 1 left in stock - order soon.",
-        "retailPrice": 349.0,
-        "price": 282.14,
-        "priceShippingInformation": "FREE delivery February 16 - 19 FREE delivery February 16 - 19 Or fastest delivery February 16 - 18",
-        "priceSaving": null
-    },
-    "aboutProduct": [
-        {
-            "name": "Brand",
-            "value": "Apple"
-        },
-        {
-            "name": "Model Name",
-            "value": "iPad"
-        },
-        {
-            "name": "Memory Storage Capacity",
-            "value": "128 GB"
-        },
-        {
-            "name": "Screen Size",
-            "value": "11 Inches"
-        },
-        {
-            "name": "Display Resolution Maximum",
-            "value": "2360-by-1640-pixel resolution at 264 (ppi) Pixels"
-        }
-    ],
-    "pastSales": "10K+ bought in past month",
+    ], 
+    "pastSales": "500+ bought in past month",
     "deal": false,
     "used": false,
     "addon": false,

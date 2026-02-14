@@ -11,7 +11,7 @@ export const strings_eng = {
 	latest_products: 'Latest Products',
 	featured_products: 'Featured Products',
 	show_more: 'Show more',
-	add_to_cart : 'Add to cart',
+	add_to_cart: 'Add to cart',
 }
 
 export const strings_arb = {
@@ -27,7 +27,7 @@ export const strings_arb = {
 	latest_products: 'احدث منتجات',
 	featured_products: 'المنتجات المميزة',
 	show_more: 'شاهد المزيد',
-	add_to_cart : 'اضف الى السلة',
+	add_to_cart: 'اضف الى السلة',
 }
 
 export const iraq_governorates_eng = {
@@ -48,7 +48,7 @@ export const iraq_cities = [
 		id: 3, name: 'بصرة',
 		districtsList: ["بصرة", "الزبير", "ابي الخصيب", "القرنة", "الفاو", "شط العرب", "المدينة"],
 		name_eng: 'Basra'
-	}, 
+	},
 	{
 		id: 4, name: 'نجف',
 		districtsList: ["نجف", "كوفة", "مشخاب", "المناذرة"],
@@ -118,22 +118,36 @@ export const iraq_cities = [
 		name_eng: 'Erbil'
 	},
 	{
-		id: 17, name: 'سليمانية', 
-		districtsList: ["سليمانية", "جمجال", "دوكان", "كلار", "رانيا"], 
+		id: 17, name: 'سليمانية',
+		districtsList: ["سليمانية", "جمجال", "دوكان", "كلار", "رانيا"],
 		name_eng: 'Sulaymani'
 	},
 	{
-		id: 18, name: 'دهوك', 
+		id: 18, name: 'دهوك',
 		districtsList: ["دهوك", "زاخو", "سميل"],
 		name_eng: 'Duhok'
 	},
 	{
-		id: 19, name: 'حلبجة',  
+		id: 19, name: 'حلبجة',
 		districtsList: ["حلبجة", "خورمال"],
 		name_eng: 'Halabja'
 	},
 ]
 
-export function getCityById(id){
-	return   iraq_cities.find(item => item.id == id);  
+export function getCityById(id) {
+	return iraq_cities.find(item => item.id == id);
 }
+
+// const categoris = ['Books', 'Art supplies', 'Stationary', 'Electronis', 
+// 	'Sports & Fitness', 'Toys & Games', 'Personal Care', 'Home & Kitchen']
+export const categories = [
+	"Cameras",
+	'Computers',
+	'Laptops',
+	'Tablets',
+	'Cell Phones',
+	'Headphones & Earbuds',  
+	"Speakers", 
+	"Smart Watches",
+	'Accessories'
+]

@@ -1,3 +1,5 @@
+import { categories } from "./strings"
+
 export const laptop_filters = [
 	{
 		name: 'Brand',
@@ -59,12 +61,12 @@ export const cellphone_filters = [
 export const general_filters = [
 	{
 		name: 'category',
-		options: ['Computers', 'Laptops', 'Tablets', 'Cell Phones', 'Headphones & Earbuds', "Smart Watches", 'Accessories'],
+		options: [...categories ],  // from strings.js
 		group: 'category',
 	},
 	{
 		name: 'brands',
-		options: ['Apple', 'Samsung', 'Microsoft', 'ASUS', 'MSI', 'Beats', 'Sony', 'Anker'],
+		options: ['Apple', 'Samsung', 'Microsoft', 'ASUS', 'MSI','Sony', 'Beats',  'Anker'],
 		group: 'brands',
 	}, 
 	{

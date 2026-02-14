@@ -9,13 +9,13 @@ import { useDispatch, useSelector } from 'react-redux'
 import CartModal from './components/cart/CartModal'
 import AuthModal from './components/auth/AuthModal'
 import { setShowAuthModal, setShowCartModal } from './store/settingsSlice'
+import { categories } from './constants/strings'
 
 const AppLayout = () => {
   const dispatch = useDispatch()
     const {  showCartModal, showAuthModal } = useSelector((state) => state.settings);
 
-  // const isLoading = navigation.state === 'loading';
-  const categoris = ['Books', 'Art supplies', 'Stationary', 'Electronis', 'Sports & Fitness', 'Toys & Games', 'Personal Care', 'Home & Kitchen']
+  // const isLoading = navigation.state === 'loading'; 
 
     const handleShowCartModal = () => dispatch(setShowCartModal(!showCartModal))
     const handleShowAuthModal = () => dispatch(setShowAuthModal(!showAuthModal))
@@ -29,7 +29,7 @@ const AppLayout = () => {
       <Header />
       <header>
         {/* <SearchBar /> */}
-        <HorizontalList items={categoris} />
+        <HorizontalList items={categories} />
       </header>
 
       <main >

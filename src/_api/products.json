@@ -1574,18 +1574,18 @@
     "price": 1319.0,
     "priceRange": null,
     "shippingPrice": 0.0,
-       "mainImage": {
-        "imageUrl": "https://m.media-amazon.com/images/I/615y53Ws-NL._AC_SX679_.jpg",
-        "imageResolution": "679 x 679"
+    "mainImage": {
+      "imageUrl": "https://m.media-amazon.com/images/I/615y53Ws-NL._AC_SX679_.jpg",
+      "imageResolution": "679 x 679"
     },
-     "imageUrlList": [
-        "https://m.media-amazon.com/images/I/615y53Ws-NL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/71obRIWW0CL._AC_SL1200_.jpg",
-        "https://m.media-amazon.com/images/I/61-YXi8U1KL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/61KLLeCJcXL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/81RptZyEZZL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/61AvLgnYlQL._AC_SL1500_.jpg",
-        "https://m.media-amazon.com/images/I/61qqsZJl8YL._AC_SL1500_.jpg"
+    "imageUrlList": [
+      "https://m.media-amazon.com/images/I/615y53Ws-NL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71obRIWW0CL._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61-YXi8U1KL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61KLLeCJcXL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81RptZyEZZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61AvLgnYlQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61qqsZJl8YL._AC_SL1500_.jpg"
     ],
     "categories": [
       "Electronics",
@@ -1687,7 +1687,7 @@
       "https://m.media-amazon.com/images/I/615SrR9lg6L._AC_SL1000_.jpg",
       "https://m.media-amazon.com/images/I/61NsoeiRyIS._AC_SL1000_.jpg",
       "https://m.media-amazon.com/images/I/61jusJpgUvL._AC_SL1000_.jpg"
-    ], 
+    ],
     "description": "MSI Stealth 15M: 15.6\" FHD 144Hz Thin Bezel Gaming Laptop Intel Core i7-11375H RTX3060 16GB 512GB NVMe SSD Win10.",
     "details": [
       {
@@ -3923,8 +3923,14 @@
     },
     "variations": [],
     "bookVariations": [],
-    "categories": ["Headphones & Earbuds", "In-Ear Headphones", "Electronics", "Apple", "AirPods"],
-    "categoriesExtended": [], 
+    "categories": [
+      "Headphones & Earbuds",
+      "In-Ear Headphones",
+      "Electronics",
+      "Apple",
+      "AirPods"
+    ],
+    "categoriesExtended": [],
     "aboutProduct": [
       {
         "name": "Brand",
@@ -4155,8 +4161,13 @@
       }
     ],
     "bookVariations": [],
-    "categories": ["Electronics", "Computers & Accessories", "Tablets", "Apple iPads"],
-    "categoriesExtended": [], 
+    "categories": [
+      "Electronics",
+      "Computers & Accessories",
+      "Tablets",
+      "Apple iPads"
+    ],
+    "categoriesExtended": [],
     "aboutProduct": [
       {
         "name": "Brand",
@@ -4381,7 +4392,12 @@
       }
     ],
     "bookVariations": [],
-    "categories": ["Electronics", "Computers & Accessories", "Tablets", "Apple iPads"],
+    "categories": [
+      "Electronics",
+      "Computers & Accessories",
+      "Tablets",
+      "Apple iPads"
+    ],
     "categoriesExtended": [],
     "currency": null,
     "acKeywordLink": null,
@@ -4431,7 +4447,7 @@
     "countInStock": 5,
     "used": false,
     "prime": true
-  }, 
+  },
   {
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
@@ -4697,7 +4713,11 @@
       }
     ],
     "bookVariations": [],
-    "categories": ["Electronics", "Headphones & Earbuds", "On-Ear Headphones"],
+    "categories": [
+      "Electronics",
+      "Headphones & Earbuds",
+      "On-Ear Headphones"
+    ],
     "categoriesExtended": [],
     "currency": null,
     "acKeywordLink": null,
@@ -4821,7 +4841,7 @@
       "https://m.media-amazon.com/images/I/61cFPQb4GgL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71SiCZpfR4L._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71PapAfm5UL._AC_SL1500_.jpg"
-    ], 
+    ],
     "productDescription": null,
     "productDetails": null,
     "minimalQuantity": "1",
@@ -4842,8 +4862,8 @@
         ],
         "reviewId": "R1J55CM5NQYVVT",
         "locale": null
-      } 
-    ], 
+      }
+    ],
     "mainImage": {
       "imageUrl": "https://m.media-amazon.com/images/I/51JPEkpWOCL._AC_SX679_.jpg",
       "imageResolution": "679 x 679"
@@ -4915,7 +4935,11 @@
       }
     ],
     "bookVariations": [],
-    "categories": ["Electronics", "Headphones & Earbuds", "In-Ear Headphones"],
+    "categories": [
+      "Electronics",
+      "Headphones & Earbuds",
+      "In-Ear Headphones"
+    ],
     "categoriesExtended": [],
     "currency": null,
     "acKeywordLink": null,
@@ -4925,7 +4949,7 @@
     "retailPriceRent": 0,
     "coupon": null,
     "series": null,
-    "importantInformation": [], 
+    "importantInformation": [],
     "aboutProduct": [
       {
         "name": "Brand",
@@ -4947,7 +4971,7 @@
         "name": "Connectivity Technology",
         "value": "Wi-Fi, Bluetooth, NFC, Wireless"
       }
-    ], 
+    ],
     "deal": false,
     "addon": false,
     "countInStock": 5,
@@ -5177,7 +5201,11 @@
       }
     ],
     "bookVariations": [],
-    "categories": ["Electronics", "Headphones & Earbuds", "In-Ear Headphones" ],
+    "categories": [
+      "Electronics",
+      "Headphones & Earbuds",
+      "In-Ear Headphones"
+    ],
     "categoriesExtended": [],
     "currency": null,
     "acKeywordLink": null,
@@ -5221,7 +5249,7 @@
         "name": "Connectivity Technology",
         "value": "Apple H1 Chip, Wireless, Bluetooth, NFC"
       }
-    ], 
+    ],
     "deal": false,
     "addon": false,
     "countInStock": 5,
@@ -5656,7 +5684,7 @@
         "url": "/Tablets/b/ref=dp_bc_aui_C_4/135-2083980-4324956?ie=UTF8&node=1232597011",
         "node": "1232597011"
       }
-    ], 
+    ],
     "aboutProduct": [
       {
         "name": "Brand",
@@ -5678,13 +5706,13 @@
         "name": "Display Resolution Maximum",
         "value": "2560 x 1600 pixels"
       }
-    ], 
+    ],
     "prime": true,
     "addon": false,
     "countInStock": 5,
     "used": false,
     "deal": true
-  }, 
+  },
   {
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
@@ -5721,7 +5749,7 @@
       "https://m.media-amazon.com/images/I/81+su75aXjL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/71XYcPrgeQL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/611HVj9HJaL._AC_SL1500_.jpg"
-    ], 
+    ],
     "productDescription": null,
     "productDetails": null,
     "minimalQuantity": "1",
@@ -5769,7 +5797,12 @@
       "imageResolution": "679 x 679"
     },
     "bookVariations": [],
-    "categories": ["Electronics", "Computers & Accessories", "Computers & Tablets", "Tablets"],
+    "categories": [
+      "Electronics",
+      "Computers & Accessories",
+      "Computers & Tablets",
+      "Tablets"
+    ],
     "categoriesExtended": [],
     "currency": null,
     "acKeywordLink": null,
@@ -5802,7 +5835,7 @@
         "name": "Display Resolution Maximum",
         "value": "2420-by-1668-pixel resolution at 264 ppi"
       }
-    ], 
+    ],
     "prime": true,
     "addon": false,
     "countInStock": 5,
@@ -6099,7 +6132,12 @@
       }
     ],
     "bookVariations": [],
-    "categories": ["Electronics", "Computers & Accessories", "Computers & Tablets", "Tablets"],
+    "categories": [
+      "Electronics",
+      "Computers & Accessories",
+      "Computers & Tablets",
+      "Tablets"
+    ],
     "categoriesExtended": [],
     "currency": null,
     "acKeywordLink": null,
@@ -6371,7 +6409,7 @@
         "url": "/Traditional-Laptop-Computers/b/ref=dp_bc_5?ie=UTF8&node=13896615011",
         "node": "13896615011"
       }
-    ], 
+    ],
     "aboutProduct": [
       {
         "name": "Brand",
@@ -7587,7 +7625,7 @@
       "https://m.media-amazon.com/images/I/71hBZXz051L._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/613nz0Y40SL._AC_SL1500_.jpg",
       "https://m.media-amazon.com/images/I/61ML0AIjA-L._AC_SL1500_.jpg"
-    ], 
+    ],
     "productDescription": "Make the most of your fun with the stylish Galaxy Tab S10 Lite. Streaming, scrolling and reading are captivating on the vivid 10.9\" display. If you want to unleash your creativity, you can draw, sketch and color with natural-feeling precision thanks to the responsive design of S Pen. The Exynos 1380 processor makes multitasking easier, and the 256GB3 internal storage allows you to download and keep more of your favorite videos, apps and photos. Tab S10 Lite is more than just fun; it has intelligent features that make getting things done easy. Clean up your notes,4 solve trigonometric equations5 and search6 in a snap. Have your AI assistant at your fingertips with the AI Hot Key on your keyboard.7 You can even control all connected smart devices8 in your home right from your Tab S10 Lite without leaving the couch. Do all the things you love to do with Galaxy Tab S10 Lite. 1Based on local, 720p resolution video playback, default video player (full screen), 162 nit brightness, earbud volume 7, Wi-Fi and mobile network off. Results vary with settings, usage and other factors. 2Requires 45W wall charger (sold separately). Use only Samsung-approved charger and USB-C cable. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. 3Portion of storage / memory occupied by existing content. 4Compatible with Samsung Notes app only. English language pre-installed, select other languages available for download. Accuracy may vary. 5Available in Samsung Notes app. Legibility of handwriting can impact accuracy of calculations. 6Works with compatible apps. ",
     "productDetails": [
       {
@@ -8006,7 +8044,11 @@
     },
     "variations": [],
     "bookVariations": [],
-    "categories": ["Electronics", "Headphones & Earbuds", "Earbud Headphones"],
+    "categories": [
+      "Electronics",
+      "Headphones & Earbuds",
+      "Earbud Headphones"
+    ],
     "categoriesExtended": [],
     "currency": null,
     "acKeywordLink": null,
@@ -8178,7 +8220,11 @@
       "imageResolution": "679 x 679"
     },
     "bookVariations": [],
-    "categories": ["Electronics", "Wearable Technology", "Smart watches"],
+    "categories": [
+      "Electronics",
+      "Wearable Technology",
+      "Smart watches"
+    ],
     "categoriesExtended": [],
     "usedPrice": 0.0,
     "retailPriceRent": 0.0,
@@ -8542,7 +8588,11 @@
       }
     ],
     "bookVariations": [],
-    "categories": ["Electronics", "Headphones & Earbuds", "Earbud Headphones"],
+    "categories": [
+      "Electronics",
+      "Headphones & Earbuds",
+      "Earbud Headphones"
+    ],
     "categoriesExtended": [],
     "currency": null,
     "acKeywordLink": null,
@@ -8786,5 +8836,2696 @@
     "pantry": false,
     "used": false,
     "deal": true
+  },
+  {
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "Sony ZV-1F Vlog Camera for Content Creators and Vloggers Black",
+    "manufacturer": "Visit the Sony Store",
+    "brand": "Sony",
+    "dateFirstAvailable": "December 15, 2025",
+    "countReview": 1552,
+    "answeredQuestions": 0,
+    "productRating": "4.5 out of 5 stars",
+    "asin": "B0BHKKHNHM",
+    "sizeSelection": [],
+    "soldBy": "Adorama",
+    "fulfilledBy": "Adorama",
+    "sellerId": "A17MC6HOH9AVE6",
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 599.0,
+    "price": 498.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Tuesday, February 17. Details",
+    "priceSaving": "-17%",
+    "features": [
+      "Ultra-wide 20mm lens gets it all in the frame, even at arm’s length",
+      "Large 1” sensor and F2 lens, for low-light and defocusing backgrounds",
+      "Stay focused with Eye-AF and autofocus tracking technology",
+      "Side-articulating touchscreen LCD for easy to compose selfie shots",
+      "Clear Voice with directional 3-Capsule mic and wind screen accessory4"
+    ],
+    "imageUrlList": [
+      "https://m.media-amazon.com/images/I/716gp4ChszL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61uBGbG+grL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61wJNaIvFGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61JgW+8DahL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61nV9KRjW7L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61VHi77R1OL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61NhVtTQr1L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61rWppC4JiL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61+6Q+UFO4L._AC_SL1500_.jpg"
+    ],
+    "videoeUrlList": null,
+    "productDescription": "Sony ZV-1F Vlog camera for Content Creators and Vloggers, large 1-inch sensor with wide angle 20mm lens and packed with easy-to-use features, specifically designed for vloggers and online video creators.",
+    "productDetails": [
+      {
+        "name": "Brand",
+        "value": "Sony"
+      },
+      {
+        "name": "Model Name",
+        "value": "ZV-1F"
+      },
+      {
+        "name": "Built-In Media",
+        "value": "Camera Body & Accessories"
+      },
+      {
+        "name": "Are Batteries Included",
+        "value": "Yes"
+      },
+      {
+        "name": "External-Memory Size",
+        "value": "64 GB"
+      },
+      {
+        "name": "Model Number",
+        "value": "ZV1F/B"
+      },
+      {
+        "name": "Model Series",
+        "value": "ZV-1F"
+      },
+      {
+        "name": "UPC",
+        "value": "027242926288"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Sony"
+      },
+      {
+        "name": "Warranty Description",
+        "value": "1 year manufacturer"
+      },
+      {
+        "name": "Age Range Description",
+        "value": "Adult"
+      },
+      {
+        "name": "Item Type Name",
+        "value": "Sony zv-1f vlog camera for content creators and vloggers black."
+      },
+      {
+        "name": "Best Sellers Rank",
+        "value": "#2,829 in Electronics (See Top 100 in Electronics) #18 in Digital Point & Shoot Cameras"
+      },
+      {
+        "name": "ASIN",
+        "value": "B0BHKKHNHM"
+      },
+      {
+        "name": "Customer Reviews",
+        "value": "4.5 4.5 out of 5 stars (1,552) 4.5 out of 5 stars"
+      },
+      {
+        "name": "Metering Methods",
+        "value": "Average, Center-Weighted Average, Highlight, Multi, Spot"
+      },
+      {
+        "name": "Exposure Control",
+        "value": "Manual"
+      },
+      {
+        "name": "White Balance Settings",
+        "value": "Auto, Cloudy, Color Temperature, Custom, Daylight, Fluorescent, Incandescent, Shade, Underwater"
+      },
+      {
+        "name": "Self Timer",
+        "value": "2 Seconds"
+      },
+      {
+        "name": "Screen Size",
+        "value": "3 Inches"
+      },
+      {
+        "name": "Display Type",
+        "value": "LCD"
+      },
+      {
+        "name": "Dots Per Screen",
+        "value": "921,600 Dots"
+      },
+      {
+        "name": "Display Fixture Type",
+        "value": "Articulating"
+      },
+      {
+        "name": "Display Resolution Maximum",
+        "value": "921,600 Pixels"
+      },
+      {
+        "name": "Has Color Screen",
+        "value": "Yes"
+      },
+      {
+        "name": "Touch Screen Type",
+        "value": "Capacitive"
+      },
+      {
+        "name": "Flash Memory Type",
+        "value": "Single Slot: SD/SDHC/SDXC [128 GB Maximum]"
+      },
+      {
+        "name": "Memory Slots Available",
+        "value": "1"
+      },
+      {
+        "name": "Write Speed",
+        "value": "High"
+      },
+      {
+        "name": "Compatible Mountings",
+        "value": "Sony E"
+      },
+      {
+        "name": "Aspect Ratio",
+        "value": "16:9"
+      },
+      {
+        "name": "Sensor Type",
+        "value": "CMOS"
+      },
+      {
+        "name": "File Format",
+        "value": "MP4"
+      },
+      {
+        "name": "Image stabilization",
+        "value": "Digital"
+      },
+      {
+        "name": "Maximum Aperture",
+        "value": "2 f"
+      },
+      {
+        "name": "Expanded ISO Minimum",
+        "value": "100"
+      },
+      {
+        "name": "Photo Sensor Resolution",
+        "value": "20.1 MP"
+      },
+      {
+        "name": "Photo Sensor Size",
+        "value": "1-inch"
+      },
+      {
+        "name": "Maximum Shutter Speed",
+        "value": "1/32000 Seconds"
+      },
+      {
+        "name": "Minimum Shutter Speed",
+        "value": "1/16000 Seconds"
+      },
+      {
+        "name": "Exposure Control",
+        "value": "Manual"
+      },
+      {
+        "name": "Form Factor",
+        "value": "Compact"
+      },
+      {
+        "name": "Effective Still Resolution",
+        "value": "21 MP"
+      },
+      {
+        "name": "Special Feature",
+        "value": "Slow Motion Recording"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Screen Size",
+        "value": "3 Inches"
+      },
+      {
+        "name": "Shooting Modes",
+        "value": "Auto, Program Auto, Aperture Priority, Shutter Speed Priority, Manual Exposure, Movie Mode, S&Q Mode"
+      },
+      {
+        "name": "Item Weight",
+        "value": "254 Grams"
+      },
+      {
+        "name": "Video Resolution",
+        "value": "1080p, 2160p"
+      },
+      {
+        "name": "Viewfinder",
+        "value": "No Viewfinder"
+      },
+      {
+        "name": "Flash Modes",
+        "value": "Auto, On/Fill, Off, Slow Sync, Rear Curtain"
+      },
+      {
+        "name": "Camera Flash",
+        "value": "No flash"
+      },
+      {
+        "name": "Skill Level",
+        "value": "Professional"
+      },
+      {
+        "name": "Specific Uses For Product",
+        "value": "Vlogging"
+      },
+      {
+        "name": "Compatible Devices",
+        "value": "Smartphone"
+      },
+      {
+        "name": "Continuous Shooting",
+        "value": "24 FPS"
+      },
+      {
+        "name": "Aperture modes",
+        "value": "F2-F3.0"
+      },
+      {
+        "name": "Video Capture Format",
+        "value": "XAVC"
+      },
+      {
+        "name": "Expanded ISO Maximum",
+        "value": "12800"
+      },
+      {
+        "name": "Aspect Ratio",
+        "value": "16:9"
+      },
+      {
+        "name": "File Format",
+        "value": "MP4"
+      },
+      {
+        "name": "Effective Still Resolution",
+        "value": "21 MP"
+      },
+      {
+        "name": "JPEG Quality Level",
+        "value": "Fine, High, Normal"
+      },
+      {
+        "name": "Supported Image Format",
+        "value": "JPEG"
+      },
+      {
+        "name": "Total Still Resolution",
+        "value": "21 MP"
+      },
+      {
+        "name": "Maximum Focal Length",
+        "value": "20 Millimeters"
+      },
+      {
+        "name": "Lens Type",
+        "value": "Wide Angle"
+      },
+      {
+        "name": "Zoom",
+        "value": "Digital Zoom"
+      },
+      {
+        "name": "Camera Lens",
+        "value": "20 Mm"
+      },
+      {
+        "name": "Minimum Focal Length",
+        "value": "28 Millimeters"
+      },
+      {
+        "name": "Real Angle Of View",
+        "value": "0.52 Radians"
+      },
+      {
+        "name": "Focal Length Description",
+        "value": "20 Mm"
+      },
+      {
+        "name": "Digital Zoom",
+        "value": "4 x"
+      },
+      {
+        "name": "Photo Filter Thread Size",
+        "value": "40.5 Millimeters"
+      },
+      {
+        "name": "Lens Construction",
+        "value": "6 Elements in 6 Groups"
+      },
+      {
+        "name": "Connectivity Technology",
+        "value": "Bluetooth, Micro HDMI, USB, Wi-Fi"
+      },
+      {
+        "name": "Wireless Technology",
+        "value": "Bluetooth, Wi-Fi"
+      },
+      {
+        "name": "Video Output",
+        "value": "Micro-HDMI"
+      },
+      {
+        "name": "Total USB 3.0 Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total USB Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total Video Out Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total USB 2.0 Ports",
+        "value": "1"
+      },
+      {
+        "name": "HDMI Type",
+        "value": "Type D Micro HDMI"
+      },
+      {
+        "name": "Shooting Modes",
+        "value": "Auto, Program Auto, Aperture Priority, Shutter Speed Priority, Manual Exposure, Movie Mode, S&Q Mode"
+      },
+      {
+        "name": "Digital-Still",
+        "value": "No"
+      },
+      {
+        "name": "Movie Mode",
+        "value": "Yes"
+      },
+      {
+        "name": "Image Capture Type",
+        "value": "Stills & Video"
+      },
+      {
+        "name": "Night vision",
+        "value": "No"
+      },
+      {
+        "name": "Auto Focus Technology",
+        "value": "Contrast Detection"
+      },
+      {
+        "name": "Focus Features",
+        "value": "Autofocus with Eye Detection and Tracking"
+      },
+      {
+        "name": "Autofocus Points",
+        "value": "425"
+      },
+      {
+        "name": "Focus Type",
+        "value": "Auto Focus"
+      },
+      {
+        "name": "Focus Mode",
+        "value": "Automatic AF (AF-A), Continuous-Servo AF (AF-C), Single-Servo AF (AF-S)"
+      },
+      {
+        "name": "Autofocus",
+        "value": "Yes"
+      }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+      {
+        "text": "I use this camera for mini family vlogs of our kids, vacations and special occasions. This vlog camera is an excellent choice for Moms who want great quality without a complicated setup. The video quality is crisp and vibrant, and the wide-angle lens is perfect for handheld vlogging. Autofocus is fast and reliable, keeping faces sharp even while moving. I also love the clear built-in microphone and the flip-out screen, which makes framing shots super easy. It’s lightweight, travel-friendly. I highly recommend this camera & I hope this review is helpful 👍🏻",
+        "date": "Reviewed in the United States on December 16, 2025",
+        "rating": "5.0 out of 5 stars",
+        "title": "Easy to Use, Amazing Video—Ideal for Beginners! 💫",
+        "userName": "Cece - Honest & Verified Reviews ✨ Cece - Honest & Verified Reviews ✨",
+        "url": "/gp/customer-reviews/R3BIXTDQ0XCQOH/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [
+          "",
+          ""
+        ],
+        "variationList": [
+          "Color: Black",
+          "Style: Camera Only"
+        ],
+        "reviewId": "R3BIXTDQ0XCQOH",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AGA34MIBBCUL3UGYZWGOJD6A6JDA"
+      },
+      {
+        "text": "I don't know how to use a DSLR and don't want it. I just needed a quality 4K camera for a media purpose. The Sony ZV-1F is more robust than a regular noobie camera, but not so intimidating (and expensive) as a quality DSLR. It works well, video quality for 1080P HD or 4K is great. Menu is easy to navigate with not a huge learning curve. Sound quality is good, but it is a basic microphone, so best not to expect studio quality.",
+        "date": "Reviewed in the United States on December 4, 2025",
+        "rating": "5.0 out of 5 stars",
+        "title": "Great & Easy to Use",
+        "userName": "Honest Reviewer, South Carolina USA",
+        "url": "/gp/customer-reviews/R3EKXLBQHSP4YB/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black",
+          "Style: Camera Only"
+        ],
+        "reviewId": "R3EKXLBQHSP4YB",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AEZI3BY44FROECWKPOYQJ7A6QAEQ"
+      }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+      "imageUrl": "https://m.media-amazon.com/images/I/716gp4ChszL._AC_SX679_.jpg",
+      "imageResolution": "679 x 679"
+    },
+    "variations": [],
+    "bookVariations": [],
+    "categories": [
+      "Electronics",
+      "Camera & Photo",
+      "Cameras",
+      "Digital Cameras",
+      "Point & Shoot Digital Cameras"
+    ],
+    "categoriesExtended": [
+      {
+        "name": "Electronics",
+        "url": "/electronics-store/b/ref=dp_bc_1?ie=UTF8&node=172282",
+        "node": "172282"
+      },
+      {
+        "name": "Camera & Photo",
+        "url": "/Camera-Photo-Film-Canon-Sony/b/ref=dp_bc_2?ie=UTF8&node=502394",
+        "node": "502394"
+      },
+      {
+        "name": "Digital Cameras",
+        "url": "/Digital-Cameras/b/ref=dp_bc_3?ie=UTF8&node=281052",
+        "node": "281052"
+      },
+      {
+        "name": "Point & Shoot Digital Cameras",
+        "url": "/Digital-Cameras-Photo/b/ref=dp_bc_4?ie=UTF8&node=330405011",
+        "node": "330405011"
+      }
+    ],
+    "currency": null,
+    "acKeywordLink": null,
+    "deliveryMessage": null,
+    "pastSales": "500+ bought in past month",
+    "deal": false,
+    "used": false,
+    "addon": false,
+    "pantry": false,
+    "prime": false
+  },
+  {
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "Sony Alpha ZV-E10 - APS-C Interchangeable Lens Mirrorless Vlog Camera Kit - Black, ZVE10KB",
+    "manufacturer": "Visit the Sony Store",
+    "brand": "Sony",
+    "dateFirstAvailable": "2021-07-27",
+    "countReview": 0,
+    "answeredQuestions": 0,
+    "productRating": null,
+    "asin": "B0FLSPG85G",
+    "sizeSelection": [],
+    "soldBy": "Adorama",
+    "fulfilledBy": "Adorama",
+    "sellerId": "A17MC6HOH9AVE6",
+    "warehouseAvailability": null,
+    "retailPrice": 0.0,
+    "price": 0.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "",
+    "priceSaving": null,
+    "features": [
+      "24.2MP APS-C Exmor CMOS Sensor and fast BIONZ X processor",
+      "4K Movie oversampled from 6k w/ full pixel readout, no pixel binning",
+      "Product Showcase Setting transitions focus from face to object",
+      "Background Defocus button instantly toggles between defocus effect on/off",
+      "Easy live streaming w/ single USB cable and no extra hardware/software"
+    ],
+    "imageUrlList": [
+      "https://m.media-amazon.com/images/I/71CXCrlTMBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71CXCrlTMBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71v4x3PtWDL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61mGN-Ic8aL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61wE7datDiL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61CNzRrd3ML._AC_SL1500_.jpg"
+    ],
+    "videoeUrlList": [],
+    "productDescription": "The Alpha ZV-E10 is a large APS-C sensor mirorrless ILC camera built for vlogging, featuring high-quality imagery. The E-mount interchangeable lens system offers a wide selection to suit your creative style, while the flip-out vari-angle LCD, advanced audio options and other features designed specifically for vlogging make this the ideal camera for content creators.",
+    "productDetails": [
+      {
+        "name": "Brand",
+        "value": "Sony"
+      },
+      {
+        "name": "Model Name",
+        "value": "Sony ZV-E10"
+      },
+      {
+        "name": "Built-In Media",
+        "value": "Camera Body & Lens"
+      },
+      {
+        "name": "Are Batteries Included",
+        "value": "Yes"
+      },
+      {
+        "name": "Model Number",
+        "value": "ZVE10KB"
+      },
+      {
+        "name": "Remote Included",
+        "value": "No"
+      },
+      {
+        "name": "Model Series",
+        "value": "ZV-E10"
+      },
+      {
+        "name": "Series Number",
+        "value": "1"
+      },
+      {
+        "name": "UPC",
+        "value": "027242932517"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Sony"
+      },
+      {
+        "name": "Warranty Description",
+        "value": "1 year limited manufacturer"
+      },
+      {
+        "name": "Best Sellers Rank",
+        "value": "#4,616 in Electronics (See Top 100 in Electronics) #2 in Mirrorless Cameras"
+      },
+      {
+        "name": "ASIN",
+        "value": "B0FLSPG85G"
+      },
+      {
+        "name": "Metering Methods",
+        "value": "1200-zone evaluative metering"
+      },
+      {
+        "name": "Exposure Control",
+        "value": "Automatic, Manual"
+      },
+      {
+        "name": "White Balance Settings",
+        "value": "Auto, Cloudy, Color Temperature, Custom, Daylight"
+      },
+      {
+        "name": "Self Timer",
+        "value": "10 Seconds"
+      },
+      {
+        "name": "Crop Mode",
+        "value": "APS-C"
+      },
+      {
+        "name": "Connectivity Technology",
+        "value": "Bluetooth, Micro HDMI, USB, Wi-Fi"
+      },
+      {
+        "name": "Wireless Technology",
+        "value": "Bluetooth, Wi-Fi"
+      },
+      {
+        "name": "Video Output",
+        "value": "HDMI"
+      },
+      {
+        "name": "Total USB 3.0 Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total USB Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total Video Out Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total USB 2.0 Ports",
+        "value": "1"
+      },
+      {
+        "name": "Hardware Interface",
+        "value": "Bluetooth"
+      },
+      {
+        "name": "Flash Memory Type",
+        "value": "SD"
+      },
+      {
+        "name": "Memory Slots Available",
+        "value": "1"
+      },
+      {
+        "name": "Recording Capacity",
+        "value": "125 Minutes"
+      },
+      {
+        "name": "Write Speed",
+        "value": "11 fps"
+      },
+      {
+        "name": "Flash Memory UHS Speed Class",
+        "value": "UHS-I"
+      },
+      {
+        "name": "Compatible Mountings",
+        "value": "Sony E"
+      },
+      {
+        "name": "Aspect Ratio",
+        "value": "1:1, 3:2, 4:3"
+      },
+      {
+        "name": "Sensor Type",
+        "value": "CMOS"
+      },
+      {
+        "name": "File Format",
+        "value": "JPEG, RAW"
+      },
+      {
+        "name": "Image stabilization",
+        "value": "Dual, Optical"
+      },
+      {
+        "name": "Maximum Aperture",
+        "value": "3.5 f"
+      },
+      {
+        "name": "Expanded ISO Minimum",
+        "value": "50"
+      },
+      {
+        "name": "Photo Sensor Resolution",
+        "value": "24.2 MP"
+      },
+      {
+        "name": "Photo Sensor Size",
+        "value": "APS-C"
+      },
+      {
+        "name": "Maximum Shutter Speed",
+        "value": "1/4000 Seconds"
+      },
+      {
+        "name": "Minimum Shutter Speed",
+        "value": "30, BULB Seconds"
+      },
+      {
+        "name": "Exposure Control",
+        "value": "Automatic, Manual"
+      },
+      {
+        "name": "Form Factor",
+        "value": "Mirrorless"
+      },
+      {
+        "name": "Effective Still Resolution",
+        "value": "24 MP"
+      },
+      {
+        "name": "Special Feature",
+        "value": "425-Point Fast Hybrid AF; Real-Time Eye AF and Tracking; Directional 3-Capsule Mic and Windscreen"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Screen Size",
+        "value": "3 Inches"
+      },
+      {
+        "name": "Shooting Modes",
+        "value": "Photo, Movie, S&Q, Auto, P, S, A, M"
+      },
+      {
+        "name": "Item Weight",
+        "value": "1.6 Pounds"
+      },
+      {
+        "name": "Video Resolution",
+        "value": "1080p, 2160p"
+      },
+      {
+        "name": "Viewfinder",
+        "value": "No Viewfinder"
+      },
+      {
+        "name": "Flash Modes",
+        "value": "Off, Auto, Fill Flash, Rear Sync, Slow Sync"
+      },
+      {
+        "name": "Camera Flash",
+        "value": "Hotshoe"
+      },
+      {
+        "name": "Skill Level",
+        "value": "Professional"
+      },
+      {
+        "name": "Specific Uses For Product",
+        "value": "Photography, Vlogging"
+      },
+      {
+        "name": "Compatible Devices",
+        "value": "Smartphone"
+      },
+      {
+        "name": "Continuous Shooting",
+        "value": "11 FPS"
+      },
+      {
+        "name": "Aperture modes",
+        "value": "F3.5–F5.6"
+      },
+      {
+        "name": "Flash Sync Speed",
+        "value": "1/160 Second"
+      },
+      {
+        "name": "Video Capture Format",
+        "value": "XAVC"
+      },
+      {
+        "name": "Aspect Ratio",
+        "value": "1:1, 3:2, 4:3"
+      },
+      {
+        "name": "File Format",
+        "value": "JPEG, RAW"
+      },
+      {
+        "name": "Effective Still Resolution",
+        "value": "24 MP"
+      },
+      {
+        "name": "JPEG Quality Level",
+        "value": "Fine, High, Normal"
+      },
+      {
+        "name": "Bit Depth",
+        "value": "14 Bit"
+      },
+      {
+        "name": "Total Still Resolution",
+        "value": "24.2 MP"
+      },
+      {
+        "name": "Maximum Image Size",
+        "value": "24 MP"
+      },
+      {
+        "name": "Maximum Focal Length",
+        "value": "50 Millimeters"
+      },
+      {
+        "name": "Optical Zoom",
+        "value": "3 x"
+      },
+      {
+        "name": "Lens Type",
+        "value": "Standard Power Zoom"
+      },
+      {
+        "name": "Zoom",
+        "value": "Optical Zoom"
+      },
+      {
+        "name": "Camera Lens",
+        "value": "Sony E PZ 16-50mm F3.5-5.6 OSS II"
+      },
+      {
+        "name": "Minimum Focal Length",
+        "value": "16 Millimeters"
+      },
+      {
+        "name": "Real Angle Of View",
+        "value": "9.67 Degrees"
+      },
+      {
+        "name": "Focal Length Description",
+        "value": "16 to 50mm (35mm Equivalent Focal Length: 24 to 75mm)"
+      },
+      {
+        "name": "Digital Zoom",
+        "value": "2 x"
+      },
+      {
+        "name": "Number of Diaphragm Blades",
+        "value": "7"
+      },
+      {
+        "name": "Photo Filter Thread Size",
+        "value": "40.5 Millimeters"
+      },
+      {
+        "name": "Lens Construction",
+        "value": "E PZ 16-50mm F3.5-5.6 OSS II"
+      },
+      {
+        "name": "Photo Filter Size",
+        "value": "40.5 Millimeters"
+      },
+      {
+        "name": "Screen Size",
+        "value": "3 Inches"
+      },
+      {
+        "name": "Display Type",
+        "value": "LCD"
+      },
+      {
+        "name": "Dots Per Screen",
+        "value": "921,600 Dot"
+      },
+      {
+        "name": "Display Fixture Type",
+        "value": "Articulating"
+      },
+      {
+        "name": "Display Resolution Maximum",
+        "value": "24.2 MP"
+      },
+      {
+        "name": "Has Color Screen",
+        "value": "Yes"
+      },
+      {
+        "name": "Shooting Modes",
+        "value": "Photo, Movie, S&Q, Auto, P, S, A, M"
+      },
+      {
+        "name": "Digital-Still",
+        "value": "Yes"
+      },
+      {
+        "name": "Movie Mode",
+        "value": "Yes"
+      },
+      {
+        "name": "Image Capture Type",
+        "value": "Stills & Video"
+      },
+      {
+        "name": "Night vision",
+        "value": "No"
+      },
+      {
+        "name": "Auto Focus Technology",
+        "value": "Contrast Detection, Eye Detection, Face Detection, Hybrid, Phase Detection"
+      },
+      {
+        "name": "Focus Features",
+        "value": "Hybrid"
+      },
+      {
+        "name": "Autofocus Points",
+        "value": "425"
+      },
+      {
+        "name": "Focus Type",
+        "value": "Auto Focus, Manual Focus"
+      },
+      {
+        "name": "Focus Mode",
+        "value": "Automatic AF (AF-A)"
+      },
+      {
+        "name": "Autofocus",
+        "value": "Yes"
+      }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [],
+    "productSpecification": [],
+    "mainImage": {
+      "imageUrl": "https://m.media-amazon.com/images/I/71CXCrlTMBL._AC_SX679_.jpg",
+      "imageResolution": "679 x 679"
+    },
+    "variations": [],
+    "bookVariations": [],
+    "categories": [
+      "Electronics",
+      "Camera & Photo",
+      "Cameras",
+      "Digital Cameras",
+      "Mirrorless Cameras"
+    ],
+    "categoriesExtended": [
+      {
+        "name": "Electronics",
+        "url": "/electronics-store/b/ref=dp_bc_1?ie=UTF8&node=172282",
+        "node": "172282"
+      },
+      {
+        "name": "Camera & Photo",
+        "url": "/Camera-Photo-Film-Canon-Sony/b/ref=dp_bc_2?ie=UTF8&node=502394",
+        "node": "502394"
+      },
+      {
+        "name": "Digital Cameras",
+        "url": "/Digital-Cameras/b/ref=dp_bc_3?ie=UTF8&node=281052",
+        "node": "281052"
+      },
+      {
+        "name": "Mirrorless Cameras",
+        "url": "/Mirrorless-Cameras/b/ref=dp_bc_4?ie=UTF8&node=3109924011",
+        "node": "3109924011"
+      }
+    ],
+    "pastSales": "300+ bought in past month",
+    "deal": false,
+    "used": false,
+    "addon": false,
+    "pantry": false,
+    "prime": false
+  },
+  {
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "Sony RX100 VII Premium Compact Camera with 1.0-type stacked CMOS sensor (DSCRX100M7)",
+    "manufacturer": "Visit the Sony Store",
+    "brand": "Sony",
+    "dateFirstAvailable": "2019-07-31T21:00:00.000Z",
+    "countReview": 645,
+    "answeredQuestions": 0,
+    "productRating": "4.3 out of 5 stars",
+    "asin": "B07VPQV7BY",
+    "sizeSelection": [],
+    "soldBy": "ThePixelConnection",
+    "fulfilledBy": "ThePixelConnection",
+    "sellerId": "A3K5JOBIXHW8L7",
+    "warehouseAvailability": "Only 4 left in stock - order soon.",
+    "retailPrice": 0.0,
+    "price": 1698.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Monday, February 16. Order within 7 hrs 6 mins. Details",
+    "priceSaving": "-30%",
+    "features": [
+      "20. 1MP 1. 0 Type stacked CMOS sensor, Zeiss Vario Sonnar T 24 200 millimeter F2. 8 F4. 5 large aperture high magnification zoom lens",
+      "0. 02 sec. High AF speed, 357 point focal plane Phase detection AF and 425 point contrast detection AF",
+      "Up to 20 fps blackout free shooting, using up to 60 times/sec. AF/AE calculations. Diopter Adjustment: -4.0 to +3.0 m-1. Operating Temperature- 0 degrees C.- +40 degrees C. / 32 degrees F. - 104 degrees F",
+      "AI based real time tracking for stills and movies, and touch tracking. Real time eye AF for human (stills and movies), and for animal (stills only)",
+      "4K video with us log3 and Interval Shooting. Microphone jack and vertical position data recording. Active mode image stabilization in 4K video recording, and Movie Edit add on compatible"
+    ],
+    "imageUrlList": [
+      "https://m.media-amazon.com/images/I/61sDlyi3d4L._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61sDlyi3d4L._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/81ekc7N3mVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71by8LCKqbL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81WhZPXUBsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71pJfJVEBeL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71wfDFDdVoL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71erNsQcUUL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71oVDzafgnL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81riv3T1EjL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81JQ2VRd3yL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ihK3CPoML._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91+PNos784L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81Lc2ulAkyL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81uQE3GNklL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81BcG9A8ooL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81x90FhwB5L._AC_SL1500_.jpg"
+    ],
+    "videoeUrlList": [],
+    "productDescription": "Sony RX100 VII premium compact camera, 20. 1MP 1. 0-Type stacked CMOS sensor, 24-200mm zoom lens 0. 02-Sec. Fast AF, real-time tracking and real-time eye AF for human and animal, blackout-free continuous shooting at up to 20Fps, single burst shooting at 90Fps, 4K HDR (HLG) video recording, active mode Steady Shot for 4K movie, microphone jack.",
+    "productDetails": [
+      {
+        "name": "Brand",
+        "value": "Sony"
+      },
+      {
+        "name": "Model Name",
+        "value": "RX100 VII"
+      },
+      {
+        "name": "Built-In Media",
+        "value": "Camera Body & Accessories"
+      },
+      {
+        "name": "Are Batteries Included",
+        "value": "Yes"
+      },
+      {
+        "name": "Model Number",
+        "value": "DSCRX100M7/B"
+      },
+      {
+        "name": "Remote Included",
+        "value": "No"
+      },
+      {
+        "name": "Model Series",
+        "value": "DSC-RX100 VII"
+      },
+      {
+        "name": "Series Number",
+        "value": "7"
+      },
+      {
+        "name": "Global Trade Identification Number",
+        "value": "00027242918511"
+      },
+      {
+        "name": "UPC",
+        "value": "027242918511"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Sony"
+      },
+      {
+        "name": "Warranty Description",
+        "value": "1 year manufacturer"
+      },
+      {
+        "name": "Age Range Description",
+        "value": "Adult"
+      },
+      {
+        "name": "Unit Count",
+        "value": "1.0 Count"
+      },
+      {
+        "name": "Best Sellers Rank",
+        "value": "#9,354 in Electronics (See Top 100 in Electronics) #83 in Digital Point & Shoot Cameras"
+      },
+      {
+        "name": "ASIN",
+        "value": "B07VPQV7BY"
+      },
+      {
+        "name": "Customer Reviews",
+        "value": "4.3 4.3 out of 5 stars (645) 4.3 out of 5 stars"
+      },
+      {
+        "name": "Metering Methods",
+        "value": "Average, Center-Weighted Average, Multi, Spot"
+      },
+      {
+        "name": "Exposure Control",
+        "value": "Manual"
+      },
+      {
+        "name": "White Balance Settings",
+        "value": "Auto, Cloudy, Color Temperature, Custom, Daylight, Fluorescent, Incandescent, Shade, Underwater"
+      },
+      {
+        "name": "Self Timer",
+        "value": "10 Seconds, 2 Seconds, 5 Seconds"
+      },
+      {
+        "name": "Screen Size",
+        "value": "3 Inches"
+      },
+      {
+        "name": "Display Type",
+        "value": "LCD"
+      },
+      {
+        "name": "Dots Per Screen",
+        "value": "921,600 Dot"
+      },
+      {
+        "name": "Display Fixture Type",
+        "value": "Tilting"
+      },
+      {
+        "name": "Display Resolution Maximum",
+        "value": "5472 x 3648"
+      },
+      {
+        "name": "Has Color Screen",
+        "value": "Yes"
+      },
+      {
+        "name": "Touch Screen Type",
+        "value": "Capacitive"
+      },
+      {
+        "name": "Flash Memory Type",
+        "value": "Single Slot: SD/SDHC/SDXC/Memory Stick Duo Hybrid"
+      },
+      {
+        "name": "Memory Slots Available",
+        "value": "1"
+      },
+      {
+        "name": "Recording Capacity",
+        "value": "30 Minutes"
+      },
+      {
+        "name": "Write Speed",
+        "value": "20 fps"
+      },
+      {
+        "name": "Flash Memory Speed Class",
+        "value": "10"
+      },
+      {
+        "name": "Flash Memory UHS Speed Class",
+        "value": "U3"
+      },
+      {
+        "name": "Flash Memory Bus Interface Type",
+        "value": "USB 2.0"
+      },
+      {
+        "name": "Compatible Mountings",
+        "value": "Zeiss"
+      },
+      {
+        "name": "Aspect Ratio",
+        "value": "16:9, 3:2, 4:3"
+      },
+      {
+        "name": "Sensor Type",
+        "value": "CMOS"
+      },
+      {
+        "name": "File Format",
+        "value": "JPEG, Raw"
+      },
+      {
+        "name": "Image stabilization",
+        "value": "Digital, Optical"
+      },
+      {
+        "name": "Maximum Aperture",
+        "value": "2.8 f"
+      },
+      {
+        "name": "Expanded ISO Minimum",
+        "value": "64"
+      },
+      {
+        "name": "Photo Sensor Resolution",
+        "value": "20 MP"
+      },
+      {
+        "name": "Photo Sensor Size",
+        "value": "1-inch"
+      },
+      {
+        "name": "Maximum Shutter Speed",
+        "value": "1/32000 Seconds"
+      },
+      {
+        "name": "Minimum Shutter Speed",
+        "value": "30 Seconds"
+      },
+      {
+        "name": "Exposure Control",
+        "value": "Manual"
+      },
+      {
+        "name": "Form Factor",
+        "value": "Compact"
+      },
+      {
+        "name": "Effective Still Resolution",
+        "value": "20.1 MP"
+      },
+      {
+        "name": "Special Feature",
+        "value": "BIONZ X Image Processor and Front-End LSI; Built-In Flash; Fast Hybrid AF System with 315 Phase-Detection Points"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Screen Size",
+        "value": "3 Inches"
+      },
+      {
+        "name": "Shooting Modes",
+        "value": "Auto, Program auto, Aperture priority, Shutter speed priority, Manual exposure, Memory recall, Movie mode, HFR mode, Panorama, Scene selection"
+      },
+      {
+        "name": "Item Weight",
+        "value": "275 Grams"
+      },
+      {
+        "name": "Video Resolution",
+        "value": "4K UHD 2160p"
+      },
+      {
+        "name": "Viewfinder",
+        "value": "Electronic"
+      },
+      {
+        "name": "Flash Modes",
+        "value": "Auto, Flash On, Off, Rear Sync, Slow Sync"
+      },
+      {
+        "name": "Camera Flash",
+        "value": "Built-In"
+      },
+      {
+        "name": "Skill Level",
+        "value": "Professional"
+      },
+      {
+        "name": "Specific Uses For Product",
+        "value": "Photography, Videography"
+      },
+      {
+        "name": "Compatible Devices",
+        "value": "Smartphone"
+      },
+      {
+        "name": "Continuous Shooting",
+        "value": "20 FPS"
+      },
+      {
+        "name": "Aperture modes",
+        "value": "F4.0"
+      },
+      {
+        "name": "Viewfinder Magnification",
+        "value": "0.59x"
+      },
+      {
+        "name": "Video Capture Format",
+        "value": "AVCHD/MP4/XAVC S"
+      },
+      {
+        "name": "Aspect Ratio",
+        "value": "16:9, 3:2, 4:3"
+      },
+      {
+        "name": "File Format",
+        "value": "JPEG, Raw"
+      },
+      {
+        "name": "Effective Still Resolution",
+        "value": "20.1 MP"
+      },
+      {
+        "name": "JPEG Quality Level",
+        "value": "Basic, Fine, Normal"
+      },
+      {
+        "name": "Supported Image Format",
+        "value": "JPEG, RAW"
+      },
+      {
+        "name": "Total Still Resolution",
+        "value": "20.1 MP"
+      },
+      {
+        "name": "Maximum Image Size",
+        "value": "20.1 MP"
+      },
+      {
+        "name": "Maximum Focal Length",
+        "value": "72 Millimeters"
+      },
+      {
+        "name": "Optical Zoom",
+        "value": "8 x"
+      },
+      {
+        "name": "Lens Type",
+        "value": "Telephoto"
+      },
+      {
+        "name": "Zoom",
+        "value": "Optical Zoom"
+      },
+      {
+        "name": "Camera Lens",
+        "value": "Telephoto"
+      },
+      {
+        "name": "Minimum Focal Length",
+        "value": "9 Millimeters"
+      },
+      {
+        "name": "Real Angle Of View",
+        "value": "53.13 Degrees"
+      },
+      {
+        "name": "Focal Length Description",
+        "value": "9 to 72mm (35mm Equivalent Focal Length: 24 to 200mm)"
+      },
+      {
+        "name": "Digital Zoom",
+        "value": "4 x"
+      },
+      {
+        "name": "Lens Construction",
+        "value": "15 Elements in 12 Groups"
+      },
+      {
+        "name": "Connectivity Technology",
+        "value": "Bluetooth, Wi-Fi"
+      },
+      {
+        "name": "Wireless Technology",
+        "value": "Bluetooth, Wi-Fi"
+      },
+      {
+        "name": "Video Output",
+        "value": "Micro-HDMI"
+      },
+      {
+        "name": "Total USB 3.0 Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total USB Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total Video Out Ports",
+        "value": "1"
+      },
+      {
+        "name": "Total USB 2.0 Ports",
+        "value": "1"
+      },
+      {
+        "name": "Hardware Interface",
+        "value": "AV Port"
+      },
+      {
+        "name": "Shooting Modes",
+        "value": "Auto, Program auto, Aperture priority, Shutter speed priority, Manual exposure, Memory recall, Movie mode, HFR mode, Panorama, Scene selection"
+      },
+      {
+        "name": "Digital Scene Transition",
+        "value": "zoom"
+      },
+      {
+        "name": "Digital-Still",
+        "value": "Yes"
+      },
+      {
+        "name": "Movie Mode",
+        "value": "Yes"
+      },
+      {
+        "name": "Image Capture Type",
+        "value": "Stills & Video"
+      },
+      {
+        "name": "Night vision",
+        "value": "No"
+      },
+      {
+        "name": "Auto Focus Technology",
+        "value": "Contrast Detection, Face Detection"
+      },
+      {
+        "name": "Focus Features",
+        "value": "Single-shot AF, Automatic AF, Continuous AF, DMF, Manual Focus"
+      },
+      {
+        "name": "Autofocus Points",
+        "value": "425"
+      },
+      {
+        "name": "Focus Type",
+        "value": "Auto Focus"
+      },
+      {
+        "name": "Focus Mode",
+        "value": "Continuous-Servo AF (AF-C), Manual Focus (MF), Single-Servo AF (AF-S)"
+      },
+      {
+        "name": "Autofocus",
+        "value": "Yes"
+      }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+      {
+        "text": "This is a little powerhouse of a mini camera. Only been using it for a couple weeks, but heres an initial review, basically likes and dislikes. The camera is small and packed with features useful for the prosumer. It’s a bit on the hefty side having a very solid case, that might be partially metal. The Zeiss lens is amazing being a 25-200mm equivellant at F2.8 to F4.5 and quite sharp. The menu system is extensive but takes a while to learn to navigate. The exterior finish, as others have noted, is a bit on the slippery side. A rubber grip pad is available from Sony that fits perfectly. Considering the price, I think this should be factory included. It solves the problem completely. The controls are a bit small for my fat fingers, but I dont see how they could be much bigger. The mode wheel on top is a little stiff to turn. I consider this to be a major advantage, preventing accidental mode change. The viewfinder is essential in my experience. The wireless transfer took a while to learn, but finally got it. Looking foreword to taking pix in Alaska next week. Also will report on very low temperature performance. Now, back from Alaska. Camera performance just fine in cold temperatures. One day it was 45 below. The camera did not get that cold, but I did use it outside for a few minutes. Image quality is impressive. Played on our 60” TV and looks just fine. I tend to use Aperture Priority (A) on the mode dial and Auto on the ISO menu. I used f5.6 for good focus depth and optical quality. It fits very nicely in a GI grena** belt pouch for quick access. Im thoroughly happy with this mini camera. Some have complained about the menu and button controls. Actually, I find the menu relatively easy to navigate after you have played with it for a while. The butttons are quite easy to use and understand.",
+        "date": "Reviewed in the United States on January 7, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Great camera",
+        "userName": "William Cochrane",
+        "url": "/gp/customer-reviews/RDIUS2N108Y0J/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Set: Camera Only"
+        ],
+        "reviewId": "RDIUS2N108Y0J",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AFDWX3ZY2YWG65OA2V6AM7IS4CBQ"
+      },
+      {
+        "text": "Took this camera on safari and it worked great. I knew we wanted something small as we needed to pack light and this was perfect. Easy to use and enough zoom to see the animals in the photos as well. Looking forward to being able to take it easily on future trips (city, hiking) as it’s so compact and takes beautiful photos. Well worth the added cost.",
+        "date": "Reviewed in the United States on November 21, 2025",
+        "rating": "5.0 out of 5 stars",
+        "title": "Versatile camera",
+        "userName": "Kristen",
+        "url": "/gp/customer-reviews/R1ELAJ2Q7F4ZO7/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Set: Camera Only"
+        ],
+        "reviewId": "R1ELAJ2Q7F4ZO7",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AGFXOVJBWGVJXGZZRZ4GJRGFYHMQ"
+      },
+      {
+        "text": "Ok, so to keep it simple. As I stated, its worth the price of $1200. Why? Because it is a 20MP pocket camera, that has 4k recording with audio input. As well as an awesome focal range. Starting at a wide 24mm to a 200mm telephoto range. Whats not to like? Its awesome. Don't expect bird photography though. Now the lengthy part... I'm coming from owning a fair share of cameras as a professional photographer. As of this review, I have a Sony A7m2 with the kit lens, but also the 70200g f4 lens, plus other various lenses. The Sony a6000 + nex 5n, RX100m3, Fuji X100F. Further down in the review III will be the RX100m3 and VII is the one the review is for.Why does this become part of the review? Its because I can put this camera against some stiff competition before writing this review. As far as usefulness, I think this camera is 10/10. I used to carry the RX100m3 along everywhere with me because of its size. I kept it, for the fact that it has f1.8 at its widest vs 2.8 of the RX100m7. Now I carry the III and the VII everywhere. However, the one I have used primarily these past few weeks have been the VII because of its reach. I know 90% of my photos never exceed the range of 70mm. Found this out a 3rd time because of a 2 month trip to Viet Nam and Japan where I took only the III and X100F. During that trip I only encountered maybe 5 times max where I wish I had 200mm reach. Well, now I have that, and more. I'll upload photos later after this review. Build quality: 10/10 Is basically the same as you can expect from Sony and its previous RX models. Same high quality. Image quality: 8/10 I love it. Obviously it won't compete with the bigger cameras I have, but in good lighting (always a key) the image quality is amazing. The range this camera provides helps in making better bokeh portraits compared to the 24-70mm range of previous models (not including the VI). *my opinion you may not agree Video: N/A Honestly, not much a video person. Having an option to add a mic really pushed me to buying this camera. That was the selling point to me. Otherwise I wouldn't have bought this since I didn't buy the VI either. Where does this camera fit in? As expected, I can see this camera fit perfectly in my travel kit. Where 90% of the time I would use it while traveling, only pulling out the III when I go walking around at night or poorly lit conditions. If you know the limitations of this camera it will not let you down. Just, as explained earlier, it isn't going to be good for wildlife, but as a portraits and everyday camera. I think it nails it. What I wish: Weather Sealing! C'mon Sony, you pulled through with the mic input. I want to use these cameras in raining conditions. I'm a firm believer of what these tiny guys can do.",
+        "date": "Reviewed in the United States on September 10, 2019",
+        "rating": "5.0 out of 5 stars",
+        "title": "Well Worth the Pricetag",
+        "userName": "Gigachip Gigachip",
+        "url": "/gp/customer-reviews/R16I3UE3GSLI1G/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "variationList": [
+          "Set: Camera Only"
+        ],
+        "reviewId": "R16I3UE3GSLI1G",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AF3Y675AA6BSOR77INVG52H6GK4A"
+      },
+      {
+        "text": "This is a great Pro Quality Professional Camera, with all the features of a full-size 35mm Camera with video and sound recording, but in a compact pocket size. I use mine for magazine and website coverage for my motorcycle and car trips across Europe and around the USA where it can slip in and out of a front pocket easily for roadside pictures. Also perfect for shooting inside concerts where full size removable lens cameras are not allowed. The videos I shoot at concerts are top quality and I post them on my YouTube Chanal. The only problem is it is breakable if you drop it, and I seem to wear them out every 2 years with weekly use. The camera will seize up and stop working. I am now on my 5th RX100 in 10 years. And Sony does not offer any repair service. It is an expensive camera, but no other compact camera offers a built-in flash, a zoom wide-angle to telephoto lens, video, an eye view finder which turns off the power-robbing rear LED screen, and full Automatic and Manual modes.",
+        "date": "Reviewed in the United States on April 27, 2025",
+        "rating": "4.0 out of 5 stars",
+        "title": "Full Pro Caliber Camera and Video in a Compact Design",
+        "userName": "Gianatsis Design (Consignment)",
+        "url": "/gp/customer-reviews/R2OJ5F8E3ZAS56/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Set: Camera Only"
+        ],
+        "reviewId": "R2OJ5F8E3ZAS56",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AG4KYWXKVW2JI4NH3SLFQLEEUJQA"
+      },
+      {
+        "text": "This little gem has become my favorite go to digital camera for street photography. It attracts no attention, is able to lock on and track subjects accurately and consistently, and the photos it takes are amazing. I could not be happier!",
+        "date": "Reviewed in the United States on October 8, 2025",
+        "rating": "5.0 out of 5 stars",
+        "title": "A Street Photography Masterpiece",
+        "userName": "cameraman",
+        "url": "/gp/customer-reviews/R11BE3RM8DUQZX/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Set: Camera Only"
+        ],
+        "reviewId": "R11BE3RM8DUQZX",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AHHLJNFW7MNLZJTCJZO3UDT6WAIQ"
+      }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+      "imageUrl": "https://m.media-amazon.com/images/I/61sDlyi3d4L._AC_SX679_.jpg",
+      "imageResolution": "679 x 607"
+    },
+    "categories": [
+      "Electronics",
+      "Camera & Photo",
+      "Cameras",
+      "Digital Cameras",
+      "Point & Shoot Digital Cameras"
+    ],
+    "categoriesExtended": [
+      {
+        "name": "Electronics",
+        "url": "/electronics-store/b/ref=dp_bc_1?ie=UTF8&node=172282",
+        "node": "172282"
+      },
+      {
+        "name": "Camera & Photo",
+        "url": "/Camera-Photo-Film-Canon-Sony/b/ref=dp_bc_2?ie=UTF8&node=502394",
+        "node": "502394"
+      },
+      {
+        "name": "Digital Cameras",
+        "url": "/Digital-Cameras/b/ref=dp_bc_3?ie=UTF8&node=281052",
+        "node": "281052"
+      },
+      {
+        "name": "Point & Shoot Digital Cameras",
+        "url": "/Digital-Cameras-Photo/b/ref=dp_bc_4?ie=UTF8&node=330405011",
+        "node": "330405011"
+      }
+    ],
+    "currency": null,
+    "acKeywordLink": null,
+    "deliveryMessage": null,
+    "rentPrice": 0.0,
+    "usedPrice": 0.0,
+    "retailPriceRent": 0.0,
+    "coupon": null,
+    "series": null,
+    "importantInformation": [],
+    "buyBoxUsed": {
+      "condition": "Save with Used - Good",
+      "packageCondition": "Screen is like new with no visible scratches. Item will come in original packaging.",
+      "soldBy": "Amazon Resale",
+      "fulfilledBy": "Fulfilled by Amazon",
+      "sellerId": null,
+      "warehouseAvailability": "Only 2 left in stock - order soon.",
+      "retailPrice": 1698.0,
+      "price": 1180.14,
+      "priceShippingInformation": "FREE delivery Thursday, February 19 FREE delivery Thursday, February 19 Or Prime members get FREE delivery Tuesday, February 17. Order within 8 hrs 16 mins. Join Prime",
+      "priceSaving": null
+    },
+    "aboutProduct": [
+      {
+        "name": "Compatible Mountings",
+        "value": "Zeiss"
+      },
+      {
+        "name": "Aspect Ratio",
+        "value": "16:9, 3:2, 4:3"
+      },
+      {
+        "name": "Photo Sensor Technology",
+        "value": "CMOS"
+      },
+      {
+        "name": "Supported File Format",
+        "value": "JPEG, Raw"
+      },
+      {
+        "name": "Image Stabilization",
+        "value": "Digital, Optical"
+      },
+      {
+        "name": "Maximum Focal Length",
+        "value": "72 Millimeters"
+      },
+      {
+        "name": "Optical Zoom",
+        "value": "8 x"
+      },
+      {
+        "name": "Maximum Aperture",
+        "value": "2.8 f"
+      },
+      {
+        "name": "Expanded ISO Minimum",
+        "value": "64"
+      },
+      {
+        "name": "Metering Description",
+        "value": "Average, Center-Weighted Average, Multi, Spot"
+      }
+    ],
+    "pastSales": "100+ bought in past month",
+    "deal": false,
+    "used": false,
+    "addon": false,
+    "pantry": false,
+    "prime": false
+  },
+  {
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "GoPro HERO13 Black Creator Edition - Includes HERO13 Black, Volta (Battery Grip, Tripod, Remote), Media Mod, Light Mod, Enduro Battery, Magnetic Latch Mount and Carrying Case",
+    "manufacturer": "Visit the GoPro Store",
+    "brand": "GoPro",
+    "dateFirstAvailable": "September 4, 2024",
+    "countReview": 1891,
+    "answeredQuestions": 0,
+    "productRating": "4.5 out of 5 stars",
+    "asin": "B0DCLFYFSR",
+    "sizeSelection": [],
+    "soldBy": "Adorama",
+    "fulfilledBy": "Adorama",
+    "sellerId": "A17MC6HOH9AVE6",
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 649.99,
+    "price": 549.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Wednesday, February 18. Details",
+    "priceSaving": "-16%",
+    "features": [
+      "All-in-One Creative Solution: The HERO13 Black Creator Edition combines our best camera with the pro-grade mounts and accessories you need to tell your story right out of the box. It includes the Volta (Battery Grip / Tripod / Remote), Media Mod and Light Mod that seamlessly come together in a lightweight design that’s comfortable enough to carry through an all-day production.",
+      "Best-in-Class 5.3K Video: 5.3K video delivers breathtaking image quality with 91% more resolution than 4K and an incredible 665% more than 1080p. The HERO13 Black Creator Edition captures the action with crisp detail and exacting image quality so any shot with any lens will look amazing. 5.3K video also lets you grab stunning photos up to 24.7MP from your footage using the GoPro Quik app",
+      "Burst Slo-Mo: HERO13 Black features our slowest slo-mo ever with the ability to record video clips with the action slowed down to 13x normal speed. You’ll also be able to record short 4x slo-mo clips using our highest 5.3K resolution video to catch epic details that you’d never be able to see with the naked eye.",
+      "Award-Winning HyperSmooth 6.0 Stabilization: HyperSmooth 6.0 continues to set the bar for in-camera video stabilization—giving you impossibly smooth footage no matter how rough it gets. HyperSmooth AutoBoost ensures that you’re getting the widest stabilized footage possible by seamlessly adjusting the shot based on your speed and movement.",
+      "What's Included: HERO13 Black Camera, Carrying Case, Enduro Battery, Curved Adhesive Mount, Mounting Buckle + Thumb Screw, USB-C Cable, Volta (Battery Grip / Tripod / Remote), USB Pass-Through Door, Thumb Screw, Lanyard, Media Mod, Removable Windscreen, Vertical Mounting Buckle, Light Mod, Light Diffuser, 2-Finger Adapter, Magnetic Latch Mount, Thumb Screw"
+    ],
+    "imageUrlList": [
+      "https://m.media-amazon.com/images/I/61PL5ufIrQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61nMJ72J4dL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61UXAw2jvmL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61PBo52qH8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Out-cr8QL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7168gdQCAqL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71XFdErdEgL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/717pK0pi9BL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71DTMMOzBRL._AC_SL1500_.jpg"
+    ],
+    "videoeUrlList": [
+      "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/185220a2-2d81-4559-a28c-bd2e4b34061f/default.jobtemplate.hls.m3u8",
+      "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9208e518-da80-4213-bfc5-fce035db6225/default.jobtemplate.hls.m3u8",
+      "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8e268d01-a154-4a80-98da-936731886b1d/default.jobtemplate.hls.m3u8",
+      "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/197c2837-aca8-42b3-9664-878b1e905a86/default.jobtemplate.hls.m3u8",
+      "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c4e8acc3-5dc2-45a5-8391-bcc61ab40665/default.jobtemplate.hls.m3u8",
+      "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/23f58b2f-1a2a-49be-af06-df260e788af5/default.jobtemplate.hls.m3u8"
+    ],
+    "productDescription": "The HERO13Black Creator Edition is an all-in-one content capturing powerhouse that makes vlogging, filmmaking and live streaming easier than ever. It’s built around HERO13 Black with best-in-class 5.3K60 video and award-winning HyperSmooth 6.0 video stabilization. It’s attached to a versatile battery grip that delivers over5 hours of 4K recording time per charge1 and has built-in buttons that let you comfortably control the camera during long shoots. This complete system features a directional microphone that reduces ambient noise, Bluetooth®audio for use with your wireless mic, an LED light, a Magnetic Latch Mount that makes easier than ever to swap batteries and multiple options for transferring footage—including wireless, wired and with your SD card.2It’s also compatible with the HB-Series Lenses2that let you expand your capture capabilities to include ultra-wide shots, pro-quality anamorphic footage, closer-than-ever shots and motion blur effects using neutral density filters.",
+    "productDetails": [
+      {
+        "name": "Product Dimensions",
+        "value": "7.7 x 9.1 x 2.5 inches"
+      },
+      {
+        "name": "Item Weight",
+        "value": "6.4 ounces"
+      },
+      {
+        "name": "ASIN",
+        "value": "B0DCLFYFSR"
+      },
+      {
+        "name": "Item model number",
+        "value": "CHDFB-131-TH"
+      },
+      {
+        "name": "Batteries",
+        "value": "1 Lithium Ion batteries required. (included)"
+      },
+      {
+        "name": "Customer Reviews",
+        "value": "4.5 4.5 out of 5 stars (1,891) 4.5 out of 5 stars"
+      },
+      {
+        "name": "Best Sellers Rank",
+        "value": "#582 in Electronics (See Top 100 in Electronics) #4 in Sports & Action Video Cameras"
+      },
+      {
+        "name": "Date First Available",
+        "value": "September 4, 2024"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "GoPro"
+      }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+      {
+        "text": "Amazing quality with so many customizable options. I used this to record my mountain biking experience and the videos always turned out good. The battery life is solid but I wouldn’t keep it constantly running for long periods of time if you don’t have to. I would wait for a sale as there always seems to be one for GoPros",
+        "date": "Reviewed in the United States on January 28, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Video quality is good it’s only slightly bigger than the 12",
+        "userName": "Sebastian",
+        "url": "/gp/customer-reviews/R3OKM7W21U6ZKK/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Style: H13"
+        ],
+        "reviewId": "R3OKM7W21U6ZKK",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AHSHVWEA7KPXIPIEGOLS6NLSA3LA"
+      },
+      {
+        "text": "The GoPro HERO13 Black Creator Edition is an absolute game-changer for anyone looking to take their content creation to the next level. As a long-time GoPro user, I was already impressed with previous models, but the HERO13 Black has truly elevated the experience. First off, the image quality is incredible. With its upgraded 5.3K video at 60fps and stunning 23MP photos, every shot looks crisp, vibrant, and incredibly detailed. Whether I’m shooting in bright daylight or low-light conditions, the improved sensors and enhanced HyperSmooth stabilization make the footage buttery smooth and cinematic. The color accuracy and dynamic range are exceptional, capturing every scene with lifelike clarity. What really sets the Creator Edition apart is the thoughtful bundle of accessories. It includes the Media Mod, a compact and powerful add-on that transforms the HERO13 into a full-fledged filmmaking tool. The integrated microphone significantly improves audio quality, and the HDMI-out feature allows for easy live streaming or instant playback on larger screens. Plus, the included Light Mod is a total game-changer for low-light shooting, giving my videos that perfect professional touch. The versatility of this camera is another standout. With the included tripod, you can easily set it up for steady shots or use it for vlogging, and the adjustable screen makes it a breeze to frame yourself when you’re in front of the lens. It’s perfect for creators who need a portable, all-in-one solution for shooting high-quality content on the go. Another major plus is the GoPro app, which seamlessly integrates with the HERO13 Black. The ability to remotely control the camera, edit footage on the fly, and share it instantly to social media is a huge time-saver. Plus, the battery life is impressive, and with the included extra batteries, I’m never left scrambling for power mid-shoot. Overall, the GoPro HERO13 Black Creator Edition is a powerhouse for creators of all levels. Whether you’re a vlogger, filmmaker, or just an adventure enthusiast, this camera has everything you need to capture stunning content. It’s packed with features, offers incredible quality, and is built to handle even the toughest environments. Highly recommend it for anyone looking to step up their content creation game!",
+        "date": "Reviewed in the United States on November 21, 2024",
+        "rating": "5.0 out of 5 stars",
+        "title": "GoPro HERO13 Black Creator Edition",
+        "userName": "Benjamin",
+        "url": "/gp/customer-reviews/R3KBF8O9KW11JS/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Style: H13 Creator Edition"
+        ],
+        "reviewId": "R3KBF8O9KW11JS",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AHIWPPCSWYAQG6FJ3KU7VCMZVTOA"
+      },
+      {
+        "text": "Man this thing is pretty cool. Very light weight yet quality built. Crispy clean video display. Setting up the camera with the app was quick and easy. Can't wait to explore the editing feature I subscribed to.",
+        "date": "Reviewed in the United States on December 12, 2025",
+        "rating": "5.0 out of 5 stars",
+        "title": "LITTLE YET MIGHTY! LOVE IT",
+        "userName": "Esther Esther",
+        "url": "/gp/customer-reviews/R1SYD313XP9O68/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "variationList": [
+          "Style: H13 Bundle"
+        ],
+        "reviewId": "R1SYD313XP9O68",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AHINPX7SMKPXZG4GFM3RQHJWJKIQ"
+      },
+      {
+        "text": "I finally bought one and I'm glad I did !! Battery life is okay but can be solved by using a power pack. This is really a great camera !!!",
+        "date": "Reviewed in the United States on January 2, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Great GoPro 13",
+        "userName": "B ENFINGER",
+        "url": "/gp/customer-reviews/RUY1UDUWVKWIK/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Style: H13 Power Bundle"
+        ],
+        "reviewId": "RUY1UDUWVKWIK",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AGYADPFTMR7I7A3JMW4BKVAOD4IQ"
+      },
+      {
+        "text": "Got the content creator edition for a cruise to alaska. Truly an worth it investment. It came in handy way before the cruise with every day videos and pictures when i was visiting with my son and vacationing in florida. He loved throwing it in the water and recording himself. Battery life is honestly solid depending on your settings. The one complaint is how it’ll overheat and stop recording. I use it to video/audio record phone calls for a custody case i’m in and it’ll stop recording without me even realizing it because it’s too warm. All in all though, i’m extremely happy with the purchase.",
+        "date": "Reviewed in the United States on October 7, 2025",
+        "rating": "4.0 out of 5 stars",
+        "title": "Solid camera but overheats",
+        "userName": "David",
+        "url": "/gp/customer-reviews/RHFJVGP2IZU0S/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Style: H13 Creator Edition"
+        ],
+        "reviewId": "RHFJVGP2IZU0S",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AHSUZWJRWYAEOUHFJ6LGY2BRVI5Q"
+      },
+      {
+        "text": "Great video quality and easy to use. Battery durability is really good. Good size and not too heavy. Like always GoPro products look great and being waterproof makes it alot of fun. The mic captires great sound. If your beginning to blog or want to capture those great moments its Worth the price.",
+        "date": "Reviewed in the United States on January 10, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Worth the price?",
+        "userName": "ivan gonzalez",
+        "url": "/gp/customer-reviews/R3RN1Z50R6ILM2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Style: H13"
+        ],
+        "reviewId": "R3RN1Z50R6ILM2",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AEDBEKQN26MGCFPLPMG4U2HFBKVA"
+      },
+      {
+        "text": "If I can get this to work, anyone can. Easy to use, went snarkeling with it, have had no problem. The pictures turned our really nice especially since this was my first time to use. Was easy to use in the water and its size is nice for using, but since it is black, it gets lost in my purse sometimes. It functions as it states and when doing action videos, there is no blurring, shaking, etc.",
+        "date": "Reviewed in the United States on January 9, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Wonderful action videos",
+        "userName": "cm harrington",
+        "url": "/gp/customer-reviews/R2VZAT2HWXI20J/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Style: H13"
+        ],
+        "reviewId": "R2VZAT2HWXI20J",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AGZK3C2FQSS246L46I3WSPOARC3Q"
+      },
+      {
+        "text": "Quality of the videos is outstanding, and it’s a very tough little camera. I use it for Dirtbiking through the forest and it gets whacked by branches, rocks and mud all day long with no issues. The screen doesn’t scratch, the mud doesn’t mess anything up, image is perfectly stable, but the audio is a little muffled when using the auto-wind reduction feature. Everything is 5/5 with exception of the audio (can buy aftermarket gadgets to improve that, although i don’t want to “have to” for the price), and battery life is subpar per all go pros. I bought a side door kit so I can plug in a power bank while riding and it gives me the ability to record for hours without ever having to end the video to swap batteries. Oh! And the GoPro Quik app is still middle of the road, you can only do so much when creating content through their software. Corny music, basic transitions, kid of glitchy. I just use my iPhones editing software (or IG, TikTok, iMovie, as it’s much better).",
+        "date": "Reviewed in the United States on January 11, 2026",
+        "rating": "4.0 out of 5 stars",
+        "title": "Impressive video quality, but wish they’d solve better battery life and a better editing platform",
+        "userName": "t schalk",
+        "url": "/gp/customer-reviews/R1N3TB4YK36QZY/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Style: H13"
+        ],
+        "reviewId": "R1N3TB4YK36QZY",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AFFRXHGNONOWHKJCUUIGQ5N2MEJA"
+      }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+      "imageUrl": "https://m.media-amazon.com/images/I/61PL5ufIrQL._AC_SX679_.jpg",
+      "imageResolution": "679 x 679"
+    },
+    "variations": [
+      {
+        "variationName": "style_name",
+        "values": [
+          {
+            "value": "H13 Creator Edition",
+            "dpUrl": "",
+            "selected": true,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": null,
+            "asin": "B0DCLFYFSR"
+          },
+          {
+            "value": "H13 Bundle",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": null,
+            "asin": "B0DFJ2V9MM"
+          },
+          {
+            "value": "H13",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": null,
+            "asin": "B0DCM34GXX"
+          },
+          {
+            "value": "H13 Power Bundle",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": null,
+            "asin": "B0FKR7PG9W"
+          },
+          {
+            "value": "H13 Ultra Wide Edition",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": null,
+            "asin": "B0F9RS571F"
+          }
+        ]
+      }
+    ],
+    "bookVariations": [],
+    "categories": [
+      "Electronics",
+      "Camera & Photo",
+      "Cameras",
+      "Sports & Action Video Cameras",
+      "Action Cameras"
+    ],
+    "categoriesExtended": [
+      {
+        "name": "Electronics",
+        "url": "/electronics-store/b/ref=dp_bc_1?ie=UTF8&node=172282",
+        "node": "172282"
+      },
+      {
+        "name": "Camera & Photo",
+        "url": "/Camera-Photo-Film-Canon-Sony/b/ref=dp_bc_2?ie=UTF8&node=502394",
+        "node": "502394"
+      },
+      {
+        "name": "Video",
+        "url": "/Video-Equipment/b/ref=dp_bc_3?ie=UTF8&node=7161073011",
+        "node": "7161073011"
+      },
+      {
+        "name": "Sports & Action Video Cameras",
+        "url": "/Sports-Action-Video-Cameras/b/ref=dp_bc_4?ie=UTF8&node=7161074011",
+        "node": "7161074011"
+      }
+    ],
+    "currency": null,
+    "acKeywordLink": null,
+    "deliveryMessage": null,
+    "rentPrice": 0.0,
+    "usedPrice": 0.0,
+    "retailPriceRent": 0.0,
+    "coupon": null,
+    "series": null,
+    "importantInformation": [],
+    "buyBoxUsed": null,
+    "aboutProduct": [
+      {
+        "name": "Brand",
+        "value": "GoPro"
+      },
+      {
+        "name": "Photo Sensor Technology",
+        "value": "CMOS"
+      },
+      {
+        "name": "Video Capture Resolution",
+        "value": "5.3K"
+      },
+      {
+        "name": "Maximum Focal Length",
+        "value": "34 Millimeters"
+      },
+      {
+        "name": "Maximum Aperture",
+        "value": "2.8 Millimeters"
+      },
+      {
+        "name": "Flash Memory Type",
+        "value": "Micro SD"
+      },
+      {
+        "name": "Video Capture Format",
+        "value": "MP4"
+      },
+      {
+        "name": "Supported Audio Format",
+        "value": "AAC, MP3"
+      },
+      {
+        "name": "Connectivity Technology",
+        "value": "Bluetooth"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "pastSales": "200+ bought in past month",
+    "prime": false,
+    "addon": false,
+    "pantry": false,
+    "used": false,
+    "deal": false
+  },
+  {
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "Anker Soundcore 2 Portable Bluetooth Speaker with Stereo Sound, Bluetooth 5, Bassup, IPX7 Waterproof, 24-Hour Playtime, Wireless, Speaker for Home, Outdoors, Travel",
+    "manufacturer": "Visit the Anker Store",
+    "brand": "Anker",
+    "averageRating": 4.5,
+    "dateFirstAvailable": "January 15, 2017",
+    "countReview": 146703,
+    "answeredQuestions": 0,
+    "productRating": "4.5 out of 5 stars",
+    "asin": "B01MTB55WH",
+    "sizeSelection": [],
+    "soldBy": "AnkerDirect",
+    "fulfilledBy": "Amazon",
+    "sellerId": "A294P4X9EWVXLJ",
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 44.99,
+    "price": 31.99,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Thursday, February 19 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tomorrow, February 15. Join Prime",
+    "priceSaving": "-29%",
+    "features": [
+      "Outdoor-Proof Speaker: Portable design with IPX7 waterproof protection to safeguard against splashes, waves, and water vapor. Get incredible sounds at home, on camping trips, or for outdoor adventures.",
+      "24H Non-Stop Music: With Anker's world-renowned power management technology and a 5,200mAh Li-ion battery, the soundcore 2 speaker delivers a full day of great sound.",
+      "Powerful Sound: The speaker features 12W power with enhanced bass from dual neodymium drivers. An advanced digital signal processor ensures pounding bass and zero distortion at any volume.",
+      "Intense Bass: Our exclusive BassUp technology and a patented spiral bass port boost low-end frequencies to make the beats hit even harder. The soundcore 2 speaker delivers vibrant audio for home theater nights, beach parties, and sitting around a campfire.",
+      "Grab, Go, Listen: A classic design refined with simple controls and effortless portability. Easy to use and take anywhere."
+    ],
+    "imageUrlList": [
+      "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71yfTLx6-DL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Fqe6mMXVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61sbIeSHXlL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81Vbqct5UvL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Ag0Ewce0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61O+Mx7pScL._AC_SL1500_.jpg"
+    ],
+    "videoeUrlList": null,
+    "productDescription": "Hear huge stereo sound and dynamic audio thanks to customized dual drivers and a Digital Signal Processor that increases the overall volume. The combination of exclusive BassUp technology and a patented spiral bass port takes the low end to new depths while retaining incredible clarity and intensity. Soundcore 2 has IPX7 waterproof protection that defends it against rain, snow, mud, and more. Anker's power management technology and a 5,200mAh battery enable up to 24 hours of non-stop music. Never miss a beat thanks to Soundcore 2's ultra-stable Bluetooth connection. Be bold with your choice of color and make a statement everywhere you go. soundcore 2 soundcore Select 4 Go soundcore Boom 3i soundcore Boom 2 soundcore Boom 2 Plus soundcore Motion X600 soundcore Rave 3S Visit the Store Visit the Store Visit the Store Visit the Store Visit the Store Visit the Store Visit the Store Visit the Store Visit the Store Visit the Store Visit the Store Visit the Store",
+    "productDetails": [
+      {
+        "name": "Input Voltage",
+        "value": "5 Volts"
+      },
+      {
+        "name": "Mounting Type",
+        "value": "Tabletop Mount"
+      },
+      {
+        "name": "Material",
+        "value": "Silicone or rubberized material"
+      },
+      {
+        "name": "Model Name",
+        "value": "A3105 Soundcore 2 Speaker"
+      },
+      {
+        "name": "Speaker Type",
+        "value": "Portable Speaker"
+      },
+      {
+        "name": "Special Feature",
+        "value": "Portable, Smartphone-Charging, Stereo Pairing, Waterproof"
+      },
+      {
+        "name": "Recommended Uses For Product",
+        "value": "For Camping, For Computers, For Outdoors"
+      },
+      {
+        "name": "Compatible Devices",
+        "value": "Smartphone, Television, Laptop"
+      },
+      {
+        "name": "Unit Count",
+        "value": "1.0 Count"
+      },
+      {
+        "name": "Surround Sound Channel Configuration",
+        "value": "2.0"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Included Components",
+        "value": "Anker SoundCore 2 Portable Bluetooth Speaker, Power Cable, Quick Start Guide"
+      },
+      {
+        "name": "Product Dimensions",
+        "value": "4.5\"D x 16.5\"W x 5.4\"H"
+      },
+      {
+        "name": "Item Weight",
+        "value": "0.91 Pounds"
+      },
+      {
+        "name": "Impedance",
+        "value": "4 Ohms"
+      },
+      {
+        "name": "Is Waterproof",
+        "value": "TRUE"
+      },
+      {
+        "name": "Warranty Type",
+        "value": "Limited"
+      },
+      {
+        "name": "Maximum Range",
+        "value": "20 Meters"
+      },
+      {
+        "name": "Number of Items",
+        "value": "1"
+      },
+      {
+        "name": "Control Method",
+        "value": "Touch"
+      },
+      {
+        "name": "Wireless Communication Technology",
+        "value": "Bluetooth"
+      },
+      {
+        "name": "Speaker Size",
+        "value": "4.6 Centimeters"
+      },
+      {
+        "name": "Power Source",
+        "value": "Battery Powered"
+      },
+      {
+        "name": "Water Resistance Level",
+        "value": "Waterproof"
+      },
+      {
+        "name": "Customer Package Type",
+        "value": "Standard Packaging"
+      },
+      {
+        "name": "Number of Batteries",
+        "value": "1 C batteries required."
+      },
+      {
+        "name": "Audio Driver Type",
+        "value": "Dynamic Driver"
+      },
+      {
+        "name": "Bluetooth Range",
+        "value": "66 Feet"
+      },
+      {
+        "name": "Series Number",
+        "value": "3105"
+      },
+      {
+        "name": "Specific Uses For Product",
+        "value": "Gaming, Shower, Office, Business, Travel"
+      },
+      {
+        "name": "UPC",
+        "value": "848061063943 194644059675"
+      },
+      {
+        "name": "Style",
+        "value": "Speaker"
+      },
+      {
+        "name": "Global Trade Identification Number",
+        "value": "00848061063943"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Anker"
+      },
+      {
+        "name": "Shape",
+        "value": "rectangular prism"
+      },
+      {
+        "name": "Item Weight",
+        "value": "14.6 ounces"
+      },
+      {
+        "name": "ASIN",
+        "value": "B01MTB55WH"
+      },
+      {
+        "name": "Item model number",
+        "value": "AK-A3105"
+      },
+      {
+        "name": "Batteries",
+        "value": "1 C batteries required."
+      },
+      {
+        "name": "Customer Reviews",
+        "value": "4.5 4.5 out of 5 stars (146,703) 4.5 out of 5 stars"
+      },
+      {
+        "name": "Best Sellers Rank",
+        "value": "#122 in Electronics (See Top 100 in Electronics) #2 in Portable Bluetooth Speakers"
+      },
+      {
+        "name": "Is Discontinued By Manufacturer",
+        "value": "No"
+      },
+      {
+        "name": "Date First Available",
+        "value": "January 15, 2017"
+      },
+      {
+        "name": "Battery Capacity",
+        "value": "24 Amp Hours"
+      },
+      {
+        "name": "Charging Time",
+        "value": "3 Hours"
+      }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+      {
+        "text": "The Anker Soundcore 2 Portable Bluetooth Speaker with Stereo Sound has been pretty good for me. In fact, this is the second time I've bought it. I like the price which is very reasonable. I like the sound and the functions. You can listen to it via Bluetooth or hook it up with a cable and listen to other electronic equipment through it. I bought the second one hoping I could pair it up with the first one I bought to get a good Stereo sound but so far I haven't been able to do that. No matter. The quality is so good and it plays so loud I don't have to turn the volume up too high. For the place where I live this is perfect. If anyone wants a really good Bluetooth Speaker for small places you can't go wrong with this one. I highly recommend it. You won't regret it. The price alone makes it a terrific bargain. They seem to have a good lifespan. The first one I bought is almost a year old and it plays like new.",
+        "date": "Reviewed in the United States on January 19, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Great sound at a great price!",
+        "userName": "carlos aguasvivas",
+        "url": "/gp/customer-reviews/R2JKTGZ7LJZH8W/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black"
+        ],
+        "reviewId": "R2JKTGZ7LJZH8W",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AHP72ULZP4XYL6PLX6ZG7JG3X7NQ"
+      },
+      {
+        "text": "The sound is very decent and is not heavy to carry around . What I love most is type c to charge and the battery last . I needed to teach my kids dance and sports at school . I had another speaker from another brand and the bass has hard to hear and we could not hear well the music",
+        "date": "Reviewed in the United States on January 21, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Nice and does the job for the price",
+        "userName": "Evelyng Hdz",
+        "url": "/gp/customer-reviews/R39JSV0IV8DX9J/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black"
+        ],
+        "reviewId": "R39JSV0IV8DX9J",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AHSMBX2ICQX2OKQF2HPWYFAER6UQ"
+      },
+      {
+        "text": "If you’re looking for sound (not bass) then this is a pretty cool one! Very long lasting battery (I play it at high volume all night while I sleep) and I only have to charge it once a day! I haven’t tried to dunk it in water yet to see if the quality there holds up but I’m sure it does. It’s perfect for small rooms and you can also hear it in other rooms of the house (moderately). It’s easy to connect with a modest look. The material is a quality rubber that’s smooth to the touch and it looks presentable! I’m enjoying it and pleased with the purchase!",
+        "date": "Reviewed in the United States on February 8, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Long lasting battery and pretty decent sound quality!",
+        "userName": "Wirlygig",
+        "url": "/gp/customer-reviews/R14Y99CJUASQHY/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black"
+        ],
+        "reviewId": "R14Y99CJUASQHY",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AGKG6645BKN3TR44FBZ4P3OZ2TGA"
+      },
+      {
+        "text": "sound is great, volume is great, battery life is great, size is great. i've had one for 10 years and still works. don't use it a lot, backup when the internet is down and i can't use my 'smart' speakers. so when the price came down recently i decided to get another. was thinking i could connect to both at the same time. oops, nope, they don't support \"LE\" BT. guess i should have googled that before i bought it. and the new one has a different connector for charging - standard usbC (which is great) - but turns out the older one uses a mini USB so i still have to keep that oddball cable and a usbC around for the new one (which duh i have a whole box full because most everything comes with one). bottom line, for a great sounding BT speaker at a very good price, still glad i got another one.",
+        "date": "Reviewed in the United States on November 25, 2025",
+        "rating": "4.0 out of 5 stars",
+        "title": "really great little BT speaker",
+        "userName": "rob",
+        "url": "/gp/customer-reviews/RC9J3EOO5WLR6/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black"
+        ],
+        "reviewId": "RC9J3EOO5WLR6",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AGGG2D72LXU4K3JBWKRTRDC6U2QA"
+      },
+      {
+        "text": "This is a very nice speaker for the price. I couldn't say anything negative about it. It works perfectly, and is actually quite loud for its size, with acceptable audio quality. The battery life is fine. The buttons are well made and the speaker has good water proofing. Easy to connect & use.",
+        "date": "Reviewed in the United States on January 24, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Great value!",
+        "userName": "Customer418947355",
+        "url": "/gp/customer-reviews/R1V13EWFJP7BV7/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black"
+        ],
+        "reviewId": "R1V13EWFJP7BV7",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AEU3YN6KTP264SFKVNOSLMT5FB5A"
+      },
+      {
+        "text": "Super-easy, super-fast pairing, small and clean footprint, very long-lasting power, and a good clear sound. I use blue-tooth speakers for music, podcasts, books and movies. So many of the speakers out there insist on amping up the bass, and doing so completely ruins my ability to clearly hear the normal human ranges of sound. This one doesn't do that, and I'm supremely grateful. The longer running time is such a pleasure because I can use this over a couple of days with almost non-stop play. I really, really like this for genuine sound that lets me hear everything without it being drowned in an excessive bass. I've used it with stand-alone music players, a computer modem hooked up to a large tv and have had zero issues. Control buttons are raised so you easily can find them in the dark. Sound comes out of entire front and entire back and this fits in small spaces because I can stand it on end. I also have put it on a small wooden tray which enhances sound even further. And price is very good for the quality and I will be adding more of these to replace my overblown JBL's.",
+        "date": "Reviewed in the United States on December 10, 2025",
+        "rating": "5.0 out of 5 stars",
+        "title": "Simple, easy, sleeek, good sound, plays a LONG time. Fabulous for movies, podcasts and books.",
+        "userName": "karen",
+        "url": "/gp/customer-reviews/R3EYCUVMUEM1IW/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black"
+        ],
+        "reviewId": "R3EYCUVMUEM1IW",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AE2TJ2MJQVB6ZMANPO2KDAZNK2AA"
+      },
+      {
+        "text": "This is an excellent speaker! Every frequency is clear and, for my taste, very well balanced. The bass is earthy but not overpowering, unlike another product I tried. It fits easily on a small table, a shelf, or anywhere you want to carry it. In addition to excellent rendering of my favorite music, this speaker is great for podcasts and audiobooks. It was very easy to set up -- it connected immediately to my old phone and seamlessly when I bought a new one. I wholeheartedly recommend this speaker!!",
+        "date": "Reviewed in the United States on January 26, 2026",
+        "rating": "5.0 out of 5 stars",
+        "title": "Fantastic find! Excellent frequency response from treble to earthy bass. Recommended!",
+        "userName": "A. CLARK",
+        "url": "/gp/customer-reviews/R2PH7PYNRMRAE4/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black"
+        ],
+        "reviewId": "R2PH7PYNRMRAE4",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AE6LXHE63IMY3GKDT5MPNRQIFDVA"
+      },
+      {
+        "text": "The compact size makes it easy to throw in a bag and take anywhere. It’s durable, simple to use, and delivers way more than I expected from such a small speaker. Definitely a great buy for the price. It has great sound but I do wish it was louder. But all in all a good buy",
+        "date": "Reviewed in the United States on February 4, 2026",
+        "rating": "4.0 out of 5 stars",
+        "title": "Solid small speaker",
+        "userName": "Jacoby",
+        "url": "/gp/customer-reviews/R144CM95UXKH6L/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Black"
+        ],
+        "reviewId": "R144CM95UXKH6L",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AG5W4OG66FXH7MOUCNT3E3KM3ZAA"
+      }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+      "imageUrl": "https://m.media-amazon.com/images/I/71jjggEx2XL._AC_SX679_.jpg",
+      "imageResolution": "679 x 326"
+    },
+    "variations": [
+      {
+        "variationName": "color_name",
+        "values": [
+          {
+            "value": "Black",
+            "dpUrl": "",
+            "selected": true,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": "https://m.media-amazon.com/images/I/31i+QGiO6sL._SS64_.jpg",
+            "asin": "B01MTB55WH"
+          },
+          {
+            "value": "Baby Blue",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": "https://m.media-amazon.com/images/I/31SubEIxwTL._SS64_.jpg",
+            "asin": "B0FLD69KFF"
+          },
+          {
+            "value": "Mocha Brown",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": "https://m.media-amazon.com/images/I/31BRYL8O8jL._SS64_.jpg",
+            "asin": "B0FRRMD96F"
+          },
+          {
+            "value": "Navy Blue",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": "https://m.media-amazon.com/images/I/31aOJfwMKTL._SS64_.jpg",
+            "asin": "B09944VF6S"
+          },
+          {
+            "value": "White",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": "https://m.media-amazon.com/images/I/41pvDbJ3eoL._SS64_.jpg",
+            "asin": "B0DK1MQ4GP"
+          },
+          {
+            "value": "Red",
+            "dpUrl": "",
+            "selected": false,
+            "available": true,
+            "price": 0.0,
+            "imageUrl": "https://m.media-amazon.com/images/I/41ZzEdQwa2L._SS64_.jpg",
+            "asin": "B074NS9P2J"
+          }
+        ]
+      }
+    ],
+    "bookVariations": [],
+    "categories": [
+      "Electronics",
+      "Portable Audio & Video",
+      "Speakers",
+      "Portable Speakers & Docks",
+      "Portable Bluetooth Speakers",
+      "Portable Speakers",
+      "Bluetooth Speakers"
+    ],
+    "categoriesExtended": [
+      {
+        "name": "Electronics",
+        "url": "/electronics-store/b/ref=dp_bc_1?ie=UTF8&node=172282",
+        "node": "172282"
+      },
+      {
+        "name": "Portable Audio & Video",
+        "url": "/Portable-Audio-Video/b/ref=dp_bc_2?ie=UTF8&node=172623",
+        "node": "172623"
+      },
+      {
+        "name": "Portable Speakers & Docks",
+        "url": "/Speaker-Systems-MP3-Player-Accessories/b/ref=dp_bc_3?ie=UTF8&node=689637011",
+        "node": "689637011"
+      },
+      {
+        "name": "Portable Bluetooth Speakers",
+        "url": "/bluetooth-speakers/b/ref=dp_bc_4?ie=UTF8&node=7073956011",
+        "node": "7073956011"
+      }
+    ],
+    "pastSales": "10K+ bought in past month",
+    "used": false,
+    "deal": false,
+    "addon": false,
+    "pantry": false,
+    "prime": true
+  },
+  {
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "Beats Pill - Portable Bluetooth Speaker - Up to 24H Battery Life, Water Resistant, Bluetooth, Apple & Android Compatible, Seriously Loud Sound for Home, Outdoor and Travel – Statement Red",
+    "manufacturer": "Visit the Beats Store",
+    "brand": "Beats",
+    "category": "Electronics",
+    "dateFirstAvailable": "June 25, 2024",
+    "averageRating": 4.7,
+    "countReview": 2964,
+    "answeredQuestions": 0,
+    "productRating": "4.7 out of 5 stars",
+    "asin": "B0D4STD5ZC",
+    "sizeSelection": [],
+    "soldBy": "Amazon.com",
+    "fulfilledBy": "Amazon.com",
+    "sellerId": null,
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 0.0,
+    "price": 99.95,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Thursday, February 19 Or Prime members get FREE delivery Tomorrow, February 15. Join Prime",
+    "priceSaving": "-13%",
+    "features": [
+      "The Beats Pill delivers powerful, room-filling sound. The bigger, bespoke racetrack woofer displaces 90% more air volume, packing more of a punch with deeper, fuller bass.",
+      "The Beats Pill has up to 24 hours of battery life for all-day playback and can be used to charge your phone or other devices via USB-C cable.",
+      "The portable speaker is IP67-rated for dust and water resistance3 for outstanding durability and includes a removable lanyard and soft-grip silicone backing to make it easy to take with you.",
+      "The redesigned tweeter provides extra stability for crisp highs and rich mid-range tones while the woofer’s material and structure helps minimize low-end distortion even at high volumes.",
+      "Enjoy high-resolution lossless audio from your Beats Pill by connecting it to your laptop or other compatible devices via the USB-C cable.",
+      "Easily pair two Beats Pill speakers for twice the output experience in Amplify mode or Stereo mode.",
+      "Apple and Android compatibility – including instant one-touch pairing and automatic pairing across your other devices, plus Find My or Find My Device.",
+      "Take calls and activate your voice assistant directly from a paired Beats Pill."
+    ],
+    "imageUrlList": [
+      "https://m.media-amazon.com/images/I/717-Jf0WXAL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71jLfSLufCL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ifAARsKBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61NsxQJ-FzL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61E9lyzNLZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71D1LYpy4bL._AC_SL1500_.jpg"
+    ],
+    "videoeUrlList": [],
+    "productDescription": null,
+    "productDetails": [
+      {
+        "name": "Mounting Type",
+        "value": "‎No Mount"
+      },
+      {
+        "name": "Model Name",
+        "value": "‎Beats Product"
+      },
+      {
+        "name": "Speaker Type",
+        "value": "‎Portable"
+      },
+      {
+        "name": "Special Feature",
+        "value": "‎Portable"
+      },
+      {
+        "name": "Recommended Uses For Product",
+        "value": "‎For Smartphones or Tablets"
+      },
+      {
+        "name": "Compatible Devices",
+        "value": "‎Laptop, Tablet, Smartphone, Gaming Console"
+      },
+      {
+        "name": "Subwoofer Diameter",
+        "value": "‎3.9 Inches"
+      },
+      {
+        "name": "Unit Count",
+        "value": "‎1.0 Count"
+      },
+      {
+        "name": "Color",
+        "value": "‎Statement Red"
+      },
+      {
+        "name": "Product Dimensions",
+        "value": "‎2.8\"D x 8.6\"W x 2.8\"H"
+      },
+      {
+        "name": "Item Weight",
+        "value": "‎2.1 Pounds"
+      },
+      {
+        "name": "Is Waterproof",
+        "value": "‎TRUE"
+      },
+      {
+        "name": "Warranty Type",
+        "value": "‎Limited"
+      },
+      {
+        "name": "Number of Items",
+        "value": "‎1"
+      },
+      {
+        "name": "Control Method",
+        "value": "‎Touch, Voice"
+      },
+      {
+        "name": "Wireless Communication Technology",
+        "value": "‎Bluetooth"
+      },
+      {
+        "name": "Speaker Size",
+        "value": "‎7 Centimeters"
+      },
+      {
+        "name": "Power Source",
+        "value": "‎Corded Electric"
+      },
+      {
+        "name": "Water Resistance Level",
+        "value": "‎Water Resistant"
+      },
+      {
+        "name": "Number of Batteries",
+        "value": "‎1 Lithium Ion batteries required. (included)"
+      },
+      {
+        "name": "Audio Driver Type",
+        "value": "‎Dynamic Driver"
+      },
+      {
+        "name": "Audio Driver Size",
+        "value": "‎5.9 Inches"
+      },
+      {
+        "name": "Subwoofer Connectivity Technology",
+        "value": "‎Wireless"
+      },
+      {
+        "name": "Specific Uses For Product",
+        "value": "‎Travel, Party"
+      },
+      {
+        "name": "UPC",
+        "value": "‎195949462504"
+      },
+      {
+        "name": "Style",
+        "value": "‎Pill"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "‎Beats"
+      },
+      {
+        "name": "Set Name",
+        "value": "‎Without AppleCare+"
+      },
+      {
+        "name": "Item Weight",
+        "value": "‎2.1 pounds"
+      },
+      {
+        "name": "ASIN",
+        "value": "‎B0D4STD5ZC"
+      },
+      {
+        "name": "Item model number",
+        "value": "‎MWQW3LL/A"
+      },
+      {
+        "name": "Batteries",
+        "value": "‎1 Lithium Ion batteries required. (included)"
+      },
+      {
+        "name": "Date First Available",
+        "value": "‎June 25, 2024"
+      }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+      {
+        "text": "This is my third Beats pill, first of this new generation. It's a bit smaller, lighter and easier to carry around, especially with the new wrist strap. It sounds amazing, right along with what you come to expect from Beats and Apple, it doesn't disappoint. The biggest difference I've noticed is how quickly it pairs with devices compared to previous models. It's also incredibly easy to switch between devices after the initial pairing of each; I just start playing whatever media on iphone, ipad, or macbook and then select the pill for the output and it connects in a second. It also now shows up on Find My along with your other devices, and from my understanding, works the same as an AirTag which is pretty cool. The only downside is the power button. It took a while to get used to and sometimes I still wind up trying two or three times to power it up or down because I didn't hold it down long enough. I've also had an issue where the audio cuts out for a couple seconds here and there but haven't pinned down the cause of the interference. Overall it's a solid speaker, great sound, very loud for its size, longer battery life and better connectivity. They're even cheaper than the previous model and go on sale often so you can't go wrong.",
+        "date": "Reviewed in the United States on October 16, 2025",
+        "rating": "5.0 out of 5 stars",
+        "title": "A nice improvement from the previous model",
+        "userName": "Amazon Customer",
+        "url": "/gp/customer-reviews/RMR5XSHNHTJER/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [],
+        "variationList": [
+          "Color: Champagne Gold",
+          "Pattern: Standalone"
+        ],
+        "reviewId": "RMR5XSHNHTJER",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AG7OHWXBKNQIL2NDE3D5GV4KIPSA"
+      },
+      {
+        "text": "This is the best speaker I have ever had! The color is vibrant and bright. Personally, the red is my favorite but they all are so vibrant and saturated, and don’t get me started on the sound quality. The sound quality this is by far better than any speaker I have ever owned or heard! It is super easy to use and automatically pairs to iPhone. For the price, the sound quality is truly just astonishing. It is super easy to bring along, and the strap on it is super strong and can be jostled around without breaking. The battery life is also amazing. I usually use it in lower volume, but it lasts 40 hours easily when fully charged and I have seen it go to 50! It works better than described and really feels like the artist is singing right in front of me with the highly advanced sound quality. This is truly the best speaker to have ever existed and it would be a mistake not to buy it.",
+        "date": "Reviewed in the United States on August 26, 2025",
+        "rating": "5.0 out of 5 stars",
+        "title": "Vibrant Colors, Vibrant Sound, Truly the Best Speaker to Have Ever Existed!!",
+        "userName": "Muzzy Muzzy",
+        "url": "/gp/customer-reviews/R129BW65I808Z8/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+        "imageUrlList": [
+          ""
+        ],
+        "variationList": [
+          "Color: Statement Red",
+          "Pattern: Standalone"
+        ],
+        "reviewId": "R129BW65I808Z8",
+        "locale": null,
+        "profilePath": "/gp/profile/amzn1.account.AHJJGRIAFNOPEZBTXOMADOI5DJ7Q"
+      }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+      "imageUrl": "https://m.media-amazon.com/images/I/717-Jf0WXAL._AC_SX679_.jpg",
+      "imageResolution": "679 x 679"
+    },
+    "categories": [
+      "Electronics",
+      "Speakers",
+      "Portable Speakers",
+      "Bluetooth Speakers"
+    ],
+    "pastSales": "500+ bought in past month",
+    "deal": false,
+    "used": false,
+    "addon": false,
+    "pantry": false,
+    "prime": false
   }
 ]
