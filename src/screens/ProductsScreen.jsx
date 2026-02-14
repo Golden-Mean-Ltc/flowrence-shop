@@ -16,18 +16,16 @@ import fakeApi from "../_api/fakeApi";
 // * Show products by Category/Department
 // should contain filters, title, page number change...
 const ProductsScreen = () => {
-  const params = useParams();
-  console.log(params);
+  // const params = useParams();
+  // console.log(params);
   // const paramsPage = params.page
-  // const keyword = params.keyword 
-
-
+  // const keyword = params.keyword  
   const [searchParams, setSearchParams] = useSearchParams()
-  const query = searchParams.get('q') || ''
+  const query = searchParams.get('q') || '' 
   // const category = searchParams.get('category')
   // const brand = searchParams.get('brand')
   // const keyword = searchParams.get('keyword') 
-  console.log(query)
+  console.log(query) 
 
   const dispatch = useDispatch();
 
@@ -84,7 +82,7 @@ const ProductsScreen = () => {
     }
   })
 
-  console.log('Filtered products in component:', filteredProducts)
+  // console.log('Filtered products in component:', filteredProducts)
 
   const filterProductsByPage = paginateProducts(filteredProducts, pageNumber)
   // console.log('Products by page:', filterProductsByPage)
@@ -98,7 +96,7 @@ const ProductsScreen = () => {
       dispatch({ type: 'PRODUCT_LIST_REQUEST' })
       try {
         const res = await fakeApi('/products', { keyword: query })
-        console.log(res) // { data: { products: [], page: 1, pages: 5 } }
+        // console.log(res) // { data: { products: [], page: 1, pages: 5 } }
         dispatch({
           type: 'PRODUCT_LIST_SUCCESS',
           payload: res.data,

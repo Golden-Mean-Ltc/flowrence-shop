@@ -28,7 +28,7 @@
 [x] Sidebar category filters 
 [x] Fix product search in fake api by query         2/13/2026
 [x] Show search term n found products count n clear 2/14/2026 
-[] Fix header list of categories 
+[] Fix header list of categories functionality
 [] Fix filter products by price range 
 [] Product images gallery slider 
 [] Saved logged in user to local storage

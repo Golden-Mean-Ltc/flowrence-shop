@@ -22,9 +22,14 @@
   border-radius: 32px;
 }
 .scroll-container > .list-item:hover{
-  background-color: #53bd61;
+  background-color: #6fe27e;
   cursor: pointer;
 }
+.scroll-container > .list-item.selected{ 
+  background-color: #3aa749;
+  cursor: pointer;
+}
+
 
 /* Optional: Customize the scrollbar appearance for webkit browsers */
 .scroll-container::-webkit-scrollbar {

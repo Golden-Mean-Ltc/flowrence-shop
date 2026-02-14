@@ -114,16 +114,17 @@ export const filtersSlice = createSlice({
 	setFilter: (state, action) => {
 		console.log(  action.payload)
 		const { filterName, filterValue, changeType } = action.payload;
+		const filterValueLc = filterValue.toLowerCase();
 		switch (changeType) {
 			case 'added': {
-				if (!state[filterName].includes(filterValue)) {
-					state[filterName].push(filterValue);
+				if (!state[filterName].includes(filterValueLc)) {
+					state[filterName].push(filterValueLc);
 				}
 				break;
 			}
 			case 'removed': {
 				state[filterName] = state[filterName].filter(
-					existingFilter => existingFilter !== filterValue
+					existingFilter => existingFilter !== filterValueLc
 				)
 				break;
 			}

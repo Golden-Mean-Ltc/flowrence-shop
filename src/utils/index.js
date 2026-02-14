@@ -91,3 +91,12 @@ export const updateCart = (state) => {
 
   return state;
 };
+
+// # Replace spaces with dashes and make lowercase for url
+export const formatStringForUrl = (category) => {
+  return category.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and');
+}
+export const formatStringFromUrl = (category) => {
+  return category.toLowerCase().replace(/-/g, ' ').replace(/and/g, '&');
+}
+ 
