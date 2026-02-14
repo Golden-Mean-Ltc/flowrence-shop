@@ -1,17 +1,15 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button, Form, InputGroup } from 'react-bootstrap'
 import { useSelector } from 'react-redux'
-import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import { useNavigate,   useSearchParams } from 'react-router-dom'
 // import { useHistory } from 'react-router-dom'
 
 const SearchInput = () => {
   const { language } = useSelector((state) => state.settings)
   const { r } = useSelector((state) => state.strings)
-  // const history = useHistory()
-  // const [ keyword, setKeyword ] = useState( '' )
+  // const history = useHistory() 
 
-  const navigate = useNavigate()
-  // const { keyword  } = useParams()
+  const navigate = useNavigate() 
     const [searchParams, setSearchParams] = useSearchParams()
   const query = searchParams.get('q') || ''
     // const keyword = searchParams.get('keyword') || ''    
@@ -20,6 +18,9 @@ const SearchInput = () => {
   // const [keyword, setKeyword] = useState(urlKeyword || '')
   const [keyword, setKeyword] = useState(query || "")
  
+  useEffect(() => {
+    setKeyword(query)
+  }, [query])
 
 
   const submitHandler = (e) => {

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,13 +7,11 @@ import FiltersSidebar from "../components/filters-sidebar/FiltersSidebar";
 import Loader from "../components/Loader";
 import Message from "../components/Message";
 import ProductItem from "../components/products/ProductItemCard";
-import Toolbar from "../components/Toolbar"; 
+import Toolbar from "../components/Toolbar";
 // import Paginate from "../components/Paginate";
 import { selectFilteredProducts } from "../store/reducers/productReducers";
-// import Pagination from "../components/Pagination2";
 import Pagination2 from "../components/Pagination2";
 import fakeApi from "../_api/fakeApi";
-// import { selectFilteredProducts } from "../store/reducers/productReducers";
 
 // * Show products by Category/Department
 // should contain filters, title, page number change...
@@ -23,7 +22,7 @@ const ProductsScreen = () => {
   // const keyword = params.keyword 
 
 
-  const [searchParams ] = useSearchParams() 
+  const [searchParams, setSearchParams] = useSearchParams()
   const query = searchParams.get('q') || ''
   // const category = searchParams.get('category')
   // const brand = searchParams.get('brand')
@@ -41,6 +40,7 @@ const ProductsScreen = () => {
   // {keyword: 'laptops', pageNumber: '2'}
 
   // * Get page details
+  /*
   function getPageDetails(category) {
     switch (category) {
       case "laptops":
@@ -55,8 +55,9 @@ const ProductsScreen = () => {
         return "No category found";
     }
   }
+  */
 
-  const { loading, error,   sortBy  } = useSelector(
+  const { loading, error, sortBy } = useSelector(
     (state) => state.productList
   );
   const pageNumber = useSelector(state => state.filters.pageNumber)
@@ -86,37 +87,37 @@ const ProductsScreen = () => {
   console.log('Filtered products in component:', filteredProducts)
 
   const filterProductsByPage = paginateProducts(filteredProducts, pageNumber)
-  console.log('Products by page:', filterProductsByPage)
+  // console.log('Products by page:', filterProductsByPage)
   // console.log('Filtered products:', filteredProducts)
- 
+
 
   useEffect(() => {
     // const details = getDetails(category) 
     const getAllProducts = async () => {
       // # Set laoding
-       dispatch({  type: 'PRODUCT_LIST_REQUEST'   })
+      dispatch({ type: 'PRODUCT_LIST_REQUEST' })
       try {
-        const res = await fakeApi('/products' , { keyword: query } )
+        const res = await fakeApi('/products', { keyword: query })
         console.log(res) // { data: { products: [], page: 1, pages: 5 } }
         dispatch({
           type: 'PRODUCT_LIST_SUCCESS',
           payload: res.data,
-        }) 
+        })
       } catch (error) {
         console.error('Error fetching products:', error)
       }
-     }
+    }
     getAllProducts()
     // setPageDetails(getPageDetails(category))
 
-  // }, [dispatch, paramsPage, keyword, category]);
-  }, [dispatch , query]);
+    // }, [dispatch, paramsPage, keyword, category]);
+  }, [dispatch, query]);
 
   if (error) return <Message variant="danger">{error}</Message>;
 
   return (
     <div className="container " style={{ backgroundColor: "#eceef3" }}>
-      <Row style={{ backgroundColor: "#c0cbf0" }} className="p-3">
+      <Row style={{ backgroundColor: "#c0cbf0" }} className="p-2">
         <div className="col-md-3 pl-5">
           <h3>{pageDetails.title}</h3>
         </div>
@@ -124,13 +125,21 @@ const ProductsScreen = () => {
           <Toolbar setViewMode={setViewMode} />
         </div>
       </Row>
+      {searchParams.get('q') && (
+        <div className="align-items-center mt-3 text-center">
+          <p>Search results for  &quot;{query}&quot;
+            <span className="mx-2">( {filteredProducts.length} products found )</span>
+            <span onClick={() => setSearchParams("")} className="clickable text-decoration-underline mx-2">clear</span>
+          </p>
+        </div>
+      )}
 
       <div className="row mb-2 ">
         {/* Products Grid */}
         <div className="col-md-3" >
           {showSidebar && <FiltersSidebar
-         //  category={category} 
-           />}
+          //  category={category} 
+          />}
         </div>
 
         <div className="col mr-2">
@@ -153,11 +162,11 @@ const ProductsScreen = () => {
                       />
                     </Col>
                   ))}
-                  {filteredProducts.length === 0 && (
-                    <div className="p-5 text-center">
-                      <h4>No products found matching your criteria.</h4>
-                    </div>
-                  )}
+                {filteredProducts.length === 0 && (
+                  <div className="p-5 text-center">
+                    <h4>No products found matching your criteria.</h4>
+                  </div>
+                )}
               </>
             )}
           </div>

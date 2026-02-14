@@ -449,6 +449,10 @@ footer i {
   display: block;
 }
 
+.clickable {
+	cursor: pointer;
+}
+
 /* Media query for screens with a maximum width of 600px */
 @media only screen and (max-width: 600px) {
   .hide-on-small-screen {
