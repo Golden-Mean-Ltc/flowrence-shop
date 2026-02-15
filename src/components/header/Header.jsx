@@ -82,7 +82,11 @@ const Header = () => {
           <Link to='/products'>{r.best_sellers}</Link>
         </div>
         <div className='p-2 clickable'>
-          <Link to='/hot-deals'>{r.hot_deals}</Link>
+          <Link 
+         //  to='/hot-deals'
+        //  to='/products?filter=hot-deals'
+         to='/products'
+           >{r.hot_deals}</Link>
         </div>
         {/* <div className='p-2 flex-fill clickable'>
           <Link to='/products/Laptops'>{r.laptops}</Link>

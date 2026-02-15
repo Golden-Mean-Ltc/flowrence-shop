@@ -12,6 +12,9 @@ import Toolbar from "../components/Toolbar";
 import { selectFilteredProducts } from "../store/reducers/productReducers";
 import Pagination2 from "../components/Pagination2";
 import fakeApi from "../_api/fakeApi";
+import { clearFilters, setFilter, setPageNumber } from "../store/filters/filtersSlice";
+import { formatStringFromUrl } from "../utils";
+import { reset } from "../store/auth/authSlice";
 
 // * Show products by Category/Department
 // should contain filters, title, page number change...
@@ -21,11 +24,12 @@ const ProductsScreen = () => {
   // const paramsPage = params.page
   // const keyword = params.keyword  
   const [searchParams, setSearchParams] = useSearchParams()
-  const query = searchParams.get('q') || '' 
+  const query = searchParams.get('q') || ''
+  const urlCategory = searchParams.get('category') || ''
   // const category = searchParams.get('category')
   // const brand = searchParams.get('brand')
   // const keyword = searchParams.get('keyword') 
-  console.log(query) 
+  // console.log(query)
 
   const dispatch = useDispatch();
 
@@ -111,6 +115,21 @@ const ProductsScreen = () => {
     // }, [dispatch, paramsPage, keyword, category]);
   }, [dispatch, query]);
 
+  useEffect(() => {
+    // Whenever filters or sorting change, reset to page 1
+    if (urlCategory) {
+      dispatch(clearFilters()) // Clear existing filters before applying new category filter
+      dispatch( 
+        setFilter({
+          filterName: 'category',
+          filterValue: formatStringFromUrl(urlCategory),
+          changeType: 'added',
+        }),
+      )
+    }
+    dispatch(setPageNumber(1))
+  }, [dispatch, urlCategory])
+
   if (error) return <Message variant="danger">{error}</Message>;
 
   return (
@@ -130,7 +149,8 @@ const ProductsScreen = () => {
             <span onClick={() => setSearchParams("")} className="clickable text-decoration-underline mx-2">clear</span>
           </p>
         </div>
-      )}
+      )} 
+
 
       <div className="row mb-2 ">
         {/* Products Grid */}

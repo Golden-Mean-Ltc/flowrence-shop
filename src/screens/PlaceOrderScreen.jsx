@@ -94,7 +94,7 @@ const PlaceOrderScreen = () => {
                         </Col>
                         <Col>
                           <Link to={`/product/${item.product}`}>
-                            {item.title.slice(0, 95)}
+                            {item.productTitle.slice(0, 95)}
                           </Link>
                         </Col>
                         <Col md={4}>

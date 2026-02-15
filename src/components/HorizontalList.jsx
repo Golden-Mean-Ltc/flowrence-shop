@@ -1,13 +1,10 @@
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import '../styles/HorizontalList.css' // Import the CSS file 
-import { formatStringForUrl, formatStringFromUrl } from '../utils'
-import { useDispatch } from 'react-redux'
-import { setFilter, setPageNumber } from '../store/filters/filtersSlice'
+import { formatStringForUrl, formatStringFromUrl } from '../utils' 
 
 const HorizontalList = ({ items }) => {
   // const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Item 7', 'Item 8'];
-  const navigate = useNavigate()
-  const dispatch = useDispatch()
+  const navigate = useNavigate() 
 
   const [
     searchParams,
@@ -31,22 +28,13 @@ const HorizontalList = ({ items }) => {
       {items.map((item, index) => (
         <div
           key={index}
-          className={`list-item ${selectedCategory === formatStringForUrl(item) ? 'selected' : ''}`}
+        //  className={`list-item ${selectedCategory === formatStringForUrl(item) ? 'selected' : ''}`}
+          className='list-item'
           onClick={() => {
-            console.log(item)
-            dispatch(
-              setFilter({
-                filterName: 'category',
-                filterValue: item,
-                changeType: 'added',
-              }),
-            )
-            dispatch(setPageNumber(1))
-            console.log(item.toLowerCase().replace(/\s+/g, '-'))
+            console.log(item) 
+            // console.log(item.toLowerCase().replace(/\s+/g, '-'))
             // # Replace spaces with dashes and convert to lowercase for URL
-            navigate(`/products?category=${formatStringForUrl(item)}`)
-            // searchParams.set('category', formatStringForUrl(item))
-            // setSearchParams(searchParams)
+            navigate(`/products?category=${formatStringForUrl(item)}`) 
           }}
         >
           {item}

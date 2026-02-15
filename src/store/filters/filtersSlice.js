@@ -131,11 +131,20 @@ export const filtersSlice = createSlice({
 			default:
 				return
 		}
-	}
+	},
+	clearFilters: (state) => {
+		state.category = [];
+		state.brands = [];
+		state.opSystems = [];
+		state.processors = [];
+		state.screens = [];
+		state.colors = [];
+		state.prices = [];
+	},
   },
 });
 
-export const { setSearchTerm, setCategory, setBrand,setPageNumber, setFilter } = filtersSlice.actions;
+export const { setSearchTerm, setCategory, setBrand,setPageNumber, setFilter, clearFilters } = filtersSlice.actions;
 // export const { brandFilterChanged, filterChanged } = filtersSlice.actions
 
 export default filtersSlice.reducer

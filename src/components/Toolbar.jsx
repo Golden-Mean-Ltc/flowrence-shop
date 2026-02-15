@@ -1,15 +1,20 @@
- 
+
 // import { useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
+import { clearFilters } from '../store/filters/filtersSlice'
 import SortByDropdown from './products/SortByDropdown'
 
 const Toolbar = ({ setViewMode }) => {
-	// const dispatch = useDispatch()
+	const dispatch = useDispatch()
 
 	return (
 		<div className='d-flex justify-content-center justify-content-sm-between align-items-center pt-2 mb-3 border-bottom'>
 			<div className='d-flex flex-wrap'>
 				<SortByDropdown />
-			</div> 
+			</div>
+			<div className="align-items-center py-2 text-center">
+				<span onClick={() => dispatch(clearFilters())} className="clickable text-decoration-underline">Clear filters</span>
+			</div>
 
 			<div className='btn-group mr-2'>
 				<button
