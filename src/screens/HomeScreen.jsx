@@ -8,6 +8,8 @@ import Loader from '../components/Loader'
 import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
 import ProductsSlider from '../components/products/ProductSlider.jsx' 
 import { setShowCartModal } from '../store/settingsSlice.js' 
+import HorizontalList from '../components/HorizontalList.jsx'
+import { categories } from '../constants/strings.js'
 
 // const HomeScreen = ({ match }) => {
 const HomeScreen = () => {
@@ -25,13 +27,15 @@ const HomeScreen = () => {
   // const handleShowAuthModal = () => dispatch(setShowAuthModal(!showAuthModal))
 
 
-  useEffect(() => {
+  // useEffect(() => {
     // dispatch(listProducts()) 
     // console.log(pageNumber)
-  }, [dispatch])
+  // }, [dispatch])
 
   return (
     <div className='container-fluid'> 
+      <HorizontalList items={categories} />
+
       <div className='container ' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
         <div className="row mb-5 hide-on-small-screen">

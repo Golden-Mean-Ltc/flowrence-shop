@@ -29,13 +29,14 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomeScreen />,
+        index: true
       },   
       {
-        path: '/products',
+        path: 'products',
         element: <ProductsScreen />
       },
       {
-        path: '/products/page/:page',
+        path: 'products/page/:page',
         element: <ProductsScreen />
       },
     //   {
@@ -43,35 +44,32 @@ const router = createBrowserRouter([
     //     element: <ProductsScreen />
     // //   },
       {
-        path: '/search',
-        element: <ProductsScreen />
-      },  
-      { 
-        // path: '/search/:keyword/page/:page',
+        path: 'search',
+               // path: '/search/:keyword/page/:page',
         element: <ProductsScreen />
       },  
       {
-        path: '/product/:productId',
+        path: 'product/:productId',
         element: <ProductScreen />
       }, 
       {
-        path: '/cart',
+        path: 'cart',
         element: <CartScreen />
       },
       {
-        path: '/shipping',
+        path: 'shipping',
         element: <ShippingScreen />
       },
       {
-        path: '/payment',
+        path: 'payment',
         element: <PaymentScreen />
       },
       {
-        path: '/placeorder',
+        path: 'placeorder',
         element: <PlaceOrderScreen />
       },
       {
-        path: '/login',
+        path: 'login',
         element: <LoginScreen />
       },
     ],

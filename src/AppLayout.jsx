@@ -29,7 +29,7 @@ const AppLayout = () => {
       <Header />
       <header>
         {/* <SearchBar /> */}
-        <HorizontalList items={categories} />
+        {/* <HorizontalList items={categories} /> */}
       </header>
 
       <main >
