@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux'
 import { currencyChanged } from '../../store/settingsSlice'

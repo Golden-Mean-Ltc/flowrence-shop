@@ -61,7 +61,7 @@ export const cellphone_filters = [
 export const general_filters = [
 	{
 		name: 'category',
-		options: [...categories ],  // from strings.js
+		options: categories.map(cat => cat[0]),  // from strings.js
 		group: 'category',
 	},
 	{

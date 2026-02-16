@@ -33,7 +33,7 @@ const HomeScreen = () => {
 
   return (
     <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}> 
-      <HorizontalList items={categories} />
+      <HorizontalList items={categories} language={language} />
 
       <div className='container ' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}

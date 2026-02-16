@@ -141,13 +141,13 @@ export function getCityById(id) {
 // const categoris = ['Books', 'Art supplies', 'Stationary', 'Electronis', 
 // 	'Sports & Fitness', 'Toys & Games', 'Personal Care', 'Home & Kitchen']
 export const categories = [
-	"Cameras",
-	'Computers',
-	'Laptops',
-	'Tablets',
-	'Cell Phones',
-	'Headphones & Earbuds',  
-	"Speakers", 
-	"Smart Watches",
-	'Accessories'
+	["Cameras", "الكاميرات"],
+	["Computers", "الحاسبات"],
+	["Laptops", "الحاسبات المحمولة"],
+	["Tablets", "الاجهزة اللوحية"],
+	["Cell Phones", "الهواتف الذكية"],
+	["Headphones & Earbuds", "سماعات الرأس"],  
+	["Speakers", "مكبرات الصوت"], 
+	["Smart Watches", "الساعات الذكية"],
+	['Accessories', 'الإكسسوارات']
 ]
