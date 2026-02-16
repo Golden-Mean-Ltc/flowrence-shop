@@ -9,7 +9,7 @@ import { getCityById, iraq_cities } from '../constants/strings'
 
 const ShippingScreen = () => {
   // Get user previous data n load this
-  const cart = useSelector((state) => state.cart)
+  // const cart = useSelector((state) => state.cart)
   const language = useSelector((state) => state.settings.language)
   // const { shippingAddress } = cart;
 

@@ -22,6 +22,7 @@ const CartModal = ({ show, setShow }) => {
     const checkoutHandler = () => {
         // history.push('/login?redirect=shipping')
         // navigate('/login?redirect=/shipping');
+        setShow(false)
         navigate('/shipping')
     }
 
