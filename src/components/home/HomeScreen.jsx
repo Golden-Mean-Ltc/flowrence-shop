@@ -1,15 +1,14 @@
-import { useEffect  } from 'react'
-import { Link } from 'react-router-dom'
+ import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col } from 'react-bootstrap'
-import ProductItem from '../components/products/ProductItemCard.jsx'
-import Message from '../components/Message'
-import Loader from '../components/Loader' 
-import BillboardCarousel from '../components/home/BillboardCarousel.jsx'
-import ProductsSlider from '../components/products/ProductSlider.jsx' 
-import { setShowCartModal } from '../store/settingsSlice.js' 
-import HorizontalList from '../components/HorizontalList.jsx'
-import { categories } from '../constants/strings.js'
+import ProductItem from '../products/ProductItemCard.jsx'
+import Message from '../Message.jsx'
+import Loader from '../Loader.jsx' 
+import BillboardCarousel from './BillboardCarousel.jsx'
+import ProductsSlider from '../products/ProductSlider.jsx' 
+import { setShowCartModal } from '../../store/settingsSlice.js' 
+import HorizontalList from '../HorizontalList.jsx'
+import { categories } from '../../constants/strings.js'
 
 // const HomeScreen = ({ match }) => {
 const HomeScreen = () => {
@@ -33,7 +32,7 @@ const HomeScreen = () => {
   // }, [dispatch])
 
   return (
-    <div className='container-fluid'> 
+    <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}> 
       <HorizontalList items={categories} />
 
       <div className='container ' dir={language == "arb" ? 'rtl' : 'ltr'}>

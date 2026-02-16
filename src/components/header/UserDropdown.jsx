@@ -16,8 +16,7 @@ const UserDropdown = ( { user } ) => {
 
   return (
     <>
-      { user && (
-        <>
+      { user && ( 
           <div className='nav-item dropdown flex-fill '>
             <div
               className='nav-link '
@@ -40,8 +39,7 @@ const UserDropdown = ( { user } ) => {
                 Logout <i className='fas fa-sign-out-alt'></i>
               </NavDropdown.Item>
             </div>
-          </div>
-        </>
+          </div>  
       ) }
     </>
   )

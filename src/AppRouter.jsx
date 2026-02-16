@@ -9,15 +9,16 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 // } from './features/order/CreateOrder';
 // import Order, { loader as orderLoader } from './features/order/Order';
 // import { action as updateOrderAction } from './features/order/UpdateOrder';
-import HomeScreen from './screens/HomeScreen';
-import ProductScreen from './screens/ProductScreen';
+import HomeScreen from './components/home/HomeScreen';
+import ProductScreen from './components/product/ProductScreen';
 import AppLayout from './AppLayout'; 
-import CartScreen from './screens/CartScreen';
-import ShippingScreen from './screens/ShippingScreen';
-import PaymentScreen from './screens/PaymentScreen';
-import ProductsScreen from './screens/ProductsScreen';
-import PlaceOrderScreen from './screens/PlaceOrderScreen';  
-import LoginScreen from './screens/LoginScreen';  
+import CartScreen from './components/cart/CartScreen';
+import ShippingScreen from  './components/ShippingScreen';
+import PaymentScreen from  './components/PaymentScreen';
+import ProductsScreen from  './components/products/ProductsScreen';
+import PlaceOrderScreen from  './components/PlaceOrderScreen';
+import LoginScreen from  './components/auth/LoginScreen';
+import NotFound from './components/NotFound';
 
 
 const router = createBrowserRouter([
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
       {
         path: 'login',
         element: <LoginScreen />
+      },
+      {
+        path: '*',
+        element: <NotFound />
       },
     ],
   },

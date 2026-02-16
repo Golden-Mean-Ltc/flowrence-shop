@@ -3,18 +3,18 @@ import { useState, useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams, useSearchParams } from "react-router-dom";
-import FiltersSidebar from "../components/filters-sidebar/FiltersSidebar";
-import Loader from "../components/Loader";
-import Message from "../components/Message";
-import ProductItem from "../components/products/ProductItemCard";
-import Toolbar from "../components/Toolbar";
+import FiltersSidebar from "../filters-sidebar/FiltersSidebar";
+import Loader from "../Loader";
+import Message from "../Message";
+import ProductItem from "./ProductItemCard";
+import Toolbar from "../Toolbar";
 // import Paginate from "../components/Paginate";
-import { selectFilteredProducts } from "../store/reducers/productReducers";
-import Pagination2 from "../components/Pagination2";
-import fakeApi from "../_api/fakeApi";
-import { clearFilters, setFilter, setPageNumber } from "../store/filters/filtersSlice";
-import { formatStringFromUrl } from "../utils";
-import { reset } from "../store/auth/authSlice";
+import { selectFilteredProducts } from "../../store/reducers/productReducers";
+import Pagination2 from "../Pagination2";
+import fakeApi from "../../_api/fakeApi";
+import { clearFilters, setFilter, setPageNumber } from "../../store/filters/filtersSlice";
+import { formatStringFromUrl } from "../../utils";
+import { reset } from "../../store/auth/authSlice";
 
 // * Show products by Category/Department
 // should contain filters, title, page number change...

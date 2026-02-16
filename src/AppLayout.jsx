@@ -1,15 +1,12 @@
 import { Outlet  } from 'react-router-dom'
 import Header from './components/header/Header'
 // import { ToastContainer } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
-// import SearchBar from './components/header/SearchBar'
-import HorizontalList from './components/HorizontalList'
+import 'react-toastify/dist/ReactToastify.css' 
 import Footer from './components/footer/Footer'
 import { useDispatch, useSelector } from 'react-redux'
 import CartModal from './components/cart/CartModal'
 import AuthModal from './components/auth/AuthModal'
-import { setShowAuthModal, setShowCartModal } from './store/settingsSlice'
-import { categories } from './constants/strings'
+import { setShowAuthModal, setShowCartModal } from './store/settingsSlice' 
 
 const AppLayout = () => {
   const dispatch = useDispatch()

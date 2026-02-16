@@ -4,17 +4,17 @@ import { PayPalButton } from 'react-paypal-button-v2'
 import { Link } from 'react-router-dom'
 import { Row, Col, ListGroup, Image, Card, Button } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
-import Message from '../components/Message'
-import Loader from '../components/Loader'
+import Message from '../Message'
+import Loader from '../Loader'
 import {
 	getOrderDetails,
 	payOrder,
 	deliverOrder,
-} from '../store/actions/orderActions'
+} from '../../store/actions/orderActions'
 import {
 	ORDER_PAY_RESET,
 	ORDER_DELIVER_RESET,
-} from '../store/constants/orderConstants'
+} from '../../store/constants/orderConstants'
 
 const OrderScreen = ({ match, history }) => {
 	const orderId = match.params.id

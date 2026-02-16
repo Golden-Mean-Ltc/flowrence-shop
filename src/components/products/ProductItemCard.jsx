@@ -33,10 +33,10 @@ const ProductItemCard = ({
     switch (selectedCurrency) {
       case 'usd':
         return priceInDollar
-      case 'gbp':
-        return (priceInDollar * 0.83).toFixed(2)
-      case 'eur':
-        return (priceInDollar * 0.95).toFixed(2)
+      case 'iqd':
+        return (priceInDollar * 1350) 
+      // case 'eur':
+      //   return (priceInDollar * 0.95).toFixed(2)
       default:
         return ''
     }
@@ -46,8 +46,8 @@ const ProductItemCard = ({
     switch (cur) {
       case 'usd':
         return <span>$ </span>
-      case 'gbp':
-        return <span>&#8356; </span>
+      case 'iqd':
+        return <span>د.ع. </span>
       case 'eur':
         return <span>&euro; </span>
       default:

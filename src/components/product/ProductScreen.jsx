@@ -10,13 +10,13 @@ import {
   Button,
   Form,
 } from "react-bootstrap";
-import Rating from "../components/Rating";
-import Message from "../components/Message";
-import Loader from "../components/Loader"; 
+import Rating from "../Rating";
+import Message from "../Message";
+import Loader from "../Loader"; 
 // import { PRODUCT_CREATE_REVIEW_RESET } from "../store/constants/productConstants";
-import { addToCart, itemAdded } from "../store/cart/cartSlice";
-import ProductDetailsTable from "../components/product/ProductDetailsTable";
-import fakeApi from "../_api/fakeApi"; 
+import { addToCart, itemAdded } from "../../store/cart/cartSlice";
+import ProductDetailsTable from "../product/ProductDetailsTable";
+import fakeApi from "../../_api/fakeApi"; 
 
 // * Product Page
 // const ProductScreen = ({ history, match }) => {
@@ -93,7 +93,7 @@ const ProductScreen = () => {
   // };
 
   return (
-    <div className="page">
+    <div className="screen">
       <div className="container">
         <Link className="btn btn-light my-3" to="/">
           Go Back

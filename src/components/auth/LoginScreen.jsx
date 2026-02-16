@@ -2,12 +2,11 @@ import   { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Form, Button, Row, Col } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
-import Message from '../components/Message'
-import Loader from '../components/Loader'
-import FormContainer from '../components/FormContainer'
-import SocialBtns from '../components/auth/SocialBtns'
-import { login } from '../store/auth/authSlice'
-import AuthForm from '../components/auth/AuthForm'
+import Message from '../Message'
+import Loader from '../Loader' 
+import SocialBtns from '../auth/SocialBtns' 
+import AuthForm from '../auth/AuthForm'  
+import { login } from '../../store/auth/authSlice'
 
 const LoginScreen = ( ) => {
 // const LoginScreen = ({ location, history }) => {
@@ -32,7 +31,7 @@ const LoginScreen = ( ) => {
 		dispatch(login({ email, password }))
 	}
 	return (
-		<div className='auth-page page' style={{ background: '#f6f6f6' }}>
+		<div className='auth-page screen' style={{ background: '#f6f6f6' }}>
 			<div className='auth-form-container'>
 				<div className='mb-3'>
 					<h3 className='text-secondary'>Log in user</h3>

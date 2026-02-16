@@ -47,8 +47,8 @@ const CurrencyDropdown = () => {
           <i className='fas fa-dollar-sign mr-2' /> US Dollar
         </div>
         <div
-          className={ `dropdown-item ${ currency === 'usd' ? 'active' : '' }` }
-          onClick={ () => handleClick( 'usd' ) }>
+          className={ `dropdown-item ${ currency === 'iqd' ? 'active' : '' }` }
+          onClick={ () => handleClick( 'iqd' ) }>
           <i className='fas fa-dollar-sign mr-2' /> دينار عراقي
         </div>
 

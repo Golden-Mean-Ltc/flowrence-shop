@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom'
-import { Row, Col, Modal } from 'react-bootstrap'
+import {   Modal } from 'react-bootstrap'
 import {   useSelector } from 'react-redux'
 // import Message from '../components/Message'
 // import Loader from '../components/Loader' 

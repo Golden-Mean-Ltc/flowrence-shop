@@ -8,10 +8,10 @@ import {
   Button,
   Card,
 } from "react-bootstrap";
-import Message from "../components/Message";
+import Message from  "../Message";
 // import { addToCart, removeFromCart } from "../store/cart/cartSlice";
-import CartListItem from "../components/cart/CartListItem"; 
-import { selectCartTotalItems, selectCartTotalPrice } from "../store/cart/cartSlice";
+import CartListItem from "../cart/CartListItem";  
+import {selectCartTotalItems, selectCartTotalPrice } from "../../store/cart/cartSlice";
 // import { addToCart, removeFromCart } from '../store/actions/cartActions'
 
 // const CartScreen = ({ match, location, history }) => {

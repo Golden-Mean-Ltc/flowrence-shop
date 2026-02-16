@@ -2,15 +2,15 @@ import React, { useEffect } from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Table, Button, Row, Col } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
-import Message from '../components/Message'
-import Loader from '../components/Loader'
-import Paginate from '../components/Paginate'
+import Message from '../Message'
+import Loader from '../Loader'
+import Paginate from '../Paginate'
 import {
 	listProducts,
 	deleteProduct,
 	createProduct,
-} from '../store/actions/productActions'
-import { PRODUCT_CREATE_RESET } from '../store/constants/productConstants'
+} from '../../store/actions/productActions'
+import { PRODUCT_CREATE_RESET } from '../../store/constants/productConstants'
 
 const ProductListScreen = ({ history, match }) => {
 	const pageNumber = match.params.pageNumber || 1
