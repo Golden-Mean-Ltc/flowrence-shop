@@ -30,7 +30,7 @@ const PaymentScreen = () => {
   };
 
   return (
-    <div className="mb-3">
+    <div className="screen">
       <FormContainer>
         <CheckoutSteps   step3 />
         <h1>Payment Method</h1>

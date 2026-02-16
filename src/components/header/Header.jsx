@@ -76,7 +76,7 @@ const Header = () => {
           <DepartmentsDropdown title={r.departments} />
         </div>
         <div className='p-2 clickable'>
-          <Link to='/products'> All Products </Link>
+          <Link to='/products'> {r.all_products} </Link>
         </div>
         <div className='p-2 clickable'>
           <Link to='/products'>{r.best_sellers}</Link>

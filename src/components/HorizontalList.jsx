@@ -1,18 +1,20 @@
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useNavigate  } from 'react-router-dom'
 import '../styles/HorizontalList.css' // Import the CSS file 
-import { formatStringForUrl, formatStringFromUrl } from '../utils' 
+import { formatStringForUrl
+ // , formatStringFromUrl 
+} from '../utils' 
 
 const HorizontalList = ({ items , language }) => {
   // const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Item 7', 'Item 8'];
   const navigate = useNavigate() 
 
-  const [
-    searchParams,
-    // , setSearchParams
-  ] = useSearchParams()
+  // const [
+  //   // searchParams,
+  //   // , setSearchParams
+  // ] = useSearchParams()
 
-  const selectedCategory = searchParams.get('category') || ''
-  console.log(formatStringFromUrl(selectedCategory))
+  // const selectedCategory = searchParams.get('category') || ''
+  // console.log(formatStringFromUrl(selectedCategory))
 
   return (
     <div className='scroll-container px-3'>

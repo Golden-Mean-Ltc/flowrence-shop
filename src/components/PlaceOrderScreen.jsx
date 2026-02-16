@@ -54,7 +54,7 @@ const PlaceOrderScreen = () => {
   };
 
   return (
-    <div className="page container">
+    <div className="screen container">
       <CheckoutSteps step4 />
       <Row>
         <Col md={8}>

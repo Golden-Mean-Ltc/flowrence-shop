@@ -203,7 +203,7 @@ const ProductScreen = () => {
                 <h5>About this product</h5>
                 <ul>
                   {product.features &&
-                    product.features.map((item) => <li key={item}>{item}</li>)}
+                    product.features.map((item, index) => <li key={index}>{item}</li>)}
                 </ul>
               </div>
             </Row>
@@ -222,8 +222,8 @@ const ProductScreen = () => {
 							)}
               {product.reviews && product.reviews.length> 0 && (
 							<ListGroup variant='flush'>
-								{product.reviews.map((review) => (
-									<ListGroup.Item key={review._id}>
+								{product.reviews.map((review , index) => (
+									<ListGroup.Item key={index}>
                     <Rating rating={parseFloat(review.rating.substring(0, 2)) } />
 										<strong>{review.text}</strong> 
 										<p>
