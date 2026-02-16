@@ -1,7 +1,5 @@
  import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col } from 'react-bootstrap'
-import ProductItem from '../products/ProductItemCard.jsx'
 import Message from '../Message.jsx'
 import Loader from '../Loader.jsx' 
 import BillboardCarousel from './BillboardCarousel.jsx'
@@ -9,17 +7,17 @@ import ProductsSlider from '../products/ProductSlider.jsx'
 import { setShowCartModal } from '../../store/settingsSlice.js' 
 import HorizontalList from '../HorizontalList.jsx'
 import { categories } from '../../constants/strings.js'
-
-// const HomeScreen = ({ match }) => {
+import ProductSlider from '../products/ProductSlider.jsx'
+ 
 const HomeScreen = () => {
   const dispatch = useDispatch()
-
-  // const [showCartModal, setShowCartModal] = useState(false); 
 
   const productList = useSelector((state) => state.productList)
   const cartItems = useSelector((state) => state.cart.cartItems)
   const { language, showCartModal } = useSelector((state) => state.settings);
-  const { loading, error, products } = productList
+  const { loading, error
+   // , products
+   } = productList
   const { r } = useSelector((state) => state.strings)
 
   const handleShowCartModal = () => dispatch(setShowCartModal(!showCartModal))
@@ -35,7 +33,7 @@ const HomeScreen = () => {
     <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}> 
       <HorizontalList items={categories} language={language} />
 
-      <div className='container ' dir={language == "arb" ? 'rtl' : 'ltr'}>
+      <div className='container mb-3' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
         <div className="row mb-5 hide-on-small-screen">
           <div className="col p-0">
@@ -57,8 +55,7 @@ const HomeScreen = () => {
           </div>
 
           <div className='d-flex flex-wrap justify-content-between align-items-center border-bottom p-3'>
-            <h4> {r.latest_products} </h4>
-
+            <h4> {r.latest_products} </h4> 
              <div className='p-2'>
               <Link className='text-info' to='/products'>
                 {r.show_more} <i className='fas fa-angle-right' />{' '}
@@ -66,22 +63,7 @@ const HomeScreen = () => {
             </div> 
           </div>
           {!loading && (
-            <Row className='bg-white mb-3'>
-              {products.slice(0, 8).map((product) => (
-                <Col
-                  key={product.asin}
-                  xm={12}
-                  sm={6}
-                  md={4}
-                  lg={3} 
-                className="p-0"
-                >
-                  <ProductItem product={product} 
-                //  grid={false} 
-                  clickable />
-                </Col>
-              ))}
-            </Row>
+           <ProductSlider url="/products/latest"   />
           )}
         </>
       </div>
@@ -93,7 +75,7 @@ const HomeScreen = () => {
                 <i className="fas fa-shopping-cart" /> items in cart :  {cartItems.length} </h6>
             </div>
             <div className='col px-4'>
-              <Link href='/cart' className='btn btn-success rounded-pill btn-lg w-100'>
+              <Link to='/cart' className='btn btn-success rounded-pill btn-lg w-100'>
                 {' '}
                 {/* Submit order → */}
                 تثبيت الطلب

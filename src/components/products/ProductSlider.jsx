@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import Slider from 'react-slick'
 // Import css files
 import 'slick-carousel/slick/slick.css'
@@ -70,9 +70,9 @@ const ProductSlider = ({ title, url }) => {
 
 	return (
 		<>
-			<div className='d-flex flex-wrap justify-content-between align-items-center border-bottom px-3 pt-3'>
+			{title &&<div className='d-flex flex-wrap justify-content-between align-items-center border-bottom px-3 pt-3'>
 				<h4>{title}</h4>
-			</div>
+			</div>}
 			<div className='row'>
 				<div className='col'>
 					<div className='products-slider  '>

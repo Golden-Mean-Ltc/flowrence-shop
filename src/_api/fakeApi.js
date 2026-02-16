@@ -118,6 +118,15 @@ export default function fakeApi(endpoint, payload = {}) {
         console.log(data);
       }
       break;
+    case "/products/latest":
+      {
+        // # sorted by date to show latest products first
+        const productsSorted = productsJson.sort((a, b) => new Date(b.dateFirstAvailable) - new Date(a.dateFirstAvailable));
+        console.log(productsSorted);
+        data = makeProductsResponse(productsSorted.slice(1, 10), 1);
+        console.log(data);
+      }
+      break;
     case "/products/id":
       product = productsJson.filter((item) => item.asin === payload);
       // console.log( product )   // array
