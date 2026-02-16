@@ -33,8 +33,9 @@
 [] Fix filter products by price range 
 [] Product images gallery slider 
 [] Saved logged in user to local storage
-[] Cool messages alrert 
-[] Make Arabic default language
+[] Cool messages alrert for add to cart 
+[] Save my recent order to profie 
+[x] Make Arabic default language 
 [ ] Product search with suggestion
 [ ] Admin: Add new product - select category n tags, English name n Arabic, used A+, A, B
 [ ] Show tips n explanation when user hover on something 

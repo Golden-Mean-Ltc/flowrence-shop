@@ -72,7 +72,7 @@ const ShippingScreen = () => {
   */
 
   return (
-    <div className='mb-3' dir={language == 'arb' ? 'rtl' : 'ltr'}>
+    <div className='screen' dir={language == 'arb' ? 'rtl' : 'ltr'}>
       <FormContainer>
         <CheckoutSteps step2 />
         <div className='px-3'>

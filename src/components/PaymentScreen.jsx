@@ -35,7 +35,7 @@ const PaymentScreen = () => {
         <CheckoutSteps   step3 />
         <h1>Payment Method</h1>
         <Form onSubmit={submitHandler}>
-          <Form.Group>
+          <Form.Group className="mb-3">
             <Form.Label as="legend">Select Method</Form.Label>
             <Col>
               <Form.Check
@@ -45,7 +45,17 @@ const PaymentScreen = () => {
                 id="PayPal"
                 name="paymentMethod"
                 value="PayPal"
-                checked
+                checked={paymentMethod === "PayPal"}
+                onChange={(e) => setPaymentMethod(e.target.value)}
+              ></Form.Check>
+              <Form.Check
+                className="my-2"
+                type="radio"
+                label="Cash on Delivery"
+                id="Cash"
+                name="paymentMethod"
+                value="Cash"
+                checked={paymentMethod === "Cash"}
                 onChange={(e) => setPaymentMethod(e.target.value)}
               ></Form.Check>
             </Col>

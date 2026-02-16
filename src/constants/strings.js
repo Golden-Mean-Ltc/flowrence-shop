@@ -1,4 +1,4 @@
-import { all } from "axios";
+ 
 
 export const strings_eng = {
 	search_products: 'Search products...',
