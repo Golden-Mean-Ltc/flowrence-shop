@@ -30,17 +30,17 @@
 [x] Show search term n found products count n clear 2/14/2026 
 [x] Fix header list of categories functionality
 [x] Clear filters button - reset categories 
-[] Fix filter products by price range 
-[] Product images gallery slider 
+[x] Fix filter products by price range              2/17/2026
+[] Product images modal gallery slider 
 [] Saved logged in user to local storage
 [] Cool messages alrert for add to cart 
-[] Save my recent order to profie 
+[] Save my recent order to my profie 
 [x] Make Arabic default language 
 [ ] Product search with suggestion
 [ ] Admin: Add new product - select category n tags, English name n Arabic, used A+, A, B
 [ ] Show tips n explanation when user hover on something 
 [ ] Add products to cart like what's app business. 
-[] Product images modal 
+[] Deal for discounted products like Amazon 
 [] PWA
 
  

@@ -1,5 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit'
-import { 
+import {
 	PRODUCT_DETAILS_REQUEST,
 	PRODUCT_DETAILS_SUCCESS,
 	PRODUCT_DETAILS_FAIL,
@@ -25,7 +25,7 @@ import {
 
 export const productListReducer = (
 	state = {
-		products: [], 
+		products: [],
 		loading: false,
 		sortBy: { key: 'featured', order: 'asc' }, // price, date, featured
 		pages: 1,
@@ -47,7 +47,7 @@ export const productListReducer = (
 		case 'PRODUCT_LIST_FAIL':
 			return { ...state, loading: false, error: action.payload }
 		case 'PRODUCT_LIST_SORT_BY':
-			return { ...state, sortBy: action.payload } 
+			return { ...state, sortBy: action.payload }
 		default:
 			return state
 	}
@@ -144,7 +144,7 @@ export const productTopRatedReducer = (state = { products: [] }, action) => {
 // createSelector used for filtering products
 // const selectProducts = (state) => state.products;
 // const selectFilters = (state) => state.filters 
-const selectProducts = (state) => state.productList.products; 
+const selectProducts = (state) => state.productList.products;
 const selectFilters = (state) => state.filters
 
 
@@ -152,9 +152,7 @@ export const selectFilteredProducts = createSelector(
 	[selectProducts, selectFilters],
 	// Output selector: receives both values
 	(products, filters) => {
-		const {  brands, category,
-			// searchTerm, opSystems, processors   
-			} = filters
+		const { brands, category  } = filters  // searchTerm, opSystems, processors    
 		// return all
 		// if (filters.brands.length === 0) return products
 
@@ -168,11 +166,7 @@ export const selectFilteredProducts = createSelector(
 			// 	opSystems.length === 0 ||
 			// 	opSystems.includes(item.specs.os || item.specs.os.toLowerCase())
 
-			// const processorMatches =
-			// 	processors.length === 0 ||
-			// 	processors.includes(
-			// 		item.specs.processor || item.specs.processor.toLowerCase()
-			// 	)
+
 
 			// const anyCategoryMatches = category.some(cat => item.categories.includes(cat.toLowerCase())) 
 			const anyCategoryMatches = category.length === 0 || item.categories.some(cat => category.includes(cat.toLowerCase()))
@@ -183,11 +177,29 @@ export const selectFilteredProducts = createSelector(
 			const matchesBrand = brands.length === 0 || brands.includes(item.brand.toLowerCase());
 			// const matchCategory = category.length === 0 || category.includes(item.categories[0].toLowerCase());
 
-			return matchesBrand && anyCategoryMatches
+			// const priceRangeMatches = true; // Implement price range filtering logic if needed
+			const priceRangeMatches =  filterProductsByPriceRange(item.price, filters.price)
+
+			return matchesBrand && anyCategoryMatches && priceRangeMatches
 			// console.log('matchesBrand', matchesBrand)  // true,false
-	})
+		})
 		// products => producst   // return all
-	} 
+	}
 )
 
- 
+function filterProductsByPriceRange(productPrice, priceRanges) {
+	if (priceRanges.length === 0) {
+		return true; // no price filter applied
+	} else {
+		if (priceRanges.includes('under $500') && productPrice < 500) {
+			return true;
+		}  
+		if (priceRanges.includes('$500 ~ $999') && productPrice >= 500 && productPrice <= 999) {
+			return true;
+		}
+		if (priceRanges.includes('$1000 & above') && productPrice >= 1000) {
+			return true;
+		}
+	}
+
+}

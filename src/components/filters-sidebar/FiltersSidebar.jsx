@@ -37,7 +37,7 @@ const FiltersSidebar = ({ category }) => {
 						onChange={(filterValue, changeType) =>{
 							console.log('Filter changed:', filter.name, filterValue, changeType) 
 							// dispatch(filterChanged(filterValue, changeType, filter.group))
-							dispatch(setFilter({  filterName: filter.name, filterValue: filterValue.toLowerCase(), changeType }))
+							dispatch(setFilter({  filterName: filter.name, filterValue: filterValue, changeType }))
 							dispatch(setPageNumber(1))
 						}}
 					/>

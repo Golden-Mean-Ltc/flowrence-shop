@@ -115,16 +115,16 @@ export default function fakeApi(endpoint, payload = {}) {
         );
         console.log(productsShuffled);
         data = makeProductsResponse(productsShuffled.slice(1, 8), 1);
-        console.log(data);
+        // console.log(data);
       }
       break;
     case "/products/latest":
       {
         // # sorted by date to show latest products first
         const productsSorted = productsJson.sort((a, b) => new Date(b.dateFirstAvailable) - new Date(a.dateFirstAvailable));
-        console.log(productsSorted);
+        // console.log(productsSorted);
         data = makeProductsResponse(productsSorted.slice(1, 10), 1);
-        console.log(data);
+        // console.log(data);
       }
       break;
     case "/products/id":

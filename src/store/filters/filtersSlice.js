@@ -23,7 +23,7 @@ const initialState = {
 	processors: [],
 	screens: [], // 14, 15~15.9  , 16+
 	colors: [],
-	prices: [],
+	price: [], // price ranges 
 	// ...laptopFilters,
 }
 
@@ -139,7 +139,7 @@ export const filtersSlice = createSlice({
 		state.processors = [];
 		state.screens = [];
 		state.colors = [];
-		state.prices = [];
+		state.price = [];
 	},
   },
 });

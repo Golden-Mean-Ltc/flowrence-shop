@@ -24,12 +24,10 @@ const ProductItemCard = ({
 
   const handleAddToCartClick = () => {
     setShowSpinner(true)
-    dispatch(addToCart(product.asin)).then(() => {
-      setTimeout(() => {
+    dispatch(addToCart(product.asin)).then(() => { 
         setShowCheck(true)
         setShowSpinner(false)
-        setTimeout(() => setShowCheck(false), 900)
-      }, 900)
+        setTimeout(() => setShowCheck(false), 900) 
     })
   }
 
