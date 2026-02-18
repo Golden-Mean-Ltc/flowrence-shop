@@ -9,6 +9,7 @@ import HorizontalList from '../HorizontalList.jsx'
 import { categories } from '../../constants/strings.js'
 import ProductSlider from '../products/ProductSlider.jsx'
 import ToastExample from '../ToastExample.jsx'
+import { ToastContainer } from 'react-toastify'
  
 const HomeScreen = () => {
   const dispatch = useDispatch()
@@ -34,7 +35,13 @@ const HomeScreen = () => {
     <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}> 
       <HorizontalList items={categories} language={language} />
 
-      <ToastExample />
+       <ToastContainer
+               position="top-left"
+               autoClose={1500}
+               hideProgressBar={true}
+               newestOnTop={false}  
+               theme="light" 
+             />
 
       <div className='container mb-3' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}

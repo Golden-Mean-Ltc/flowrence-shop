@@ -6,7 +6,7 @@ import { useParams, useSearchParams } from "react-router-dom";
 import FiltersSidebar from "../filters-sidebar/FiltersSidebar";
 import Loader from "../Loader";
 import Message from "../Message";
-import ProductItem from "./ProductItemCard";
+import ProductItemCard from "./ProductItemCard";
 import Toolbar from "../Toolbar";
 // import Paginate from "../components/Paginate";
 import { selectFilteredProducts } from "../../store/reducers/productReducers";
@@ -15,6 +15,7 @@ import fakeApi from "../../_api/fakeApi";
 import { clearFilters, setFilter, setPageNumber } from "../../store/filters/filtersSlice";
 import { formatStringFromUrl } from "../../utils";
 import { reset } from "../../store/auth/authSlice";
+import { toast, ToastContainer } from "react-toastify";
 
 // * Show products by Category/Department
 // should contain filters, title, page number change...
@@ -36,8 +37,17 @@ const ProductsScreen = () => {
   const [pageDetails, setPageDetails] = useState({});
   const [viewMode, setViewMode] = useState("grid"); // grid by default
   const [showSidebar, setShowSidebar] = useState(true); // show fitlers sidebar 
-  // handle sort by dropdown
 
+  const handleToast = (message) => {
+    toast.success(message, {
+      position: "top-left",
+      autoClose: 1500,
+      hideProgressBar: true,
+      theme: "light",
+    });
+  }
+
+  // handle sort by dropdown
   // console.log(useParams())
   // {keyword: 'laptops', pageNumber: '2'}
 
@@ -92,7 +102,6 @@ const ProductsScreen = () => {
   // console.log('Products by page:', filterProductsByPage)
   // console.log('Filtered products:', filteredProducts)
 
-
   useEffect(() => {
     // const details = getDetails(category) 
     const getAllProducts = async () => {
@@ -132,7 +141,14 @@ const ProductsScreen = () => {
 
   if (error) return <Message variant="danger">{error}</Message>;
 
-  return (
+  return <>
+   <ToastContainer
+          position="top-left"
+          autoClose={1500}
+          hideProgressBar={true}
+          newestOnTop={false} 
+          theme="light" 
+        />
     <div className="container " style={{ backgroundColor: "#eceef3" }}>
       <Row style={{ backgroundColor: "#c0cbf0" }} className="p-2">
         <div className="col-md-3 pl-5">
@@ -174,9 +190,10 @@ const ProductsScreen = () => {
                       lg={viewMode === "grid" ? 4 : 12}
                     // className={viewMode === "grid" ? "mb-4" : "mb-2"    }
                     >
-                      <ProductItem
+                      <ProductItemCard
                         product={product}
                         grid={viewMode === "grid" ? true : false}
+                          handleToast={handleToast}
                       />
                     </Col>
                   ))}
@@ -204,8 +221,8 @@ const ProductsScreen = () => {
         {/* Pagination below works with frontend filtering, not backend pagination. */}
         <Pagination2 productsCount={filteredProducts.length} productsPerPage={12} />
       </div>
-    </div>
-  );
-};
+    </div> 
+</>;
+}
 
 export default ProductsScreen;

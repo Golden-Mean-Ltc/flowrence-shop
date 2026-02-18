@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 // Import css files
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Product from './ProductItemCard'
+import ProductItemCard from './ProductItemCard'
 import fakeApi from '../../_api/fakeApi'
 import Loader from '../Loader'
 
@@ -80,10 +80,10 @@ const ProductSlider = ({ title, url }) => {
 						{products && (
 							<Slider {...settings}>
 								{products.map(product => (
-									<Product
+									<ProductItemCard
 										product={product}
 										grid
-										clickable={true}
+										showHeartBtn={false}
 										key={product.asin}
 									/>
 								))}

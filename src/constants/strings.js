@@ -15,6 +15,9 @@ export const strings_eng = {
 	featured_products: 'Featured Products',
 	show_more: 'Show more',
 	add_to_cart: 'Add to cart',
+	added_to_wishlist: 'Added to wishlist !',
+	added_to_liked: 'Added to liked list !',
+	added_to_cart: 'Added to cart !',
 }
 
 export const strings_arb = {
@@ -32,6 +35,9 @@ export const strings_arb = {
 	featured_products: 'المنتجات المميزة',
 	show_more: 'شاهد المزيد',
 	add_to_cart: 'اضف الى السلة',
+	added_to_wishlist: 'تمت الإضافة إلى قائمة المفضلة !',
+	added_to_liked: 'تمت الإضافة إلى قائمة المفضلة !',
+	added_to_cart: 'تمت الإضافة إلى السلة !',
 }
 
 export const iraq_governorates_eng = {

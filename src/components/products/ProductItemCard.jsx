@@ -11,7 +11,9 @@ import { addProductToLiked, deleteProductFromLiked } from '../../store/auth/auth
 const ProductItemCard = ({
   product: product_,
   grid = true,
+  handleToast,
   // showRating,
+  showHeartBtn = true,
 }) => {
   const dispatch = useDispatch()
   const product = getProduct(product_)
@@ -128,18 +130,23 @@ const ProductItemCard = ({
                     </span>
                   )}
                   {!showCheck && <span>{r.add_to_cart}</span>}
-                </button> 
+                </button>
 
-                {productExistsInLiked ? (
-                  <i className="fas fa-heart ml-1 fs-5" style={{ color: '#84d31e' }}
-                    onClick={() => dispatch(deleteProductFromLiked(product._id))}
+                {showHeartBtn && <>
+                  {productExistsInLiked ? (
+                    <i className="fas fa-heart ml-1 fs-5" style={{ color: '#84d31e' }}
+                      onClick={() => dispatch(deleteProductFromLiked(product._id))}
                     ></i>
-                ) : (
-                  <i className="far fa-heart ml-1 fs-5" style={{ color: '#cccccc' }}
-                    onClick={() => dispatch(addProductToLiked({ _id: product._id, name: product.name, liked: true }))}
-                  ></i>
-                )
-                }
+                  ) : (
+                    <i className="far fa-heart ml-1 fs-5" style={{ color: '#cccccc' }}
+                      onClick={() => {
+                        dispatch(addProductToLiked({ _id: product._id, name: product.name, liked: true }))
+                        handleToast(r.added_to_liked)
+                      }}
+                    ></i>
+                  )}
+                </>}
+
               </div>
             </div>
           </div>
