@@ -17,6 +17,7 @@ const ProductItemCard = ({
   const product = getProduct(product_)
   const { currency } = useSelector((state) => state.settings)
   const r = useSelector((state) => state.strings.r)
+  const productExistsInLiked = useSelector((state) => state.auth.likedProducts.find((p) => p._id === product._id))
 
   // handle show cart plus icon btn
   // const [showCartPlus, setShowCartPlus] = useState(true)
@@ -127,11 +128,18 @@ const ProductItemCard = ({
                     </span>
                   )}
                   {!showCheck && <span>{r.add_to_cart}</span>}
-                </button>
-                <i className="far fa-heart ml-1 fs-5" style={{ color: '#cccccc' }}
-                  onClick={() => dispatch(addProductToLiked({ _id: product._id, name: product.name, liked: true }))}
-                />
-                <i className="fas fa-heart ml-1 fs-5" style={{ color: '#84d31e' }}></i>
+                </button> 
+
+                {productExistsInLiked ? (
+                  <i className="fas fa-heart ml-1 fs-5" style={{ color: '#84d31e' }}
+                    onClick={() => dispatch(deleteProductFromLiked(product._id))}
+                    ></i>
+                ) : (
+                  <i className="far fa-heart ml-1 fs-5" style={{ color: '#cccccc' }}
+                    onClick={() => dispatch(addProductToLiked({ _id: product._id, name: product.name, liked: true }))}
+                  ></i>
+                )
+                }
               </div>
             </div>
           </div>
