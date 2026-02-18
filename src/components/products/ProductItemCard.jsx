@@ -6,6 +6,7 @@ import { getProduct } from '../../utils'
 import { useSelector, useDispatch } from 'react-redux'
 // import AddToCartBtn from './AddToCartBtn'
 import { addToCart } from '../../store/cart/cartSlice'
+import { addProductToLiked, deleteProductFromLiked } from '../../store/auth/authSlice'
 
 const ProductItemCard = ({
   product: product_,
@@ -24,10 +25,10 @@ const ProductItemCard = ({
 
   const handleAddToCartClick = () => {
     setShowSpinner(true)
-    dispatch(addToCart(product.asin)).then(() => { 
-        setShowCheck(true)
-        setShowSpinner(false)
-        setTimeout(() => setShowCheck(false), 900) 
+    dispatch(addToCart(product.asin)).then(() => {
+      setShowCheck(true)
+      setShowSpinner(false)
+      setTimeout(() => setShowCheck(false), 900)
     })
   }
 
@@ -87,13 +88,16 @@ const ProductItemCard = ({
             </Link>
 
             <div className='card-text'>
-              <Rating
+              <div className="d-flex"> <Rating
                 rating={product.rating} //  4.7
                 // number of reviews
                 text={`${product.numReviews}`}
               />
 
-              <div style={{ color: '#3a3457' }}>
+
+              </div>
+
+              <div style={{ color: '#3a3457' }} >
                 <span className='x'>
                   {getCurrencySign(currency)}
                   {getProductPrice(product.price, currency)}
@@ -113,7 +117,7 @@ const ProductItemCard = ({
                     <span
                       className='spinner-border spinner-border-sm text-light mx-2'
                       role='status'
-                      aria-hidden='true'
+                    // aria-hidden='true' 
                     ></span>
                   )}
                   {showCheck && (
@@ -124,6 +128,10 @@ const ProductItemCard = ({
                   )}
                   {!showCheck && <span>{r.add_to_cart}</span>}
                 </button>
+                <i className="far fa-heart ml-1 fs-5" style={{ color: '#cccccc' }}
+                  onClick={() => dispatch(addProductToLiked({ _id: product._id, name: product.name, liked: true }))}
+                />
+                <i className="fas fa-heart ml-1 fs-5" style={{ color: '#84d31e' }}></i>
               </div>
             </div>
           </div>

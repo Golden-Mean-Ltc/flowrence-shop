@@ -8,6 +8,7 @@ import { setShowCartModal } from '../../store/settingsSlice.js'
 import HorizontalList from '../HorizontalList.jsx'
 import { categories } from '../../constants/strings.js'
 import ProductSlider from '../products/ProductSlider.jsx'
+import ToastExample from '../ToastExample.jsx'
  
 const HomeScreen = () => {
   const dispatch = useDispatch()
@@ -32,6 +33,8 @@ const HomeScreen = () => {
   return (
     <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}> 
       <HorizontalList items={categories} language={language} />
+
+      <ToastExample />
 
       <div className='container mb-3' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}

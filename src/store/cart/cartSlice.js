@@ -89,7 +89,7 @@ const cartSlice = createSlice({
 export const addToCart = (id, quantity) => async (dispatch, getState) => {
   // const { data } = await axios.get(`/api/products/${id}`)
   const { data } = await fakeApi(`/products/id`, id);
-  console.log(data);
+  // console.log(data);
 
   dispatch({
     // type: "CART_ADD_ITEM",

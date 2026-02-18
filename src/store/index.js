@@ -32,6 +32,11 @@ export const store = configureStore({
 		settings: settingsSlice,
 		strings: stringsSlice,
 	},
+	// middleware: (getDefaultMiddleware) =>
+    // getDefaultMiddleware({
+    //   immutableCheck: { warnAfter: 128 },
+    //   serializableCheck: { warnAfter: 128 }, // You may want to adjust this as well
+    // }),
 })
 
 export default store

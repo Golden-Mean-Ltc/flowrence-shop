@@ -10,6 +10,7 @@ const initialState = {
 	succeeded: false,
 	loading: false, // when register action is pending
 	message: '',
+	likedProducts: [],
 }
 
 // Register new user
@@ -63,7 +64,25 @@ export const authSlice = createSlice({
 			state.error = false
 			state.succeeded = false
 			state.message = ''
+			state.likedProducts = []
 		},
+		// Action to add a new product to liked products
+		addProductToLiked: (state, action) => {
+			console.log(action.payload) // { _id: '123', name: 'Product 1', liked: true }
+			// Use Immer internally, so we can "mutate" the state
+			state.likedProducts.push(action.payload);
+		},
+		// Action to delete a product from liked products by ID
+		deleteProductFromLiked: (state, action) => {
+			state.likedProducts = state.likedProducts.filter((product) => product._id !== action.payload);
+		},
+		// Action to toggle a product's liked status (example for a todo app)
+		// toggleProductLiked: (state, action) => {
+		// 	const product = state.likedProducts.find(product => product._id === action.payload);
+		// 	if (product) {
+		// 		product.liked = !product.liked;
+		// 	}
+		// },
 	},
 	extraReducers: builder => {
 		builder
@@ -96,10 +115,12 @@ export const authSlice = createSlice({
 				state.user = null
 			})
 			.addCase(logout.fulfilled, state => {
-				state.user = null 
+				state.user = null
+				state.likedProducts = []
 			})
+
 	},
 })
 
-export const { reset } = authSlice.actions
+export const { reset, addProductToLiked, deleteProductFromLiked } = authSlice.actions
 export default authSlice.reducer

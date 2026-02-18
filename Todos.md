@@ -33,8 +33,9 @@
 [x] Fix filter products by price range              2/17/2026
 [] Product images modal gallery slider 
 [] Saved logged in user to local storage
-[] Cool messages alrert for add to cart 
+[] Cool toast alert for add to cart & liked
 [] Save my recent order to my profie 
+[] my liked products list
 [x] Make Arabic default language 
 [ ] Product search with suggestion
 [ ] Admin: Add new product - select category n tags, English name n Arabic, used A+, A, B
