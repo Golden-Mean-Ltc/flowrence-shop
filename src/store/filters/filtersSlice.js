@@ -120,6 +120,7 @@ export const filtersSlice = createSlice({
 				if (!state[filterName].includes(filterValueLc)) {
 					state[filterName].push(filterValueLc);
 				}
+				state.status = "active" // means filter is added
 				break;
 			}
 			case 'removed': {
@@ -133,6 +134,7 @@ export const filtersSlice = createSlice({
 		}
 	},
 	clearFilters: (state) => {
+		state.status = "cleared"  // means no filter is active
 		state.category = [];
 		state.brands = [];
 		state.opSystems = [];

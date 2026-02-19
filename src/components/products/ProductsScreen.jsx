@@ -39,12 +39,7 @@ const ProductsScreen = () => {
   const [showSidebar, setShowSidebar] = useState(true); // show fitlers sidebar 
 
   const handleToast = (message) => {
-    toast.success(message, {
-      position: "top-left",
-      autoClose: 1500,
-      hideProgressBar: true,
-      theme: "light",
-    });
+    toast.success(message )
   }
 
   // handle sort by dropdown
@@ -145,7 +140,7 @@ const ProductsScreen = () => {
    <ToastContainer
           position="top-left"
           autoClose={1500}
-          hideProgressBar={true}
+          hideProgressBar={false}
           newestOnTop={false} 
           theme="light" 
         />

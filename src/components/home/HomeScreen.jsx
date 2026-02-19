@@ -38,7 +38,7 @@ const HomeScreen = () => {
        <ToastContainer
                position="top-left"
                autoClose={1500}
-               hideProgressBar={true}
+               hideProgressBar={false}
                newestOnTop={false}  
                theme="light" 
              />
