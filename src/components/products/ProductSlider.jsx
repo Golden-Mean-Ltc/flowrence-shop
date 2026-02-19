@@ -6,10 +6,20 @@ import 'slick-carousel/slick/slick-theme.css'
 import ProductItemCard from './ProductItemCard'
 import fakeApi from '../../_api/fakeApi'
 import Loader from '../Loader'
+import { toast } from 'react-toastify'
 
 const ProductSlider = ({ title, url }) => {
 	const [loading, setLoading] = useState(true)
 	const [products, setProducts] = useState([])
+
+	const handleToast = (message) => {
+	toast.success(message, {
+		position: "top-left",
+		autoClose: 1500,
+		hideProgressBar: true,
+		theme: "light",
+	});
+	}
 
 	useEffect(() => {
 		const fetchProducts = async () => {
@@ -25,7 +35,7 @@ const ProductSlider = ({ title, url }) => {
 		fetchProducts()
 
 		// console.log(response.data)
-	}, [])
+	}, [url])
 
 	const settings = {
 		dots: false,
@@ -84,6 +94,8 @@ const ProductSlider = ({ title, url }) => {
 										product={product}
 										grid
 										showHeartBtn={false}
+										handleToast={handleToast}
+										toastMessage={toast.added_to_cart}
 										key={product.asin}
 									/>
 								))}

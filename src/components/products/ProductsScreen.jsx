@@ -193,7 +193,7 @@ const ProductsScreen = () => {
                       <ProductItemCard
                         product={product}
                         grid={viewMode === "grid" ? true : false}
-                          handleToast={handleToast}
+                          handleToast={handleToast} 
                       />
                     </Col>
                   ))}

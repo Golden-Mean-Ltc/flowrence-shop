@@ -29,6 +29,7 @@ const ProductItemCard = ({
   const handleAddToCartClick = () => {
     setShowSpinner(true)
     dispatch(addToCart(product.asin)).then(() => {
+       handleToast(r.added_to_cart)
       setShowCheck(true)
       setShowSpinner(false)
       setTimeout(() => setShowCheck(false), 900)
@@ -112,7 +113,7 @@ const ProductItemCard = ({
                 <button
                   type='button'
                   className='btn btn-warning rounded-pill px-3 m-1'
-                  style={{ background: '#ffd814' }}
+                  style={{ background: '#ffd814' , minWidth: '120px' }}
                   onClick={handleAddToCartClick}
                 >
                   {/* <i className='fas fa-cart-plus cart-plus-icon mr-2'   /> */}
@@ -120,7 +121,7 @@ const ProductItemCard = ({
                     <span
                       className='spinner-border spinner-border-sm text-light mx-2'
                       role='status'
-                    // aria-hidden='true' 
+                    aria-hidden='true' 
                     ></span>
                   )}
                   {showCheck && (
@@ -129,7 +130,7 @@ const ProductItemCard = ({
                       تم
                     </span>
                   )}
-                  {!showCheck && <span>{r.add_to_cart}</span>}
+                  {!showCheck && !showSpinner && <span>{r.add_to_cart}</span>}
                 </button>
 
                 {showHeartBtn && <>
