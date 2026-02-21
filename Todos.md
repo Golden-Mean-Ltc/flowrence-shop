@@ -34,7 +34,7 @@
 [] Product images modal gallery slider 
 [] Saved logged in user to local storage
 [x] Cool toast alert for add to cart & liked        2/19/2026
-[] Save recent order to my profie 
+[x] Save recent order to my profie                  2/21/2026
 [] Show my liked products list in profile
 [x] Make Arabic default language 
 [ ] Product search with suggestion

@@ -30,7 +30,7 @@ const CartScreen = () => {
   };
 
   return (
-    <div className="page">
+    <div className="screen">
       <div className="container">
         <div className="my-3">
           <h3>Shopping Cart</h3>

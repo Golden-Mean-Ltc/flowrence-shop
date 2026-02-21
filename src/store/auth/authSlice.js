@@ -6,11 +6,13 @@ const user = JSON.parse(localStorage.getItem('user'))
 
 const initialState = {
 	user: user ? user : null,
+	isAuthenticated: user ? true : false ,
 	isError: false,
 	succeeded: false,
 	loading: false, // when register action is pending
 	message: '',
 	likedProducts: [],
+	orders : []
 }
 
 // Register new user
@@ -83,6 +85,9 @@ export const authSlice = createSlice({
 		// 		product.liked = !product.liked;
 		// 	}
 		// },
+		addOrder: (state, action) => {
+			state.orders.push(action.payload)
+		}
 	},
 	extraReducers: builder => {
 		builder
@@ -93,12 +98,14 @@ export const authSlice = createSlice({
 				state.loading = false
 				state.succeeded = true
 				state.user = action.payload
+				state.isAuthenticated = true
 			})
 			.addCase(register.rejected, (state, action) => {
 				state.loading = false
 				state.error = true
 				state.message = action.payload
 				state.user = null
+				state.isAuthenticated = false
 			})
 			.addCase(login.pending, state => {
 				state.loading = true
@@ -107,20 +114,23 @@ export const authSlice = createSlice({
 				state.loading = false
 				state.succeeded = true
 				state.user = action.payload
+				state.isAuthenticated = true
 			})
 			.addCase(login.rejected, (state, action) => {
 				state.loading = false
 				state.error = true
 				state.message = action.payload
 				state.user = null
+				state.isAuthenticated = false
 			})
 			.addCase(logout.fulfilled, state => {
 				state.user = null
 				state.likedProducts = []
+				state.isAuthenticated = false
 			})
 
 	},
 })
 
-export const { reset, addProductToLiked, deleteProductFromLiked } = authSlice.actions
+export const { reset, addProductToLiked, deleteProductFromLiked , addOrder} = authSlice.actions
 export default authSlice.reducer

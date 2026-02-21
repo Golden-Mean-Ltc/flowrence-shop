@@ -30,9 +30,8 @@ const UserDropdown = ( { user } ) => {
                 <Link className='dropdown-item' to='/profile'>
 								Profile
 							</Link> 
-              <Link to='/profile'>
-                <NavDropdown.Item>Settings</NavDropdown.Item>
-              </Link>
+              <Link  className='dropdown-item' to='/settings' >
+              Settings </Link>
               <NavDropdown.Divider />
               
               <NavDropdown.Item onClick={ logoutHandler }>

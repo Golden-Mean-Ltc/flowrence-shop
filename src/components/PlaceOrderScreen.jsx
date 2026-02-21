@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { Button, Row, Col, ListGroup, Image  } from "react-bootstrap";
+import { Button, Row, Col, ListGroup, Image } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import Message from "./Message";
 import CheckoutSteps from "./CheckoutSteps";
-import { resetCart } from "../store/cart/cartSlice";
+import { resetCart, selectCartTotalPrice } from "../store/cart/cartSlice";
 import SpinnerSuccessFail from "./SpinnerSuccessFail";
 import OrderSummary from "./order/OrderSummary";
+import { addOrder } from "../store/auth/authSlice";
 // import Loader from '../components/Loader';
 // import { useCreateOrderMutation } from '../slices/ordersApiSlice';
 // import { resetCart } from '../slices/cartSlice';
@@ -40,13 +41,26 @@ const PlaceOrderScreen = () => {
       //     itemsPrice: cart.itemsPrice,
       //     shippingPrice: cart.shippingPrice,
       //     taxPrice: cart.taxPrice,
-      //     totalPrice: cart.totalPrice,
+      //     totalPrice: cart.totalPrice, 
       //   }).unwrap();
+      dispatch(addOrder({
+        // orderItems: cart.cartItems,
+        _id: "order-20260221",
+        createdAt : Date.now(),  // timestamp
+        // createdAt : new Date() ,
+        shippingAddress: cart.shippingAddress,
+        // paymentMethod: cart.paymentMethod,
+        // itemsPrice: cart.itemsPrice,
+        // shippingPrice: cart.shippingPrice,
+        totalPrice: selectCartTotalPrice(cart),
+        isPaid: false,
+        isDelivered: false
+      }))
 
       //   navigate(`/order/${res._id}`);
       setTimeout(() => setplaceOrderStatus("success"), 600);
-      setTimeout(() => dispatch(resetCart()),  900);
-      
+      setTimeout(() => dispatch(resetCart()), 900);
+
       // setTimeout(() =>  navigate(`/`), 1200);
     } catch (err) {
       toast.error(err);
@@ -125,10 +139,10 @@ const PlaceOrderScreen = () => {
               onClick={placeOrderHandler}
             >
               Place Order <SpinnerSuccessFail status={placeOrderStatus} />
-            </Button> 
+            </Button>
           </ListGroup.Item>
           <p>
-            {placeOrderStatus === "success" && <Link to="/">Return</Link>}
+            {placeOrderStatus === "success" && <Link to="/profile">My orders</Link>}
           </p>
         </Col>
       </Row>
