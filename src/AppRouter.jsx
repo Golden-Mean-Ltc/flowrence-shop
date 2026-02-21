@@ -22,6 +22,7 @@ import NotFound from './components/NotFound'
 import ProfileScreen from './components/profile/ProfileScreen'
 import PrivateRoute from './components/PrivateRoute'
 import SettingsScreen from './components/profile/SettingsScreen'
+import WishlistScreen from './components/profile/WishlistScreen'
 
 const router = createBrowserRouter([
   {
@@ -91,6 +92,10 @@ const router = createBrowserRouter([
             // path: "/dashboard/settings",
             path: "/settings",
             element: <SettingsScreen />,
+          },
+          { 
+            path: "/wishlist",
+            element: <WishlistScreen />,
           },
         ],
       }, 

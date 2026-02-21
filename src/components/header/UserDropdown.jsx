@@ -30,6 +30,9 @@ const UserDropdown = ( { user } ) => {
                 <Link className='dropdown-item' to='/profile'>
 								Profile
 							</Link> 
+                <Link className='dropdown-item' to='/wishlist'>
+								Wishlist
+							</Link> 
               <Link  className='dropdown-item' to='/settings' >
               Settings </Link>
               <NavDropdown.Divider />

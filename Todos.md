@@ -35,7 +35,7 @@
 [] Saved logged in user to local storage
 [x] Cool toast alert for add to cart & liked        2/19/2026
 [x] Save recent order to my profie                  2/21/2026
-[] Show my liked products list in profile
+[x] Show my liked products list in profile          2/21/2026
 [x] Make Arabic default language 
 [ ] Product search with suggestion
 [ ] Admin: Add new product - select category n tags, English name n Arabic, used A+, A, B

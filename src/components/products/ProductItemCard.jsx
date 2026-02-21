@@ -141,7 +141,7 @@ const ProductItemCard = ({
                   ) : (
                     <i className="far fa-heart ml-1 fs-5" style={{ color: '#cccccc' }}
                       onClick={() => {
-                        dispatch(addProductToLiked({ _id: product._id, name: product.name, liked: true }))
+                        dispatch(addProductToLiked({ _id: product._id, title: product.productTitle, imageUrl: product.mainImage.imageUrl, price:product.price, liked: true }))
                         handleToast(r.added_to_liked)
                       }}
                     ></i>

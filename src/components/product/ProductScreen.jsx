@@ -16,19 +16,23 @@ import Loader from "../Loader";
 // import { PRODUCT_CREATE_REVIEW_RESET } from "../store/constants/productConstants";
 import { addToCart, itemAdded } from "../../store/cart/cartSlice";
 import ProductDetailsTable from "../product/ProductDetailsTable";
-import fakeApi from "../../_api/fakeApi"; 
+import fakeApi from "../../_api/fakeApi";  
+import HeartBtn from "../HeartBtn";
+import { toast, ToastContainer } from "react-toastify";
 
 // * Product Page
 // const ProductScreen = ({ history, match }) => {
 const ProductScreen = () => {
+    const r = useSelector((state) => state.strings.r)
+
 
 	const [product, setProduct] = useState({}) 
 	const [loading, setLoading] = useState(false) 
 	const [error, setError] = useState( '') 
   // Handle Select for quantity to add in cart
   const [quantity, setquantity] = useState(1);
-  const [rating, setRating] = useState(0);
-  const [comment, setComment] = useState("");
+  // const [rating, setRating] = useState(0);
+  // const [comment, setComment] = useState("");
 
   const params = useParams();
   // console.log(params)  // {productId: 'B088NM43MB'}
@@ -80,7 +84,12 @@ const ProductScreen = () => {
     console.log("addToCartHandler.."); 
     // dispatch({ type: 'cart/itemAdded', payload: product.asin }) 
     dispatch(addToCart(product.asin, quantity));
+    handleToast(r.added_to_cart)
   };
+
+    const handleToast = (message) => {
+      toast.success(message )
+    }
 
   // const submitHandler = (e) => {
     // e.preventDefault();
@@ -92,7 +101,14 @@ const ProductScreen = () => {
     // );
   // };
 
-  return (
+  return <>
+   <ToastContainer
+            position="top-left"
+            autoClose={1500}
+            hideProgressBar={false}
+            newestOnTop={false} 
+            theme="light" 
+          />
     <div className="screen">
       <div className="container">
         <Link className="btn btn-light my-3" to="/">
@@ -191,6 +207,9 @@ const ProductScreen = () => {
                       >
                         Add To Cart
                       </Button>
+                      <div className="p-2 text-center"    > 
+                        <p className="clickable">Add to wishlist {' '} <HeartBtn product={product} handleToast={handleToast} /></p>
+                      </div> 
                     </div>
                   </ListGroup>
                 </Card>
@@ -238,8 +257,8 @@ const ProductScreen = () => {
           </>
         )}
       </div>
-    </div>
-  );
-};
+    </div> 
+</>
+}
 
 export default ProductScreen;
