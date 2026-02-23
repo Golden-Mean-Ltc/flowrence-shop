@@ -33,6 +33,7 @@
 [x] Fix filter products by price range              2/17/2026
 [] Product images modal gallery slider 
 [] Saved logged in user to local storage
+[] Save recent address to lacal storage
 [x] Cool toast alert for add to cart & liked        2/19/2026
 [x] Save recent order to my profie                  2/21/2026
 [x] Show my liked products list in profile          2/21/2026
@@ -42,6 +43,7 @@
 [ ] Show tips n explanation when user hover on something 
 [ ] Add products to cart like what's app business. 
 [] Deal for discounted products like Amazon 
+[] Dark/Light theme toggle 
 [] PWA
 
  

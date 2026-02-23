@@ -26,7 +26,7 @@ const ProductSlider = ({ title, url }) => {
 			// const response = await fakeApi('/products/bestsellers')
 			console.log(url)
 			const response = await fakeApi(url)
-			console.log(response.data)
+			// console.log(response.data)
 			// return response.data
 
 			setLoading(false)

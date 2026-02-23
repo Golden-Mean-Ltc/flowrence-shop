@@ -10,6 +10,7 @@ import { categories } from '../../constants/strings.js'
 import ProductSlider from '../products/ProductSlider.jsx'
 // import ToastExample from '../ToastExample.jsx'
 import { ToastContainer } from 'react-toastify'
+import SearchBarAuto from '../SearchBarAuto.jsx'
  
 const HomeScreen = () => {
   const dispatch = useDispatch()
@@ -34,6 +35,8 @@ const HomeScreen = () => {
   return (
     <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}> 
       <HorizontalList items={categories} language={language} />
+
+      <SearchBarAuto />
 
        <ToastContainer
                position="top-left"
