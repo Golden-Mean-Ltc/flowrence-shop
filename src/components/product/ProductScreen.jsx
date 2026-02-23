@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import   { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -14,7 +14,7 @@ import Rating from "../Rating";
 import Message from "../Message";
 import Loader from "../Loader"; 
 // import { PRODUCT_CREATE_REVIEW_RESET } from "../store/constants/productConstants";
-import { addToCart, itemAdded } from "../../store/cart/cartSlice";
+import { addToCart  } from "../../store/cart/cartSlice";
 import ProductDetailsTable from "../product/ProductDetailsTable";
 import fakeApi from "../../_api/fakeApi";  
 import HeartBtn from "../HeartBtn";
@@ -28,7 +28,8 @@ const ProductScreen = () => {
 
 	const [product, setProduct] = useState({}) 
 	const [loading, setLoading] = useState(false) 
-	const [error, setError] = useState( '') 
+	// const [error, setError] = useState( '') 
+  const error = null 
   // Handle Select for quantity to add in cart
   const [quantity, setquantity] = useState(1);
   // const [rating, setRating] = useState(0);
@@ -53,7 +54,7 @@ const ProductScreen = () => {
       }
     };
     getProductByID();
-  }, []);
+  }, [params.productId]);
   //   console.log(getProductByID().then((res) => console.log(res)));
 
 //   const productDetails = useSelector((state) => state.productDetails);

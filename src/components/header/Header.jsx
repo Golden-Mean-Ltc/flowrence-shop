@@ -8,8 +8,9 @@ import CartDropdown from './CartDropdown'
 import DepartmentsDropdown from './DepartmentsDropdown'
 import CurrencyDropdown from './CurrencyDropdown'
 import LanguageDropdown from './LanguageDropdown'
-import SearchInput from './SearchInput';
-import { setShowAuthModal } from '../../store/settingsSlice'
+// import SearchInput from './SearchInput';
+import { setShowAuthModal } from '../../store/settingsSlice' 
+import SearchBarAuto from '../SearchbarAuto'
 
 const Header = () => {
   const dispatch = useDispatch()
@@ -36,8 +37,11 @@ const Header = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
 
         <div className="flex-fill">
-          <SearchInput />
+          {/* <SearchInput /> */}
+            <SearchBarAuto />
         </div>
+            
+
         
         <div className="flex-fill d-flex justify-content-center align-items-center">
           <CartDropdown />

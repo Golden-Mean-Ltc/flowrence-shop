@@ -1,19 +1,30 @@
 import { useEffect, useState } from "react"
 import "../styles/searchbar-auto.css"
 import fakeApi from "../_api/fakeApi"
+import { Link, useNavigate, useSearchParams } from "react-router-dom"
 
 const SearchBarAuto = () => {
+
+    const [
+        //searchParams,
+         setSearchParams] = useSearchParams()
+    const navigate = useNavigate()
+
     const [search, setSearch] = useState("")
     const [searchData, setSearchData] = useState([])
     // keyboard navigation 
     const [selectedItem, setSelectedItem] = useState(-1)
-    const data = []  // books.json
+    // const data = []  // books.json
 
     const handleChange = e => {
         setSearch(e.target.value)
     }
-    const handleClose = () => {
+    const handleClear = () => {
         setSearch("")
+        setSearchData([])
+        setSelectedItem(-1)
+    }
+    const handleClose = () => { 
         setSearchData([])
         setSelectedItem(-1)
     }
@@ -28,15 +39,26 @@ const SearchBarAuto = () => {
             else if (e.key === "ArrowDown" && selectedItem < searchData.length - 1) {
                 setSelectedItem(prev => prev + 1)
             } else if (e.key === "Enter" && selectedItem >= 0) {
-                window.open(searchData[selectedItem].show.url)
+                // window.open(searchData[selectedItem].show.url)
             }
         } else {
             setSelectedItem(-1)
         }
     }
 
+    const handleFormSubmit = (e) => {
+        e.preventDefault()
+        console.log('submit form..')
+        if (search) {
+            setSearchParams((prev) => ({ ...prev, q: search.trim() }))
+            navigate(`/search?q=${search.trim()}`)
+            // console.log(search) 
+            // handleClose()
+        }
+    }
+
     useEffect(() => {
-        if (search !== "" && search.length>1) {
+        if (search !== "" && search.length > 1) {
             /*
             fetch(`http://api.tvmaze.com/search/shows?q=${search}`)
                 .then((res) => res.json())
@@ -65,8 +87,8 @@ const SearchBarAuto = () => {
     }, [search]);
 
     return (
-        <section className='search_section m-5'>
-            <div className='search_input_div'>
+        <section className='search_section'>
+            <form className='search_input_form' onSubmit={handleFormSubmit}>
                 <input
                     type='text'
                     className='search_input'
@@ -78,17 +100,19 @@ const SearchBarAuto = () => {
                 />
                 <div className='search_icon'>
                     {search === '' ? <i className="fas fa-search" />
-                        : <i className="fas fa-times" onClick={handleClose}></i>}
+                        : <i className="fas fa-times" onClick={handleClear}></i>}
                 </div>
-            </div>
+            </form>
             <div className='search_result'>
                 {searchData && <>
                     {
                         searchData.slice(0, 10).map((item, index) => {
-                            return <a
+                            return <Link
                                 // href={item.show.url}
+                                to={`/product/${item.asin}`}
+                                onClick={()=>handleClose()}
                                 key={index}
-                                target="_blank"
+                                // target="_blank"  // open in new browser tab 
                                 //  className="search_suggestion_line">
                                 className={selectedItem === index
                                     ? "search_suggestion_line active"
@@ -96,14 +120,14 @@ const SearchBarAuto = () => {
                             >
                                 {/* {item.show.name} */}
                                 {item.productTitle.substring(0, 40)}
-                            </a>
+                            </Link>
                         })
                     }
                 </>}
 
-                <a href='#' target='_blank' className='search_suggestion_line'>
+                {/* <a href='#' target='_blank' className='search_suggestion_line'>
                     This is suggestion line.
-                </a>
+                </a> */}
             </div>
         </section>
     )

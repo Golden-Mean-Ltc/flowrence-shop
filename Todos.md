@@ -31,14 +31,14 @@
 [x] Fix header list of categories functionality
 [x] Clear filters button - reset categories 
 [x] Fix filter products by price range              2/17/2026
-[] Product images modal gallery slider 
 [] Saved logged in user to local storage
 [] Save recent address to lacal storage
 [x] Cool toast alert for add to cart & liked        2/19/2026
 [x] Save recent order to my profie                  2/21/2026
 [x] Show my liked products list in profile          2/21/2026
 [x] Make Arabic default language 
-[ ] Product search with suggestion
+[x] Product search bar with suggestion              2/23/2026
+[] Product images modal gallery slider 
 [ ] Admin: Add new product - select category n tags, English name n Arabic, used A+, A, B
 [ ] Show tips n explanation when user hover on something 
 [ ] Add products to cart like what's app business. 
