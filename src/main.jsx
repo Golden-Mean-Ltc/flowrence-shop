@@ -6,6 +6,7 @@ import { store } from "./store/index";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles/index.css"; 
 import "./styles/modal.css";  
+import "react-image-gallery/styles/image-gallery.css";
 // import App2 from "./App2"; 
 import AppRouter from "./AppRouter.jsx";
 // import { ApiProvider } from "@reduxjs/toolkit/query/react";

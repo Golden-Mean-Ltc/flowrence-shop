@@ -1,4 +1,4 @@
-import   { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -12,26 +12,31 @@ import {
 } from "react-bootstrap";
 import Rating from "../Rating";
 import Message from "../Message";
-import Loader from "../Loader"; 
+import Loader from "../Loader";
 // import { PRODUCT_CREATE_REVIEW_RESET } from "../store/constants/productConstants";
-import { addToCart  } from "../../store/cart/cartSlice";
+import { addToCart } from "../../store/cart/cartSlice";
 import ProductDetailsTable from "../product/ProductDetailsTable";
-import fakeApi from "../../_api/fakeApi";  
+import fakeApi from "../../_api/fakeApi";
 import HeartBtn from "../HeartBtn";
 import { toast, ToastContainer } from "react-toastify";
-import ImageGalleryExample from "../ImageGalleryExample";
 import ImageGallery from "react-image-gallery";
+import ImagesModal from "./ImagesModal";
 
 // * Product Page
 // const ProductScreen = ({ history, match }) => {
 const ProductScreen = () => {
-    const r = useSelector((state) => state.strings.r)
+  const r = useSelector((state) => state.strings.r)
 
+  // # Product Image gallery modal 
+  const [showModal, setShowModal] = useState(false);
 
-	const [product, setProduct] = useState({}) 
-	const [loading, setLoading] = useState(false) 
-	// const [error, setError] = useState( '') 
-  const error = null 
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
+
+  const [product, setProduct] = useState({})
+  const [loading, setLoading] = useState(false)
+  // const [error, setError] = useState( '') 
+  const error = null
   // Handle Select for quantity to add in cart
   const [quantity, setquantity] = useState(1);
   // const [rating, setRating] = useState(0);
@@ -43,14 +48,14 @@ const ProductScreen = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-	
+
     const getProductByID = async () => {
-		setLoading(true)
+      setLoading(true)
       try {
         const res = await fakeApi("/products/id", params.productId);
         console.log(res);
-		setProduct(res.data)
-		setLoading(false)
+        setProduct(res.data)
+        setLoading(false)
       } catch (error) {
         console.log(error);
       }
@@ -59,11 +64,11 @@ const ProductScreen = () => {
   }, [params.productId]);
   //   console.log(getProductByID().then((res) => console.log(res)));
 
-//   const productDetails = useSelector((state) => state.productDetails);
-//   const { loading, error, product } = productDetails;
+  //   const productDetails = useSelector((state) => state.productDetails);
+  //   const { loading, error, product } = productDetails;
 
-//   const userLogin = useSelector((state) => state.auth);
-//   const { user } = userLogin;
+  //   const userLogin = useSelector((state) => state.auth);
+  //   const { user } = userLogin;
 
   //   const productReviewCreate = useSelector((state) => state.productReviewCreate);
   //   const {
@@ -84,50 +89,50 @@ const ProductScreen = () => {
   //   }, [dispatch, match, successProductReview]);
 
   const addToCartHandler = () => {
-    console.log("addToCartHandler.."); 
+    console.log("addToCartHandler..");
     // dispatch({ type: 'cart/itemAdded', payload: product.asin }) 
     dispatch(addToCart(product.asin, quantity));
     handleToast(r.added_to_cart)
   };
 
-    const handleToast = (message) => {
-      toast.success(message )
-    }
+  const handleToast = (message) => {
+    toast.success(message)
+  }
 
-    const galleryRef = useRef(null);
-    // # Convert product.imageUrlList to get 40px thumbnails 
-    const makeImageGalleryUrlList = (imageUrlList)=> {
-      // let res = [{original: "", thumbnail: ""}] 
-    const newList =  imageUrlList 
-    ? imageUrlList.map((item) =>{
+  const galleryRef = useRef(null);
+  // # Convert product.imageUrlList to get 40px thumbnails 
+  const makeImageGalleryUrlList = (imageUrlList) => {
+    // let res = [{original: "", thumbnail: ""}] 
+    const newList = imageUrlList
+      ? imageUrlList.map((item) => {
         // console.log(item)
-      return  {original: item , thumbnail: item.replace("SL1500", "US40")} 
-      }) : [] 
-      //  console.log(newList)
-      return newList
-    }
+        return { original: item, thumbnail: item.replace("SL1500", "US40") }
+      }) : []
+    //  console.log(newList)
+    return newList
+  }
 
-    // makeImageGalleryUrlList(product.imageUrlList)
-   
+  // makeImageGalleryUrlList(product.imageUrlList)
+
 
   // const submitHandler = (e) => {
-    // e.preventDefault();
-    // dispatch(
-    //   createProductReview(match.params.id, {
-    //     rating,
-    //     comment,
-    //   })
-    // );
+  // e.preventDefault();
+  // dispatch(
+  //   createProductReview(match.params.id, {
+  //     rating,
+  //     comment,
+  //   })
+  // );
   // };
 
   return <>
-   <ToastContainer
-            position="top-left"
-            autoClose={1500}
-            hideProgressBar={false}
-            newestOnTop={false} 
-            theme="light" 
-          />
+    <ToastContainer
+      position="top-left"
+      autoClose={1500}
+      hideProgressBar={false}
+      newestOnTop={false}
+      theme="light"
+    />
     <div className="screen">
       <div className="container">
         <Link className="btn btn-light my-3" to="/">
@@ -139,22 +144,14 @@ const ProductScreen = () => {
           <Message variant="danger">{error}</Message>
         ) : (
           <>
-             <div className="row" style={{width: '600px'}}>
-                {/* <ImageGalleryExample /> */}
-                {/* imageUrlList [] */}
-                <ImageGallery 
-                 ref={galleryRef}
-                items={makeImageGalleryUrlList(product.imageUrlList)}
-                 onSlide={(index) => console.log("Slid to", index)}
-                 
-                /> 
-              </div>
+            <ImagesModal show={showModal} handleClose={handleClose} />
             <Row className="mb-3">
-           
               <Col md={3}>
-                <Image src={product.mainImage ? product.mainImage.imageUrl : '' } alt={product.title} fluid />
-            <div className="p-3 text-center"> 
-               <span className="clickable">Click to see image gallery</span>
+                <Image src={product.mainImage ? product.mainImage.imageUrl : ''} alt={product.title} fluid />
+                <div className="p-3 text-center">
+                  <span className="clickable"
+                    onClick={() => setShowModal(!showModal)}>
+                    Click to see image gallery</span>
                 </div>
               </Col>
               <Col>
@@ -240,14 +237,25 @@ const ProductScreen = () => {
                       >
                         Add To Cart
                       </Button>
-                      <div className=" text-center"    > 
+                      <div className=" text-center"    >
                         <p className="clickable">Add to wishlist {' '} <HeartBtn product={product} handleToast={handleToast} /></p>
-                      </div> 
+                      </div>
                     </div>
                   </ListGroup>
                 </Card>
               </Col>
             </Row>
+            <div className="row"  >
+              <div style={{ width: '600px' }}>
+                {/* <ImageGalleryExample /> */}
+                {/* imageUrlList [] */}
+                <ImageGallery
+                  ref={galleryRef}
+                  items={makeImageGalleryUrlList(product.imageUrlList)}
+                  onSlide={(index) => console.log("Slid to", index)}
+                />
+              </div>
+            </div>
             <hr />
             <Row className="mb-3">
               <div className="col-2"></div>
@@ -267,31 +275,31 @@ const ProductScreen = () => {
               </div>
             </Row>
             <Row>
-               <Col sm={12} md={8}>
-							<h2>Reviews</h2>
-							{product.reviews && product.reviews.length === 0 && (
-								<Message>No Reviews</Message>
-							)}
-              {product.reviews && product.reviews.length> 0 && (
-							<ListGroup variant='flush'>
-								{product.reviews.map((review , index) => (
-									<ListGroup.Item key={index}>
-                    <Rating rating={parseFloat(review.rating.substring(0, 2)) } />
-										<strong>{review.text}</strong> 
-										<p>
-											{review.date} <br></br> By : {review.userName}
-										</p> 
-									</ListGroup.Item>
-								))} 
-							</ListGroup>
-              )}
-						</Col>  
-            </Row> 
+              <Col sm={12} md={8}>
+                <h2>Reviews</h2>
+                {product.reviews && product.reviews.length === 0 && (
+                  <Message>No Reviews</Message>
+                )}
+                {product.reviews && product.reviews.length > 0 && (
+                  <ListGroup variant='flush'>
+                    {product.reviews.map((review, index) => (
+                      <ListGroup.Item key={index}>
+                        <Rating rating={parseFloat(review.rating.substring(0, 2))} />
+                        <strong>{review.text}</strong>
+                        <p>
+                          {review.date} <br></br> By : {review.userName}
+                        </p>
+                      </ListGroup.Item>
+                    ))}
+                  </ListGroup>
+                )}
+              </Col>
+            </Row>
           </>
         )}
       </div>
-    </div> 
-</>
+    </div>
+  </>
 }
 
 export default ProductScreen;
