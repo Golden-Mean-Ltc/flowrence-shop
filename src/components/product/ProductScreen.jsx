@@ -1,4 +1,4 @@
-import   { useState, useEffect } from "react";
+import   { useState, useEffect, useRef } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -19,6 +19,8 @@ import ProductDetailsTable from "../product/ProductDetailsTable";
 import fakeApi from "../../_api/fakeApi";  
 import HeartBtn from "../HeartBtn";
 import { toast, ToastContainer } from "react-toastify";
+import ImageGalleryExample from "../ImageGalleryExample";
+import ImageGallery from "react-image-gallery";
 
 // * Product Page
 // const ProductScreen = ({ history, match }) => {
@@ -92,6 +94,22 @@ const ProductScreen = () => {
       toast.success(message )
     }
 
+    const galleryRef = useRef(null);
+    // # Convert product.imageUrlList to get 40px thumbnails 
+    const makeImageGalleryUrlList = (imageUrlList)=> {
+      // let res = [{original: "", thumbnail: ""}] 
+    const newList =  imageUrlList 
+    ? imageUrlList.map((item) =>{
+        // console.log(item)
+      return  {original: item , thumbnail: item.replace("SL1500", "US40")} 
+      }) : [] 
+      //  console.log(newList)
+      return newList
+    }
+
+    // makeImageGalleryUrlList(product.imageUrlList)
+   
+
   // const submitHandler = (e) => {
     // e.preventDefault();
     // dispatch(
@@ -121,9 +139,23 @@ const ProductScreen = () => {
           <Message variant="danger">{error}</Message>
         ) : (
           <>
-            <Row className="mb-5">
+             <div className="row" style={{width: '600px'}}>
+                {/* <ImageGalleryExample /> */}
+                {/* imageUrlList [] */}
+                <ImageGallery 
+                 ref={galleryRef}
+                items={makeImageGalleryUrlList(product.imageUrlList)}
+                 onSlide={(index) => console.log("Slid to", index)}
+                 
+                /> 
+              </div>
+            <Row className="mb-3">
+           
               <Col md={3}>
                 <Image src={product.mainImage ? product.mainImage.imageUrl : '' } alt={product.title} fluid />
+            <div className="p-3 text-center"> 
+               <span className="clickable">Click to see image gallery</span>
+                </div>
               </Col>
               <Col>
                 <ListGroup variant="flush">
@@ -153,7 +185,7 @@ const ProductScreen = () => {
               <Col md={3}>
                 <Card>
                   <ListGroup>
-                    <div className="x" style={{ minHeight: "180px" }}>
+                    <div className="x" style={{ minHeight: "100px" }}>
                       <ListGroup.Item>
                         <Row>
                           <Col>Price:</Col>
@@ -202,13 +234,13 @@ const ProductScreen = () => {
                     <div className="p-2">
                       <Button
                         onClick={addToCartHandler}
-                        className="btn-block"
+                        className="btn-block btn-warning mb-3"
                         type="button"
                         disabled={product.countInStock === 0}
                       >
                         Add To Cart
                       </Button>
-                      <div className="p-2 text-center"    > 
+                      <div className=" text-center"    > 
                         <p className="clickable">Add to wishlist {' '} <HeartBtn product={product} handleToast={handleToast} /></p>
                       </div> 
                     </div>
@@ -217,7 +249,7 @@ const ProductScreen = () => {
               </Col>
             </Row>
             <hr />
-            <Row className="mb-5">
+            <Row className="mb-3">
               <div className="col-2"></div>
               <div className="col-8">
                 <h5>About this product</h5>

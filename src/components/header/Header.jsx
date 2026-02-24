@@ -10,7 +10,7 @@ import CurrencyDropdown from './CurrencyDropdown'
 import LanguageDropdown from './LanguageDropdown'
 // import SearchInput from './SearchInput';
 import { setShowAuthModal } from '../../store/settingsSlice' 
-import SearchBarAuto from '../SearchbarAuto'
+import SearchBarAuto from './SearchBarAuto'
 
 const Header = () => {
   const dispatch = useDispatch()

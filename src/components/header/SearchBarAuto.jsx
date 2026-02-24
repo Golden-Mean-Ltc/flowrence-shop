@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
-import "../styles/searchbar-auto.css"
-import fakeApi from "../_api/fakeApi"
+import "../../styles/searchbar-auto.css" 
 import { Link, useNavigate, useSearchParams } from "react-router-dom"
+import fakeApi from "../../_api/fakeApi"
 
 const SearchBarAuto = () => {
 

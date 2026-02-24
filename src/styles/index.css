@@ -450,7 +450,15 @@ footer i {
 }
 
 .clickable {
-	cursor: pointer;
+	color: #242486;
+	cursor: pointer; 
+}
+.clickable:hover{
+	color: #3d3dd1;
+	text-decoration: underline;
+}
+.text-underline {
+	text-decoration: underline;
 }
 
 .screen {
