@@ -1,5 +1,4 @@
-import React from 'react'
-
+ 
 const ProductDetailsTable = ({ details }) => {
 	return (
 		<table className='table'>

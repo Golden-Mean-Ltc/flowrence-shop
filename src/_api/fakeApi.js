@@ -42,8 +42,7 @@ export default function fakeApi(endpoint, payload = {}) {
 
 
   let data = {};
-  let products_ = [];
-  let product = {};
+  let products_ = []; 
   let pageNumber = payload.pageNumber ? payload.pageNumber : 1;
   let user = {};
   let user_ = {};
@@ -128,15 +127,26 @@ export default function fakeApi(endpoint, payload = {}) {
       }
       break;
     case "/products/id":
-      product = productsJson.filter((item) => item.asin === payload);
-      // console.log( product )   // array
-      data = product[0];
-      break;
-
+      { 
+      const res = productsJson.filter((item) => item.asin === payload);
+      // console.log( res )   // array 
+      const product = res[0]
+      const product_ = {
+        ...product,
+        _id : product.asin,
+        title: product.productTitle, 
+        details :  product.details !== undefined  ? product.details : product.aboutProduct 
+      } 
+      // console.log(product_)
+      data = product_
+    } 
+      break; 
     case "/login":
+    {  
       user = users.filter((item) => item.email === payload.email);
       console.log(user);
       data = user[0];
+    }
       break;
     case "/users": // * Get logged in user details
       user_ = users.filter((item) => item._id === payload);

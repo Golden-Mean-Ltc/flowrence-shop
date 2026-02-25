@@ -19,7 +19,6 @@ import ProductDetailsTable from "../product/ProductDetailsTable";
 import fakeApi from "../../_api/fakeApi";
 import HeartBtn from "../HeartBtn";
 import { toast, ToastContainer } from "react-toastify";
-import ImageGallery from "react-image-gallery";
 import ImagesModal from "./ImagesModal";
 
 // * Product Page
@@ -48,7 +47,6 @@ const ProductScreen = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-
     const getProductByID = async () => {
       setLoading(true)
       try {
@@ -144,14 +142,17 @@ const ProductScreen = () => {
           <Message variant="danger">{error}</Message>
         ) : (
           <>
-            <ImagesModal show={showModal} handleClose={handleClose} />
+            <ImagesModal show={showModal} handleClose={handleClose} product={product} />
+
             <Row className="mb-3">
               <Col md={3}>
-                <Image src={product.mainImage ? product.mainImage.imageUrl : ''} alt={product.title} fluid />
+                <Image src={product.mainImage ? product.mainImage.imageUrl : ''}
+                  alt={product.title} fluid />
                 <div className="p-3 text-center">
                   <span className="clickable"
                     onClick={() => setShowModal(!showModal)}>
-                    Click to see image gallery</span>
+                    Click to see more images
+                  </span>
                 </div>
               </Col>
               <Col>
@@ -161,7 +162,8 @@ const ProductScreen = () => {
                   </ListGroup.Item>
                   <ListGroup.Item>
                     <Rating
-                      rating={product.productRating ? parseFloat(product.productRating.substring(0, 2)) : 4.5}
+                      rating={product.productRating ?
+                        parseFloat(product.productRating.substring(0, 2)) : 4.5}
                       text={`${product.countReview} reviews`}
                     />
                   </ListGroup.Item>
@@ -196,9 +198,7 @@ const ProductScreen = () => {
                         <Row>
                           <Col>Status:</Col>
                           <Col>
-                            {product.countInStock > 0
-                              ? "In Stock"
-                              : "Out Of Stock"}
+                            {product.countInStock > 0 ? "In Stock" : "Out Of Stock"}
                           </Col>
                         </Row>
                       </ListGroup.Item>
@@ -238,27 +238,18 @@ const ProductScreen = () => {
                         Add To Cart
                       </Button>
                       <div className=" text-center"    >
-                        <p className="clickable">Add to wishlist {' '} <HeartBtn product={product} handleToast={handleToast} /></p>
+                        <p className="clickable">
+                          Add to wishlist {' '} <HeartBtn product={product} handleToast={handleToast} />
+                        </p>
                       </div>
                     </div>
                   </ListGroup>
                 </Card>
               </Col>
             </Row>
-            <div className="row"  >
-              <div style={{ width: '600px' }}>
-                {/* <ImageGalleryExample /> */}
-                {/* imageUrlList [] */}
-                <ImageGallery
-                  ref={galleryRef}
-                  items={makeImageGalleryUrlList(product.imageUrlList)}
-                  onSlide={(index) => console.log("Slid to", index)}
-                />
-              </div>
-            </div>
             <hr />
             <Row className="mb-3">
-              <div className="col-2"></div>
+              <div className="col-md-2"></div>
               <div className="col-8">
                 <h5>About this product</h5>
                 <ul>
@@ -269,30 +260,32 @@ const ProductScreen = () => {
             </Row>
             <hr />
             <Row>
-              <div className="col-8 mx-auto">
-                <h5>Product details</h5>
-                <ProductDetailsTable details={product.details} />
-              </div>
-            </Row>
-            <Row>
+              {product.details &&
+                <div className="col-8 mx-auto">
+                  <h5>Product details</h5>
+                  <ProductDetailsTable details={product.details} />
+                </div>
+              }
+            </Row >
+            <Row className='mb-3'>
+              <Col  md={2} />
               <Col sm={12} md={8}>
                 <h2>Reviews</h2>
-                {product.reviews && product.reviews.length === 0 && (
-                  <Message>No Reviews</Message>
-                )}
+                {!product.reviews && (  <p>No Reviews</p>   )}
+                {product.reviews &&  product.reviews.length < 0 &&   <p>No Reviews</p>  }
                 {product.reviews && product.reviews.length > 0 && (
                   <ListGroup variant='flush'>
                     {product.reviews.map((review, index) => (
                       <ListGroup.Item key={index}>
                         <Rating rating={parseFloat(review.rating.substring(0, 2))} />
-                        <strong>{review.text}</strong>
+                        <strong>{review.text.substring(0, 400)}</strong>
                         <p>
                           {review.date} <br></br> By : {review.userName}
                         </p>
                       </ListGroup.Item>
                     ))}
                   </ListGroup>
-                )}
+                )  }
               </Col>
             </Row>
           </>
