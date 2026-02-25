@@ -39,7 +39,7 @@
 [x] User Profile screen 
 [x] Make Arabic default language 
 [x] Product search bar with suggestion              2/23/2026
-[] Product image modal gallery slider like amazon  
+[x] Product image modal gallery slider like amazon  2/25/2026 
 [] Push to Github repo 
 [] Deal for discounted products like Amazon 
 [] Dark/Light theme toggle 

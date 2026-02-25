@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect  } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -30,7 +30,7 @@ const ProductScreen = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => setShowModal(false);
-  const handleShow = () => setShowModal(true);
+  // const handleShow = () => setShowModal(true);
 
   const [product, setProduct] = useState({})
   const [loading, setLoading] = useState(false)
@@ -95,23 +95,7 @@ const ProductScreen = () => {
 
   const handleToast = (message) => {
     toast.success(message)
-  }
-
-  const galleryRef = useRef(null);
-  // # Convert product.imageUrlList to get 40px thumbnails 
-  const makeImageGalleryUrlList = (imageUrlList) => {
-    // let res = [{original: "", thumbnail: ""}] 
-    const newList = imageUrlList
-      ? imageUrlList.map((item) => {
-        // console.log(item)
-        return { original: item, thumbnail: item.replace("SL1500", "US40") }
-      }) : []
-    //  console.log(newList)
-    return newList
-  }
-
-  // makeImageGalleryUrlList(product.imageUrlList)
-
+  }  
 
   // const submitHandler = (e) => {
   // e.preventDefault();

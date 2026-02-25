@@ -5,9 +5,7 @@ import fakeApi from "../../_api/fakeApi"
 
 const SearchBarAuto = () => {
 
-    const [
-        //searchParams,
-         setSearchParams] = useSearchParams()
+    const [ earchParams, setSearchParams] = useSearchParams()
     const navigate = useNavigate()
 
     const [search, setSearch] = useState("")
@@ -73,7 +71,7 @@ const SearchBarAuto = () => {
             fakeApi('/products', { keyword: search }).then(
                 (res) => {
                     // console.log(res)  // {data: {…}}
-                    console.log(res.data)
+                    // console.log(res.data)
                     setSearchData(res.data.products)
                 }
             )
@@ -97,6 +95,7 @@ const SearchBarAuto = () => {
                     onChange={handleChange}
                     value={search}
                     onKeyDown={handleKeyDown}
+                    onSubmit={handleFormSubmit}
                 />
                 <div className='search_icon'>
                     {search === '' ? <i className="fas fa-search" />
