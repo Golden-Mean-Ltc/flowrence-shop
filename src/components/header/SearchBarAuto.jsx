@@ -5,7 +5,8 @@ import fakeApi from "../../_api/fakeApi"
 
 const SearchBarAuto = () => {
 
-    const [ earchParams, setSearchParams] = useSearchParams()
+    // eslint-disable-next-line no-unused-vars
+    const [ searchParams, setSearchParams] = useSearchParams()
     const navigate = useNavigate()
 
     const [search, setSearch] = useState("")
