@@ -63,7 +63,7 @@ const Footer = () => {
 
 				<div className='text-center mb-3'>
 					<img
-						src={import.meta.env.VITE_PUBLIC_URL + '/assets/img/cards-alt.png'}
+						src={import.meta.env.BASE_URL + '/assets/img/cards-alt.png'}
 						style={{ height: '2rem', width: 'auto' }}
 						alt='credit-cards'
 					/>

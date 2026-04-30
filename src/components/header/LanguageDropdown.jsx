@@ -5,6 +5,8 @@ import { languageChanged } from '../../store/settingsSlice'
 import { setNewLanguage } from '../../store/stringsSlice'
 
 const LanguageDropdown = () => {
+  const baseUrl = import.meta.env.BASE_URL || '/';
+
   const dispatch = useDispatch()
   const { language } = useSelector( state => state.settings )
 
@@ -30,7 +32,7 @@ const LanguageDropdown = () => {
         <div className={ `dropdown-item` } onClick={ () => handleClick( 'eng' ) }>
           <img
             alt='flag'
-            src={   '/assets/img/uk-flag.png' }
+            src={   baseUrl + 'assets/img/uk-flag.png' }
             style={ { height: '18px' } }
             className='mr-2'
           />
@@ -40,7 +42,7 @@ const LanguageDropdown = () => {
         <div className={ `dropdown-item` } onClick={ () => handleClick( 'arb' ) }>
           <img
             alt='flag'
-            src={   '/assets/img/uae-flag.png' }
+            src={   baseUrl + 'assets/img/uae-flag.png' }
             style={ { height: '18px' } }
             className='mr-2'
           />{ ' ' }
