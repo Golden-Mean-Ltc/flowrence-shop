@@ -3,13 +3,13 @@ import { useDispatch, useSelector } from 'react-redux'
 import Message from '../Message.jsx'
 import Loader from '../Loader.jsx' 
 import BillboardCarousel from './BillboardCarousel.jsx'
-import ProductsSlider from '../products/ProductSlider.jsx' 
+import ProductSlider from '../products/ProductSlider.jsx' 
 import { setShowCartModal } from '../../store/settingsSlice.js' 
 import HorizontalList from '../HorizontalList.jsx'
-import { categories } from '../../constants/strings.js'
-import ProductSlider from '../products/ProductSlider.jsx'
+import { categories } from '../../constants/strings.js' 
 // import ToastExample from '../ToastExample.jsx'
 import { ToastContainer } from 'react-toastify' 
+import ProductSlider2 from '../products/ProductSlider2.jsx'
  
 const HomeScreen = () => {
   const dispatch = useDispatch()
@@ -33,8 +33,7 @@ const HomeScreen = () => {
 
   return (
     <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}> 
-      <HorizontalList items={categories} language={language} />
-
+      <HorizontalList items={categories} language={language} /> 
 
        <ToastContainer
                position="top-left"
@@ -54,16 +53,22 @@ const HomeScreen = () => {
         {loading && <Loader />}
         {error && <Message variant='danger'>{error}</Message>}
         <>
-          <div className="mb-3">
-            <ProductsSlider
+       <div className="mb-3">
+            {/* <ProductSlider
               title={r.featured_products}
               url="/products/bestsellers"
-            />
-          </div>
-
+            /> */} 
+             <ProductSlider2  
+              title={r.featured_products}
+              url="/products/bestsellers"  
+              />
+          </div>    
+{/* 
           <div className="mb-4">
-            <ProductsSlider title={r.best_sellers} url="/products/bestsellers" />
-          </div>
+            <ProductSlider title={r.best_sellers} url="/products/bestsellers" />
+          </div> */} 
+
+       
 
           <div className='d-flex flex-wrap justify-content-between align-items-center border-bottom p-3'>
             <h4> {r.latest_products} </h4> 
@@ -73,9 +78,9 @@ const HomeScreen = () => {
               </Link>
             </div> 
           </div>
-          {!loading && (
+          {/* {!loading && (
            <ProductSlider url="/products/latest"   />
-          )}
+          )} */}
         </>
       </div>
       {cartItems.length > 0 && (

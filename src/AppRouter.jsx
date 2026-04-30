@@ -24,6 +24,10 @@ import PrivateRoute from './components/PrivateRoute'
 import SettingsScreen from './components/profile/SettingsScreen'
 import WishlistScreen from './components/profile/WishlistScreen'
 
+const baseUrl = import.meta.env.BASE_URL || '/';
+
+// console.log('Base URL:', baseUrl);  // Base URL: /bemart-v2-2026/
+
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
@@ -31,7 +35,12 @@ const router = createBrowserRouter([
 
     children: [
       {
-        path: '/',
+        path:  '/',
+        element: <HomeScreen />,
+        index: true,
+      },
+      {
+        path:  baseUrl,
         element: <HomeScreen />,
         index: true,
       },
