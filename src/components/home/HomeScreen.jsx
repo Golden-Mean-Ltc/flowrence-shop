@@ -53,7 +53,7 @@ const HomeScreen = () => {
         {loading && <Loader />}
         {error && <Message variant='danger'>{error}</Message>}
         <>
-       <div className="mb-3">
+       <div className="container mb-3">
             {/* <ProductSlider
               title={r.featured_products}
               url="/products/bestsellers"

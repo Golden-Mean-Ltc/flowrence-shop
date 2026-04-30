@@ -62,6 +62,14 @@ const ProductSlider2 = ({ title, url }) => {
                             autoplay={{ delay: 2500, disableOnInteraction: false }}
                             // onSlideChange={() => console.log('slide change')}
                             // onSwiper={(swiper) => console.log(swiper)}
+                              breakpoints={{
+    // when window width is >= 320px
+    320: { slidesPerView: 2, spaceBetween: 10 },
+    // when window width is >= 768px
+    768: { slidesPerView: 3, spaceBetween: 20 },
+    // when window width is >= 1024px
+    1024: { slidesPerView: 4, spaceBetween: 30 },
+  }}
                         > 
                             {loading && <Loader />}
                             <>
@@ -75,7 +83,6 @@ const ProductSlider2 = ({ title, url }) => {
                                             key={product.asin}
                                         />
                                     </SwiperSlide>
-
                                 ))}
                             </>
                         </Swiper>
