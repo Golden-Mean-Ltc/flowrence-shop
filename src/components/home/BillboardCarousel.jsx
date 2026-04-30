@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap'
 const BillboardCarousel = () => {
 
 	// const baseUrl = import.meta.env.VITE_PUBLIC_URL + '/assets/billboard/'
-	const baseUrl = import.meta.env.BASE_URL + '/assets/billboard/'
+	const baseUrl = import.meta.env.BASE_URL + 'assets/billboard/'
 	// http://localhost:5173/assets/billboard/
 
 	console.log('Base API URL:', baseUrl) // Debug log for base API URL
