@@ -9,8 +9,8 @@ import ProductItemCard from './ProductItemCard'
 import { toast } from 'react-toastify'
 
 const ProductSlider2 = ({ title, url }) => {
-    console.log('title:', title) // Debug log for title prop
-    console.log('ProductSlider URL:', url) // Debug log for URL prop
+    // console.log('title:', title) // Debug log for title prop
+    // console.log('ProductSlider URL:', url) // Debug log for URL prop
     const [loading, setLoading] = useState(false)
     const [products, setProducts] = useState([])
 

@@ -1,7 +1,10 @@
 import { Outlet  } from 'react-router-dom'
-import Header from './components/header/Header'
-// import { ToastContainer } from 'react-toastify'
+import Header from './components/header/Header' 
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'react-toastify/dist/ReactToastify.css' 
+import "./styles/index.css"; 
+import "./styles/modal.css";  
+import "react-image-gallery/styles/image-gallery.css";
 import Footer from './components/footer/Footer'
 import { useDispatch, useSelector } from 'react-redux'
 import CartModal from './components/cart/CartModal'

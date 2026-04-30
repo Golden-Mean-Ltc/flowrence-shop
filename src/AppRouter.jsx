@@ -26,7 +26,7 @@ import WishlistScreen from './components/profile/WishlistScreen'
 
 const baseUrl = import.meta.env.BASE_URL || '/';
 const baseName=  import.meta.env.PUBLIC_URL || '/'
-const githubRepoName = '/bemart-v2-2026/'
+// const githubRepoName = '/bemart-v2-2026/'
 
 console.log('Base URL:', baseUrl);  // Base URL: /bemart-v2-2026/
 console.log('PUBLIC_URL:', baseName);  // undefined
