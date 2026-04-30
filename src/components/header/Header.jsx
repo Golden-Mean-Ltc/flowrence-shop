@@ -11,6 +11,7 @@ import LanguageDropdown from './LanguageDropdown'
 // import SearchInput from './SearchInput';
 import { setShowAuthModal } from '../../store/settingsSlice' 
 import SearchBarAuto from './SearchBarAuto'
+import { useState } from 'react'
 
 const Header = () => {
   const dispatch = useDispatch()
@@ -20,6 +21,8 @@ const Header = () => {
   const { showAuthModal } = useSelector((state) => state.settings);
 
   const handleShowAuthModal = () => dispatch(setShowAuthModal(!showAuthModal))
+
+  const [selectedProductGroup, setSelectedProductGroup] = useState("") // ['allProducts', 'bestSellers', 'hotDeals']
 
   // console.log(user)
 
@@ -79,17 +82,18 @@ const Header = () => {
         <div className="p-1">
           <DepartmentsDropdown title={r.departments} />
         </div>
-        <div className='p-1 clickable'>
-          <Link to='/products'> {r.all_products} </Link>
+        <div className='p-1 clickable' onClick={()=>setSelectedProductGroup("allProducts")}>
+          <Link to='/products' className={selectedProductGroup === "allProducts" ? "text-primary" : ""} > {r.all_products} </Link>
         </div>
-        <div className='p-1 clickable'>
-          <Link to='/products'>{r.best_sellers}</Link>
+        <div className='p-1 clickable' onClick={()=>setSelectedProductGroup("bestSellers")}>
+          <Link to='/products/best-sellers' className={selectedProductGroup === "bestSellers" ? "text-primary" : ""} > {r.best_sellers} </Link>
         </div>
-        <div className='p-1 clickable'>
+        <div className='p-1 clickable' onClick={()=>setSelectedProductGroup("hotDeals")}>
           <Link 
          //  to='/hot-deals'
         //  to='/products?filter=hot-deals'
-         to='/products'
+         to='/products/hot-deals'
+           className={selectedProductGroup === "hotDeals" ? "text-primary" : ""}
            >{r.hot_deals}</Link>
         </div>
         {/* <div className='p-2 flex-fill clickable'>
