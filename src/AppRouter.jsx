@@ -25,25 +25,23 @@ import SettingsScreen from './components/profile/SettingsScreen'
 import WishlistScreen from './components/profile/WishlistScreen'
 
 const baseUrl = import.meta.env.BASE_URL || '/';
+const baseName=  import.meta.env.PUBLIC_URL || '/'
 
-// console.log('Base URL:', baseUrl);  // Base URL: /bemart-v2-2026/
+console.log('Base URL:', baseUrl);  // Base URL: /bemart-v2-2026/
+console.log('PUBLIC_URL:', baseName);  // undefined
 
-const router = createBrowserRouter([
-  {
+const router = createBrowserRouter( 
+   [  {
     element: <AppLayout />,
     // errorElement: <Error />,
+    // baseUrl: baseUrl,
 
     children: [
       {
         path:  '/',
         element: <HomeScreen />,
         index: true,
-      },
-      {
-        path:  baseUrl,
-        element: <HomeScreen />,
-        index: true,
-      },
+      }, 
       {
         path: 'products',
         element: <ProductsScreen />,
@@ -119,10 +117,12 @@ const router = createBrowserRouter([
       {
         path: '*',
         element: <NotFound />,
-      },
-    ],
-  },
-])
+      }
+    ], 
+  }],{
+      basename: baseUrl  // Base URL set here for Github pages deployment
+  }
+)
 
 export default function AppRouter() {
   return <RouterProvider router={router} />
