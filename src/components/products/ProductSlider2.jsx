@@ -6,6 +6,7 @@ import fakeApi from '../../_api/fakeApi';
 import { useEffect, useState } from 'react';
 import Loader from '../Loader';
 import ProductItemCard from './ProductItemCard';
+import { toast } from 'react-toastify';
 
 
 const ProductSlider2 = ({ title, url }) => {
@@ -59,13 +60,9 @@ const ProductSlider2 = ({ title, url }) => {
                             grabCursor={true}
                             modules={[EffectCards, Autoplay]}
                             autoplay={{ delay: 2500, disableOnInteraction: false }}
-                            onSlideChange={() => console.log('slide change')}
-                            onSwiper={(swiper) => console.log(swiper)}
-                        >
-                            {/* <SwiperSlide>Slide 1</SwiperSlide> */}
-                            {/* <SwiperSlide>Slide 2</SwiperSlide> */}
-                            {/* <SwiperSlide>Slide 3</SwiperSlide> */}
-                            {/* <SwiperSlide>Slide 4</SwiperSlide> */}
+                            // onSlideChange={() => console.log('slide change')}
+                            // onSwiper={(swiper) => console.log(swiper)}
+                        > 
                             {loading && <Loader />}
                             <>
                                 {products.length > 0 && products.map((product) => (
@@ -74,7 +71,7 @@ const ProductSlider2 = ({ title, url }) => {
                                             product={product}
                                             showHeartBtn={false}
                                             handleToast={handleToast}
-                                            //toastMessage={toast.added_to_cart}
+                                             toastMessage={toast.added_to_cart}
                                             key={product.asin}
                                         />
                                     </SwiperSlide>
