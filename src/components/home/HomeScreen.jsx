@@ -2,12 +2,10 @@
 import { useDispatch, useSelector } from 'react-redux'
 import Message from '../Message.jsx'
 import Loader from '../Loader.jsx' 
-import BillboardCarousel from './BillboardCarousel.jsx'
-// import ProductSlider from '../products/ProductSlider.jsx' 
+import BillboardCarousel from './BillboardCarousel.jsx' 
 import { setShowCartModal } from '../../store/settingsSlice.js' 
 import HorizontalList from '../HorizontalList.jsx'
-import { categories } from '../../constants/strings.js' 
-// import ToastExample from '../ToastExample.jsx'
+import { categories } from '../../constants/strings.js'  
 import { ToastContainer } from 'react-toastify' 
 import ProductSlider2 from '../products/ProductSlider2.jsx'
  
@@ -63,10 +61,10 @@ const HomeScreen = () => {
               url="/products/bestsellers"  
               />
           </div>    
-{/* 
+ 
           <div className="mb-4">
-            <ProductSlider title={r.best_sellers} url="/products/bestsellers" />
-          </div> */} 
+            <ProductSlider2 title={r.best_sellers} url="/products/bestsellers" />
+          </div>  
 
        
 
@@ -78,9 +76,9 @@ const HomeScreen = () => {
               </Link>
             </div> 
           </div>
-          {/* {!loading && (
-           <ProductSlider url="/products/latest"   />
-          )} */}
+           {!loading && (
+           <ProductSlider2 url="/products/latest"   />
+          )}  
         </>
       </div>
       {cartItems.length > 0 && (

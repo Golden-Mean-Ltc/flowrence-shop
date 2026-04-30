@@ -29,7 +29,7 @@ const Header = () => {
         variant='dark'
         //expand='lg'
         //	collapseOnSelect
-        className='p-3 flex-wrap'
+        className='p-2 flex-wrap'
       >
         <Link to='/' className='navbar-brand hide-on-small-screen flex-fill'>
           <i className='fas fa-gem gold'></i> BEMART
@@ -76,16 +76,16 @@ const Header = () => {
         </div>
       </Navbar>
       <div className='navbar-footer d-flex justify-content-evenly align-items-center'>
-        <div className="p-2">
+        <div className="p-1">
           <DepartmentsDropdown title={r.departments} />
         </div>
-        <div className='p-2 clickable'>
+        <div className='p-1 clickable'>
           <Link to='/products'> {r.all_products} </Link>
         </div>
-        <div className='p-2 clickable'>
+        <div className='p-1 clickable'>
           <Link to='/products'>{r.best_sellers}</Link>
         </div>
-        <div className='p-2 clickable'>
+        <div className='p-1 clickable'>
           <Link 
          //  to='/hot-deals'
         //  to='/products?filter=hot-deals'

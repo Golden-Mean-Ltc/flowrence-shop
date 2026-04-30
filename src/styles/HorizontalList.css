@@ -15,7 +15,7 @@
   flex: 0 0 auto; /* Prevent items from stretching/shrinking to fit container width */
   min-width: 100px; /* Example fixed width for each item */
   margin-right: 8px; /* Spacing between items */
-  padding: 8px 12px;
+  padding: 8px 16px;
   background-color: #373738;
   color: white;
   text-align: center;

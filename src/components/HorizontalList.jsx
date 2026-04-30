@@ -16,6 +16,8 @@ const HorizontalList = ({ items , language }) => {
   // const selectedCategory = searchParams.get('category') || ''
   // console.log(formatStringFromUrl(selectedCategory))
 
+  const fontSize =  '.9rem'
+
   return (
     <div className='scroll-container px-3'>
       <div
@@ -25,7 +27,8 @@ const HorizontalList = ({ items , language }) => {
           //  background: '#2a2d5a'
         }}
       >
-        All
+        <span style={{fontSize }}> 
+        All</span>
       </div>
       {items.map((item, index) => (
         <div
@@ -39,7 +42,9 @@ const HorizontalList = ({ items , language }) => {
             navigate(`/products?category=${formatStringForUrl(item[0])}`) 
           }}
         >
+            <span style={{fontSize }}> 
           {language === "arb" ? item[1] : item[0]}
+          </span>
         </div>
       ))}
     </div>

@@ -1,13 +1,12 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectCards } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/effect-cards';
-import fakeApi from '../../_api/fakeApi';
-import { useEffect, useState } from 'react';
-import Loader from '../Loader';
-import ProductItemCard from './ProductItemCard';
-import { toast } from 'react-toastify';
-
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, EffectCards } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/effect-cards'
+import fakeApi from '../../_api/fakeApi'
+import { useEffect, useState } from 'react'
+import Loader from '../Loader'
+import ProductItemCard from './ProductItemCard'
+import { toast } from 'react-toastify'
 
 const ProductSlider2 = ({ title, url }) => {
     console.log('title:', title) // Debug log for title prop
@@ -54,36 +53,37 @@ const ProductSlider2 = ({ title, url }) => {
                             spaceBetween={16}
                             slidesPerView={4}
                             navigation={{
-                                nextEl: ".swiper-button-next",
-                                prevEl: ".swiper-button-prev"
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
                             }}
                             grabCursor={true}
                             modules={[EffectCards, Autoplay]}
                             autoplay={{ delay: 2500, disableOnInteraction: false }}
                             // onSlideChange={() => console.log('slide change')}
                             // onSwiper={(swiper) => console.log(swiper)}
-                              breakpoints={{
-    // when window width is >= 320px
-    320: { slidesPerView: 2, spaceBetween: 10 },
-    // when window width is >= 768px
-    768: { slidesPerView: 3, spaceBetween: 20 },
-    // when window width is >= 1024px
-    1024: { slidesPerView: 4, spaceBetween: 30 },
-  }}
-                        > 
+                            breakpoints={{
+                                // when window width is >= 320px
+                                320: { slidesPerView: 2, spaceBetween: 10 },
+                                // when window width is >= 768px
+                                768: { slidesPerView: 3, spaceBetween: 20 },
+                                // when window width is >= 1024px
+                                1024: { slidesPerView: 4, spaceBetween: 30 },
+                            }}
+                        >
                             {loading && <Loader />}
                             <>
-                                {products.length > 0 && products.map((product) => (
-                                    <SwiperSlide key={product.asin}>
-                                        <ProductItemCard
-                                            product={product}
-                                            showHeartBtn={false}
-                                            handleToast={handleToast}
-                                             toastMessage={toast.added_to_cart}
-                                            key={product.asin}
-                                        />
-                                    </SwiperSlide>
-                                ))}
+                                {products.length > 0 &&
+                                    products.map((product) => (
+                                        <SwiperSlide key={product.asin}>
+                                            <ProductItemCard
+                                                product={product}
+                                                showHeartBtn={false}
+                                                handleToast={handleToast}
+                                                toastMessage={toast.added_to_cart}
+                                                key={product.asin}
+                                            />
+                                        </SwiperSlide>
+                                    ))}
                             </>
                         </Swiper>
                     </div>
