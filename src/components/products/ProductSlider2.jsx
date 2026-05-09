@@ -46,7 +46,7 @@ const ProductSlider2 = ({ title, url }) => {
                     <h4>{title}</h4>
                 </div>
             )}
-            <div className='row'>
+            <div className='row mb-3'>
                 <div className='col'>
                     <div className='products-slider	'>
                         <Swiper

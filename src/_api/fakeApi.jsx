@@ -1,6 +1,7 @@
 import users from "./users.json";
 // import productss from "./products.json";
-import productsJson from "./products.json";
+// import productsJson from "./products.json";
+import productsJson from "./books.json";
 
 // Filter products by category
 // '/products?category=laptops'

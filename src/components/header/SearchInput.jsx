@@ -64,7 +64,9 @@ const SearchInput = () => {
           onChange={(e) => setKeyword(e.target.value)}
           dir={language === 'arb' ? 'rtl' : 'ltr'}
         />
-        <Button variant='warning' type='submit'>
+        <Button
+      //   variant='warning' 
+        type='submit' style={{background:'#ffce12'}}>
           <i className='fa fa-search' aria-hidden='true' />
         </Button>
       </InputGroup>

@@ -28,3 +28,8 @@ No need for real auth.
 - Fake Login Modal
 - Submit order steps in Arabic
 - Fix Rating stars
+
+احدث الكتب في قسم الروايات
+احدث الكتب
+احدث المنتجات في قسم المكتبة
+احدث المنتجات في قسم الحاسبوب و ملحقاته

@@ -43,29 +43,26 @@ const HomeScreen = () => {
 
       <div className='container mb-3' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
-        <div className="row mb-5 hide-on-small-screen">
+        {/* <div className="row mb-5 hide-on-small-screen">
           <div className="col p-0">
             <BillboardCarousel />
           </div>
-        </div>
+        </div> */}
         {loading && <Loader />}
         {error && <Message variant='danger'>{error}</Message>}
         <>
        <div className="container mb-3">
-            {/* <ProductSlider
-              title={r.featured_products}
-              url="/products/bestsellers"
-            /> */} 
+            
              <ProductSlider2  
-              title={r.featured_products}
+              title={r.recently_arrived}
               url="/products/bestsellers"  
-              />
-          </div>    
- 
-          <div className="mb-4">
-            <ProductSlider2 title={r.best_sellers} url="/products/bestsellers" />
-          </div>  
-
+              /> 
+  
+            <ProductSlider2 
+            title={r.best_sellers} 
+            url="/products/bestsellers" />
+        
+  </div>  
        
 
           <div className='d-flex flex-wrap justify-content-between align-items-center border-bottom p-3'>
