@@ -28,7 +28,7 @@
 .search_input_form {
     background-color: white;
     border-radius: 40px;
-    min-width: 440px;
+    min-width: 340px;
     height: 2.6rem;
     overflow: hidden;
     display: flex;

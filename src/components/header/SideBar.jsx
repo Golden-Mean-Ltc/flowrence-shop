@@ -1,27 +1,31 @@
 import { useState } from 'react'
-import { Button, Offcanvas } from 'react-bootstrap'
+import {  Offcanvas } from 'react-bootstrap'
+import { useSelector } from 'react-redux'
 
 const SideBar = () => {
+      const { r } = useSelector((state) => state.strings)
+
+
   const [show, setShow] = useState(false)
 
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
 
   const departments = [
-    { name: 'All Products', url: '/products' },
-    { name: 'Books', url: '/products?category=books' },
-    { name: 'Laptops', url: '/products?category=laptops' },
-    { name: 'Cell Phones', url: '/products?category=cell-phones' },
-    { name: 'Hot Deals', url: '/products?filter=hot-deals' },
-    { name: 'Best Sellers', url: '/products?filter=best-sellers' },
-    { name: 'New Arrivals', url: '/products?filter=new-arrivals' },
+    { name: r.all_products, url: '/products' },
+    { name: r.books, url: '/products?category=books' },
+    { name: r.laptops, url: '/products?category=laptops' },
+    { name: r.cell_phones, url: '/products?category=cell-phones' },
+    { name: r.hot_deals, url: '/products?filter=hot-deals' },
+    { name: r.best_sellers, url: '/products?filter=best-sellers' },
+    { name: r.latest_products, url: '/products?filter=latest' },
   ]
 
   return (
     <>
       <button
         style={{ all: 'unset' }}
-        className='pr-2 clickable hide-on-large-screen'
+        className='px-2 clickable hide-on-large-screen'
         //  variant="primary"
         onClick={handleShow}
       >
@@ -30,13 +34,15 @@ const SideBar = () => {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>
+            {r.departments}
+          </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <ul className='list-unstyled'>
+          <ul className='list-group list-unstyled'>
             {departments.map((dept, index) => (
-              <li key={index}>
-                <a href={dept.url} className='text-decoration-none'>
+              <li key={index}  className='list-group-item'>
+                <a href={dept.url} className='text-decoration-none text-dark' onClick={handleClose}>
                   {dept.name}
                 </a>
               </li>

@@ -7,8 +7,7 @@ import { setShowCartModal } from '../../store/settingsSlice.jsx'
 import HorizontalList from '../HorizontalList.jsx'
 import { categories } from '../../constants/strings.jsx'  
 import { ToastContainer } from 'react-toastify' 
-import ProductSlider2 from '../products/ProductSlider2.jsx'
-import SideBar from '../header/SideBar.jsx'
+import ProductSlider2 from '../products/ProductSlider2.jsx' 
  
 const HomeScreen = () => {
   const dispatch = useDispatch()
@@ -45,11 +44,11 @@ const HomeScreen = () => {
 
       <div className='container mb-3' dir={language == "arb" ? 'rtl' : 'ltr'}>
         {/* <ResponsiveColumnsExample /> */}
-        {/* <div className="row mb-5 hide-on-small-screen">
+       <div className="row mb-5 hide-on-small-screen">
           <div className="col p-0">
             <BillboardCarousel />
           </div>
-        </div> */}
+        </div>  
         {loading && <Loader />}
         {error && <Message variant='danger'>{error}</Message>}
         <>

@@ -1,7 +1,7 @@
 
 import { useSelector, useDispatch } from 'react-redux'
 // import { Link } from 'react-router-bootstrap'
-import { Navbar, NavDropdown } from 'react-bootstrap'
+import { Navbar, NavDropdown  } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import UserDropdown from './UserDropdown'
 import CartDropdown from './CartDropdown'
@@ -37,18 +37,12 @@ const Header = () => {
       >
            <SideBar /> 
         <Link to='/' className='navbar-brand hide-on-small-screen flex-fill'>
-          <i className='fas fa-gem gold'></i> BEMART
+          <i className='fas fa-gem gold'></i> Flowrence  
         </Link>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
-
-        <div className="flex-fill">
-          {/* <SearchInput /> */}
-            <SearchBarAuto />
-        </div> 
+        <Navbar.Toggle aria-controls='basic-navbar-nav' /> 
         
         <div className="flex-fill d-flex justify-content-center align-items-center">
 
-       
           <CartDropdown />
 
           <LanguageDropdown />
@@ -79,8 +73,15 @@ const Header = () => {
           )}
           <UserDropdown />
         </div>
+        
+        <div className="flex-fill">
+          {/* <SearchInput /> */}
+            <SearchBarAuto />
+        </div> 
       </Navbar>
-      <div className='navbar-footer d-flex justify-content-evenly align-items-center'>
+      {/* Hide on small screen */}
+      <div className="d-none d-md-block">
+ <div className='navbar-footer d-flex justify-content-evenly align-items-center'>
         <div className="p-1">
           <DepartmentsDropdown title={r.departments} />
         </div>
@@ -96,7 +97,7 @@ const Header = () => {
         //  to='/products?filter=hot-deals'
          to='/products/hot-deals'
            className={selectedProductGroup === "hotDeals" ? "text-primary" : ""}
-           >{r.hot_deals}</Link>
+           >{r.hot_deals}   </Link>
         </div>
         {/* <div className='p-2 flex-fill clickable'>
           <Link to='/products/Laptops'>{r.laptops}</Link>
@@ -108,6 +109,8 @@ const Header = () => {
           <CurrencyDropdown />
         </div>
       </div>
+      </div>
+     
     </header>
   )
 }
