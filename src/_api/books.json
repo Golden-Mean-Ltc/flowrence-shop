@@ -14,7 +14,7 @@
     "sellerId": null,
     "warehouseAvailability": null,
     "retailPrice": 0.0,
-    "price": 0.0,
+    "price": 12.0,
     "priceRange": null,
     "shippingPrice": 0.0,
     "priceShippingInformation": null,
@@ -1707,7 +1707,7 @@
     "responseMessage": "Product successfully found!",
     "productTitle": "The 33 Strategies of War (Joost Elffers Books)",
     "manufacturer": "by Robert Greene (Author)",
-    "countReview": 5290,
+    "countReview": 5292,
     "answeredQuestions": 0,
     "productRating": "4.8 out of 5 stars",
     "asin": "0143112783",
@@ -1717,10 +1717,10 @@
     "sellerId": null,
     "warehouseAvailability": "In Stock",
     "retailPrice": 0.0,
-    "price": 0.0,
+    "price": 14.0,
     "priceRange": null,
     "shippingPrice": 0.0,
-    "priceShippingInformation": "FREE delivery Thursday, May 14 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tomorrow, May 10. Join Prime",
+    "priceShippingInformation": "FREE delivery Friday, May 15 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tomorrow, May 11. Join Prime",
     "priceSaving": null,
     "features": [],
     "imageUrlList": [
@@ -1767,7 +1767,7 @@
         },
         {
             "name": "Best Sellers Rank",
-            "value": "#3,061 in Books (See Top 100 in Books) #4 in Military Strategy History (Books) #104 in Success Self-Help #110 in Motivational Self-Help (Books)"
+            "value": "#2,958 in Books (See Top 100 in Books) #4 in Military Strategy History (Books) #99 in Success Self-Help #107 in Motivational Self-Help (Books)"
         },
         {
             "name": "Customer Reviews",
@@ -1864,7 +1864,7 @@
     "bookVariations": [
         {
             "value": "Kindle",
-            "dpUrl": "/Strategies-War-Joost-Elffers-Books-ebook/dp/B000W9149K/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.clwHxgjs2gpsKAj2EHvRXD0YlZ6Ady6fzRtLsZ3qisT_7reVGbkTgzgxl48DU_zVVP4hf8z8FAE13CxXFQ-eec644f83rUEOzNZSEAW5y1p96r1JJ6LcA2OHKjrZ64IHnuib9NFXrdsAxnGKJGpFFnKtRj_zzybeWKqyF28z_b9wP0QnpVoppI_pOorLn3qdquNHlaAJWODR9elZolEOW-54HNC16HuLXvkr2JksEI4oSRlyI9py6R2VCENV5z2xMBYXh579fcMc70etT2Jm9Myxi2ge-N7bV3lKqY7aUlY.KMVNhI253aS1voNTcTV9XlIXyigjaaT1mviAgOmNXMQ&qid=1778327667&sr=1-12",
+            "dpUrl": "/Strategies-War-Joost-Elffers-Books-ebook/dp/B000W9149K/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.gYQ0vcCZcMfIHaAh012ShzRRwOCR8_vbNpTmBDUfRpIVNaPKF_zu4y4LULl-QBJZvcAWO8-S6mTNQ1Z5ftTWUu5ac1MB7QSLcsd3nU5hAJLZFHiUPQ2nCd5gxvknFsiEPLXqDk8OVHBIu77xhubnmmPSM5zDtZKIg3uM-jWVuPwJrvWLnqqjSpsz1vmUm6qzeCmJyixbwqtP6a6ELeYngh1Y2SRTpeczdkqjjjBm9so.i8KhnLrg4Fs4wYdUpctC3Nyw-ewS4OBBoKEL3OtDxus&qid=1778404052&sr=1-1",
             "selected": false,
             "available": false,
             "price": 17.99,
@@ -1873,7 +1873,7 @@
         },
         {
             "value": "Audiobook",
-            "dpUrl": "/33-Strategies-of-War-audiobook/dp/B012BI11W4/ref=tmm_aud_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.clwHxgjs2gpsKAj2EHvRXD0YlZ6Ady6fzRtLsZ3qisT_7reVGbkTgzgxl48DU_zVVP4hf8z8FAE13CxXFQ-eec644f83rUEOzNZSEAW5y1p96r1JJ6LcA2OHKjrZ64IHnuib9NFXrdsAxnGKJGpFFnKtRj_zzybeWKqyF28z_b9wP0QnpVoppI_pOorLn3qdquNHlaAJWODR9elZolEOW-54HNC16HuLXvkr2JksEI4oSRlyI9py6R2VCENV5z2xMBYXh579fcMc70etT2Jm9Myxi2ge-N7bV3lKqY7aUlY.KMVNhI253aS1voNTcTV9XlIXyigjaaT1mviAgOmNXMQ&qid=1778327667&sr=1-12",
+            "dpUrl": "/33-Strategies-of-War-audiobook/dp/B012BI11W4/ref=tmm_aud_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.gYQ0vcCZcMfIHaAh012ShzRRwOCR8_vbNpTmBDUfRpIVNaPKF_zu4y4LULl-QBJZvcAWO8-S6mTNQ1Z5ftTWUu5ac1MB7QSLcsd3nU5hAJLZFHiUPQ2nCd5gxvknFsiEPLXqDk8OVHBIu77xhubnmmPSM5zDtZKIg3uM-jWVuPwJrvWLnqqjSpsz1vmUm6qzeCmJyixbwqtP6a6ELeYngh1Y2SRTpeczdkqjjjBm9so.i8KhnLrg4Fs4wYdUpctC3Nyw-ewS4OBBoKEL3OtDxus&qid=1778404052&sr=1-1",
             "selected": false,
             "available": false,
             "price": 0.0,
@@ -1882,7 +1882,7 @@
         },
         {
             "value": "Hardcover",
-            "dpUrl": "/33-Strategies-War-Robert-Greene/dp/0670034576/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.clwHxgjs2gpsKAj2EHvRXD0YlZ6Ady6fzRtLsZ3qisT_7reVGbkTgzgxl48DU_zVVP4hf8z8FAE13CxXFQ-eec644f83rUEOzNZSEAW5y1p96r1JJ6LcA2OHKjrZ64IHnuib9NFXrdsAxnGKJGpFFnKtRj_zzybeWKqyF28z_b9wP0QnpVoppI_pOorLn3qdquNHlaAJWODR9elZolEOW-54HNC16HuLXvkr2JksEI4oSRlyI9py6R2VCENV5z2xMBYXh579fcMc70etT2Jm9Myxi2ge-N7bV3lKqY7aUlY.KMVNhI253aS1voNTcTV9XlIXyigjaaT1mviAgOmNXMQ&qid=1778327667&sr=1-12",
+            "dpUrl": "/33-Strategies-War-Robert-Greene/dp/0670034576/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.gYQ0vcCZcMfIHaAh012ShzRRwOCR8_vbNpTmBDUfRpIVNaPKF_zu4y4LULl-QBJZvcAWO8-S6mTNQ1Z5ftTWUu5ac1MB7QSLcsd3nU5hAJLZFHiUPQ2nCd5gxvknFsiEPLXqDk8OVHBIu77xhubnmmPSM5zDtZKIg3uM-jWVuPwJrvWLnqqjSpsz1vmUm6qzeCmJyixbwqtP6a6ELeYngh1Y2SRTpeczdkqjjjBm9so.i8KhnLrg4Fs4wYdUpctC3Nyw-ewS4OBBoKEL3OtDxus&qid=1778404052&sr=1-1",
             "selected": false,
             "available": false,
             "price": 30.99,
@@ -1927,22 +1927,11 @@
             "node": "2545"
         }
     ],
-    "currency": null,
-    "acKeywordLink": null,
-    "deliveryMessage": null,
-    "rentPrice": 0.0,
-    "usedPrice": 0.0,
-    "retailPriceRent": 0.0,
-    "coupon": null,
-    "series": null,
-    "importantInformation": [],
-    "buyBoxUsed": null,
-    "aboutProduct": [],
+    "deal": false,
     "addon": false,
     "pantry": false,
     "used": false,
-    "prime": true,
-    "deal": false
+    "prime": true
 },
 {
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
@@ -1959,7 +1948,7 @@
     "sellerId": null,
     "warehouseAvailability": null,
     "retailPrice": 0.0,
-    "price": 0.0,
+    "price": 13.0,
     "priceRange": null,
     "shippingPrice": 0.0,
     "priceShippingInformation": null,
@@ -2308,91 +2297,75 @@
     "responseStatus": "PRODUCT_FOUND_RESPONSE",
     "responseMessage": "Product successfully found!",
     "productTitle": "The Obstacle is the Way Expanded 10th Anniversary Edition: The Timeless Art of Turning Trials into Triumph",
-    "manufacturer": "by Ryan Holiday (Author) Format: Kindle Edition",
-    "countReview": 5944,
+    "manufacturer": "by Ryan Holiday (Author)",
+    "countReview": 5945,
     "answeredQuestions": 0,
     "productRating": "4.7 out of 5 stars",
-    "asin": "B0CTDTMVH5",
+    "asin": "0593949099",
     "sizeSelection": [],
-    "soldBy": null,
-    "fulfilledBy": null,
+    "soldBy": "Amazon.com",
+    "fulfilledBy": "Amazon.com",
     "sellerId": null,
-    "warehouseAvailability": null,
+    "warehouseAvailability": "In Stock",
     "retailPrice": 0.0,
-    "price": 0.0,
+    "price": 23.0,
     "priceRange": null,
     "shippingPrice": 0.0,
-    "priceShippingInformation": null,
+    "priceShippingInformation": "FREE delivery Friday, May 15 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tomorrow, May 11. Join Prime",
     "priceSaving": null,
     "features": [],
     "imageUrlList": [
-        "https://m.media-amazon.com/images/I/71n2GIBn8-L._SL1500_.jpg"
+        "https://m.media-amazon.com/images/I/71mgOeq38CL._SL1500_.jpg"
     ],
     "videoeUrlList": null,
     "productDescription": "An updated and expanded edition of the book that launched a global phenomenon, The Obstacle Is the Way presents an infinitely elastic formula for turning our toughest trials into our greatest triumphs. Since bestselling author Ryan Holiday introduced Stoicism to the world with The Obstacle Is the Way in 2014, this simple but powerful philosophy for life has taken the world by storm. This brilliant and engaging book is an invaluable source of wisdom for anyone who wants to become more successful at what they do, whether you’re a student, a parent, a professional athlete, or a world leader. Now, Ryan Holiday has updated and expanded this modern classic with a new introduction and new content featuring a diverse set of inspiring characters. Icons of history—from Epictetus and Demosthenes to Amelia Earhart and Richard Wright—followed a simple formula to achieve greatness. They were not exceptionally brilliant, lucky, or gifted. Their success in overcoming extreme obstacles was the result of a timeless set of philosophical principles that the greatest men and women have always pursued. In The Obstacle Is the Way, Ryan Holiday unpacks those lessons and reframes them for today's world, giving us an indispensable formula for turning our toughest trials into triumphs. This new edition is a chance for old fans to revisit a classic and for a new generation to discover the power of Stoicism. Read more",
     "productDetails": [
         {
-            "name": "ASIN ‏  ‎",
-            "value": "B0CTDTMVH5"
-        },
-        {
             "name": "Publisher ‏  ‎",
-            "value": "Portfolio"
-        },
-        {
-            "name": "Accessibility ‏  ‎",
-            "value": "Learn more"
+            "value": "Random House Large Print"
         },
         {
             "name": "Publication date ‏  ‎",
             "value": "October 1, 2024"
         },
         {
+            "name": "Edition ‏  ‎",
+            "value": "Large type / Large print"
+        },
+        {
             "name": "Language ‏  ‎",
             "value": "English"
         },
         {
-            "name": "File size ‏  ‎",
-            "value": "1.8 MB"
-        },
-        {
-            "name": "Screen Reader ‏  ‎",
-            "value": "Supported"
-        },
-        {
-            "name": "Enhanced typesetting ‏  ‎",
-            "value": "Enabled"
-        },
-        {
-            "name": "X-Ray ‏  ‎",
-            "value": "Enabled"
-        },
-        {
-            "name": "Word Wise ‏  ‎",
-            "value": "Enabled"
-        },
-        {
             "name": "Print length ‏  ‎",
-            "value": "223 pages"
+            "value": "256 pages"
+        },
+        {
+            "name": "ISBN-10 ‏  ‎",
+            "value": "0593949099"
         },
         {
             "name": "ISBN-13 ‏  ‎",
-            "value": "978-0593719923"
+            "value": "978-0593949092"
         },
         {
-            "name": "Page Flip ‏  ‎",
-            "value": "Enabled"
+            "name": "Item Weight ‏  ‎",
+            "value": "2.31 pounds"
+        },
+        {
+            "name": "Dimensions ‏  ‎",
+            "value": "6.04 x 0.64 x 9.2 inches"
         },
         {
             "name": "Best Sellers Rank",
-            "value": "#12,233 in Kindle Store (See Top 100 in Kindle Store) #5 in Motivational Business Management #6 in Motivational Management & Leadership #6 in Business Motivation & Self-Improvement (Kindle Store)"
+            "value": "#28,050 in Books (See Top 100 in Books) #5 in Motivational Management & Leadership #10 in Business Motivation & Self-Improvement (Books) #27 in Success Self-Help"
         },
         {
             "name": "Customer Reviews",
             "value": "4.7 4.7 out of 5 stars"
         }
     ],
-    "minimalQuantity": null,
+    "minimalQuantity": "1",
     "dealPrice": 0.0,
     "salePrice": 0.0,
     "reviews": [
@@ -2471,15 +2444,15 @@
     ],
     "productSpecification": [],
     "mainImage": {
-        "imageUrl": "https://m.media-amazon.com/images/I/71n2GIBn8-L._SY522_.jpg",
-        "imageResolution": "369 x 522"
+        "imageUrl": "https://m.media-amazon.com/images/I/71mgOeq38CL._SY522_.jpg",
+        "imageResolution": "346 x 522"
     },
     "variations": [],
     "bookVariations": [
         {
             "value": "Kindle",
-            "dpUrl": null,
-            "selected": true,
+            "dpUrl": "/Obstacle-Way-Expanded-10th-Anniversary-ebook/dp/B0CTDTMVH5/ref=tmm_kin_swatch_0?_encoding=UTF8&coliid=IJW6SPXGLSU2D&colid=3C1Z8T22PY6N",
+            "selected": false,
             "available": false,
             "price": 9.99,
             "imageUrl": null,
@@ -2505,8 +2478,8 @@
         },
         {
             "value": "Paperback",
-            "dpUrl": "/Obstacle-Way-Expanded-10th-Anniversary/dp/0593949099/ref=tmm_pap_swatch_0?_encoding=UTF8&coliid=IJW6SPXGLSU2D&colid=3C1Z8T22PY6N",
-            "selected": false,
+            "dpUrl": null,
+            "selected": true,
             "available": false,
             "price": 23.06,
             "imageUrl": null,
@@ -2514,37 +2487,745 @@
         }
     ],
     "categories": [
-        "Kindle Store",
-        "Kindle eBooks",
+        "Books",
         "Business & Money",
-        "Business Life",
+        "Business Culture",
         "Motivation & Self-Improvement"
     ],
     "categoriesExtended": [
         {
-            "name": "Kindle Store",
-            "url": "/Kindle-Store/b/ref=dp_bc_1?ie=UTF8&node=133140011",
-            "node": "133140011"
-        },
-        {
-            "name": "Kindle eBooks",
-            "url": "/Kindle-eBooks/b/ref=dp_bc_2?ie=UTF8&node=154606011",
-            "node": "154606011"
+            "name": "Books",
+            "url": "/books-used-books-textbooks/b/ref=dp_bc_1?ie=UTF8&node=283155",
+            "node": "283155"
         },
         {
             "name": "Business & Money",
-            "url": "/Business-Money-Kindle-eBooks/b/ref=dp_bc_3?ie=UTF8&node=154821011",
-            "node": "154821011"
+            "url": "/Business-Money-Investing-Books/b/ref=dp_bc_2?ie=UTF8&node=3",
+            "node": "3"
         },
         {
-            "name": "Business Life",
-            "url": "/Business-Life-Business-Investing-eBooks/b/ref=dp_bc_4?ie=UTF8&node=154830011",
-            "node": "154830011"
+            "name": "Business Culture",
+            "url": "/Business-Life-Investing-Books/b/ref=dp_bc_3?ie=UTF8&node=2558",
+            "node": "2558"
         },
         {
             "name": "Motivation & Self-Improvement",
-            "url": "/Business-Motivation-Self-Improvement/b/ref=dp_bc_5?ie=UTF8&node=8493716011",
-            "node": "8493716011"
+            "url": "/Inspiration-Biographies-Primers-Books/b/ref=dp_bc_4?ie=UTF8&node=2545",
+            "node": "2545"
+        }
+    ],
+    "aplusImageUrlList": [],
+    "aplusVideoUrlList": [],
+    "prime": true,
+    "deal": false,
+    "addon": false,
+    "pantry": false,
+    "used": false
+},
+{
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "A History of Loneliness: A Novel",
+    "manufacturer": "by John Boyne (Author)",
+    "countReview": 7566,
+    "answeredQuestions": 0,
+    "productRating": "4.3 out of 5 stars",
+    "asin": "125009464X",
+    "sizeSelection": [],
+    "soldBy": "Amazon.com",
+    "fulfilledBy": "Amazon.com",
+    "sellerId": "A1F5ORSGF7UA9M",
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 0.0,
+    "price": 26.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Friday, May 15 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Wednesday, May 13. Join Prime",
+    "priceSaving": null,
+    "features": [],
+    "imageUrlList": [
+        "https://m.media-amazon.com/images/I/815JQgSskiL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81nRVwW3YCL._SL1500_.jpg"
+    ],
+    "videoeUrlList": null,
+    "productDescription": "Bestselling author John Boyne's A History of Loneliness tells the riveting narrative of an honorable Irish priest who finds the church collapsing around him at a pivotal moment in its history. Propelled into the priesthood by a family tragedy, Odran Yates is full of hope and ambition. When he arrives at Clonliffe Seminary in the 1970s, it is a time in Ireland when priests are highly respected, and Odran believes that he is pledging his life to \"the good.\" Forty years later, Odran's devotion is caught in revelations that shatter the Irish people's faith in the Catholic Church. He sees his friends stand trial, colleagues jailed, the lives of young parishioners destroyed, and grows nervous of venturing out in public for fear of disapproving stares and insults. At one point, he is even arrested when he takes the hand of a young boy and leads him out of a department store looking for the boy's mother. But when a family event opens wounds from his past, he is forced to confront the demons that have raged within the church, and to recognize his own complicity in their propagation, within both the institution and his own family. A novel as intimate as it is universal, A History of Loneliness is about the stories we tell ourselves to make peace with our lives. It confirms Boyne as one of the most searching storytellers of his generation. Read more",
+    "productDetails": [
+        {
+            "name": "Publisher ‏  ‎",
+            "value": "Picador"
+        },
+        {
+            "name": "Publication date ‏  ‎",
+            "value": "May 10, 2016"
+        },
+        {
+            "name": "Edition ‏  ‎",
+            "value": "Reprint"
+        },
+        {
+            "name": "Language ‏  ‎",
+            "value": "English"
+        },
+        {
+            "name": "Print length ‏  ‎",
+            "value": "352 pages"
+        },
+        {
+            "name": "ISBN-10 ‏  ‎",
+            "value": "125009464X"
+        },
+        {
+            "name": "ISBN-13 ‏  ‎",
+            "value": "978-1250094643"
+        },
+        {
+            "name": "Item Weight ‏  ‎",
+            "value": "14.4 ounces"
+        },
+        {
+            "name": "Dimensions ‏  ‎",
+            "value": "5.5 x 0.78 x 8.25 inches"
+        },
+        {
+            "name": "Best Sellers Rank",
+            "value": "#1,136,464 in Books (See Top 100 in Books) #2,020 in Religious Historical Fiction (Books) #2,650 in Literary Fiction (Books) #7,025 in Psychological Fiction (Books)"
+        },
+        {
+            "name": "Customer Reviews",
+            "value": "4.3 4.3 out of 5 stars"
+        }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+        {
+            "text": "John Boyne is as talented a writer as there is. To broach this subject takes such a writer, and Boyne does it with skill and grace. Highly recommend.",
+            "date": "Reviewed in the United States on April 12, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Wonderful and disturbing",
+            "userName": "J.K.",
+            "url": "/gp/customer-reviews/RSTQPX6U4FA9Z/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Kindle"
+            ],
+            "reviewId": "RSTQPX6U4FA9Z",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AHWO2BJ43M2C6SZRVWW5FGU4DQDQ",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "As an atheist of many, many years, it was interesting to read about priests lives. In particular those who did not believe in god. The idea of a vocation arriving in a little boy's head and lodged there for his entire life is rather disturbing to me. Perhaps as disturbing as the priests acts of violence on children. The book deals with the abuse of young boys but there are many priests who specialized in young girls. The book drove me to investigate the charges against priests, higher ups and nuns. There is a list of all the clergy in the USA who have been accused, convicted, and settled, one can find on the internet. I think a good story gets you thinking and then investigating further`based on what sparks an interest. This is a well written story and kept my attention until the end. I had a difficult time putting it down at bed time. Written without a thick Irish accent, which was truly appreciated. As a former educator in a public high school, i had heard of some funny business going on in general but nothing specific to my school. As I did not socialize with my peers, I was never confided in about any of it. I can say I never knew about it or even suspected anyone of this behavior. Had I been much closer to the faculty, i might have seen or heard something, but that was not the case. I would have given the information to the authorities if I suspected anything. I had heard, in general about the clergy and their evil ways but was astounded at the number of them in the USA. In a small Catholic country such as Ireland it would be much easier to condemn all clergy,especially if there was a cover up. There were some suicides from both the victims and the perpetrators. I was astounded by the number of men in the USA who went into the profession. I remember, hearing as a teenager,, that the clergy was the place many men who were gay went to hide. Apparently, a few women as well.",
+            "date": "Reviewed in the United States on September 26, 2015",
+            "rating": "4.0 out of 5 stars",
+            "title": "Loneliness is Right",
+            "userName": "Amazon Customer",
+            "url": "/gp/customer-reviews/R3I7ZM9IHXNF7V/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Hardcover"
+            ],
+            "reviewId": "R3I7ZM9IHXNF7V",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFS5YOI5B66YEDS5EDRRJYXJMDZA",
+            "numberOfHelpful": 2,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "I'm a bit late reading and reviewing John Boyne's masterful novel, \"A History of Loneliness\", originally published in 2015. I've recently read an advance copy of \"A Ladder to the Sky\", and gave it 5 stars, as I did last year's masterpiece, \"The Heart's Invisible Furies\". I decided to go back and read the Boyne books I hadn't read and found \"A History of Loneliness\". In content and spirit, I'd say it resembles \" Hearts\", because of the anti-Catholic church and cleric sentiments. Boyne's book is the story of Father Odran Yates, who had begun his path to priesthood at the age of 17 in Dublin. The book follows his life, as told in the first person, from his childhood til his late middle-age. Boyne's book consists of shortish chapters, set in different times. Usually books that are written in this way are confusing, as the author jumps around and the reader gets lost. Not so John Boyne; he's such a skilled writer that he makes the jumps work. Father Odran Yates is sort of an \"everyman\" representative of the Irish clergy. While he has never engaged in pedophilia, he knows and has worked with several priests along the years who, by the mid-1990's, are being exposed by the Irish press. Their crimes against children have been covered up by the Irish and Vatican authorities, who for years had known about the problems but had merely transferred pedophile priests from parish to parish. And silenced their parents and guardians by subtle...and not so subtle, threats. Odran Yates also discovers the effects of a pedophile priest has had on his own family members. John Boyne has been fiercely outspoken about the Catholic Church in his writings. He thinks the Church has been a drag on Irish society, with it's archaic rules and beliefs. This is very apparent in this book, though his portrait of Odran Yates is very, very nuanced and largely sympathetic. It's a marvelous character study of a basically decent man - and Catholic - who finds himself living in a time of great spiritual turmoil. You don't have to be Catholic to read and get something out of Boyne's writings. This book is thoughtful reading. (There are two \"incidents\" in the book, one about Pope John Paul and the other about Pope John Paul II which don't seem to have much to do with the rest of the plot. They're passed over without further elaboration, but it would have been interesting if they had been expanded. Particularly the one about John Paul II.)",
+            "date": "Reviewed in the United States on September 16, 2018",
+            "rating": "5.0 out of 5 stars",
+            "title": "Marvelous character study...",
+            "userName": "gammyjill",
+            "url": "/gp/customer-reviews/R36Q3NBP6MZMQB/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Kindle"
+            ],
+            "reviewId": "R36Q3NBP6MZMQB",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFZB3RP6GLO2G3FZXWVVIZW2Q4RQ",
+            "numberOfHelpful": 15,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "It’s been quite a while since a book made me curse life for getting in the way of reading. A History of Loneliness certainly falls into that category. It was like settling into a comfortable chair with a cup of tea to catch up with a male friend who I hadn’t seen since school. And then, quite unexpectedly, he decides to pour out his life story! The revelations herein were as riveting as they were haunting and came burdened with horror. Boyne’s elegant prose drew me into the life of Odran Yates and darned if he didn’t make me love that sweet Irish lad. Odran was, I felt, an innocent soul, and everything and everyone around him did its level best to stomp the wholesomeness out of him. But in 1973, aged seventeen, he signed up for what should have been the safest place on earth: the priesthood. From his first day at seminary, Odran felt right at home and made a good friend in his cellmate Tom Cardle. A bonus, one would think. Life should have been grand for Father Yates—yes, it should have been... As I turned the last page, I wondered if we will see the good we have accomplished at the end of our lives? Or will our focus center on all that we failed to do? And is looking at the world through rose-colored glasses an act of complicity? I, like Father Yates, prefer to see a kinder side of life, even if it ends up kicking the crap out of me. \"If I cannot see some good in all of us and hope that the pain we all share will come to an end, what kind of priest am I anyway? What kind of man?\" My heart ached to leave my new friend Odran to his life of loneliness. What a tragic and spectacularly written tale. A History of Loneliness will most likely be my favorite book of 2024.",
+            "date": "Reviewed in the United States on March 8, 2024",
+            "rating": "5.0 out of 5 stars",
+            "title": "Five brilliant, heartbreaking stars!",
+            "userName": "Kimber",
+            "url": "/gp/customer-reviews/R1UWRH39N0LUVR/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Kindle"
+            ],
+            "reviewId": "R1UWRH39N0LUVR",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AHZJLBGJZZI3FIV2MC3S6EX5QDAA",
+            "numberOfHelpful": 1,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+        "imageUrl": "https://m.media-amazon.com/images/I/815JQgSskiL._SY522_.jpg",
+        "imageResolution": "334 x 522"
+    },
+    "variations": [],
+    "bookVariations": [
+        {
+            "value": "Kindle",
+            "dpUrl": "/History-Loneliness-Novel-John-Boyne-ebook/dp/B00LRXCFCU/ref=tmm_kin_swatch_0?_encoding=UTF8&coliid=I18R74SY01UE2Y&colid=3C1Z8T22PY6N",
+            "selected": false,
+            "available": false,
+            "price": 0.0,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Audiobook",
+            "dpUrl": "/A-History-of-Loneliness-audiobook/dp/B00S5I1NB4/ref=tmm_aud_swatch_0?_encoding=UTF8&coliid=I18R74SY01UE2Y&colid=3C1Z8T22PY6N",
+            "selected": false,
+            "available": false,
+            "price": 0.0,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Hardcover",
+            "dpUrl": "/History-Loneliness-Novel-John-Boyne/dp/0374171335/ref=tmm_hrd_swatch_0?_encoding=UTF8&coliid=I18R74SY01UE2Y&colid=3C1Z8T22PY6N",
+            "selected": false,
+            "available": false,
+            "price": 9.46,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Paperback",
+            "dpUrl": null,
+            "selected": true,
+            "available": false,
+            "price": 26.0,
+            "imageUrl": null,
+            "asin": null
+        }
+    ],
+    "categories": [
+        "Books",
+        "Literature & Fiction",
+        "Genre Fiction",
+        "Psychological"
+    ],
+    "categoriesExtended": [
+        {
+            "name": "Books",
+            "url": "/books-used-books-textbooks/b/ref=dp_bc_1?ie=UTF8&node=283155",
+            "node": "283155"
+        },
+        {
+            "name": "Literature & Fiction",
+            "url": "/Literature-Fiction-Books/b/ref=dp_bc_2?ie=UTF8&node=17",
+            "node": "17"
+        },
+        {
+            "name": "Genre Fiction",
+            "url": "/Genre-Fiction-Literature-Books/b/ref=dp_bc_3?ie=UTF8&node=10134",
+            "node": "10134"
+        },
+        {
+            "name": "Psychological",
+            "url": "/b/ref=dp_bc_4?ie=UTF8&node=18289232011",
+            "node": "18289232011"
+        }
+    ],
+    "currency": null,
+    "acKeywordLink": null,
+    "deliveryMessage": null,
+    "rentPrice": 0.0,
+    "usedPrice": 0.0,
+    "retailPriceRent": 0.0,
+    "coupon": null,
+    "series": null,
+    "importantInformation": [],
+    "buyBoxUsed": {
+        "condition": "Used - Good",
+        "packageCondition": null,
+        "soldBy": "Dream Books Co.",
+        "fulfilledBy": null,
+        "sellerId": "A1F5ORSGF7UA9M",
+        "warehouseAvailability": "In stock",
+        "retailPrice": 0.0,
+        "price": 9.99,
+        "priceShippingInformation": "FREE delivery May 18 - 20 FREE delivery May 18 - 20. Details",
+        "priceSaving": null
+    },
+    "deal": false,
+    "addon": false,
+    "pantry": false,
+    "used": false,
+    "prime": true
+},
+{
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "The Hobbit: A Graphic Novel: A Graphic Novel Adaptation of the Classic Fantasy Novel (Hobbit Fantasy Classic)",
+    "manufacturer": "by Chuck Dixon (Adapter), J. R. R. Tolkien (Author), David Wenzel (Illustrator) & 0 more",
+    "countReview": 2485,
+    "answeredQuestions": 0,
+    "productRating": "4.8 out of 5 stars",
+    "asin": "0063388464",
+    "sizeSelection": [],
+    "soldBy": "Amazon.com",
+    "fulfilledBy": "Amazon.com",
+    "sellerId": null,
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 0.0,
+    "price": 19.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Friday, May 15 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tuesday, May 12. Join Prime",
+    "priceSaving": null,
+    "features": [],
+    "imageUrlList": [
+        "https://m.media-amazon.com/images/I/91ZX8zNpwZL._SL1500_.jpg"
+    ],
+    "videoeUrlList": null,
+    "productDescription": "Sauron has returned. . . watch The Lord of the Rings: The Rings of Power Season 2 on Prime Video. Discover J.R.R. Tolkien's enchanting prequel to The Lord of the Rings in this complete fantasy graphic novel. When Thorin Oakenshield and his band of dwarves embark upon an epic quest to reclaim the hoard of gold stolen from them by the evil dragon Smaug, Gandalf the wizard suggests an unlikely accomplice: Bilbo Baggins, an unassuming Hobbit dwelling in peaceful Hobbiton. Along the way, the company faces trolls, goblins, giant spiders, and worse. But as they journey from the wonders of Rivendell to the terrors of Mirkwood and beyond, Bilbo will find that there is more to him than anyone―himself included―ever dreamed. Unexpected qualities of courage and cunning, and a love of adventure, propel this unlikely hero toward his great destiny . . . a destiny that waits in the dark caverns beneath the Misty Mountains, where a twisted creature known as Gollum jealously guards a precious magic ring. This comprehensive edition collects the three-issue series originally published by Eclipse Comics and thereafter augmented with many pages of additional artwork and improvements. Carefully abridged from Tolkien’s classic fantasy novel, and brought thrillingly to life with striking, evocative art by David Wenzel, this graphic novel is a perennial delight to Hobbit fans old and new. This stunning illustrated edition brings Middle-earth to life as never before. An Epic Fantasy Adventure: Journey from the peaceful Shire to the treacherous Misty Mountains and the lair of a fearsome dragon. The Prequel to The Lord of the Rings: Discover the full story of how a simple Hobbit named Bilbo Baggins first came to possess the One Ring. Stunning Illustrated Artwork: See the world of Middle-earth realized in vivid detail through the beloved art of David Wenzel. A Classic Tale Reimagined: Experience Tolkien’s timeless story of courage and friendship in a visually compelling graphic novel format. Read more",
+    "productDetails": [
+        {
+            "name": "Publisher ‏  ‎",
+            "value": "William Morrow Paperbacks"
+        },
+        {
+            "name": "Publication date ‏  ‎",
+            "value": "February 27, 2024"
+        },
+        {
+            "name": "Language ‏  ‎",
+            "value": "English"
+        },
+        {
+            "name": "Print length ‏  ‎",
+            "value": "144 pages"
+        },
+        {
+            "name": "ISBN-10 ‏  ‎",
+            "value": "0063388464"
+        },
+        {
+            "name": "ISBN-13 ‏  ‎",
+            "value": "978-0063388468"
+        },
+        {
+            "name": "Item Weight ‏  ‎",
+            "value": "2.31 pounds"
+        },
+        {
+            "name": "Reading age ‏  ‎",
+            "value": "8 - 12 years, from customers"
+        },
+        {
+            "name": "Dimensions ‏  ‎",
+            "value": "6.5 x 0.32 x 10 inches"
+        },
+        {
+            "name": "Best Sellers Rank",
+            "value": "#2,719 in Books (See Top 100 in Books) #1 in Historical & Biographical Fiction Graphic Novels #1 in Graphic Novel Adaptations #3 in Literary Graphic Novels (Books)"
+        },
+        {
+            "name": "Customer Reviews",
+            "value": "4.8 4.8 out of 5 stars"
+        }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+        {
+            "text": "*The Hobbit: A Graphic Novel* is an absolute treasure for both longtime Tolkien fans and newcomers stepping into Middle-earth for the first time. This adaptation strikes that rare balance between honoring the timeless charm of Tolkien’s original prose and presenting the story in a visually engaging, easy-to-follow format. The artwork is vibrant and expressive, capturing everything from Bilbo’s quiet, reluctant courage to the sweeping majesty of the dwarves’ journey. Key scenes—like the troll encounter, Gollum’s riddles, and Smaug’s looming presence—are brought to life with energy and care. The illustrations never overshadow the story; instead, they complement it beautifully, helping important moments land with clarity and emotional impact. What impressed me most is how accessible the graphic novel format makes this classic. Younger readers, visual learners, or anyone intimidated by high-fantasy prose will find this version inviting and enjoyable. Yet it never feels “simplified” in a way that loses Tolkien’s heart—just streamlined in a respectful, thoughtful way. Whether you’re a Tolkien enthusiast expanding your collection, a parent introducing a child to Middle-earth, or simply someone who loves well-crafted graphic storytelling, this adaptation is absolutely worth adding to your shelf. A delightful journey there and back again!",
+            "date": "Reviewed in the United States on November 30, 2025",
+            "rating": "5.0 out of 5 stars",
+            "title": "A Faithful, Gorgeous, and Wonderfully Accessible Adaptation",
+            "userName": "Brian Harris",
+            "url": "/gp/customer-reviews/RRIYKJ23XR7BW/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "RRIYKJ23XR7BW",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AHBXJN3XWJPBRIEWB3MD7G6TXV4Q",
+            "numberOfHelpful": 8,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Loved the classic art style feel and well adapted story. It was a great read. Highly recommend if you a Hobbit/Lord of the rings fan.",
+            "date": "Reviewed in the United States on February 5, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "A great find while looking up chuck dixon works.",
+            "userName": "Eric",
+            "url": "/gp/customer-reviews/R3QV72NRP088YI/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R3QV72NRP088YI",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFFGJRHFKX5CVZDNC3MDP4IZZ4MQ",
+            "numberOfHelpful": 1,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "I've been trying to find more long-form books to read to my kids that can keep my kids attention instead of the typical children's books. Was weary of purchasing this but I'm so glad I did! The illustrations are gorgeous and while they do skip over a few of the more fluff parts of the book it makes the pace of the book much faster. My kids get excited for me to read more of this book every night. It's also great for adults if you want to read The Hobbit but get bored by just looking at text on a page.",
+            "date": "Reviewed in the United States on March 1, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Great for younger kids if you're trying to get them into the Hobbit/Lord of the rings",
+            "userName": "Matthew Palmateer",
+            "url": "/gp/customer-reviews/R9BL11PB9AJLZ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R9BL11PB9AJLZ",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFFGDD6ILJNSVZGEWXREDM5TBGQA",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "My son was so excited for this book. He said it was a good adaptation of the movies and he enjoyed reading this!",
+            "date": "Reviewed in the United States on January 30, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Good match for the movies",
+            "userName": "Haley L",
+            "url": "/gp/customer-reviews/R3VAQ6GMCWIHC/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R3VAQ6GMCWIHC",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AE35SIQJOI35JREZ4JMALAP7RYLA",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Rather than today's label of YA, \"The Hobbit\" can be called FA For Everyone or COAA Children of All Ages. Its media history and its offshoots are long, in book, animé, comic, calendar, RPG, video game, and (overlong and under-faithful) live movie. This graphic novel can certainly stand among the very best of the derived versions.",
+            "date": "Reviewed in the United States on March 30, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Masterfully Drawn and Very Well Excerpted",
+            "userName": "M. McKay",
+            "url": "/gp/customer-reviews/R2MZIOR95KWJUM/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Kindle"
+            ],
+            "reviewId": "R2MZIOR95KWJUM",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AGWXYOJBM65D4Z42BCD3K6ZTBP5Q",
+            "numberOfHelpful": 1,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "My 5 yo LOVED reading this version! Big sister was doing a book club of the illustrated version (green cover, highly recommend) and my youngest didn't have the stamina to read /listen to that much of the book fast enough to keep up, so we ordered the graphic novel instead and it was perfect. She was able to find the pictures in her book that matched what they were talking about in book club and show everyone pictures of what they had read. Some of the boys in the book club wished they had picked the graphic novel instead of the whole thing. It was an awesome companion and scaffold for a younger reader wanting to participate in big discussions. She especially loved the dragon scenes. It is missing a lot of parts from the book though-she was frustrated sometimes because they would talk about parts in their book that weren't in hers. We went back after book club had finished and read the whole version at our own pace-this book gave her a solid foundation to build her own imagination out from.",
+            "date": "Reviewed in the United States on December 31, 2025",
+            "rating": "4.0 out of 5 stars",
+            "title": "Companion to The Hobbit",
+            "userName": "Jessica Criss",
+            "url": "/gp/customer-reviews/R1DAF8UBN0QO5H/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R1DAF8UBN0QO5H",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AEUMMKNMIPTYWUPNBNTRYVUUF5TA",
+            "numberOfHelpful": 3,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Great art work and story. It’s not the company’s fault that I’m farsighted and found the print challenging to read sometimes. Well put together book.",
+            "date": "Reviewed in the United States on September 30, 2025",
+            "rating": "5.0 out of 5 stars",
+            "title": "Great graphic art work and story",
+            "userName": "Duke",
+            "url": "/gp/customer-reviews/R1P8A2RGX6UG8W/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R1P8A2RGX6UG8W",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AES2GXZN3WUKK37ZUQ4FMQODHM2A",
+            "numberOfHelpful": 2,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "This is a great gift for someone who appreciates the Hobbit series!",
+            "date": "Reviewed in the United States on January 5, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Great Gift",
+            "userName": "Michelle",
+            "url": "/gp/customer-reviews/RA5060IRB2A76/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "RA5060IRB2A76",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AENDDU33KR2ZLUTD2U3JVXW3PKQA",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+        "imageUrl": "https://m.media-amazon.com/images/I/91ZX8zNpwZL._SY522_.jpg",
+        "imageResolution": "339 x 522"
+    },
+    "variations": [],
+    "bookVariations": [
+        {
+            "value": "Kindle",
+            "dpUrl": "/Hobbit-Graphic-J-R-Tolkien-ebook/dp/B0CKT929N4/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.w6rGq0r0fFRZITpWQaIQB47kQGHHD8pikRw_SyPaypWa589G-U6yvOvpGIfsRQX6WjuP8Ys7Xf6-lP7Y8GfKT3aWDNIcdpSrNQoB9kGMb7u0YIbek8rLL1iet2PurvBVyLJfdoEeUQ_6sIQEHzWKIgg38Fr-ACJaoCp2adCi24FKc6LSpWLgOnt0a0QpQvMnRoIsbYmHNBxgeK0lAQYSIv9yZ1N2iqDOc7RorH2-ZMmBjSJMAu0yMvh1WNakTWbziDIUEESnZw_eFcgn7XMfUYzqKO8-qZk0uqQCifx6ADQ.-DuVL1t4eyDb2pDpZAehj6Ch9KXhFNHLnTWm-SyjCjI&qid=1778409705&sr=1-4",
+            "selected": false,
+            "available": false,
+            "price": 12.99,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Paperback",
+            "dpUrl": null,
+            "selected": true,
+            "available": false,
+            "price": 12.51,
+            "imageUrl": null,
+            "asin": null
+        }
+    ],
+    "categories": [
+        "Books",
+        "Comics & Graphic Novels",
+        "Graphic Novels",
+        "Fantasy",
+        "Epic"
+    ],
+    "categoriesExtended": [
+        {
+            "name": "Books",
+            "url": "/books-used-books-textbooks/b/ref=dp_bc_1?ie=UTF8&node=283155",
+            "node": "283155"
+        },
+        {
+            "name": "Comics & Graphic Novels",
+            "url": "/Comics-Graphic-Novels-Books/b/ref=dp_bc_2?ie=UTF8&node=4366",
+            "node": "4366"
+        },
+        {
+            "name": "Graphic Novels",
+            "url": "/Graphic-Novels-Comics-Books/b/ref=dp_bc_3?ie=UTF8&node=4390",
+            "node": "4390"
+        },
+        {
+            "name": "Fantasy",
+            "url": "/Fantasy-Graphic-Novels-Comics-Books/b/ref=dp_bc_4?ie=UTF8&node=3825111",
+            "node": "3825111"
+        },
+        {
+            "name": "Epic",
+            "url": "/b/ref=dp_bc_5?ie=UTF8&node=206206530011",
+            "node": "206206530011"
+        }
+    ],
+    "currency": null,
+    "acKeywordLink": null,
+    "deliveryMessage": null,
+    "rentPrice": 0.0,
+    "usedPrice": 0.0,
+    "retailPriceRent": 0.0,
+    "coupon": null,
+    "series": null,
+    "importantInformation": [],
+    "prime": true,
+    "deal": false,
+    "addon": false,
+    "pantry": false,
+    "used": false
+},
+{
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "Watership Down: The Graphic Novel",
+    "manufacturer": "by James Sturm (Adapter), Richard Adams (Author), Joe Sutphin (Illustrator) & 0 more",
+    "countReview": 621,
+    "answeredQuestions": 0,
+    "productRating": "4.8 out of 5 stars",
+    "asin": "1984857207",
+    "sizeSelection": [],
+    "soldBy": "Amazon.com",
+    "fulfilledBy": "Amazon.com",
+    "sellerId": null,
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 0.0,
+    "price": 24.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Friday, May 15 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tomorrow, May 11. Join Prime",
+    "priceSaving": null,
+    "features": [],
+    "imageUrlList": [
+        "https://m.media-amazon.com/images/I/9194HHAAnPL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/A1SXtnD2AzL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/A1Lx9-Mbf5L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91eRNde2tJL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/910592ntnTL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/A1eXWmAMYzL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/A1wbl1rzkOL._SL1500_.jpg"
+    ],
+    "videoeUrlList": null,
+    "productDescription": "EISNER AWARD WINNER • OHIO BOOK AWARD WINNER • A beautiful and faithful graphic novel adaptation of Richard Adams’s beloved story of a group of rabbits on an epic journey in search of home. NOMINATED FOR THE RINGO AWARD AND THE HARVEY AWARD “Every rabbit that stays behind is in great danger. We will welcome any rabbit who joins us.” Watership Down is a classic tale of survival, hope, courage, and friendship that has delighted and inspired readers around the world for more than fifty years. Masterfully adapted by award-winning author James Sturm and gorgeously illustrated by bestselling artist Joe Sutphin, this spectacular graphic novel will delight old fans and inspire new ones, bringing the joy of Watership Down to a new generation of readers. Read more",
+    "productDetails": [
+        {
+            "name": "Publisher ‏  ‎",
+            "value": "Ten Speed Graphic"
+        },
+        {
+            "name": "Publication date ‏  ‎",
+            "value": "October 17, 2023"
+        },
+        {
+            "name": "Language ‏  ‎",
+            "value": "English"
+        },
+        {
+            "name": "Print length ‏  ‎",
+            "value": "384 pages"
+        },
+        {
+            "name": "ISBN-10 ‏  ‎",
+            "value": "1984857207"
+        },
+        {
+            "name": "ISBN-13 ‏  ‎",
+            "value": "978-1984857200"
+        },
+        {
+            "name": "Item Weight ‏  ‎",
+            "value": "13 ounces"
+        },
+        {
+            "name": "Reading age ‏  ‎",
+            "value": "10+ years, from customers"
+        },
+        {
+            "name": "Dimensions ‏  ‎",
+            "value": "7 x 1 x 10 inches"
+        },
+        {
+            "name": "Grade level ‏  ‎",
+            "value": "5 - 6"
+        },
+        {
+            "name": "Best Sellers Rank",
+            "value": "#19,460 in Books (See Top 100 in Books) #9 in Graphic Novel Adaptations #10 in Literary Graphic Novels (Books) #469 in Classic Literature & Fiction"
+        },
+        {
+            "name": "Customer Reviews",
+            "value": "4.8 4.8 out of 5 stars"
+        }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [],
+    "productSpecification": [],
+    "mainImage": {
+        "imageUrl": "https://m.media-amazon.com/images/I/9194HHAAnPL._SY522_.jpg",
+        "imageResolution": "367 x 522"
+    },
+    "variations": [],
+    "bookVariations": [
+        {
+            "value": "Kindle",
+            "dpUrl": "/Watership-Down-Graphic-Richard-Adams-ebook/dp/B09R6SG3H7/ref=tmm_kin_swatch_0",
+            "selected": false,
+            "available": false,
+            "price": 7.99,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Hardcover",
+            "dpUrl": "/Watership-Down-Graphic-James-Sturm/dp/1984857193/ref=tmm_hrd_swatch_0",
+            "selected": false,
+            "available": false,
+            "price": 18.28,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Paperback",
+            "dpUrl": null,
+            "selected": true,
+            "available": false,
+            "price": 15.84,
+            "imageUrl": null,
+            "asin": null
+        }
+    ],
+    "categories": [
+        "Books",
+        "Children's Books",
+        "Comics & Graphic Novels",
+        "Animals"
+    ],
+    "categoriesExtended": [
+        {
+            "name": "Books",
+            "url": "/books-used-books-textbooks/b/ref=dp_bc_1?ie=UTF8&node=283155",
+            "node": "283155"
+        },
+        {
+            "name": "Children's Books",
+            "url": "/Childrens-Books/b/ref=dp_bc_2?ie=UTF8&node=4",
+            "node": "4"
+        },
+        {
+            "name": "Comics & Graphic Novels",
+            "url": "/Comics-Graphic-Novels-Books/b/ref=dp_bc_3?ie=UTF8&node=3014",
+            "node": "3014"
+        },
+        {
+            "name": "Animals",
+            "url": "/b/ref=dp_bc_4?ie=UTF8&node=16926944011",
+            "node": "16926944011"
         }
     ],
     "currency": null,
@@ -2561,6 +3242,825 @@
     "addon": false,
     "pantry": false,
     "used": false,
-    "prime": false
+    "prime": true
+},
+{
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "The Giver Graphic Novel (Giver Quartet, 1)",
+    "manufacturer": "by Lois Lowry (Author), P. Craig Russell (Illustrator)",
+    "countReview": 1166,
+    "answeredQuestions": 0,
+    "productRating": "4.7 out of 5 stars",
+    "asin": "1328575489",
+    "sizeSelection": [],
+    "soldBy": "Amazon.com",
+    "fulfilledBy": "Amazon.com",
+    "sellerId": "A39BCZUE6HSDDL",
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 15.99,
+    "price": 9.13,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Friday, May 15 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tomorrow, May 11. Join Prime",
+    "priceSaving": "-43%",
+    "features": [],
+    "imageUrlList": [
+        "https://m.media-amazon.com/images/I/61jIB9oDrYL._SL1500_.jpg"
+    ],
+    "videoeUrlList": null,
+    "productDescription": "The Giver is a modern classic and one of the most influential books of our time. Now in graphic novel format, Lois Lowry’s Newbery Medal–winning classic story of a young boy discovering the dark secrets behind his seemingly ideal world is accompanied by renowned artist P. Craig Russell’s beautifully haunting illustrations. Placed on countless reading lists, translated into more than forty languages, and made into a feature film, The Giver is the first book in the Giver Quartet, which also includes Gathering Blue, Messenger, and Son. In this new graphic novel edition, readers experience the haunting story of twelve-year-old Jonas and his seemingly ideal, if colorless, world of conformity and contentment through the brilliant art of P. Craig Russell that truly brings The Giver to life. Witness Jonas’s assignment as the Receiver of Memory, watch as he begins to understand the dark secrets behind his fragile community, and follow the explosion of color into his world like never before. Read more",
+    "productDetails": [
+        {
+            "name": "Publisher ‏  ‎",
+            "value": "Clarion Books"
+        },
+        {
+            "name": "Publication date ‏  ‎",
+            "value": "April 7, 2020"
+        },
+        {
+            "name": "Edition ‏  ‎",
+            "value": "Reprint"
+        },
+        {
+            "name": "Language ‏  ‎",
+            "value": "English"
+        },
+        {
+            "name": "Print length ‏  ‎",
+            "value": "192 pages"
+        },
+        {
+            "name": "ISBN-10 ‏  ‎",
+            "value": "1328575489"
+        },
+        {
+            "name": "ISBN-13 ‏  ‎",
+            "value": "978-1328575487"
+        },
+        {
+            "name": "Item Weight ‏  ‎",
+            "value": "15.2 ounces"
+        },
+        {
+            "name": "Reading age ‏  ‎",
+            "value": "11 - 12 years, from customers"
+        },
+        {
+            "name": "Dimensions ‏  ‎",
+            "value": "6 x 0.49 x 9 inches"
+        },
+        {
+            "name": "Book 1 of 1 ‏  ‎",
+            "value": "Giver Quartet"
+        },
+        {
+            "name": "Grade level ‏  ‎",
+            "value": "7 - 9"
+        },
+        {
+            "name": "Best Sellers Rank",
+            "value": "#19,197 in Books (See Top 100 in Books) #15 in Teen & Young Adult Fiction about Values & Virtues (Books) #16 in Teen & Young Adult Science Fiction & Fantasy Comics #69 in Teen & Young Adult Classic Literature"
+        },
+        {
+            "name": "Customer Reviews",
+            "value": "4.7 4.7 out of 5 stars"
+        }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [],
+    "productSpecification": [],
+    "mainImage": {
+        "imageUrl": "https://m.media-amazon.com/images/I/61jIB9oDrYL._SY522_.jpg",
+        "imageResolution": "348 x 522"
+    },
+    "variations": [],
+    "bookVariations": [
+        {
+            "value": "Kindle",
+            "dpUrl": "/Giver-Graphic-Novel-Lois-Lowry-ebook/dp/B07FK96VD4/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.BkySiLF2G6biJYd6Ow4A2jmZ80FGjN4h1I_ufpLyzC4b0BMA_P_0taD_nDZk7ZisWa9OUFGla242hgp3Ctc_8cik9xSChOlpg1Qik1-3G0I.PYNSOy7r_rxIBc4iZcAvP9k7o1IxoqMiLdGF3OgL_9U&qid=1778409977",
+            "selected": false,
+            "available": false,
+            "price": 9.99,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Hardcover",
+            "dpUrl": "/Giver-Graphic-Novel-Quartet/dp/0544157885/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.BkySiLF2G6biJYd6Ow4A2jmZ80FGjN4h1I_ufpLyzC4b0BMA_P_0taD_nDZk7ZisWa9OUFGla242hgp3Ctc_8cik9xSChOlpg1Qik1-3G0I.PYNSOy7r_rxIBc4iZcAvP9k7o1IxoqMiLdGF3OgL_9U&qid=1778409977",
+            "selected": false,
+            "available": false,
+            "price": 12.03,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Paperback",
+            "dpUrl": null,
+            "selected": true,
+            "available": false,
+            "price": 9.13,
+            "imageUrl": null,
+            "asin": null
+        }
+    ],
+    "categories": [
+        "Books",
+        "Teen & Young Adult",
+        "Literature & Fiction",
+        "Comics & Graphic Novels",
+        "Science Fiction & Fantasy"
+    ],
+    "categoriesExtended": [
+        {
+            "name": "Books",
+            "url": "/books-used-books-textbooks/b/ref=dp_bc_1?ie=UTF8&node=283155",
+            "node": "283155"
+        },
+        {
+            "name": "Teen & Young Adult",
+            "url": "/Young-Adult-Teens-Books/b/ref=dp_bc_2?ie=UTF8&node=28",
+            "node": "28"
+        },
+        {
+            "name": "Literature & Fiction",
+            "url": "/Literature-Fiction-Teens-Books/b/ref=dp_bc_3?ie=UTF8&node=17443",
+            "node": "17443"
+        },
+        {
+            "name": "Comics & Graphic Novels",
+            "url": "/Teen-Young-Adult-Comics-Graphic-Novels/b/ref=dp_bc_4?ie=UTF8&node=10368516011",
+            "node": "10368516011"
+        },
+        {
+            "name": "Science Fiction & Fantasy",
+            "url": "/Teen-Young-Adult-Science-Fiction-Fantasy-Comics/b/ref=dp_bc_5?ie=UTF8&node=13922475011",
+            "node": "13922475011"
+        }
+    ],
+    "currency": null,
+    "acKeywordLink": null,
+    "deliveryMessage": null,
+    "rentPrice": 0.0,
+    "usedPrice": 0.0,
+    "retailPriceRent": 0.0,
+    "coupon": null,
+    "series": {
+        "name": "Book 1 of 1: Giver Quartet",
+        "seriesNumber": 1,
+        "url": "/dp/B07PPFTCT9?binding=paperback&qid=1778409977&ref=dbs_dp_rwt_sb_pc_tpbk"
+    },
+    "importantInformation": [],
+    "buyBoxUsed": {
+        "condition": "Used - Very Good",
+        "packageCondition": null,
+        "soldBy": "GREENWORLD BOOKS",
+        "fulfilledBy": null,
+        "sellerId": "A39BCZUE6HSDDL",
+        "warehouseAvailability": "Only 1 left in stock - order soon.",
+        "retailPrice": 15.99,
+        "price": 7.76,
+        "priceShippingInformation": "FREE delivery May 15 - 19 FREE delivery May 15 - 19. Details Or fastest delivery May 14 - 18. Details",
+        "priceSaving": null
+    },
+    "deal": false,
+    "addon": false,
+    "pantry": false,
+    "used": false,
+    "prime": true
+},
+{
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "It's Lonely at the Centre of the Earth",
+    "manufacturer": "by Zoe Thorogood (Author, Artist)",
+    "countReview": 1554,
+    "answeredQuestions": 0,
+    "productRating": "4.6 out of 5 stars",
+    "asin": "1534323864",
+    "sizeSelection": [],
+    "soldBy": "Amazon.com",
+    "fulfilledBy": "Amazon.com",
+    "sellerId": null,
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 0.0,
+    "price": 17.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Friday, May 15 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tuesday, May 12. Join Prime",
+    "priceSaving": null,
+    "features": [],
+    "imageUrlList": [
+        "https://m.media-amazon.com/images/I/718WYT4FhGL._SL1500_.jpg"
+    ],
+    "videoeUrlList": null,
+    "productDescription": "A provacative graphic memoir perfect for fans of Allie Brosh's Solutions and Other Problems - Thorogood is the winner of the 2023 Russ Manning Most Promising Newcomer Award - Nominated for two 2023 Eisner Awards in the Best Graphic Memoir and Best Writer/Artist categories - Winner of the 2023 Ringo Award in the Best Graphic Novel category - Included in Forbes' \"The Best Graphic Novels of 2022\" list The 2023 Russ Manning Most Promising Newcomer Award winning cartoonist, Zoe Thorogood (writer and artist of The Impending Blindness of Billie Scott, artist on Joe Hill's Rain graphic novelisation), records six months of her own life as it falls apart in a desperate attempt to put it back together again in the only way she knows how. It's Lonely at the Centre of the Earth is an intimate and meta-narrative look into the life of a selfish artist who must create for her own survival. A poignant and original depiction of a young woman's struggle with mental health—through the ups and downs of anxiety, depression, and imposter syndrome—as she forges a promising career in sequential art and finds herself along the way. Select praise for It's Lonely at the Centre of the Earth: \"Thorogood elevates the dark material with her expressive use of the comics medium and the urgency of her voice. One to watch for the 2020s.\" —Forbes “This has the force of a fist punching through the page.\" —Publishers Weekly (Starred Review) “Thorogood taps into sensation and the way that it is experienced in a way that is unlike anything I’ve seen before. It’s astonishing.” —AIPT \"Tragic, funny and disturbing.\" —Connecticut Public Radio/NPR \"Unflinchingly stark and personal.\" —The Guardian UK Read more",
+    "productDetails": [
+        {
+            "name": "Publisher ‏  ‎",
+            "value": "Image Comics"
+        },
+        {
+            "name": "Publication date ‏  ‎",
+            "value": "November 15, 2022"
+        },
+        {
+            "name": "Language ‏  ‎",
+            "value": "English"
+        },
+        {
+            "name": "Print length ‏  ‎",
+            "value": "192 pages"
+        },
+        {
+            "name": "ISBN-10 ‏  ‎",
+            "value": "1534323864"
+        },
+        {
+            "name": "ISBN-13 ‏  ‎",
+            "value": "978-1534323865"
+        },
+        {
+            "name": "Item Weight ‏  ‎",
+            "value": "2.31 pounds"
+        },
+        {
+            "name": "Reading age ‏  ‎",
+            "value": "13 years and up"
+        },
+        {
+            "name": "Dimensions ‏  ‎",
+            "value": "6.63 x 0.5 x 10.19 inches"
+        },
+        {
+            "name": "Part of Series ‏  ‎",
+            "value": "It's Lonely at the Centre of the Earth"
+        },
+        {
+            "name": "Best Sellers Rank",
+            "value": "#27,333 in Books (See Top 100 in Books) #8 in Biographies & History Graphic Novels #21 in Educational & Nonfiction Graphic Novels #67 in Image Comics & Graphic Novels"
+        },
+        {
+            "name": "Customer Reviews",
+            "value": "4.6 4.6 out of 5 stars"
+        }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+        {
+            "text": "This is one of the rawest and real depictions of depression. I really adore this book and the author for being so vulnerable. This will either be very relatable and healing or super brutal if you’re feeling depressed and I think that’s beautiful art! Sometimes we gotta poke our own wounds to really understand them.",
+            "date": "Reviewed in the United States on April 8, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "Beautiful Depression",
+            "userName": "Amazon Customer",
+            "url": "/gp/customer-reviews/RB158Y8M9BVQ7/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "RB158Y8M9BVQ7",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFKTDX563VOUTTEEQYPOSLTBL5LQ",
+            "numberOfHelpful": 1,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Sometimes, you read works that resonate very deeply. When I was younger, I admired Spider-Man because he could sling insults while still being pummeled. He could get back up again no matter what. I think this book helped me acknowledge the bubbling emotions that I would feel instead of just looking at the outcomes at face value. Helped me find words that escaped me before. It's good art because it inspires more good art. Or maybe just inspires a really good sandwich.",
+            "date": "Reviewed in the United States on June 5, 2025",
+            "rating": "5.0 out of 5 stars",
+            "title": "I usually just read Superheroes.",
+            "userName": "Seth'Mikel Queja",
+            "url": "/gp/customer-reviews/R4VNP06PYXTWH/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Kindle"
+            ],
+            "reviewId": "R4VNP06PYXTWH",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AELO5WAQS5TKWMDWCFVLXZAU5QNA",
+            "numberOfHelpful": 1,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Absolutely wild time. Thorogood really goes in deep on her depression and tries to answer why she can’t be happy. Thought-provoking and a wildly inventive art style, brilliant work.",
+            "date": "Reviewed in the United States on January 28, 2025",
+            "rating": "4.0 out of 5 stars",
+            "title": "a trippy revelation",
+            "userName": "Alessandra Dreyer",
+            "url": "/gp/customer-reviews/R1U8JC2D8ZJBLC/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Kindle"
+            ],
+            "reviewId": "R1U8JC2D8ZJBLC",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AECWQBXIGRP55I63SH7FMRH4T7HQ",
+            "numberOfHelpful": 2,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Zoe Thorogood writes and illustrates this story with humor, compassion, illusions, hopes and courage. Above all, trying to find the source of all this unhappiness, to make it stop. When you're lost and afraid why should you be happy? She and her mother having the same genetic coding for depression really doesn't help much, and I don't think medication helps either, to hide it rather than meet it head-on. But that word, persistence, is a good one, and after trying what doesn't work (and why would that make you happy or satisfied?) she resolves her crisis into a simple trying, helping, and not hating everything. Artists have a more difficult path because they need to be alone to work if it's theirs. To say their work is original how could it ever be a group effort? This is the persistence part, the courage part, and the remembering to just be a person, not perfect, but knowing with that compassion from experience.",
+            "date": "Reviewed in the United States on October 2, 2024",
+            "rating": "5.0 out of 5 stars",
+            "title": "No matter where you are it can be lonely",
+            "userName": "glenn",
+            "url": "/gp/customer-reviews/R2R8AMQTI7Q6NZ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R2R8AMQTI7Q6NZ",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFALFQEXS5KZXODDLHFK3Z3A4HBA",
+            "numberOfHelpful": 1,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "I think this has connected with me more than anything I have read in a long long time… Wishing you the best Zoe…",
+            "date": "Reviewed in the United States on May 5, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "so much more than I expected!",
+            "userName": "Ronny Merkel",
+            "url": "/gp/customer-reviews/RFH6UVMNEDQ2P/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Kindle"
+            ],
+            "reviewId": "RFH6UVMNEDQ2P",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AH5LRTRG53BK6BV7KF54TYJYCPOQ",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "I don’t right reviews but this comic was different. Reading this feels like the author is pouring their heart out, but it feels like ichor. The comic is great and I recommend reading it but at the same time take it with a pile of salt. Subject ideas are “depression” “finding self” “covid isolation” “suicide” “moving on”. Maybe I’m just envious but “future of comics” ,”this comic shouldn’t have been made” leaves me with a feeling like the cartoonist is insecure of something that is beautiful.",
+            "date": "Reviewed in the United States on January 3, 2025",
+            "rating": "3.0 out of 5 stars",
+            "title": "amazing art, and cool autobio comic",
+            "userName": "Samurai Ki",
+            "url": "/gp/customer-reviews/R1KKZL1VRUPT6P/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Kindle"
+            ],
+            "reviewId": "R1KKZL1VRUPT6P",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AHNJKJTCGBRKGBTFQ4QRYATQGK3A",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "This is everything a graphic memoir should be. Gorgeous art. Creative visual concepts, and raw storytelling. This is my first book by Zoe. I’m a new fan. I laughed out loud at her irreverant wit. Sister!!",
+            "date": "Reviewed in the United States on March 30, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "More than just “relatable”. (Read the story to get the rerference)",
+            "userName": "L Meredith",
+            "url": "/gp/customer-reviews/R12O4SJD79KH5E/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R12O4SJD79KH5E",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AF5G7YRBRY6KJVCMTYKDWCRTYIDQ",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Thorogood uses a range of different visual styles throughout this boo, and it took me a while to get the hang of it. But this describes a young woman's experience of trying to understand the world, herself and her place in it. That's bound to cover a lot of different moods and moments. Shifting her imagery is as natural for her as it is for a writer to shift vocabulary and style. Like Ariel Schrag's work, this lacks any real plot. That seems honest enough - people just pass through the moments of their lives. Meanings and connections come only after the fact, possibly long after. This very enjoyably illustrates the passage. -- wiredweird",
+            "date": "Reviewed in the United States on June 28, 2023",
+            "rating": "5.0 out of 5 stars",
+            "title": "Quirky and enjoyable",
+            "userName": "wiredweird",
+            "url": "/gp/customer-reviews/ROXSKQ1MVDVVF/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "ROXSKQ1MVDVVF",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AGZRVUSYZOUTRHV2U3L3I3OC4G5Q",
+            "numberOfHelpful": 3,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+        "imageUrl": "https://m.media-amazon.com/images/I/718WYT4FhGL._SY522_.jpg",
+        "imageResolution": "339 x 522"
+    },
+    "variations": [],
+    "bookVariations": [
+        {
+            "value": "Kindle",
+            "dpUrl": "/Its-Lonely-At-Centre-Earth-ebook/dp/B0BGT8GR19/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.T1GpUVXfmxtS736eOvPnve1XelyjEEBkvwC8Bj-w8nVmOeF3HSvJ_-atqnRunvlSqpbW0RfAvK1IXwOfmvcFUK3YtZ_V8zCjGuTRlYEvgnmjymoAzIzZtd7lJqLHAbIghX7RUvvwzg8ZFdnq41Vst7XYC3b9J6O3oVS_X4LzA51Bxlia6ExsjT4f1joSTRJFc4G4efD7Qlx6k6iDgzoqQQhdjASVgLB4WMCw4Xa2tvvQqeTJVT4e8DUUjQAEW2nz.jQX1rT8LDyQCO2a3IPcQaGVzJjTGHDH1WEfLRoaDHIE&qid=1778409977",
+            "selected": false,
+            "available": false,
+            "price": 0.0,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Paperback",
+            "dpUrl": null,
+            "selected": true,
+            "available": false,
+            "price": 12.08,
+            "imageUrl": null,
+            "asin": null
+        }
+    ],
+    "categories": [
+        "Books",
+        "Self-Help",
+        "Death & Grief",
+        "Suicide"
+    ],
+    "categoriesExtended": [
+        {
+            "name": "Books",
+            "url": "/books-used-books-textbooks/b/ref=dp_bc_1?ie=UTF8&node=283155",
+            "node": "283155"
+        },
+        {
+            "name": "Self-Help",
+            "url": "/Self-Help-Health-Mind-Body-Books/b/ref=dp_bc_2?ie=UTF8&node=4736",
+            "node": "4736"
+        },
+        {
+            "name": "Death & Grief",
+            "url": "/Death-Grief-Books/b/ref=dp_bc_3?ie=UTF8&node=4608",
+            "node": "4608"
+        },
+        {
+            "name": "Suicide",
+            "url": "/Suicide/b/ref=dp_bc_4?ie=UTF8&node=4612",
+            "node": "4612"
+        }
+    ],
+    "currency": null,
+    "acKeywordLink": null,
+    "deliveryMessage": null,
+    "rentPrice": 0.0,
+    "usedPrice": 0.0,
+    "retailPriceRent": 0.0,
+    "coupon": null,
+    "series": {
+        "name": "Part of: It's Lonely at the Centre of the Earth",
+        "seriesNumber": 0,
+        "url": "/dp/B0BGVL8H7G?binding=paperback&qid=1778409977&ref=dbs_dp_rwt_sb_pc_tpbk"
+    },
+    "deal": false,
+    "addon": false,
+    "pantry": false,
+    "used": false,
+    "prime": true
+},
+{
+    "responseStatus": "PRODUCT_FOUND_RESPONSE",
+    "responseMessage": "Product successfully found!",
+    "productTitle": "Sapiens: A Graphic History: The Birth of Humankind (Vol. 1)",
+    "manufacturer": "by Yuval Noah Harari (Author)",
+    "countReview": 5108,
+    "answeredQuestions": 0,
+    "productRating": "4.7 out of 5 stars",
+    "asin": "0063051338",
+    "sizeSelection": [],
+    "soldBy": "Amazon.com",
+    "fulfilledBy": "Amazon.com",
+    "sellerId": null,
+    "warehouseAvailability": "In Stock",
+    "retailPrice": 0.0,
+    "price": 24.0,
+    "priceRange": null,
+    "shippingPrice": 0.0,
+    "priceShippingInformation": "FREE delivery Friday, May 15 on orders shipped by Amazon over $35 Or Prime members get FREE delivery Tomorrow, May 11. Order within 11 hrs 23 mins. Join Prime",
+    "priceSaving": null,
+    "features": [],
+    "imageUrlList": [
+        "https://m.media-amazon.com/images/I/81nQ+oGgI3L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/A1JcQKrcb9L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91C6qudRynL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91Md0dbHYTL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/A1wWvKHAqzL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81bDg+9nd2L._SL1500_.jpg"
+    ],
+    "videoeUrlList": null,
+    "productDescription": "Official U.S. edition with full color illustrations throughout. #1 New York Times Bestseller The Summer Reading Pick for President Barack Obama, Bill Gates, and Mark Zuckerberg, now available as a beautifully packaged paperback From a renowned historian comes a groundbreaking narrative of humanity’s creation and evolution―a #1 international bestseller―that explores the ways in which biology and history have defined us and enhanced our understanding of what it means to be “human.” One hundred thousand years ago, at least six different species of humans inhabited Earth. Yet today there is only one―homo sapiens. What happened to the others? And what may happen to us? Most books about the history of humanity pursue either a historical or a biological approach, but Dr. Yuval Noah Harari breaks the mold with this highly original book of big history that begins about 70,000 years ago with the appearance of modern cognition. From examining the role evolving humans have played in the global ecosystem to charting the rise of empires, Sapiens integrates history and science to reconsider accepted narratives, connect past developments with contemporary concerns, and examine specific events within the context of larger ideas. Dr. Harari also compels us to look ahead, because over the last few decades humans have begun to bend laws of natural selection that have governed life for the past four billion years. We are acquiring the ability to design not only the world around us, but also ourselves. Where is this leading us, and what do we want to become? Featuring 27 photographs, 6 maps, and 25 illustrations/diagrams, this provocative and insightful world history graphic novel is sure to spark debate and is essential reading for aficionados of Jared Diamond, James Gleick, Matt Ridley, Robert Wright, and Sharon Moalem. This graphic adaptation brings Dr. Harari’s groundbreaking analysis to life, exploring the biggest questions about our species: Human Evolution: A look at the other human species that walked the Earth―and an investigation into why only Homo Sapiens survived. The Cognitive Revolution: Journey back 70,000 years to the moment that changed everything, when our ancestors began to think in new ways and cooperate in massive numbers. Biology Meets History: A unique approach that integrates science and history to challenge everything you thought you knew about our shared past. The Future of Humanity: A provocative look ahead at how our species is beginning to bend the laws of natural selection and what it might mean for our future. Read more",
+    "productDetails": [
+        {
+            "name": "Publisher ‏  ‎",
+            "value": "Harper Perennial"
+        },
+        {
+            "name": "Publication date ‏  ‎",
+            "value": "October 27, 2020"
+        },
+        {
+            "name": "Edition ‏  ‎",
+            "value": "Illustrated"
+        },
+        {
+            "name": "Language ‏  ‎",
+            "value": "English"
+        },
+        {
+            "name": "Print length ‏  ‎",
+            "value": "248 pages"
+        },
+        {
+            "name": "ISBN-10 ‏  ‎",
+            "value": "0063051338"
+        },
+        {
+            "name": "ISBN-13 ‏  ‎",
+            "value": "978-0063051331"
+        },
+        {
+            "name": "Item Weight ‏  ‎",
+            "value": "1.96 pounds"
+        },
+        {
+            "name": "Dimensions ‏  ‎",
+            "value": "8.06 x 0.71 x 10.88 inches"
+        },
+        {
+            "name": "Part of Series ‏  ‎",
+            "value": "Sapiens: a Graphic History"
+        },
+        {
+            "name": "Best Sellers Rank",
+            "value": "#14,724 in Books (See Top 100 in Books) #17 in Educational & Nonfiction Graphic Novels #35 in History of Civilization & Culture #42 in History & Philosophy of Science (Books)"
+        },
+        {
+            "name": "Customer Reviews",
+            "value": "4.7 4.7 out of 5 stars"
+        }
+    ],
+    "minimalQuantity": "1",
+    "dealPrice": 0.0,
+    "salePrice": 0.0,
+    "reviews": [
+        {
+            "text": "Sapiens is a remarkable book that takes you on a journey through the entire history of humankind, from the dawn of our species to the present and beyond. It is a book that challenges many of the assumptions we have about ourselves, our cultures, our religions, and our future. It is a book that makes you think, question, and wonder. The author, Yuval Noah Harari, is a brilliant historian and a captivating storyteller. He combines insights from various disciplines, such as biology, anthropology, psychology, and philosophy, to weave a fascinating narrative that covers the major events and transformations that shaped our world and our species. He does not shy away from controversial topics, such as the role of human violence, the origin of money, the impact of science, and the prospects of artificial intelligence. He also offers his own perspective on the big questions, such as what makes us human, what gives meaning to our lives, and what lies ahead for us. Sapiens is a book that will make you see the world in a new light. It is a book that will enrich your knowledge, broaden your horizons, and stimulate your imagination. It is a book that will change the way you understand yourself and others. It is a book that everyone should read.",
+            "date": "Reviewed in the United States on March 3, 2024",
+            "rating": "5.0 out of 5 stars",
+            "title": "Must read!!!!!!",
+            "userName": "ms",
+            "url": "/gp/customer-reviews/R2KSUZG6I9G1GU/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R2KSUZG6I9G1GU",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AEAG3QG6SB3GOWDOEU73R3R63XRQ",
+            "numberOfHelpful": 5,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "I loved Sapiens the book despite a few caveats like missing Heron of Alexandria (steam), awesomeness like the Antikythera Device, and suggesting England in the middle ages was a backwater. During the first century and a half of the Norman period in the high middle ages it flourished until anti-jewish pogroms murdered or made refugees of thousands, misogyny ruined women lead businesses, and the dreaded beast of climate change ended an incredible era of prosperity with William the Bastard commonly known as the Conqueror being most likely the richest person in the world (the Mansa Musa of the 11th century CE) and PPP for the average person was excellent for that century and a half much like during the brief Norman Sicilian Renaissance. Onto this book though it has a solid and well made hard cover. The paper is thick matte stock which surprised me differing from most \"comic book\" style graphic novels but it is good enough to have good color retention. The art is good reminding me more of something in the 1980s made for educational purposes released by a textbook company or government office more than a modern graphic novel. Or like a comic in the newspaper like Dennis the Menace. I've been reading the book to my young child today and we've been enjoying its prose and he really likes the art more than I do. He particularly liked the mammoths and the Bering strait portion because it reminded him of the Ice Age movies. Highly recommend it.",
+            "date": "Reviewed in the United States on October 30, 2020",
+            "rating": "5.0 out of 5 stars",
+            "title": "What a fantastic alternative medium to the original format!",
+            "userName": "Ty Nan Og",
+            "url": "/gp/customer-reviews/R43H5I659X5HF/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [],
+            "reviewId": "R43H5I659X5HF",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFU62UJXKY2L63OWNP7GGY5V52CA",
+            "numberOfHelpful": 73,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Great author and a very well written book regarding a fascinating history portrayed with accuracy and presented in a readable way that draws the reader in",
+            "date": "Reviewed in the United States on August 22, 2025",
+            "rating": "5.0 out of 5 stars",
+            "title": "History can be fun",
+            "userName": "Brad Lightner",
+            "url": "/gp/customer-reviews/R1OZ44MY15P2FU/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Hardcover"
+            ],
+            "reviewId": "R1OZ44MY15P2FU",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AEA3H4VJ2BXSUZ2OTXIBFKMNUTAA",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "A fascination materialist story of how we came to be and what we have become. A very clear, enjoyable read.",
+            "date": "Reviewed in the United States on May 6, 2026",
+            "rating": "5.0 out of 5 stars",
+            "title": "A fascinating , enjoyable, clearly written book.",
+            "userName": "Scott Kemp",
+            "url": "/gp/customer-reviews/R312S9886N1KR3/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R312S9886N1KR3",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AGLWJP3Q6D44ZP3CKZQFOZRQAZRQ",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Not what I expected. I’d call it a non-fiction graphic (non-)novel? Or Scientific theories of the path of humanity in graphic novel form? Science IS a story! Who knew? (You, of course!) It was difficult to determine the intended audience age. I would say it is appropriate for 12 years and up. Younger if the person is interested in (and/or has a basic vocabulary of) the history of humanity, evolution, archeology, behavioral theory, geography, etc. Informative, thought provoking and entertaining.",
+            "date": "Reviewed in the United States on February 26, 2021",
+            "rating": "4.0 out of 5 stars",
+            "title": "Not what I expected",
+            "userName": "sarah cabanas",
+            "url": "/gp/customer-reviews/R1M50CTQX7V1CA/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R1M50CTQX7V1CA",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFX5WAF5Z4MZ5PXA3TZKDQC3GU3A",
+            "numberOfHelpful": 2,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "It is a amazing book, very easy to read and stimulating. A great way to understand ourselves by knowing our origins.",
+            "date": "Reviewed in the United States on May 20, 2025",
+            "rating": "5.0 out of 5 stars",
+            "title": "Full of shocking and wondrous stories",
+            "userName": "Alvaro pantoja",
+            "url": "/gp/customer-reviews/R1D1HJT7A9XUBQ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Hardcover"
+            ],
+            "reviewId": "R1D1HJT7A9XUBQ",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AGP56VZM64QCAOWALFU4Z5EX46HA",
+            "numberOfHelpful": 0,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "Hoping to help my son achieve a larger perspective of our world and our place in it, I purchased this book for him. When it arrived I was so pleased with the format, like a comic book, but not really. It is packed with so much information that I could not put it down. The story lines are interwoven beautifully, this is a well crafted educational piece of art in my opinion. My son took to it immediately, I was glad that I had read it before him because the questions started rolling and his mind opened up, it took him awhile but he did read the whole book and I do indeed believe that it did a wonderful job of opening his eyes and enlarging his perception of the world. I would recommend this book to any parent, even for you too! I learned a lot reading it myself! It is simply excellent.",
+            "date": "Reviewed in the United States on January 2, 2021",
+            "rating": "5.0 out of 5 stars",
+            "title": "This Was An Excellent Choice For Both My Son And I",
+            "userName": "Ben Marascalco",
+            "url": "/gp/customer-reviews/R2ZKLFI35CDPPD/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R2ZKLFI35CDPPD",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AEIXZYQ5POK76LA6572WSSEUCYAQ",
+            "numberOfHelpful": 11,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        },
+        {
+            "text": "My teens are reading this graphic novel and it’s a beautifully done, well laid out, easier to comprehend version of the regular Sapiens. I have found myself flipping through it and getting lost in its pages. I would recommend for ages 11+",
+            "date": "Reviewed in the United States on September 24, 2024",
+            "rating": "5.0 out of 5 stars",
+            "title": "Beautiful! Terrific graphic novel adaption’",
+            "userName": "Juli's mom",
+            "url": "/gp/customer-reviews/R1VO4VHJ8A9P7Y/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8",
+            "imageUrlList": [],
+            "variationList": [
+                "Format: Paperback"
+            ],
+            "reviewId": "R1VO4VHJ8A9P7Y",
+            "locale": null,
+            "profilePath": "/gp/profile/amzn1.account.AFBG3NPP7L4LL37U5WDGYEOANIAA",
+            "numberOfHelpful": 5,
+            "videos": [],
+            "vine": false,
+            "verified": true
+        }
+    ],
+    "productSpecification": [],
+    "mainImage": {
+        "imageUrl": "https://m.media-amazon.com/images/I/81nQ+oGgI3L._SY522_.jpg",
+        "imageResolution": "393 x 522"
+    },
+    "variations": [],
+    "bookVariations": [
+        {
+            "value": "Kindle",
+            "dpUrl": "/Sapiens-Graphic-History-Birth-Humankind-ebook/dp/B08HM1J5YF/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.iiUxUTpZKlmwbo65kkn2k4jxfGUerY1L6PZ2qKXyX0XOH-kyUiakwb_1bOTowpD6e_b3yuOdESFcUC56RY_S9KPNhfJkGwB29DFpIwSeUOfNVSceO7--ePaP2a4-toLZP2Qv2b9f6Dg9XyYaxYbhCql0OBfhRLBMNXeuY5HlNi4k8HRyRU2s8y8bg640zNXZUb5gQYG5i5rASC5OFdp8J4s0p3Zo29X1Lj822_AxH4R8plzj_PRc8GL4Z-bXm9Tg.vMw2vG4t4fkUyuTc_5GPlX66HFidHdpTxO74oZEJq-8&qid=1778410149",
+            "selected": false,
+            "available": false,
+            "price": 19.99,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Hardcover",
+            "dpUrl": "/Sapiens-Graphic-History-Birth-Humankind/dp/1787332810/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.iiUxUTpZKlmwbo65kkn2k4jxfGUerY1L6PZ2qKXyX0XOH-kyUiakwb_1bOTowpD6e_b3yuOdESFcUC56RY_S9KPNhfJkGwB29DFpIwSeUOfNVSceO7--ePaP2a4-toLZP2Qv2b9f6Dg9XyYaxYbhCql0OBfhRLBMNXeuY5HlNi4k8HRyRU2s8y8bg640zNXZUb5gQYG5i5rASC5OFdp8J4s0p3Zo29X1Lj822_AxH4R8plzj_PRc8GL4Z-bXm9Tg.vMw2vG4t4fkUyuTc_5GPlX66HFidHdpTxO74oZEJq-8&qid=1778410149",
+            "selected": false,
+            "available": false,
+            "price": 25.22,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Paperback",
+            "dpUrl": null,
+            "selected": true,
+            "available": false,
+            "price": 14.97,
+            "imageUrl": null,
+            "asin": null
+        },
+        {
+            "value": "Spiral-bound",
+            "dpUrl": "/Sapiens-Graphic-History-Birth-Humankind/dp/B0CC37DX9K/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.iiUxUTpZKlmwbo65kkn2k4jxfGUerY1L6PZ2qKXyX0XOH-kyUiakwb_1bOTowpD6e_b3yuOdESFcUC56RY_S9KPNhfJkGwB29DFpIwSeUOfNVSceO7--ePaP2a4-toLZP2Qv2b9f6Dg9XyYaxYbhCql0OBfhRLBMNXeuY5HlNi4k8HRyRU2s8y8bg640zNXZUb5gQYG5i5rASC5OFdp8J4s0p3Zo29X1Lj822_AxH4R8plzj_PRc8GL4Z-bXm9Tg.vMw2vG4t4fkUyuTc_5GPlX66HFidHdpTxO74oZEJq-8&qid=1778410149",
+            "selected": false,
+            "available": false,
+            "price": 39.55,
+            "imageUrl": null,
+            "asin": null
+        }
+    ],
+    "categories": [
+        "Books",
+        "Comics & Graphic Novels",
+        "Graphic Novels",
+        "Science Fiction"
+    ],
+    "categoriesExtended": [
+        {
+            "name": "Books",
+            "url": "/books-used-books-textbooks/b/ref=dp_bc_1?ie=UTF8&node=283155",
+            "node": "283155"
+        },
+        {
+            "name": "Comics & Graphic Novels",
+            "url": "/Comics-Graphic-Novels-Books/b/ref=dp_bc_2?ie=UTF8&node=4366",
+            "node": "4366"
+        },
+        {
+            "name": "Graphic Novels",
+            "url": "/Graphic-Novels-Comics-Books/b/ref=dp_bc_3?ie=UTF8&node=4390",
+            "node": "4390"
+        },
+        {
+            "name": "Science Fiction",
+            "url": "/Science-Fiction-Graphic-Novels-Books/b/ref=dp_bc_4?ie=UTF8&node=4394",
+            "node": "4394"
+        }
+    ],
+    "currency": null,
+    "acKeywordLink": null,
+    "deliveryMessage": null,
+    "rentPrice": 0.0,
+    "usedPrice": 0.0,
+    "retailPriceRent": 0.0,
+    "coupon": null,
+    "series": {
+        "name": "Part of: Sapiens: a Graphic History",
+        "seriesNumber": 0,
+        "url": "/dp/B08HR1NZB1?binding=paperback&qid=1778410149&ref=dbs_dp_rwt_sb_pc_tpbk"
+    },
+    "prime": true,
+    "deal": false,
+    "addon": false,
+    "pantry": false,
+    "used": false
 }
 ]
