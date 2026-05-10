@@ -8,6 +8,7 @@ import HorizontalList from '../HorizontalList.jsx'
 import { categories } from '../../constants/strings.jsx'  
 import { ToastContainer } from 'react-toastify' 
 import ProductSlider2 from '../products/ProductSlider2.jsx'
+import SideBar from '../header/SideBar.jsx'
  
 const HomeScreen = () => {
   const dispatch = useDispatch()
@@ -30,7 +31,8 @@ const HomeScreen = () => {
   // }, [dispatch])
 
   return (
-    <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}> 
+    <div className='screen ' dir={language == "arb" ? 'rtl' : 'ltr'}>  
+
       <HorizontalList items={categories} language={language} /> 
 
        <ToastContainer

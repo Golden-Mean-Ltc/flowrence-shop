@@ -1,6 +1,8 @@
 # TODOS | 5/2/2026
 -----------------
-[x] Fork Bemart store n Clone to local              5/2/2026   
+[x] Fork Bemart store n Clone to local              5/8/2026   
+[x] Sidebar - Copy amazon.                          5/10/2026
+
 [] First fix the HomeScreen 
 [] Fix router n Navigation  
 [x] All categories popup modal  

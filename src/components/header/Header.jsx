@@ -12,6 +12,7 @@ import LanguageDropdown from './LanguageDropdown'
 import { setShowAuthModal } from '../../store/settingsSlice' 
 import SearchBarAuto from './SearchBarAuto'
 import { useState } from 'react'
+import SideBar from './SideBar'
 
 const Header = () => {
   const dispatch = useDispatch()
@@ -34,6 +35,7 @@ const Header = () => {
         //	collapseOnSelect
         className='p-2 flex-wrap'
       >
+           <SideBar /> 
         <Link to='/' className='navbar-brand hide-on-small-screen flex-fill'>
           <i className='fas fa-gem gold'></i> BEMART
         </Link>
@@ -42,11 +44,11 @@ const Header = () => {
         <div className="flex-fill">
           {/* <SearchInput /> */}
             <SearchBarAuto />
-        </div>
-            
-
+        </div> 
         
         <div className="flex-fill d-flex justify-content-center align-items-center">
+
+       
           <CartDropdown />
 
           <LanguageDropdown />

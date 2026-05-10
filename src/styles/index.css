@@ -465,6 +465,18 @@ footer i {
 .text-underline {
   text-decoration: underline;
 }
+.white {
+  color: #fff;
+}
+
+.offcanvas-header {
+  background-color: #fff;
+  border-bottom: 1px solid #dbdfe0; 
+}
+
+.offcanvas {
+	width: 300px;
+}
 
 .screen {
   min-height: 90vh;
