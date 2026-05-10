@@ -194,8 +194,8 @@ a.product-title {
 .product-item-card {
   /* min-height: 344px; */
   /* border: none; */
-  margin: 0.5rem;
-  padding: 1rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
   transition: box-shadow 0.3s ease-in-out;
 }
 .product-item-card:hover {

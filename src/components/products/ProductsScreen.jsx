@@ -165,13 +165,13 @@ const ProductsScreen = () => {
 
       <div className="row mb-2 ">
         {/* Products Grid */}
-        <div className="col-md-3" >
+        <div className="d-none d-md-block col-md-3 " >
           {showSidebar && <FiltersSidebar
           //  category={category} 
           />}
         </div>
 
-        <div className="col mr-2">
+        <div className="col ">
           <div className="row bg-white">
             {loading && <Loader />}
             {!loading && (
@@ -180,15 +180,17 @@ const ProductsScreen = () => {
                   filterProductsByPage.map((product) => (
                     <Col
                       key={product.asin}
-                      sm={12}
-                      md={6}
-                      lg={viewMode === "grid" ? 4 : 12}
+                      xs={viewMode === "grid" ? 6 : 12}
+                      sm={viewMode === "grid" ? 6 : 12}
+                      md={viewMode === "grid" ? 4 : 12}
+                      lg={viewMode === "grid" ? 3 : 12}
                     // className={viewMode === "grid" ? "mb-4" : "mb-2"    }
                     >
                       <ProductItemCard
                         product={product}
                         grid={viewMode === "grid" ? true : false}
                           handleToast={handleToast} 
+                          showHeartBtn={viewMode === "grid" ? false : true}
                       />
                     </Col>
                   ))}

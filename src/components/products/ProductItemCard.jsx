@@ -69,7 +69,7 @@ const ProductItemCard = ({
       {/* <span className='badge badge-danger'>New</span> */}
 
       <div className='row'>
-        <div className={grid ? 'col-12' : 'col-6'}>
+        <div className={grid ? 'col-12' : 'col-sm-5 col-md-3'}>
           <div className='card-img'>
             <Link to={`/product/${product._id}`}>
               <img
