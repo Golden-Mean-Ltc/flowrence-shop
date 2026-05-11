@@ -437,8 +437,7 @@ footer i {
   width: 100%; /* Optional: ensures the element spans the full width */
   /* Add other styling as needed, e.g., background-color, height, etc. */
   background-color: #eeeeeee1;
-  color: #333333;
-  padding: 10px 0;
+  color: #333333; 
   text-align: center;
   border-top: 2px solid #d8d8d8;
   z-index: 1000; /* Ensure it appears above other content */

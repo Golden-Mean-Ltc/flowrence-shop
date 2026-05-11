@@ -2,6 +2,10 @@
 -----------------
 [x] Fork Bemart store n Clone to local              5/8/2026   
 [x] Sidebar - Copy amazon.                          5/10/2026
+[] Fix filters popup - copy arabic sites 
+[] Make it simple n functional - later do more
+[x] Show cart overview footer eveywhere if user add product to cart  5/11/2026
+
 
 [] First fix the HomeScreen 
 [] Fix router n Navigation  
